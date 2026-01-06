@@ -23,11 +23,11 @@ class MyHomePage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    var tablerIcons = [
+    const tablerIcons = [
       TablerIcons.alarm,
       TablerIcons.album,
       TablerIcons.mail,
-      TablerIcons.run,
+      TablerIcons.mail_filled,
     ];
 
     final iconList = [...tablerIcons];

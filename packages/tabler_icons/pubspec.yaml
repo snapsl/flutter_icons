@@ -1,5 +1,5 @@
 name: tabler_icons
-description: "Tabler Icons"
+description: "Tabler icons package"
 version: 0.0.1
 homepage:
 
@@ -14,13 +14,15 @@ dependencies:
     sdk: flutter
 
 dev_dependencies:
-  flutter_lints: ^6.0.0
   flutter_test:
     sdk: flutter
-
+  generator:
 
 flutter:
   fonts:
     - family: TablerIcons
       fonts:
         - asset: fonts/tabler-icons.ttf
+    - family: TablerIconsFilled
+      fonts:
+        - asset: fonts/tabler-icons-filled.ttf

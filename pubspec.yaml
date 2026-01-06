@@ -18,11 +18,4 @@ dependencies:
 dev_dependencies:
   flutter_test:
     sdk: flutter
-  recase: ^4.1.0
-  unorm_dart: ^0.3.2
   very_good_analysis: ^10.0.0
-  xml: ^6.6.1
-
-
-flutter:
-
