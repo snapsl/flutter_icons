@@ -1,0 +1,25 @@
+name: simple_icons
+description: "Simple icons package"
+version: 0.0.1
+homepage:
+
+environment:
+  sdk: ^3.10.4
+  flutter: ">=1.17.0"
+
+resolution: workspace
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  generator:
+
+flutter:
+  fonts:
+    - family: SimpleIcons
+      fonts:
+        - asset: fonts/SimpleIcons.ttf

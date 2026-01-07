@@ -9,6 +9,7 @@ environment:
 
 workspace:
   - example
+  - packages/simple_icons
   - packages/tabler_icons
 
 dependencies:
