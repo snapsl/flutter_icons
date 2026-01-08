@@ -9,6 +9,7 @@ environment:
 workspace:
   - example
   - packages/ant_design_icons
+  - packages/bootstrap_icons
   - packages/generator
   - packages/lucide_icons
   - packages/simple_icons

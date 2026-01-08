@@ -1,0 +1,30 @@
+name: bootstrap_icons
+description: "Bootstrap icons package"
+version: 0.0.1
+homepage:
+repository: https://github.com/snapsl/flutter_icons
+issue_tracker: https://github.com/snapsl/flutter_icons/issues
+
+topics:
+  - icons
+
+environment:
+  sdk: ^3.10.4
+  flutter: ">=1.17.0"
+
+resolution: workspace
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  generator:
+
+flutter:
+  fonts:
+    - family: BootstrapIcons
+      fonts:
+        - asset: fonts/bootstrap-icons.ttf
