@@ -1,0 +1,28 @@
+name: ant_design_icons
+description: "Ant-design icons package"
+version: 0.0.1
+homepage:
+
+environment:
+  sdk: ^3.10.4
+  flutter: ">=1.17.0"
+
+resolution: workspace
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  generator:
+
+flutter:
+  fonts:
+    - family: AntDesignFilledIcons
+      fonts:
+        - asset: fonts/antfill.ttf
+    - family: AntDesignOutlinedIcons
+      fonts:
+        - asset: fonts/antoutline.ttf
