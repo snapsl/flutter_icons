@@ -5,18 +5,14 @@ homepage:
 
 environment:
   sdk: ^3.10.4
-  flutter: ">=1.17.0"
 
 workspace:
   - example
+  - packages/ant_design_icons
+  - packages/generator
+  - packages/lucide_icons
   - packages/simple_icons
   - packages/tabler_icons
 
-dependencies:
-  flutter:
-    sdk: flutter
-
 dev_dependencies:
-  flutter_test:
-    sdk: flutter
   very_good_analysis: ^10.0.0
