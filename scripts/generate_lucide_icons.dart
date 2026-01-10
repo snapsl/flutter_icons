@@ -9,12 +9,12 @@ void main() {
 
   final outputFile = File('./packages/lucide_icons/lib/src/icon_data.g.dart');
 
-  IconFileGenerator(
+  IconFileGenerator()
+    ..addImports()
+    ..addClassDefinition(
       iconClassName: 'LucideIcons',
       url: 'https://lucide.dev/icons',
     )
-    ..addImports()
-    ..addClass()
     ..addFontConfigFile(
       fontsConfigFile,
       brand: 'Lucide',

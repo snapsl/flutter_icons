@@ -13,12 +13,12 @@ void main() {
 
   final outputFile = File('./packages/tabler_icons/lib/src/icon_data.g.dart');
 
-  IconFileGenerator(
+  IconFileGenerator()
+    ..addImports()
+    ..addClassDefinition(
       iconClassName: 'TablerIcons',
       url: 'https://tabler.io/icons',
     )
-    ..addImports()
-    ..addClass()
     ..addFontConfigFile(
       fontsConfigFile,
       iconSvgPath: '$iconsPath/icons/outline/',

@@ -10,12 +10,12 @@ void main() {
 
   final outputFile = File('./packages/simple_icons/lib/src/icon_data.g.dart');
 
-  IconFileGenerator(
+  IconFileGenerator()
+    ..addImports()
+    ..addClassDefinition(
       iconClassName: 'SimpleIcons',
       url: 'https://simpleicons.org',
     )
-    ..addImports()
-    ..addClass()
     ..addFontConfigFile(
       fontsConfigFile,
       brand: 'Simple',

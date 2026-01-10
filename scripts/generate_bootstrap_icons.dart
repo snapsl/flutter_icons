@@ -13,12 +13,12 @@ void main() {
     './packages/bootstrap_icons/lib/src/icon_data.g.dart',
   );
 
-  IconFileGenerator(
+  IconFileGenerator()
+    ..addImports()
+    ..addClassDefinition(
       iconClassName: 'BootstrapIcons',
       url: 'https://icons.getbootstrap.com',
     )
-    ..addImports()
-    ..addClass()
     ..addFontConfigFile(
       fontsConfigFile,
       brand: 'Bootstrap',
