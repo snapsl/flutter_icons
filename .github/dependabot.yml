@@ -13,3 +13,8 @@ updates:
     directory: "/"
     schedule:
       interval: "weekly"
+  - package-ecosystem: "npm"
+    directories:
+      - "/vendors/**/"
+    schedule:
+      interval: "weekly"
