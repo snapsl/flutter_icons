@@ -27,6 +27,6 @@ flutter:
     - family: TablerIcons
       fonts:
         - asset: fonts/tabler-icons.ttf
-    - family: TablerIconsFilled
+    - family: TablerFilledIcons
       fonts:
         - asset: fonts/tabler-icons-filled.ttf

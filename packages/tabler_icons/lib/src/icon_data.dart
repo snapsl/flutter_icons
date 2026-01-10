@@ -8,11 +8,11 @@ class TablerIconData extends IconData {
 }
 
 /// Constructor for [IconData] which includes the font family
-class TablerIconFilledData extends IconData {
+class TablerFilledIconData extends IconData {
   /// Constructor for [IconData] which includes the font family
-  const TablerIconFilledData(super.codePoint)
+  const TablerFilledIconData(super.codePoint)
     : super(
-        fontFamily: 'TablerIconsFilled',
+        fontFamily: 'TablerFilledIcons',
         fontPackage: 'tabler_icons',
       );
 }
