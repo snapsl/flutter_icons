@@ -1,7 +1,7 @@
 import 'package:flutter/widgets.dart';
 
 /// Constructor for [IconData] which includes the font family
-class AntDesignFilledIconData extends IconData {
+final class AntDesignFilledIconData extends IconData {
   /// Constructor for [IconData] which includes the font family
   const AntDesignFilledIconData(super.codePoint)
     : super(
@@ -11,7 +11,7 @@ class AntDesignFilledIconData extends IconData {
 }
 
 /// Constructor for [IconData] which includes the font family
-class AntDesignOutlinedIconData extends IconData {
+final class AntDesignOutlinedIconData extends IconData {
   /// Constructor for [IconData] which includes the font family
   const AntDesignOutlinedIconData(super.codePoint)
     : super(
