@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "@ant-design/icons-react-native": "^2.3.2",
+    "@ant-design/icons-svg": "^4.4.2"
+  }
+}
