@@ -11,10 +11,14 @@ environment:
 resolution: workspace
 
 dependencies:
+  ant_design_icons:
+  bootstrap_icons:
+  cupertino_icons: ^1.0.8
   flutter:
     sdk: flutter
-  cupertino_icons: ^1.0.8
-  tabler_icons: 
+  lucide_icons:
+  simple_icons:
+  tabler_icons:
 
 dev_dependencies:
   flutter_test:

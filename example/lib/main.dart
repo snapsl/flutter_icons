@@ -1,4 +1,8 @@
+import 'package:ant_design_icons/ant_design_icons.dart';
+import 'package:bootstrap_icons/bootstrap_icons.dart';
 import 'package:flutter/material.dart';
+import 'package:lucide_icons/lucide_icons.dart';
+import 'package:simple_icons/simple_icons.dart';
 import 'package:tabler_icons/tabler_icons.dart';
 
 void main() {
@@ -11,8 +15,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Flutter Demo',
-      theme: ThemeData(colorScheme: .fromSeed(seedColor: Colors.deepPurple)),
+      theme: ThemeData(colorScheme: .fromSeed(seedColor: Colors.orange)),
       home: const MyHomePage(),
     );
   }
@@ -24,15 +27,52 @@ class MyHomePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     const tablerIcons = [
-      TablerIcons.alarm,
+      TablerIcons.brandTabler,
       TablerIcons.album,
       TablerIcons.mail,
       TablerIcons.mail_filled,
     ];
 
-    final iconList = [...tablerIcons];
+    const simpleIcons = [
+      SimpleIcons.simpleicons,
+      SimpleIcons.cesium,
+      SimpleIcons.flutter,
+      SimpleIcons.homeassistant,
+    ];
+
+    const lucidIcons = [
+      LucideIcons.album,
+      LucideIcons.ban,
+      LucideIcons.diamond,
+      LucideIcons.squareMenu,
+    ];
+
+    const antDesignIcons = [
+      AntDesignIcons.antDesign_outlined,
+      AntDesignIcons.facebook_filled,
+      AntDesignIcons.accountBook_filled,
+      AntDesignIcons.bug_filled,
+    ];
+
+    const bootstrapIcons = [
+      BootstrapIcons.bootstrap,
+      BootstrapIcons.activity,
+      BootstrapIcons.dashCircleFill,
+      BootstrapIcons.magic,
+    ];
+
+    final iconList = [
+      ...tablerIcons,
+      ...simpleIcons,
+      ...lucidIcons,
+      ...antDesignIcons,
+      ...bootstrapIcons,
+    ];
+
+    final primaryColor = Theme.of(context).primaryColor;
 
     return Scaffold(
+      appBar: AppBar(title: Text('Flutter Icons Example')),
       body: Center(
         child: ConstrainedBox(
           constraints: BoxConstraints(maxWidth: 840),
@@ -41,7 +81,12 @@ class MyHomePage extends StatelessWidget {
               maxCrossAxisExtent: 250,
             ),
             itemCount: iconList.length,
-            itemBuilder: (context, index) => Card(child: Icon(iconList[index])),
+            itemBuilder: (context, index) => Card(
+              child: Icon(
+                iconList[index],
+                color: (index % 4 == 0) ? primaryColor : null,
+              ),
+            ),
           ),
         ),
       ),
