@@ -15,5 +15,8 @@ workspace:
   - packages/simple_icons
   - packages/tabler_icons
 
+dependencies:
+  generator:
+
 dev_dependencies:
   very_good_analysis: ^10.0.0
