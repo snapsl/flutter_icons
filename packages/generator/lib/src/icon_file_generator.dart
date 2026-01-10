@@ -2,7 +2,6 @@ import 'dart:convert';
 import 'dart:io';
 
 import 'package:generator/src/utils.dart';
-import 'package:mime/mime.dart';
 import 'package:recase/recase.dart';
 import 'package:xml/xml.dart';
 
@@ -39,13 +38,13 @@ abstract final class $iconClassName {
     bool filled = false,
     String suffix = '',
   }) {
-    final mimeType = lookupMimeType(file.path);
+    final mimeType = file.path.split('.').last;
 
-    // if (mimeType != 'ttx') {
-    //   throw FormatException(
-    //     'Invalid file type. Expected "ttx" but got "$mimeType"',
-    //   );
-    // }
+    if (mimeType != 'ttx') {
+      throw FormatException(
+        'Invalid file type. Expected "ttx" but got "$mimeType"',
+      );
+    }
 
     final iconsData = _readIcons(file);
 

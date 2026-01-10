@@ -12,7 +12,6 @@ resolution: workspace
 dependencies:
   flutter:
     sdk: flutter
-  mime: ^2.0.0
   recase: ^4.1.0
   xml: ^6.6.1
 
