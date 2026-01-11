@@ -28,7 +28,6 @@ jobs:
         with:
           channel: "stable"
           cache: true
-          flutter-version-file: pubspec.yaml
 
       - name: Install dependencies
         run: flutter pub get
