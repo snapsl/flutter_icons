@@ -16,6 +16,7 @@ class IconFileGenerator {
   }) {
     _buffer.write('''
 /// [$iconClassName] offers the [IconData] of [$url]
+@staticIconProvider
 abstract final class $iconClassName {
 ''');
   }
