@@ -1,7 +1,6 @@
 /// Dart keywords
 ///
 /// source: https://dart.dev/language/keywords
-// source: https://dart.dev/language/keywords
 const dartKeywords = {
   'abstract',
   'as',
