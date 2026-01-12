@@ -1,14 +1,12 @@
-import 'package:flutter_test/flutter_test.dart';
-
+import 'package:ant_design_icons/ant_design_icons.dart';
 import 'package:example/main.dart';
-import 'package:simple_icons/simple_icons.dart';
+import 'package:flutter_test/flutter_test.dart';
 
 void main() {
   testWidgets('Example Test', (tester) async {
-    await tester.pumpWidget(const MyApp());
+    await tester.pumpWidget(const ExampleApp());
 
-    // Verify that our counter starts at 0.
     expect(find.text('Flutter Icons Example'), findsOneWidget);
-    expect(find.byIcon(SimpleIcons.simpleicons), findsOneWidget);
+    expect(find.byIcon(AntDesignIcons.antDesign_outlined), findsOneWidget);
   });
 }
