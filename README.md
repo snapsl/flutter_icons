@@ -1,39 +1,50 @@
-<!--
-This README describes the package. If you publish this package to pub.dev,
-this README's contents appear on the landing page for your package.
+# Flutter Icons
 
-For information about how to write a good package README, see the guide for
-[writing package pages](https://dart.dev/tools/pub/writing-package-pages).
+A collection of icon packs for your Flutter apps.
 
-For general information about developing packages, see the Dart guide for
-[creating packages](https://dart.dev/guides/libraries/create-packages)
-and the Flutter guide for
-[developing packages and plugins](https://flutter.dev/to/develop-packages).
--->
+## Overview
 
-TODO: Put a short description of the package here that helps potential users
-know whether this package might be useful for them.
+This project contains a collection of icon packs for Flutter. The icons are generated from popular open-source icon libraries.
 
-## Features
+| Icon Pack | Version |
+| --- | --- |
+| [Ant Design Icons](./packages/ant_design_icons) | [![pub package](https://img.shields.io/badge/version-placeholder-blue)](https://pub.dev/packages/ant_design_icons) |
+| [Bootstrap Icons](./packages/bootstrap_icons) | [![pub package](https://img.shields.io/badge/version-placeholder-blue)](https://pub.dev/packages/bootstrap_icons) |
+| [Lucide Icons](./packages/lucide_icons) | [![pub package](https://img.shields.io/badge/version-placeholder-blue)](https://pub.dev/packages/lucide_icons) |
+| [Simple Icons](./packages/simple_icons) | [![pub package](https://img.shields.io/badge/version-placeholder-blue)](https://pub.dev/packages/simple_icons) |
+| [Tabler Icons](./packages/tabler_icons) | [![pub package](https://img.shields.io/badge/version-placeholder-blue)](https://pub.dev/packages/tabler_icons) |
 
-TODO: List what your package can do. Maybe include images, gifs, or videos.
+## Demo
 
-## Getting started
+Checkout the demo on [Github Pages](https://snapsl.github.io/flutter_icons/).
 
-TODO: List prerequisites and provide or point to information on how to
-start using the package.
+## Installation
 
-## Usage
+To use an icon package for your app, open your `pubspec.yaml` file and add the package as git dependency.
 
-TODO: Include short and useful examples for package users. Add longer examples
-to `/example` folder.
+For example, to install the `bootstrap_icons` package, add the following:
 
-```dart
-const like = 'sample';
+```yaml
+dependencies:
+  bootstrap_icons:
+    git:
+      url: https://github.com/snapsl/flutter_icons.git
+      path: packages/bootstrap_icons
+    version: latest
 ```
+## Other Icon Packs
 
-## Additional information
+Here are some popular existing icon packs available for Flutter:
 
-TODO: Tell users more about the package: where to find more information, how to
-contribute to the package, how to file issues, what response they can expect
-from the package authors, and more.
+| Icon Pack | Version |
+| --- | --- |
+| Phosphor Icons | [![pub package](https://img.shields.io/pub/v/phosphor_flutter.svg)](https://pub.dev/packages/phosphor_flutter) |
+| Hugeicons | [![pub package](https://img.shields.io/pub/v/hugeicons.svg)](https://pub.dev/packages/hugeicons) |
+| Fluent UI System Icons | [![pub package](https://img.shields.io/pub/v/fluentui_system_icons.svg)](https://pub.dev/packages/fluentui_system_icons) |
+| Font Awesome Flutter | [![pub package](https://img.shields.io/pub/v/font_awesome_flutter.svg)](https://pub.dev/packages/font_awesome_flutter) |
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+Individual icon packs may be subject to their own licenses.
+Please refer to the respective `LICENSE` files within each package directory for more information.
