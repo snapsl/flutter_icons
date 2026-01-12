@@ -42,6 +42,6 @@ jobs:
         run: flutter test packages --coverage
 
       - name: Upload coverage to Codecov
-        uses: codecov/codecov-action@v3
+        uses: codecov/codecov-action@v5
         with:
           files: coverage/lcov.info
