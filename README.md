@@ -1,5 +1,5 @@
-[![Tests](https://github.com/snapsl/flutter_icons/actions/workflows/test_packages.yml/badge.svg)](https://github.com/snapsl/flutter_icons/actions/workflows/test_packages.yml)
-[![Website](https://github.com/snapsl/flutter_icons/actions/workflows/github_page.yml/badge.svg)](https://github.com/snapsl/flutter_icons/actions/workflows/github_page.yml)
+[![Test packages](https://github.com/snapsl/flutter_icons/actions/workflows/test-packages.yml/badge.svg)](https://github.com/snapsl/flutter_icons/actions/workflows/test-packages.yml)
+[![Website](https://github.com/snapsl/flutter_icons/actions/workflows/github-page.yml/badge.svg)](https://github.com/snapsl/flutter_icons/actions/workflows/github-page.yml)
 [![codecov](https://codecov.io/gh/snapsl/flutter_icons/graph/badge.svg)](https://codecov.io/gh/snapsl/flutter_icons)
 ![GitHub License](https://img.shields.io/github/license/snapsl/flutter_icons)
 [![style: very good analysis](https://img.shields.io/badge/style-very_good_analysis-B22C89.svg)](https://pub.dev/packages/very_good_analysis)
