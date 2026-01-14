@@ -23,11 +23,12 @@ jobs:
           node-version: 24
 
       - name: Install npm dependencies
-        working-directory: vendors/simple_icons/
+        working-directory: ./vendors/simple_icons
         run: npm ci
 
       - name: Get vendor package version
         id: get-version
+        working-directory: ./vendors/simple_icons
         run: |
           VERSION=$(npm list simple-icons --depth=0 --json | jq -r '.dependencies."simple-icons".version')
           echo "version=$VERSION" >> "$GITHUB_OUTPUT"
