@@ -18,7 +18,7 @@ jobs:
         with:
           node-version: 24
 
-      - name: Install dependencies
+      - name: Install npm dependencies
         working-directory: vendors/simple_icons/
         run: npm ci
 
@@ -26,6 +26,15 @@ jobs:
         id: get-version
         run: |
           npm list simple-icons --depth=0 | grep simple-icons | cut -d@ -f2 >> $GITHUB_OUTPUT
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+          cache: "pip"
+
+      - name: Install pip dependencies
+        run: pip install -r requirements.txt
 
       - name: Generate ttx
         run: ttx -t cmap ${{ env.vendor_font_path }}/SimpleIcons.ttf
