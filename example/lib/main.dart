@@ -6,6 +6,7 @@ import 'package:flutter/material.dart';
 import 'package:lucide_icons/lucide_icons.dart';
 import 'package:simple_icons/simple_icons.dart';
 import 'package:tabler_icons/tabler_icons.dart';
+import 'package:url_launcher/link.dart';
 
 void main() {
   runApp(const ExampleApp());
@@ -14,7 +15,7 @@ void main() {
 const _title = 'Flutter Icons Example';
 
 class ExampleApp extends StatelessWidget {
-  static final _seedColor =
+  static final Color _seedColor =
       Colors.primaries[math.Random().nextInt(Colors.primaries.length)];
 
   const ExampleApp({super.key});
@@ -41,7 +42,6 @@ class ExampleApp extends StatelessWidget {
       title: _title,
       theme: theme,
       darkTheme: darkTheme,
-      themeMode: .system,
       home: const ExamplePage(),
     );
   }
@@ -56,65 +56,85 @@ class ExamplePage extends StatelessWidget {
       body: Scrollbar(
         child: Center(
           child: ConstrainedBox(
-            constraints: BoxConstraints(maxWidth: 840),
+            constraints: const BoxConstraints(maxWidth: 840),
             child: ScrollConfiguration(
               behavior: ScrollConfiguration.of(
                 context,
               ).copyWith(scrollbars: false),
-              child: const CustomScrollView(
-                slivers: [
-                  SliverAppBar(
-                    title: Text((_title)),
-                    centerTitle: true,
-                    forceMaterialTransparency: true,
-                  ),
-                  _SliverIconSet(
-                    title: 'Ant Design Icons',
-                    iconList: [
-                      AntDesignIcons.antDesign_outlined,
-                      AntDesignIcons.file_filled,
-                      AntDesignIcons.camera_outlined,
-                      AntDesignIcons.bug_filled,
-                    ],
-                  ),
-                  _SliverIconSet(
-                    title: 'Bootstrap Icons',
-                    iconList: [
-                      BootstrapIcons.bootstrap,
-                      BootstrapIcons.activity,
-                      BootstrapIcons.dashCircleFill,
-                      BootstrapIcons.magic,
-                    ],
-                  ),
-                  _SliverIconSet(
-                    title: 'Lucide Icons',
-                    iconList: [
-                      LucideIcons.album,
-                      LucideIcons.ban,
-                      LucideIcons.diamond,
-                      LucideIcons.squareMenu,
-                    ],
-                  ),
-
-                  _SliverIconSet(
-                    title: 'Simple Icons',
-                    iconList: [
-                      SimpleIcons.simpleicons,
-                      SimpleIcons.cesium,
-                      SimpleIcons.flutter,
-                      SimpleIcons.homeassistant,
-                    ],
-                  ),
-                  _SliverIconSet(
-                    title: 'Tabler Icons',
-                    iconList: [
-                      TablerIcons.brandTabler,
-                      TablerIcons.mail_filled,
-                      TablerIcons.album,
-                      TablerIcons.sun_filled,
-                    ],
-                  ),
-                ],
+              child: Card.outlined(
+                clipBehavior: .hardEdge,
+                child: CustomScrollView(
+                  slivers: [
+                    SliverAppBar(
+                      actions: [
+                        Link(
+                          uri: .parse(
+                            'https://github.com/snapsl/flutter_icons',
+                          ),
+                          builder: (context, followLink) => IconButton(
+                            onPressed: followLink,
+                            icon: const Icon(SimpleIcons.github),
+                          ),
+                        ),
+                      ],
+                      expandedHeight: 120,
+                      flexibleSpace: const FlexibleSpaceBar(
+                        title: Text(_title),
+                        centerTitle: true,
+                      ),
+                    ),
+                    const _SliverIconSet(
+                      title: 'Ant Design Icons',
+                      uri: 'https://ant.design/components/icon/',
+                      iconList: [
+                        AntDesignIcons.antDesign_outlined,
+                        AntDesignIcons.file_filled,
+                        AntDesignIcons.camera_outlined,
+                        AntDesignIcons.bug_filled,
+                      ],
+                    ),
+                    const _SliverIconSet(
+                      title: 'Bootstrap Icons',
+                      uri: 'https://icons.getbootstrap.com',
+                      iconList: [
+                        BootstrapIcons.bootstrap,
+                        BootstrapIcons.activity,
+                        BootstrapIcons.dashCircleFill,
+                        BootstrapIcons.magic,
+                      ],
+                    ),
+                    const _SliverIconSet(
+                      title: 'Lucide Icons',
+                      uri: 'https://lucide.dev/icons/',
+                      iconList: [
+                        LucideIcons.album,
+                        LucideIcons.ban,
+                        LucideIcons.diamond,
+                        LucideIcons.squareMenu,
+                      ],
+                    ),
+                    const _SliverIconSet(
+                      title: 'Simple Icons',
+                      uri: 'https://simpleicons.org',
+                      iconList: [
+                        SimpleIcons.simpleicons,
+                        SimpleIcons.cesium,
+                        SimpleIcons.flutter,
+                        SimpleIcons.homeassistant,
+                      ],
+                    ),
+                    const _SliverIconSet(
+                      title: 'Tabler Icons',
+                      uri: 'https://tabler.io/icons',
+                      iconList: [
+                        TablerIcons.brandTabler,
+                        TablerIcons.mail_filled,
+                        TablerIcons.album,
+                        TablerIcons.sun_filled,
+                      ],
+                    ),
+                  ],
+                ),
               ),
             ),
           ),
@@ -127,9 +147,15 @@ class ExamplePage extends StatelessWidget {
 class _SliverIconSet extends StatelessWidget {
   final String title;
 
+  final String uri;
+
   final List<IconData> iconList;
 
-  const _SliverIconSet({required this.title, required this.iconList});
+  const _SliverIconSet({
+    required this.title,
+    required this.uri,
+    required this.iconList,
+  });
 
   @override
   Widget build(BuildContext context) {
@@ -137,13 +163,28 @@ class _SliverIconSet extends StatelessWidget {
 
     return SliverMainAxisGroup(
       slivers: [
-        SliverFloatingHeader(child: ListTile(title: Text(title))),
+        SliverFloatingHeader(
+          child: ListTile(
+            title: Align(
+              alignment: .centerLeft,
+              child: Link(
+                uri: .parse(uri),
+                builder: (context, followLink) => ElevatedButton.icon(
+                  onPressed: followLink,
+                  label: Text(title),
+                  icon: Icon(Icons.adaptive.arrow_forward),
+                  iconAlignment: .end,
+                ),
+              ),
+            ),
+          ),
+        ),
         SliverGrid.builder(
-          gridDelegate: SliverGridDelegateWithMaxCrossAxisExtent(
+          gridDelegate: const SliverGridDelegateWithMaxCrossAxisExtent(
             maxCrossAxisExtent: 250,
           ),
           itemCount: iconList.length,
-          itemBuilder: (context, index) => Card(
+          itemBuilder: (context, index) => Card.filled(
             child: Icon(
               iconList[index],
               color: switch (index % 4) {
@@ -155,7 +196,7 @@ class _SliverIconSet extends StatelessWidget {
             ),
           ),
         ),
-        SliverToBoxAdapter(child: Divider(color: Colors.transparent)),
+        const SliverToBoxAdapter(child: Divider(color: Colors.transparent)),
       ],
     );
   }

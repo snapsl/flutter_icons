@@ -19,11 +19,12 @@ dependencies:
   lucide_icons:
   simple_icons:
   tabler_icons:
+  url_launcher: ^6.3.2
 
 dev_dependencies:
+  flutter_lints: ^6.0.0
   flutter_test:
     sdk: flutter
-  flutter_lints: ^6.0.0
 
 flutter:
   uses-material-design: true
