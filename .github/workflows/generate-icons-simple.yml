@@ -59,9 +59,17 @@ jobs:
       - name: Format code
         run: dart format ./packages/simple_icons/
 
+      - name: Create GitHub App Token
+        uses: actions/create-github-app-token@v2
+        id: generate-token
+        with:
+          app-id: ${{ secrets.APP_ID }}
+          private-key: ${{ secrets.APP_PRIVATE_KEY }}
+
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@v8
         with:
+          token: ${{ steps.generate-token.outputs.token }}
           add-paths: packages/simple_icons/*
           sign-commits: true
           title: "chore(simple_icons): bump version to ${{ steps.get-version.outputs.version }}"
