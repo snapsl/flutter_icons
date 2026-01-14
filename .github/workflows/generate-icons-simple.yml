@@ -29,8 +29,8 @@ jobs:
       - name: Get vendor package version
         id: get-version
         run: |
-          VERSION=$(npm list simple-icons --depth=0 | grep simple-icons | cut -d@ -f2)
-          echo "version=$VERSION" >> $GITHUB_OUTPUT
+          VERSION=$(npm list simple-icons --depth=0 --json | jq -r '.dependencies."simple-icons".version')
+          echo "version=$VERSION" >> "$GITHUB_OUTPUT"
 
       - name: Setup Python
         uses: actions/setup-python@v5
