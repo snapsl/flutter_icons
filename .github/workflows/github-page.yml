@@ -4,6 +4,9 @@ on:
   push:
     branches:
       - main
+    paths:
+      - "example/**"
+      - "packages/**"
 
 permissions:
   contents: read
@@ -17,11 +20,9 @@ concurrency:
 jobs:
   test:
     runs-on: ubuntu-latest
-
     defaults:
       run:
         working-directory: ./example
-
     steps:
       - name: Checkout code
         uses: actions/checkout@v6
@@ -46,13 +47,10 @@ jobs:
 
   build:
     runs-on: ubuntu-latest
-
     needs: test
-
     defaults:
       run:
         working-directory: ./example
-
     steps:
       - name: Checkout code
         uses: actions/checkout@v6
@@ -69,7 +67,7 @@ jobs:
       - name: Create web
         run: flutter create . --platforms=web
 
-      - name: Build Web
+      - name: Build web
         run: flutter build web --release --base-href /${{ github.event.repository.name }}/
 
       - name: Setup Pages
@@ -82,13 +80,10 @@ jobs:
 
   deploy:
     runs-on: ubuntu-latest
-
     needs: build
-
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
-
     steps:
       - name: Deploy to GitHub Pages
         id: deployment
