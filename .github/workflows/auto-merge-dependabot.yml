@@ -8,7 +8,7 @@ permissions:
 jobs:
   dependabot:
     runs-on: ubuntu-latest
-    if: (github.event.pull_request.user.login == 'dependabot[bot]' || github.event.pull_request.user.login == 'github-actions[bot]') && github.repository == 'snapsl/flutter_icons'
+    if: (github.event.pull_request.user.login == 'dependabot[bot]' || github.event.pull_request.user.login == 'snapsl-ci[bot]') && github.repository == 'snapsl/flutter_icons'
     steps:
       - name: Dependabot metadata
         id: metadata
