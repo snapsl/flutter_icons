@@ -1,7 +1,5 @@
-name: flutter_icons
-description: "A new Flutter package project."
-version: 0.0.1
-homepage:
+name: workspace
+publish_to: none
 
 environment:
   sdk: ^3.10.4
