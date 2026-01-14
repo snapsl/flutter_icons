@@ -17,7 +17,7 @@ updates:
     directories:
       - "/vendors/**/"
     schedule:
-      interval: "weekly"
+      interval: "daily"
     groups:
       vendors:
         patterns:
