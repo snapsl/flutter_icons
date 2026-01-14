@@ -1,0 +1,77 @@
+name: Generate SimpleIcons
+
+on:
+  workflow_dispatch:
+  workflow_call:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  generate_simple_icons:
+    runs-on: ubuntu-latest
+    env:
+      vendor_font_path: ./vendors/simple_icons/node_modules/simple-icons-font/font
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v6
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v6
+        with:
+          node-version: 24
+
+      - name: Install npm dependencies
+        working-directory: ./vendors/simple_icons
+        run: npm ci
+
+      - name: Get vendor package version
+        id: get-version
+        working-directory: ./vendors/simple_icons
+        run: |
+          VERSION=$(npm list simple-icons --depth=0 --json | jq -r '.dependencies."simple-icons".version')
+          echo "version=$VERSION" >> "$GITHUB_OUTPUT"
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+          cache: "pip"
+
+      - name: Install pip dependencies
+        run: pip install -r requirements.txt
+
+      - name: Generate ttx
+        run: ttx -t cmap ${{ env.vendor_font_path }}/SimpleIcons.ttf
+
+      - name: Copy fonts to package
+        run: cp ${{ env.vendor_font_path }}/SimpleIcons.ttf ./packages/simple_icons/fonts/SimpleIcons.ttf
+
+      - name: Setup Flutter
+        uses: subosito/flutter-action@v2.19.0
+        with:
+          channel: "stable"
+          cache: true
+
+      - name: Generate icons
+        run: dart run tools/generate_icons.dart --iconset simple
+
+      - name: Format code
+        run: dart format ./packages/simple_icons/
+
+      - name: Create GitHub App Token
+        uses: actions/create-github-app-token@v2
+        id: generate-token
+        with:
+          app-id: ${{ secrets.APP_ID }}
+          private-key: ${{ secrets.APP_PRIVATE_KEY }}
+
+      - name: Create Pull Request
+        uses: peter-evans/create-pull-request@v8
+        with:
+          token: ${{ steps.generate-token.outputs.token }}
+          add-paths: packages/simple_icons/*
+          sign-commits: true
+          title: "chore(simple_icons): bump version to ${{ steps.get-version.outputs.version }}"
+          branch: "chore/update-simple-icons-${{ steps.get-version.outputs.version }}"
