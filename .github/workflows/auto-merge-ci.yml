@@ -1,4 +1,4 @@
-name: CI auto merge
+name: Auto-merge CI
 on:
   pull_request:
 
@@ -12,7 +12,7 @@ jobs:
     if: github.event.pull_request.user.login == 'snapsl-ci[bot]' && github.event.pull_request.head.repo.full_name == github.repository
     steps:
       - name: Enable auto-merge for snapsl-ci PRs
-        run: gh pr merge --auto --squash "$PR_URL"
+        run: gh pr merge --auto --squash
         env:
           PR_URL: ${{github.event.pull_request.html_url}}
           GH_TOKEN: ${{secrets.GITHUB_TOKEN}}
