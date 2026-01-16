@@ -15,6 +15,27 @@ Packages with breaking changes:
 
 Packages with other changes:
 
+ - [`tabler_icons` - `v0.0.1+2`](#tabler_icons---v0012)
+
+---
+
+#### `tabler_icons` - `v0.0.1+2`
+
+ - **FIX**(tabler_icons): use correct icons for doc strings.
+
+
+## 2026-01-16
+
+### Changes
+
+---
+
+Packages with breaking changes:
+
+ - There are no breaking changes in this release.
+
+Packages with other changes:
+
  - [`tabler_icons` - `v0.0.1+1`](#tabler_icons---v0011)
 
 ---
