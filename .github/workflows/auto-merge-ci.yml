@@ -1,4 +1,5 @@
 name: Auto-merge CI
+
 on:
   pull_request:
 

@@ -19,7 +19,7 @@ dev_dependencies:
   very_good_analysis: ^10.0.0
 
 melos:
-  ignore: 
+  ignore:
     - example
     - packages/generator
     - tools

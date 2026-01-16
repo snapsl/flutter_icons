@@ -1,4 +1,5 @@
 name: Auto-merge Dependabot
+
 on:
   pull_request:
 
