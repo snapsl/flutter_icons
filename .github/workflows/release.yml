@@ -25,3 +25,4 @@ jobs:
         with:
           include-private: true
           run-versioning: true
+          publish-dry-run: true
