@@ -3,6 +3,7 @@
 [![codecov](https://codecov.io/gh/snapsl/flutter_icons/graph/badge.svg)](https://codecov.io/gh/snapsl/flutter_icons)
 ![GitHub License](https://img.shields.io/github/license/snapsl/flutter_icons)
 [![style: very good analysis](https://img.shields.io/badge/style-very_good_analysis-B22C89.svg)](https://pub.dev/packages/very_good_analysis)
+[![melos](https://img.shields.io/badge/maintained%20with-melos-f700ff.svg)](https://github.com/invertase/melos)
 
 # Flutter Icons
 
