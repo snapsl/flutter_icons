@@ -1,7 +1,7 @@
 name: tabler_icons
 description: "Tabler icons package"
 publish_to: none
-version: 0.0.1+1
+version: 0.0.1+2
 repository: https://github.com/snapsl/flutter_icons
 issue_tracker: https://github.com/snapsl/flutter_icons/issues
 
