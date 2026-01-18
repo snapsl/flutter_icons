@@ -39,10 +39,13 @@ jobs:
           app-id: ${{ secrets.APP_ID }}
           private-key: ${{ secrets.APP_PRIVATE_KEY }}
 
-      - name: Create release tags
+      - name: Setup Melos
         uses: bluefireteam/melos-action@v3
+
+      - name: Create Release Tags
         env:
           GITHUB_TOKEN: ${{ steps.generate-token.outputs.token }}
-        with:
-          include-private: true
-          tag: true
+        run: |
+          melos exec -c 1 --private -- \
+          "git tag \$MELOS_PACKAGE_NAME-v\$MELOS_PACKAGE_VERSION || true"
+          git push --tags
