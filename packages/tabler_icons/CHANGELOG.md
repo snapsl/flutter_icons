@@ -1,6 +1,6 @@
 ## 0.0.1+2
 
- - **FIX**: changelog.
+ - **FIX**: changelog 2.
 
 ## 0.0.1+1
 
