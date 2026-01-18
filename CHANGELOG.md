@@ -15,6 +15,27 @@ Packages with breaking changes:
 
 Packages with other changes:
 
+ - [`tabler_icons` - `v0.0.1+3`](#tabler_icons---v0013)
+
+---
+
+#### `tabler_icons` - `v0.0.1+3`
+
+ - **FIX**: changelog.
+
+
+## 2026-01-18
+
+### Changes
+
+---
+
+Packages with breaking changes:
+
+ - There are no breaking changes in this release.
+
+Packages with other changes:
+
  - [`tabler_icons` - `v0.0.1+2`](#tabler_icons---v0012)
 
 ---
