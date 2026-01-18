@@ -48,4 +48,4 @@ jobs:
         run: |
           melos exec -c 1 --private -- \
           "git tag \$MELOS_PACKAGE_NAME-v\$MELOS_PACKAGE_VERSION || true"
-          git push --tags
+          git push origin --tags

@@ -22,7 +22,7 @@ jobs:
         run: |
           TAG=${{ github.ref_name }}
           PACKAGE_NAME=${TAG%-v*}
-          echo "package_name=$PKG_NAME" >> $GITHUB_OUTPUT
+          echo "package_name=$PACKAGE_NAME" >> $GITHUB_OUTPUT
 
       - name: Extract release notes
         id: extract-release-notes
