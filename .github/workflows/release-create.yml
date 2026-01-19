@@ -26,7 +26,7 @@ jobs:
 
       - name: Extract release notes
         id: extract-release-notes
-        uses: ffurrer2/extract-release-notes@v2
+        uses: ffurrer2/extract-release-notes@v3
         with:
           changelog_file: ./packages/${{ steps.extract_package.outputs.package_name }}/CHANGELOG.md
 
