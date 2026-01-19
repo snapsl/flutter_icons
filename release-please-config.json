@@ -1,5 +1,4 @@
 {
-  "bootstrap-sha": "35bc0936eb1ea3797a7ef4fdb17a7bfa182a9cf3",
   "release-type": "dart",
   "packages": {
     "packages/ant_design_icons": {},
