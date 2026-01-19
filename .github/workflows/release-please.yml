@@ -1,9 +1,10 @@
-name: Release please
+name: Release Please
 
 on:
   push:
     branches:
       - main
+  workflow_dispatch:
 
 permissions:
   contents: write
@@ -15,9 +16,17 @@ concurrency:
   cancel-in-progress: true
 
 jobs:
-  release-please:
+  release_please:
     runs-on: ubuntu-latest
     steps:
-      - uses: googleapis/release-please-action@v4
+      - name: Create GitHub App Token
+        uses: actions/create-github-app-token@v2
+        id: generate-token
         with:
-          token: ${{ secrets.GITHUB_TOKEN }}
+          app-id: ${{ secrets.APP_ID }}
+          private-key: ${{ secrets.APP_PRIVATE_KEY }}
+
+      - name: Release Please
+        uses: googleapis/release-please-action@v4
+        with:
+          token: ${{ steps.generate-token.outputs.token }}
