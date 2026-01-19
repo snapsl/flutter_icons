@@ -30,7 +30,7 @@ jobs:
         id: get-version
         working-directory: ./vendors/simple_icons
         run: |
-          VERSION=$(npm list simple-icons --depth=0 --json | jq -r '.dependencies."simple-icons".version')
+          VERSION=$(npm list simple-icons --depth=0 --json | jq -er '.dependencies[].version')
           echo "version=$VERSION" >> "$GITHUB_OUTPUT"
 
       - name: Setup Python
@@ -73,5 +73,5 @@ jobs:
           token: ${{ steps.generate-token.outputs.token }}
           add-paths: packages/simple_icons/*
           sign-commits: true
-          title: "chore(simple_icons): bump version to ${{ steps.get-version.outputs.version }}"
-          branch: "chore/update-simple-icons-${{ steps.get-version.outputs.version }}"
+          title: "feat(simple_icons): bump version to ${{ steps.get-version.outputs.version }}"
+          branch: "feat/update-simple-icons-${{ steps.get-version.outputs.version }}"
