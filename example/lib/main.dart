@@ -53,88 +53,83 @@ class ExamplePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: Scrollbar(
-        child: Center(
-          child: ConstrainedBox(
-            constraints: const BoxConstraints(maxWidth: 840),
+      body: Center(
+        child: ConstrainedBox(
+          constraints: const BoxConstraints(maxWidth: 840),
+          child: Card.outlined(
             child: ScrollConfiguration(
               behavior: ScrollConfiguration.of(
                 context,
               ).copyWith(scrollbars: false),
-              child: Card.outlined(
-                clipBehavior: .hardEdge,
-                child: CustomScrollView(
-                  slivers: [
-                    SliverAppBar(
-                      actions: [
-                        Link(
-                          uri: .parse(
-                            'https://github.com/snapsl/flutter_icons',
-                          ),
-                          builder: (context, followLink) => IconButton(
-                            onPressed: followLink,
-                            icon: const Icon(SimpleIcons.github),
-                          ),
+              child: CustomScrollView(
+                slivers: [
+                  SliverAppBar(
+                    actions: [
+                      Link(
+                        uri: .parse('https://github.com/snapsl/flutter_icons'),
+                        builder: (context, followLink) => IconButton(
+                          onPressed: followLink,
+                          icon: const Icon(SimpleIcons.github),
                         ),
-                      ],
-                      expandedHeight: 120,
-                      flexibleSpace: const FlexibleSpaceBar(
-                        title: Text(_title),
-                        centerTitle: true,
                       ),
+                    ],
+                    expandedHeight: 120,
+                    flexibleSpace: const FlexibleSpaceBar(
+                      title: Text(_title),
+                      centerTitle: true,
                     ),
-                    const _SliverIconSet(
-                      title: 'Ant Design Icons',
-                      uri: 'https://ant.design/components/icon/',
-                      iconList: [
-                        AntDesignIcons.antDesign_outlined,
-                        AntDesignIcons.file_filled,
-                        AntDesignIcons.camera_outlined,
-                        AntDesignIcons.bug_filled,
-                      ],
-                    ),
-                    const _SliverIconSet(
-                      title: 'Bootstrap Icons',
-                      uri: 'https://icons.getbootstrap.com',
-                      iconList: [
-                        BootstrapIcons.bootstrap,
-                        BootstrapIcons.activity,
-                        BootstrapIcons.dashCircleFill,
-                        BootstrapIcons.magic,
-                      ],
-                    ),
-                    const _SliverIconSet(
-                      title: 'Lucide Icons',
-                      uri: 'https://lucide.dev/icons/',
-                      iconList: [
-                        LucideIcons.album,
-                        LucideIcons.ban,
-                        LucideIcons.diamond,
-                        LucideIcons.squareMenu,
-                      ],
-                    ),
-                    const _SliverIconSet(
-                      title: 'Simple Icons',
-                      uri: 'https://simpleicons.org',
-                      iconList: [
-                        SimpleIcons.simpleicons,
-                        SimpleIcons.cesium,
-                        SimpleIcons.flutter,
-                        SimpleIcons.homeassistant,
-                      ],
-                    ),
-                    const _SliverIconSet(
-                      title: 'Tabler Icons',
-                      uri: 'https://tabler.io/icons',
-                      iconList: [
-                        TablerIcons.brandTabler,
-                        TablerIcons.mail_filled,
-                        TablerIcons.album,
-                        TablerIcons.sun_filled,
-                      ],
-                    ),
-                  ],
-                ),
+                  ),
+                  const _SliverIconSet(
+                    title: 'Ant Design Icons',
+                    uri: 'https://ant.design/components/icon/',
+                    iconList: [
+                      AntDesignIcons.antDesign_outlined,
+                      AntDesignIcons.file_filled,
+                      AntDesignIcons.camera_outlined,
+                      AntDesignIcons.bug_filled,
+                    ],
+                  ),
+                  const _SliverIconSet(
+                    title: 'Bootstrap Icons',
+                    uri: 'https://icons.getbootstrap.com',
+                    iconList: [
+                      BootstrapIcons.bootstrap,
+                      BootstrapIcons.activity,
+                      BootstrapIcons.dashCircleFill,
+                      BootstrapIcons.magic,
+                    ],
+                  ),
+                  const _SliverIconSet(
+                    title: 'Lucide Icons',
+                    uri: 'https://lucide.dev/icons/',
+                    iconList: [
+                      LucideIcons.album,
+                      LucideIcons.ban,
+                      LucideIcons.diamond,
+                      LucideIcons.squareMenu,
+                    ],
+                  ),
+                  const _SliverIconSet(
+                    title: 'Simple Icons',
+                    uri: 'https://simpleicons.org',
+                    iconList: [
+                      SimpleIcons.simpleicons,
+                      SimpleIcons.cesium,
+                      SimpleIcons.flutter,
+                      SimpleIcons.homeassistant,
+                    ],
+                  ),
+                  const _SliverIconSet(
+                    title: 'Tabler Icons',
+                    uri: 'https://tabler.io/icons',
+                    iconList: [
+                      TablerIcons.brandTabler,
+                      TablerIcons.mail_filled,
+                      TablerIcons.album,
+                      TablerIcons.sun_filled,
+                    ],
+                  ),
+                ],
               ),
             ),
           ),
@@ -163,7 +158,8 @@ class _SliverIconSet extends StatelessWidget {
 
     return SliverMainAxisGroup(
       slivers: [
-        SliverFloatingHeader(
+        const SliverToBoxAdapter(child: Divider(color: Colors.transparent)),
+        PinnedHeaderSliver(
           child: ListTile(
             title: Align(
               alignment: .centerLeft,
@@ -196,7 +192,6 @@ class _SliverIconSet extends StatelessWidget {
             ),
           ),
         ),
-        const SliverToBoxAdapter(child: Divider(color: Colors.transparent)),
       ],
     );
   }
