@@ -1,7 +1,7 @@
 {
-  "ant_design_icons": "0.1.0",
-  "bootstrap_icons": "0.1.0",
-  "lucide_icons": "0.1.0",
-  "simple_icons": "0.1.0",
-  "tabler_icons": "0.1.0"
+  "packages/ant_design_icons": "0.1.0",
+  "packages/bootstrap_icons": "0.1.0",
+  "packages/lucide_icons": "0.1.0",
+  "packages/simple_icons": "0.1.0",
+  "packages/tabler_icons": "0.1.0"
 }
