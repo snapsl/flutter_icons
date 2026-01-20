@@ -45,11 +45,12 @@ jobs:
               vendor_dir: "@ant-design/icons-svg"
               fonts:
                 - { file: antfill.ttf, svg_dir: inline-svg/filled }
-                - { file: antdesign.ttf, svg_dir: inline-svg/outlined }
+                - { file: antoutline.ttf, svg_dir: inline-svg/outlined }
           - icon_set_name: bootstrap
             config:
               package_name: bootstrap_icons
               vendor_dir: bootstrap-icons
+              convert_from_woff: true
               fonts:
                 - { file: bootstrap-icons.ttf, svg_dir: icons }
           - icon_set_name: lucide
@@ -101,10 +102,19 @@ jobs:
       - name: Install pip dependencies
         run: pip install -r requirements.txt
 
+      - name: Convert WOFF to TTF
+        if: matrix.config.convert_from_woff == true
+        run: |
+          WOFF=$(find "vendors/${{ matrix.config.package_name }}/node_modules" -name "*.woff")
+          for woff in $WOFF; do
+            ttx ${woff}
+            ttx ${woff%.woff}.ttx
+          done
+
       - name: Set Paths
         id: set-paths
         run: |
-          FONT_PATH=$(find "vendors/${{ matrix.config.package_name }}/node_modules" -type d -name "fonts" | head -n 1)
+          FONT_PATH=$(find "vendors/${{ matrix.config.package_name }}/node_modules" -name "*.ttf" -exec dirname {} \; | head -n 1)
           SVG_PATH_BASE=$(find "vendors/${{ matrix.config.package_name }}/node_modules" -type d -path "*${{ matrix.config.vendor_dir }}" | head -n 1)
           echo "font_path=$FONT_PATH" >> "$GITHUB_OUTPUT"
           echo "svg_path_base=$SVG_PATH_BASE" >> "$GITHUB_OUTPUT"
