@@ -1,9 +1,9 @@
 name: Generate Icons
 
 on:
-  push:
-    branches:
-      - main
+  pull_request:
+    paths:
+      - 'vendors/**'
   workflow_dispatch:
 
 permissions:
