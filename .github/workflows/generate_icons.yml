@@ -1,0 +1,152 @@
+name: Generate Icons
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  changes:
+    runs-on: ubuntu-latest
+    outputs:
+      icon_sets: ${{ github.event_name == 'workflow_dispatch' && '["antdesign", "bootstrap", "lucide", "simple", "tabler"]' || steps.filter.outputs.changes }}
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v6
+
+      - name: Filter paths
+        uses: dorny/paths-filter@v3
+        id: filter
+        with:
+          filters: |
+            antdesign: vendors/ant_design_icons/**
+            bootstrap: vendors/bootstrap_icons/**
+            lucide: vendors/lucide_icons/**
+            simple: vendors/simple_icons/**
+            tabler: vendors/tabler_icons/**
+
+  generate:
+    needs: changes
+    if: ${{ needs.changes.outputs.icon_sets != '[]' && needs.changes.outputs.icon_sets != '' || github.event_name == 'workflow_dispatch' }}
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        icon_set_name: ${{ fromJSON(needs.changes.outputs.icon_sets) }}
+        include:
+          - icon_set_name: antdesign
+            config:
+              package_name: ant_design_icons
+              vendor_dir: "@ant-design/icons-svg"
+              fonts:
+                - { file: antfill.ttf, svg_dir: inline-svg/filled }
+                - { file: antdesign.ttf, svg_dir: inline-svg/outlined }
+          - icon_set_name: bootstrap
+            config:
+              package_name: bootstrap_icons
+              vendor_dir: bootstrap-icons
+              fonts:
+                - { file: bootstrap-icons.ttf, svg_dir: icons }
+          - icon_set_name: lucide
+            config:
+              package_name: lucide_icons
+              vendor_dir: lucide-static
+              fonts:
+                - { file: lucide.ttf, svg_dir: icons }
+          - icon_set_name: simple
+            config:
+              package_name: simple_icons
+              vendor_dir: simple-icons
+              fonts:
+                - { file: SimpleIcons.ttf, svg_dir: icons }
+          - icon_set_name: tabler
+            config:
+              package_name: tabler_icons
+              vendor_dir: "@tabler/icons"
+              fonts:
+                - { file: tabler-icons.ttf, svg_dir: icons/outline }
+                - { file: tabler-icons-filled.ttf, svg_dir: icons/filled }
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v6
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v6
+        with:
+          node-version: 24
+
+      - name: Install npm dependencies
+        working-directory: ./vendors/${{ matrix.config.package_name }}
+        run: npm ci
+
+      - name: Get vendor package version
+        id: get-version
+        working-directory: ./vendors/${{ matrix.config.package_name }}
+        run: |
+          VERSION=$(npm list ${{ matrix.config.vendor_dir }} --depth=0 --json | jq -er '.dependencies."${{ matrix.config.vendor_dir }}".version')
+          echo "version=$VERSION" >> "$GITHUB_OUTPUT"
+
+      - name: Setup Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: "3.x"
+          cache: "pip"
+
+      - name: Install pip dependencies
+        run: pip install -r requirements.txt
+
+      - name: Set Paths
+        id: set-paths
+        run: |
+          FONT_PATH=$(find "vendors/${{ matrix.config.package_name }}/node_modules" -type d -name "fonts" | head -n 1)
+          SVG_PATH_BASE=$(find "vendors/${{ matrix.config.package_name }}/node_modules" -type d -path "*${{ matrix.config.vendor_dir }}" | head -n 1)
+          echo "font_path=$FONT_PATH" >> "$GITHUB_OUTPUT"
+          echo "svg_path_base=$SVG_PATH_BASE" >> "$GITHUB_OUTPUT"
+
+      - name: Generate ttx for ${{ matrix.icon_set_name }}
+        run: |
+          for font in ${{ join(matrix.config.fonts.*.file, ' ') }}; do
+            ttx -t cmap "${{ steps.set-paths.outputs.font_path }}/${font}"
+          done
+
+      - name: Copy fonts to package
+        run: |
+          for font in ${{ join(matrix.config.fonts.*.file, ' ') }}; do
+            cp "${{ steps.set-paths.outputs.font_path }}/${font}" "./packages/${{ matrix.config.package_name }}/fonts/${font}"
+          done
+
+      - name: Setup Flutter
+        uses: subosito/flutter-action@v2
+        with:
+          channel: "stable"
+          cache: true
+
+      - name: Generate icons for ${{ matrix.icon_set_name }}
+        run: |
+          dart run tools/generate_icons.dart \
+            --iconset ${{ matrix.icon_set_name }}
+
+      - name: Format code
+        run: dart format ./packages/${{ matrix.config.package_name }}/
+
+      - name: Create GitHub App Token
+        uses: actions/create-github-app-token@v2
+        id: generate-token
+        with:
+          app-id: ${{ secrets.APP_ID }}
+          private-key: ${{ secrets.APP_PRIVATE_KEY }}
+
+      - name: Create Pull Request
+        uses: peter-evans/create-pull-request@v8
+        with:
+          token: ${{ steps.generate-token.outputs.token }}
+          add-paths: packages/${{ matrix.config.package_name }}/*
+          sign-commits: true
+          title: "feat(${{ matrix.config.package_name }}): bump version to ${{ steps.get-version.outputs.version }}"
+          branch: "feat/update-${{ matrix.config.package_name }}-${{ steps.get-version.outputs.version }}"
