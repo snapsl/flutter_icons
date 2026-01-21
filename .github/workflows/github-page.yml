@@ -19,7 +19,7 @@ concurrency:
   cancel-in-progress: true
 
 env:
-  PATH: example
+  PATH: ./example
 
 jobs:
   test:
