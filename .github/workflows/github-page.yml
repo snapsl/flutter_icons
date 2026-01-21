@@ -19,14 +19,14 @@ concurrency:
   cancel-in-progress: true
 
 env:
-  PATH: ./example
+  APP_PATH: example
 
 jobs:
   test:
     runs-on: ubuntu-latest
     defaults:
       run:
-        working-directory: ${{ env.PATH }}
+        working-directory: ${{ env.APP_PATH }}
     steps:
       - name: Checkout code
         uses: actions/checkout@v6
@@ -54,7 +54,7 @@ jobs:
     needs: test
     defaults:
       run:
-        working-directory: ${{ env.PATH }}
+        working-directory: ${{ env.APP_PATH }}
     steps:
       - name: Checkout code
         uses: actions/checkout@v6
@@ -81,7 +81,7 @@ jobs:
       - name: Upload GitHub Pages artifact
         uses: actions/upload-pages-artifact@v4
         with:
-          path: ${{ env.PATH }}/build/web
+          path: ${{ env.APP_PATH }}/build/web
 
   deploy:
     runs-on: ubuntu-latest
