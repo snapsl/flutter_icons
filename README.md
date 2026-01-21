@@ -26,9 +26,8 @@ Checkout the demo on [Github Pages](https://snapsl.github.io/flutter_icons/).
 
 ## Installation
 
-To use an icon set for your app, open your `pubspec.yaml` file and add the package as git dependency.
-
-For example, to install the `bootstrap_icons` package, add the following:
+To use an icon set for a Flutter application, add a package as a Git dependency in the `pubspec.yaml` file.
+For example, the `bootstrap_icons` package can be installed by adding the following entry:
 
 ```yaml
 dependencies:
@@ -38,6 +37,7 @@ dependencies:
       path: packages/bootstrap_icons
     version: latest
 ```
+
 ## Other Icon Sets
 
 Here are some popular existing icon sets available for Flutter:

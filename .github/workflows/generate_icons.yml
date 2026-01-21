@@ -3,7 +3,7 @@ name: Generate Icons
 on:
   pull_request:
     paths:
-      - 'vendors/**'
+      - "vendors/**"
   workflow_dispatch:
 
 permissions:
