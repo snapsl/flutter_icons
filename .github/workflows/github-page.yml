@@ -7,6 +7,7 @@ on:
     paths:
       - "example/**"
       - "packages/**"
+  workflow_dispatch:
 
 permissions:
   contents: read
