@@ -55,6 +55,10 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v6
 
+      - name: Setup Pages
+        id: pages
+        uses: actions/configure-pages@v5
+
       - name: Setup Flutter
         uses: subosito/flutter-action@v2
         with:
@@ -68,15 +72,12 @@ jobs:
         run: flutter create . --platforms=web
 
       - name: Build web
-        run: flutter build web --release --base-href /${{ github.event.repository.name }}/
-
-      - name: Setup Pages
-        uses: actions/configure-pages@v5
+        run: flutter build web --release --wasm --base-href /${{ steps.pages.outputs.base_path }}/
 
       - name: Upload GitHub Pages artifact
         uses: actions/upload-pages-artifact@v4
         with:
-          path: example/build/web
+          path: ./example/build/web
 
   deploy:
     runs-on: ubuntu-latest
