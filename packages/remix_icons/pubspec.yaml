@@ -1,0 +1,29 @@
+name: remix_icons
+description: "Remix icons package"
+publish_to: none
+version: 0.0.1
+repository: https://github.com/snapsl/flutter_icons
+issue_tracker: https://github.com/snapsl/flutter_icons/issues
+
+topics:
+  - icons
+
+environment:
+  sdk: ^3.10.4
+  flutter: ">=1.17.0"
+
+resolution: workspace
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  fonts:
+    - family: RemixIcons
+      fonts:
+        - asset: fonts/remixicon.ttf

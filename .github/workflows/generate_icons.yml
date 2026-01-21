@@ -14,7 +14,7 @@ jobs:
   changes:
     runs-on: ubuntu-latest
     outputs:
-      icon_sets: ${{ github.event_name == 'workflow_dispatch' && '["antdesign", "bootstrap", "lucide", "simple", "tabler"]' || steps.filter.outputs.changes }}
+      icon_sets: ${{ github.event_name == 'workflow_dispatch' && '["antdesign", "bootstrap", "lucide", "remix", "simple", "tabler"]' || steps.filter.outputs.changes }}
     steps:
       - name: Checkout code
         uses: actions/checkout@v6
@@ -27,6 +27,7 @@ jobs:
             antdesign: vendors/ant_design_icons/**
             bootstrap: vendors/bootstrap_icons/**
             lucide: vendors/lucide_icons/**
+            remix: vendors/remix_icons/**
             simple: vendors/simple_icons/**
             tabler: vendors/tabler_icons/**
 
@@ -59,6 +60,13 @@ jobs:
               vendor_dir: lucide-static
               fonts:
                 - { file: lucide.ttf, svg_dir: icons }
+          - icon_set_name: remix
+            config:
+              package_name: remix_icons
+              vendor_dir: remixicon
+              flatten_svg_dirs: true
+              fonts:
+                - { file: remixicon.ttf, svg_dir: icons }
           - icon_set_name: simple
             config:
               package_name: simple_icons
@@ -109,6 +117,14 @@ jobs:
           for woff in $WOFF; do
             ttx ${woff}
             ttx ${woff%.woff}.ttx
+          done
+
+      - name: Flatten SVG directories
+        if: matrix.config.flatten_svg_dirs == true
+        run: |
+          for font in ${{ matrix.config.fonts[*].svg_dir }}; do
+            SVG_DIR=$(find "vendors/${{ matrix.config.package_name }}/node_modules" -type d -path "*${{ matrix.config.vendor_dir }}/${font}")
+            find "$SVG_DIR" -mindepth 2 -type f -name "*.svg" -exec mv {} -t "$SVG_DIR" +
           done
 
       - name: Set Paths

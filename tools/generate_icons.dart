@@ -25,6 +25,7 @@ void main(List<String> arguments) {
       IconSet.antdesign => _generateAntDesign(),
       IconSet.bootstrap => _generateBootstrap(),
       IconSet.lucide => _generateLucide(),
+      IconSet.remix => _generateRemix(),
       IconSet.simple => _generateSimple(),
       IconSet.tabler => _generateTabler(),
     };
@@ -96,6 +97,30 @@ void _generateBootstrap() {
       brand: 'Bootstrap',
       iconSvgPath: '$path/icons',
       iconDataClassName: 'BootstrapIconData',
+      filled: true,
+    )
+    ..build()
+    ..writeToFile(outputFile);
+}
+
+void _generateRemix() {
+  const path = './vendors/remix_icons/node_modules/remixicon';
+
+  final fontsConfigFile = File('$path/fonts/remixicon.ttx');
+
+  final outputFile = File('./packages/remix_icons/lib/src/icon_data.g.dart');
+
+  IconFileGenerator()
+    ..addImports()
+    ..addClassDefinition(
+      iconClassName: 'RemixIcons',
+      url: 'https://remixicon.com',
+    )
+    ..addFontConfigFile(
+      fontsConfigFile,
+      brand: 'Remix',
+      iconSvgPath: '$path/icons',
+      iconDataClassName: 'RemixIconData',
       filled: true,
     )
     ..build()
@@ -189,6 +214,7 @@ enum IconSet {
   antdesign('Ant Design Icons'),
   bootstrap('Bootstrap Icons'),
   lucide('Lucide Icons'),
+  remix('Remix Icons'),
   simple('Simple Icons'),
   tabler('Tabler Icons')
   ;

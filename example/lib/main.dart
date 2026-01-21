@@ -4,6 +4,7 @@ import 'package:ant_design_icons/ant_design_icons.dart';
 import 'package:bootstrap_icons/bootstrap_icons.dart';
 import 'package:flutter/material.dart';
 import 'package:lucide_icons/lucide_icons.dart';
+import 'package:remix_icons/remix_icons.dart';
 import 'package:simple_icons/simple_icons.dart';
 import 'package:tabler_icons/tabler_icons.dart';
 import 'package:url_launcher/link.dart';
@@ -107,6 +108,16 @@ class ExamplePage extends StatelessWidget {
                       LucideIcons.ban,
                       LucideIcons.diamond,
                       LucideIcons.squareMenu,
+                    ],
+                  ),
+                  const _SliverIconSet(
+                    title: 'Remix Icons',
+                    uri: 'https://remixicon.com/',
+                    iconList: [
+                      RemixIcons.remixFill,
+                      RemixIcons.accountPinBoxFill,
+                      RemixIcons.tentLine,
+                      RemixIcons.chat3Fill,
                     ],
                   ),
                   const _SliverIconSet(

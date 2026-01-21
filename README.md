@@ -14,11 +14,12 @@ This project contains a collection of icon sets for Flutter. The icons are gener
 
 | Icon Set | Version |
 | --- | --- |
-| [Ant Design Icons](https://ant.design/components/icon) | [![pub package](https://img.shields.io/badge/version-placeholder-blue)](https://pub.dev/packages/ant_design_icons) |
-| [Bootstrap Icons](https://icons.getbootstrap.com) | [![pub package](https://img.shields.io/badge/version-placeholder-blue)](https://pub.dev/packages/bootstrap_icons) |
-| [Lucide Icons](https://lucide.dev/icons) | [![pub package](https://img.shields.io/badge/version-placeholder-blue)](https://pub.dev/packages/lucide_icons) |
-| [Simple Icons](https://simpleicons.org) | [![pub package](https://img.shields.io/badge/version-placeholder-blue)](https://pub.dev/packages/simple_icons) |
-| [Tabler Icons](https://tabler.io/icons) | [![pub package](https://img.shields.io/badge/version-placeholder-blue)](https://pub.dev/packages/tabler_icons) |
+| [Ant Design Icons](https://ant.design/components/icon) | [![pub package](https://img.shields.io/badge/version-placeholder-blue)](https://pub.dev/packages/flutter_icons/ant_design_icons) |
+| [Bootstrap Icons](https://icons.getbootstrap.com) | [![pub package](https://img.shields.io/badge/version-placeholder-blue)](https://pub.dev/packages/flutter_icons/bootstrap_icons) |
+| [Lucide Icons](https://lucide.dev/icons) | [![pub package](https://img.shields.io/badge/version-placeholder-blue)](https://pub.dev/packages/flutter_icons/lucide_icons) |
+| [Remix Icons](https://remixicon.com) | [![pub package](https://img.shields.io/badge/version-placeholder-blue)](https://pub.dev/packages/flutter_icons/remix_icons) |
+| [Simple Icons](https://simpleicons.org) | [![pub package](https://img.shields.io/badge/version-placeholder-blue)](https://pub.dev/packages/flutter_icons/simple_icons) |
+| [Tabler Icons](https://tabler.io/icons) | [![pub package](https://img.shields.io/badge/version-placeholder-blue)](https://pub.dev/packages/flutter_icons/tabler_icons) |
 
 ## Demo
 

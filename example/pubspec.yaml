@@ -17,6 +17,7 @@ dependencies:
   flutter:
     sdk: flutter
   lucide_icons:
+  remix_icons:
   simple_icons:
   tabler_icons:
   url_launcher: ^6.3.2
