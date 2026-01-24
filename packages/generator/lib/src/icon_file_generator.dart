@@ -9,6 +9,8 @@ import 'package:xml/xml.dart';
 class IconFileGenerator {
   final _buffer = StringBuffer();
 
+  final List<String> _iconNames = [];
+
   /// Add class definition to generated content
   void addClassDefinition({
     required String iconClassName,
@@ -72,6 +74,20 @@ import 'icon_data.dart';\n
 """);
   }
 
+  /// Add icon value list
+  ///
+  /// Add a list containing all IconData included in [files].
+  void addValues(List<File> files) {
+    _buffer.write('''
+/// A list containing all [IconData] of the icon set.
+///
+/// **CAUTION**: Accessing this list will effectively disable tree-shaking
+/// the icon font. This results in all icons being included in the
+/// application, significantly increasing the final bundle size.
+static const List<IconData> values = [${_iconNames.join(', ')}];
+''');
+  }
+
   /// Build file
   ///
   /// call [writeToFile] to wirte generated content to file.
@@ -118,33 +134,28 @@ import 'icon_data.dart';\n
     bool filled,
   ) {
     iconsData.forEach((String iconName, String iconUnicode) {
-      final iconNameValidated = _validateVariableName(iconName);
-      final name = ReCase(iconNameValidated).camelCase;
+      final parsedNamed = _parseName(iconName);
+      final name = suffix.isEmpty ? parsedNamed : '${parsedNamed}_$suffix';
+
+      _iconNames.add(name);
 
       final iconEncoded = _createEncodedIcon(
         '$iconSvgPath/$iconName.svg',
         filled,
       );
-      if (suffix.isEmpty) {
-        _buffer.write(
-          '''
+
+      _buffer.write('''
 /// $iconEncoded
 ///
 /// $brand icon named "$iconName".
 static const IconData $name = $iconDataClassName($iconUnicode);
-''',
-        );
-      } else {
-        _buffer.write(
-          '''
-/// $iconEncoded
-/// 
-/// $brand icon named "$iconName".
-static const IconData ${name}_$suffix = $iconDataClassName($iconUnicode);
-''',
-        );
-      }
+''');
     });
+  }
+
+  String _parseName(String iconName) {
+    final iconNameValidated = _validateVariableName(iconName);
+    return ReCase(iconNameValidated).camelCase;
   }
 
   /// read the icon data from the [file]
