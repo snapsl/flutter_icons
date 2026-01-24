@@ -48,6 +48,7 @@ jobs:
     needs: changes
     if: ${{ needs.changes.outputs.icon_sets != '[]' && needs.changes.outputs.icon_sets != '' || github.event_name == 'workflow_dispatch' }}
     runs-on: ubuntu-latest
+    name: "${{ matrix.icon_set_name }}"
     strategy:
       fail-fast: false
       matrix:
@@ -85,9 +86,10 @@ jobs:
 
       - name: Flatten SVG directories
         if: matrix.config.flatten_svg_dirs == true
+        working-directory: ./vendors/${{ matrix.config.package_name }}
         run: |
-          for font in ${{ matrix.config.fonts[*].svg_dir }}; do
-            SVG_DIR=$(find "vendors/${{ matrix.config.package_name }}/node_modules" -type d -path "*${{ matrix.config.vendor_dir }}/${font}")
+          for svg_dir in ${{ matrix.config.fonts[*].svg_dir }}; do
+            SVG_DIR=$(find . -type d -path "*${{ matrix.config.vendor_dir }}/${svg_dir}")
             find "$SVG_DIR" -mindepth 2 -type f -name "*.svg" -exec mv -t "$SVG_DIR" {} +
           done
 
@@ -97,24 +99,26 @@ jobs:
 
       - name: Convert SVG to Font
         if: matrix.config.svg_to_font == true
+        working-directory: ./vendors/${{ matrix.config.package_name }}
         env:
           FONTS_JSON: ${{ toJSON(matrix.config.fonts) }}
         run: |
           echo "$FONTS_JSON" | jq -c '.[]' | while read -r font_item; do
             SVG_DIR=$(echo "$font_item" | jq -r '.svg_dir')
             FONT_FILE=$(echo "$font_item" | jq -r '.file')
-            SVG_PATH=$(find "vendors/${{ matrix.config.package_name }}/node_modules" -type d -path "*${{ matrix.config.vendor_dir }}/${SVG_DIR}")
+            SVG_DIR=$(find . -type d -path "*${{ matrix.config.vendor_dir }}/${SVG_DIR}")
             
             SVG_FIXED_PATH=$(mktemp -d)
             
-            npx oslllo-svg-fixer --source "$SVG_PATH" --destination "$SVG_FIXED_PATH" --show-progress false
+            npx oslllo-svg-fixer --source "$SVG_DIR" --destination "$SVG_FIXED_PATH" --show-progress false
             npx svgtofont --source "$SVG_FIXED_PATH" --output "vendors/${{ matrix.config.package_name }}/node_modules/${{ matrix.config.vendor_dir }}/fonts" --fontName "${FONT_FILE}"
           done
 
       - name: Convert WOFF to TTF
         if: matrix.config.convert_from_woff == true
+        working-directory: ./vendors/${{ matrix.config.package_name }}
         run: |
-          WOFF=$(find "vendors/${{ matrix.config.package_name }}/node_modules" -name "*.woff")
+          WOFF=$(find . -name "*.woff")
           for woff in $WOFF; do
             ttx ${woff}
             ttx ${woff%.woff}.ttx
@@ -122,9 +126,10 @@ jobs:
 
       - name: Set Paths
         id: set-paths
+        working-directory: ./vendors/${{ matrix.config.package_name }}
         run: |
-          FONT_PATH=$(find "vendors/${{ matrix.config.package_name }}/node_modules" -name "*.ttf" -exec dirname {} \; | head -n 1)
-          SVG_PATH_BASE=$(find "vendors/${{ matrix.config.package_name }}/node_modules" -type d -path "*${{ matrix.config.vendor_dir }}" | head -n 1)
+          FONT_PATH=$(find . -name "*.ttf" -exec dirname {} \; | head -n 1)
+          SVG_PATH_BASE=$(find . -type d -path "*${{ matrix.config.vendor_dir }}" | head -n 1)
           echo "font_path=$FONT_PATH" >> "$GITHUB_OUTPUT"
           echo "svg_path_base=$SVG_PATH_BASE" >> "$GITHUB_OUTPUT"
 

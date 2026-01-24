@@ -39,11 +39,11 @@
 			"fonts": [
 				{
 					"file": "outline.ttf",
-					"svg_dir": "outline"
+					"svg_dir": "24/outline"
 				},
 				{
 					"file": "solid.ttf",
-					"svg_dir": "solid"
+					"svg_dir": "24/solid"
 				}
 			]
 		}
