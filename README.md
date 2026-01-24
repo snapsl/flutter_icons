@@ -16,6 +16,7 @@ This project contains a collection of icon sets for Flutter. The icons are gener
 | --- | --- |
 | [Ant Design Icons](https://ant.design/components/icon) | [![pub package](https://img.shields.io/badge/version-placeholder-blue)](https://pub.dev/packages/flutter_icons/ant_design_icons) |
 | [Bootstrap Icons](https://icons.getbootstrap.com) | [![pub package](https://img.shields.io/badge/version-placeholder-blue)](https://pub.dev/packages/flutter_icons/bootstrap_icons) |
+| [Heroicons](https://heroicons.com) | [![pub package](https://img.shields.io/badge/version-placeholder-blue)](https://pub.dev/packages/flutter_icons/heroicons) |
 | [Lucide Icons](https://lucide.dev/icons) | [![pub package](https://img.shields.io/badge/version-placeholder-blue)](https://pub.dev/packages/flutter_icons/lucide_icons) |
 | [Remix Icons](https://remixicon.com) | [![pub package](https://img.shields.io/badge/version-placeholder-blue)](https://pub.dev/packages/flutter_icons/remix_icons) |
 | [Simple Icons](https://simpleicons.org) | [![pub package](https://img.shields.io/badge/version-placeholder-blue)](https://pub.dev/packages/flutter_icons/simple_icons) |
