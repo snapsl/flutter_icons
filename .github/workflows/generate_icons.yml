@@ -109,9 +109,10 @@ jobs:
             SVG_DIR=$(find . -type d -path "*${{ matrix.config.vendor_dir }}/${SVG_DIR}")
             
             SVG_FIXED_PATH=$(mktemp -d)
+            echo "The temporary directory is: $SVG_FIXED_PATH"
             
-            npx oslllo-svg-fixer --source "$SVG_DIR" --destination "$SVG_FIXED_PATH" --show-progress false
-            npx svgtofont --source "$SVG_FIXED_PATH" --output "vendors/${{ matrix.config.package_name }}/node_modules/${{ matrix.config.vendor_dir }}/fonts" --fontName "${FONT_FILE}"
+            npx oslllo-svg-fixer --source "$SVG_DIR" --destination "$SVG_FIXED_PATH" --show-progress true
+            npx svgtofont --sources "$SVG_FIXED_PATH" --output "node_modules/${{ matrix.config.vendor_dir }}/fonts" --fontName "${FONT_FILE}"
           done
 
       - name: Convert WOFF to TTF
@@ -126,10 +127,9 @@ jobs:
 
       - name: Set Paths
         id: set-paths
-        working-directory: ./vendors/${{ matrix.config.package_name }}
         run: |
-          FONT_PATH=$(find . -name "*.ttf" -exec dirname {} \; | head -n 1)
-          SVG_PATH_BASE=$(find . -type d -path "*${{ matrix.config.vendor_dir }}" | head -n 1)
+          FONT_PATH=$(find "vendors/${{ matrix.config.package_name }}/node_modules" -name "*.ttf" -exec dirname {} \; | head -n 1)
+          SVG_PATH_BASE=$(find "vendors/${{ matrix.config.package_name }}/node_modules" -type d -path "*${{ matrix.config.vendor_dir }}" | head -n 1)
           echo "font_path=$FONT_PATH" >> "$GITHUB_OUTPUT"
           echo "svg_path_base=$SVG_PATH_BASE" >> "$GITHUB_OUTPUT"
 
