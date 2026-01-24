@@ -34,7 +34,7 @@
 		"icon_set_name": "hero",
 		"config": {
 			"package_name": "hero_icons",
-			"vendor_dir": "heroicons/24",
+			"vendor_dir": "heroicons",
 			"svg_to_font": true,
 			"fonts": [
 				{

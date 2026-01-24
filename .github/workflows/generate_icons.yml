@@ -88,7 +88,7 @@ jobs:
         run: |
           for font in ${{ matrix.config.fonts[*].svg_dir }}; do
             SVG_DIR=$(find "vendors/${{ matrix.config.package_name }}/node_modules" -type d -path "*${{ matrix.config.vendor_dir }}/${font}")
-            find "$SVG_DIR" -mindepth 2 -type f -name "*.svg" -exec mv {} -t "$SVG_DIR" +
+            find "$SVG_DIR" -mindepth 2 -type f -name "*.svg" -exec mv -t "$SVG_DIR" {} +
           done
 
       - name: Install svgtofont, SVG Fixer
