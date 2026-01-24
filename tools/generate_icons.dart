@@ -42,8 +42,8 @@ void main(List<String> arguments) {
 void _generateHero() {
   const path = './vendors/hero_icons/node_modules/heroicons/';
 
-  final fontsConfigFile = File('$path/font/outline.ttx');
-  final fontsConfigFile2 = File('$path/font/solid.ttx');
+  final fontsConfigFile = File('$path/fonts/outline.ttx');
+  final fontsConfigFile2 = File('$path/fonts/solid.ttx');
 
   final outputFile = File('./packages/hero_icons/lib/src/icon_data.g.dart');
 

@@ -88,7 +88,7 @@ jobs:
         if: matrix.config.flatten_svg_dirs == true
         working-directory: ./vendors/${{ matrix.config.package_name }}
         run: |
-          for svg_dir in ${{ matrix.config.fonts[*].svg_dir }}; do
+          for svg_dir in ${{ matrix.config.fonts.*.svg_dir }}; do
             SVG_DIR=$(find . -type d -path "*${{ matrix.config.vendor_dir }}/${svg_dir}")
             echo $SVG_DIR
             find "$SVG_DIR" -mindepth 2 -type f -name "*.svg" -exec mv -t "$SVG_DIR" {} +
