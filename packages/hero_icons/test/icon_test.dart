@@ -9,7 +9,10 @@ void main() async {
   const icon2 = HeroIcons.heart;
 
   setUpAll(() async {
-    await loadFonts({'fonts/outline.ttf': icon, 'fonts/solid.ttf': icon2});
+    await loadFonts(
+      iconMap: {'fonts/outline.ttf': icon, 'fonts/solid.ttf': icon2},
+      packageName: 'hero_icons',
+    );
   });
 
   group('Hero Icons Tests', () {
