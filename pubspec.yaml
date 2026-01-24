@@ -13,6 +13,7 @@ workspace:
   - packages/remix_icons
   - packages/simple_icons
   - packages/tabler_icons
+  - packages/test_utils
   - tools
 
 dev_dependencies:
