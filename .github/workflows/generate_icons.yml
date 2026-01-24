@@ -90,6 +90,7 @@ jobs:
         run: |
           for svg_dir in ${{ matrix.config.fonts[*].svg_dir }}; do
             SVG_DIR=$(find . -type d -path "*${{ matrix.config.vendor_dir }}/${svg_dir}")
+            echo $SVG_DIR
             find "$SVG_DIR" -mindepth 2 -type f -name "*.svg" -exec mv -t "$SVG_DIR" {} +
           done
 
@@ -112,7 +113,7 @@ jobs:
             echo "The temporary directory is: $SVG_FIXED_PATH"
             
             npx oslllo-svg-fixer --source "$SVG_DIR" --destination "$SVG_FIXED_PATH" --show-progress true
-            npx svgtofont --sources "$SVG_FIXED_PATH" --output "node_modules/${{ matrix.config.vendor_dir }}/fonts" --fontName "${FONT_FILE}"
+            npx svgtofont --sources "$SVG_FIXED_PATH" --output "node_modules/${{ matrix.config.vendor_dir }}/fonts" --fontName "${FONT_FILE%.ttf}"
           done
 
       - name: Convert WOFF to TTF
