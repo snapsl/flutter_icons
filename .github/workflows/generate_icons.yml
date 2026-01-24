@@ -28,7 +28,7 @@ jobs:
       - name: Create include matrix
         id: set-matrix
         run: |
-          JSON=$(cat matrix/icon_set_matrix.json | jq -c '.')
+          JSON=$(cat .github/matrix/icon_set_matrix.json | jq -c '.')
           echo "includes=$JSON" >> $GITHUB_OUTPUT
 
       - name: Filter paths
