@@ -1,108 +1,108 @@
 [
-	{
-		"icon_set_name": "antdesign",
-		"config": {
-			"package_name": "ant_design_icons",
-			"vendor_dir": "@ant-design/icons-svg",
-			"fonts": [
-				{
-					"file": "antfill.ttf",
-					"svg_dir": "inline-svg/filled"
-				},
-				{
-					"file": "antoutline.ttf",
-					"svg_dir": "inline-svg/outlined"
-				}
-			]
-		}
-	},
-	{
-		"icon_set_name": "bootstrap",
-		"config": {
-			"package_name": "bootstrap_icons",
-			"vendor_dir": "bootstrap-icons",
-			"convert_from_woff": true,
-			"fonts": [
-				{
-					"file": "bootstrap-icons.ttf",
-					"svg_dir": "icons"
-				}
-			]
-		}
-	},
-	{
-		"icon_set_name": "hero",
-		"config": {
-			"package_name": "hero_icons",
-			"vendor_dir": "heroicons",
-			"svg_to_font": true,
-			"fonts": [
-				{
-					"file": "outline.ttf",
-					"svg_dir": "24/outline"
-				},
-				{
-					"file": "solid.ttf",
-					"svg_dir": "24/solid"
-				}
-			]
-		}
-	},
-	{
-		"icon_set_name": "lucide",
-		"config": {
-			"package_name": "lucide_icons",
-			"vendor_dir": "lucide-static",
-			"fonts": [
-				{
-					"file": "lucide.ttf",
-					"svg_dir": "icons"
-				}
-			]
-		}
-	},
-	{
-		"icon_set_name": "remix",
-		"config": {
-			"package_name": "remix_icons",
-			"vendor_dir": "remixicon",
-			"flatten_svg_dirs": true,
-			"fonts": [
-				{
-					"file": "remixicon.ttf",
-					"svg_dir": "icons"
-				}
-			]
-		}
-	},
-	{
-		"icon_set_name": "simple",
-		"config": {
-			"package_name": "simple_icons",
-			"vendor_dir": "simple-icons",
-			"fonts": [
-				{
-					"file": "SimpleIcons.ttf",
-					"svg_dir": "icons"
-				}
-			]
-		}
-	},
-	{
-		"icon_set_name": "tabler",
-		"config": {
-			"package_name": "tabler_icons",
-			"vendor_dir": "@tabler/icons",
-			"fonts": [
-				{
-					"file": "tabler-icons.ttf",
-					"svg_dir": "icons/outline"
-				},
-				{
-					"file": "tabler-icons-filled.ttf",
-					"svg_dir": "icons/filled"
-				}
-			]
-		}
-	}
+  {
+    "icon_set_name": "antdesign",
+    "config": {
+      "package_name": "ant_design_icons",
+      "vendor_dir": "@ant-design/icons-svg",
+      "fonts": [
+        {
+          "file": "antfill.ttf",
+          "svg_dir": "inline-svg/filled"
+        },
+        {
+          "file": "antoutline.ttf",
+          "svg_dir": "inline-svg/outlined"
+        }
+      ]
+    }
+  },
+  {
+    "icon_set_name": "bootstrap",
+    "config": {
+      "package_name": "bootstrap_icons",
+      "vendor_dir": "bootstrap-icons",
+      "convert_from_woff": true,
+      "fonts": [
+        {
+          "file": "bootstrap-icons.ttf",
+          "svg_dir": "icons"
+        }
+      ]
+    }
+  },
+  {
+    "icon_set_name": "hero",
+    "config": {
+      "package_name": "hero_icons",
+      "vendor_dir": "heroicons",
+      "svg_to_font": true,
+      "fonts": [
+        {
+          "file": "outline.ttf",
+          "svg_dir": "24/outline"
+        },
+        {
+          "file": "solid.ttf",
+          "svg_dir": "24/solid"
+        }
+      ]
+    }
+  },
+  {
+    "icon_set_name": "lucide",
+    "config": {
+      "package_name": "lucide_icons",
+      "vendor_dir": "lucide-static",
+      "fonts": [
+        {
+          "file": "lucide.ttf",
+          "svg_dir": "icons"
+        }
+      ]
+    }
+  },
+  {
+    "icon_set_name": "remix",
+    "config": {
+      "package_name": "remix_icons",
+      "vendor_dir": "remixicon",
+      "flatten_svg_dirs": true,
+      "fonts": [
+        {
+          "file": "remixicon.ttf",
+          "svg_dir": "icons"
+        }
+      ]
+    }
+  },
+  {
+    "icon_set_name": "simple",
+    "config": {
+      "package_name": "simple_icons",
+      "vendor_dir": "simple-icons",
+      "fonts": [
+        {
+          "file": "SimpleIcons.ttf",
+          "svg_dir": "icons"
+        }
+      ]
+    }
+  },
+  {
+    "icon_set_name": "tabler",
+    "config": {
+      "package_name": "tabler_icons",
+      "vendor_dir": "@tabler/icons",
+      "fonts": [
+        {
+          "file": "tabler-icons.ttf",
+          "svg_dir": "icons/outline"
+        },
+        {
+          "file": "tabler-icons-filled.ttf",
+          "svg_dir": "icons/filled"
+        }
+      ]
+    }
+  }
 ]

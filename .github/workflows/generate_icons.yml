@@ -41,7 +41,7 @@ jobs:
       - name: Set matrix
         id: set-matrix
         run: |
-          FULL_MATRIX=$(cat .github/matrix/icon_set_matrix.json)
+          FULL_MATRIX=$(cat .github/matrix/icon_set_matrix.json | jq -c .)
 
           if [[ "${{ github.event_name }}" == "workflow_dispatch" ]]; then
             echo "matrix=$FULL_MATRIX" >> "$GITHUB_OUTPUT"
@@ -50,6 +50,7 @@ jobs:
             FILTERED=$(echo "$FULL_MATRIX" | jq -c --argjson changes "$CHANGES" 'map(select(.icon_set_name as $i | $changes | index($i)))')
             echo "matrix=$FILTERED" >> "$GITHUB_OUTPUT"
           fi
+          echo $matrix
 
   generate:
     needs: changes
