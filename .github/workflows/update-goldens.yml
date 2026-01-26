@@ -1,0 +1,48 @@
+name: Update Goldens
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  update-pr:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout selected branch
+        uses: actions/checkout@v6
+        with:
+          ref: ${{ github.ref_name }}
+
+      - name: Setup Flutter
+        uses: subosito/flutter-action@v2
+        with:
+          channel: "stable"
+          cache: true
+
+      - name: Install dependencies
+        run: flutter pub get
+
+      - name: Update goldens
+        run: flutter test packages --update-goldens
+
+      - name: Create GitHub App Token
+        uses: actions/create-github-app-token@v2
+        id: generate-token
+        with:
+          app-id: ${{ secrets.APP_ID }}
+          private-key: ${{ secrets.APP_PRIVATE_KEY }}
+
+      - name: Create Pull Request
+        uses: peter-evans/create-pull-request@v7
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          title: "chore: update goldens"
+          commit-message: "chore: update goldens"
+          branch: ${{ github.ref_name }}
