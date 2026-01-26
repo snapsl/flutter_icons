@@ -3,6 +3,7 @@
   "packages": {
     "packages/ant_design_icons": {},
     "packages/bootstrap_icons": {},
+    "packages/hero_icons": {},
     "packages/lucide_icons": {},
     "packages/remix_icons": {},
     "packages/simple_icons": {},

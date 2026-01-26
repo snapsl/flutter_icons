@@ -24,6 +24,7 @@ void main(List<String> arguments) {
     return switch (iconSet) {
       IconSet.antdesign => _generateAntDesign(),
       IconSet.bootstrap => _generateBootstrap(),
+      IconSet.hero => _generateHero(),
       IconSet.lucide => _generateLucide(),
       IconSet.remix => _generateRemix(),
       IconSet.simple => _generateSimple(),
@@ -36,6 +37,39 @@ void main(List<String> arguments) {
       ..writeln(e)
       ..writeln('Usage:\n${parser.usage}');
   }
+}
+
+void _generateHero() {
+  const path = './vendors/hero_icons/node_modules/heroicons/';
+
+  final fontsConfigFile = File('$path/fonts/outline.ttx');
+  final fontsConfigFile2 = File('$path/fonts/solid.ttx');
+
+  final outputFile = File('./packages/hero_icons/lib/src/icon_data.g.dart');
+
+  IconFileGenerator()
+    ..addImports()
+    ..addClassDefinition(
+      iconClassName: 'HeroIcons',
+      url: 'https://heroicons.com/solid',
+    )
+    ..addFontConfigFile(
+      fontsConfigFile,
+      iconSvgPath: '$path/24/outline',
+      brand: 'Heroicons',
+      iconDataClassName: 'HeroOutlineIconData',
+      suffix: 'outline',
+    )
+    ..addFontConfigFile(
+      fontsConfigFile2,
+      iconDataClassName: 'HeroSolidIconData',
+      brand: 'Heroicons',
+      iconSvgPath: '$path/24/solid',
+      filled: true,
+    )
+    ..addValues([fontsConfigFile, fontsConfigFile2])
+    ..build()
+    ..writeToFile(outputFile);
 }
 
 void _generateAntDesign() {
@@ -103,6 +137,29 @@ void _generateBootstrap() {
     ..writeToFile(outputFile);
 }
 
+void _generateLucide() {
+  const path = './vendors/lucide_icons/node_modules/lucide-static';
+
+  final fontsConfigFile = File('$path/font/lucide.ttx');
+
+  final outputFile = File('./packages/lucide_icons/lib/src/icon_data.g.dart');
+
+  IconFileGenerator()
+    ..addImports()
+    ..addClassDefinition(
+      iconClassName: 'LucideIcons',
+      url: 'https://lucide.dev/icons',
+    )
+    ..addFontConfigFile(
+      fontsConfigFile,
+      brand: 'Lucide',
+      iconSvgPath: '$path/icons',
+      iconDataClassName: 'LucideIconData',
+    )
+    ..build()
+    ..writeToFile(outputFile);
+}
+
 void _generateRemix() {
   const path = './vendors/remix_icons/node_modules/remixicon';
 
@@ -123,29 +180,7 @@ void _generateRemix() {
       iconDataClassName: 'RemixIconData',
       filled: true,
     )
-    ..build()
-    ..writeToFile(outputFile);
-}
-
-void _generateLucide() {
-  const path = './vendors/lucide_icons/node_modules/lucide-static';
-
-  final fontsConfigFile = File('$path/font/lucide.ttx');
-
-  final outputFile = File('./packages/lucide_icons/lib/src/icon_data.g.dart');
-
-  IconFileGenerator()
-    ..addImports()
-    ..addClassDefinition(
-      iconClassName: 'LucideIcons',
-      url: 'https://lucide.dev/icons',
-    )
-    ..addFontConfigFile(
-      fontsConfigFile,
-      brand: 'Lucide',
-      iconSvgPath: '$path/icons',
-      iconDataClassName: 'LucideIconData',
-    )
+    ..addValues([fontsConfigFile])
     ..build()
     ..writeToFile(outputFile);
 }
@@ -213,6 +248,7 @@ void _generateTabler() {
 enum IconSet {
   antdesign('Ant Design Icons'),
   bootstrap('Bootstrap Icons'),
+  hero('Hero Icons'),
   lucide('Lucide Icons'),
   remix('Remix Icons'),
   simple('Simple Icons'),

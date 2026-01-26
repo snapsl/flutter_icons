@@ -16,6 +16,7 @@ dependencies:
   cupertino_icons: ^1.0.8
   flutter:
     sdk: flutter
+  hero_icons:
   lucide_icons:
   remix_icons:
   simple_icons:

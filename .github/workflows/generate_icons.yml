@@ -18,10 +18,22 @@ jobs:
   changes:
     runs-on: ubuntu-latest
     outputs:
-      icon_sets: ${{ github.event_name == 'workflow_dispatch' && '["antdesign", "bootstrap", "lucide", "remix", "simple", "tabler"]' || steps.filter.outputs.changes }}
+      icon_sets: >-
+        ${{
+          github.event_name == 'workflow_dispatch'
+          && '["antdesign", "bootstrap", "hero", "lucide", "remix", "simple", "tabler"]'
+          || steps.filter.outputs.changes
+        }}
+      includes: ${{ steps.set-matrix.outputs.includes }}
     steps:
       - name: Checkout code
         uses: actions/checkout@v6
+
+      - name: Create include matrix
+        id: set-matrix
+        run: |
+          JSON=$(cat .github/matrix/icon_set_matrix.json | jq -c '.')
+          echo "includes=$JSON" >> $GITHUB_OUTPUT
 
       - name: Filter paths
         uses: dorny/paths-filter@v3
@@ -30,6 +42,7 @@ jobs:
           filters: |
             antdesign: vendors/ant_design_icons/**
             bootstrap: vendors/bootstrap_icons/**
+            hero: vendors/hero_icons/**
             lucide: vendors/lucide_icons/**
             remix: vendors/remix_icons/**
             simple: vendors/simple_icons/**
@@ -39,51 +52,12 @@ jobs:
     needs: changes
     if: ${{ needs.changes.outputs.icon_sets != '[]' && needs.changes.outputs.icon_sets != '' || github.event_name == 'workflow_dispatch' }}
     runs-on: ubuntu-latest
+    name: "${{ matrix.icon_set_name }}"
     strategy:
       fail-fast: false
       matrix:
         icon_set_name: ${{ fromJSON(needs.changes.outputs.icon_sets) }}
-        include:
-          - icon_set_name: antdesign
-            config:
-              package_name: ant_design_icons
-              vendor_dir: "@ant-design/icons-svg"
-              fonts:
-                - { file: antfill.ttf, svg_dir: inline-svg/filled }
-                - { file: antoutline.ttf, svg_dir: inline-svg/outlined }
-          - icon_set_name: bootstrap
-            config:
-              package_name: bootstrap_icons
-              vendor_dir: bootstrap-icons
-              convert_from_woff: true
-              fonts:
-                - { file: bootstrap-icons.ttf, svg_dir: icons }
-          - icon_set_name: lucide
-            config:
-              package_name: lucide_icons
-              vendor_dir: lucide-static
-              fonts:
-                - { file: lucide.ttf, svg_dir: icons }
-          - icon_set_name: remix
-            config:
-              package_name: remix_icons
-              vendor_dir: remixicon
-              flatten_svg_dirs: true
-              fonts:
-                - { file: remixicon.ttf, svg_dir: icons }
-          - icon_set_name: simple
-            config:
-              package_name: simple_icons
-              vendor_dir: simple-icons
-              fonts:
-                - { file: SimpleIcons.ttf, svg_dir: icons }
-          - icon_set_name: tabler
-            config:
-              package_name: tabler_icons
-              vendor_dir: "@tabler/icons"
-              fonts:
-                - { file: tabler-icons.ttf, svg_dir: icons/outline }
-                - { file: tabler-icons-filled.ttf, svg_dir: icons/filled }
+        include: ${{ fromJSON(needs.changes.outputs.includes) }}
 
     steps:
       - name: Checkout code
@@ -114,21 +88,46 @@ jobs:
       - name: Install pip dependencies
         run: pip install -r requirements.txt
 
+      - name: Flatten SVG directories
+        if: matrix.config.flatten_svg_dirs == true
+        working-directory: ./vendors/${{ matrix.config.package_name }}
+        run: |
+          for svg_dir in ${{ join(matrix.config.fonts.*.svg_dir, ' ') }}; do
+            SVG_DIR=$(find . -type d -path "*${{ matrix.config.vendor_dir }}/${svg_dir}")
+            echo $SVG_DIR
+            find "$SVG_DIR" -mindepth 2 -type f -name "*.svg" -exec mv -t "$SVG_DIR" {} +
+          done
+
+      - name: Install svgtofont, SVG Fixer
+        if: matrix.config.svg_to_font == true
+        run: npm ci
+
+      - name: Convert SVG to Font
+        if: matrix.config.svg_to_font == true
+        working-directory: ./vendors/${{ matrix.config.package_name }}
+        env:
+          FONTS_JSON: ${{ toJSON(matrix.config.fonts) }}
+        run: |
+          echo "$FONTS_JSON" | jq -c '.[]' | while read -r font_item; do
+            SVG_DIR=$(echo "$font_item" | jq -r '.svg_dir')
+            FONT_FILE=$(echo "$font_item" | jq -r '.file')
+            SVG_DIR=$(find . -type d -path "*${{ matrix.config.vendor_dir }}/${SVG_DIR}")
+            
+            SVG_FIXED_PATH=$(mktemp -d)
+            echo "The temporary directory is: $SVG_FIXED_PATH"
+            
+            npx oslllo-svg-fixer --source "$SVG_DIR" --destination "$SVG_FIXED_PATH" --show-progress true
+            npx svgtofont --sources "$SVG_FIXED_PATH" --output "node_modules/${{ matrix.config.vendor_dir }}/fonts" --fontName "${FONT_FILE%.ttf}"
+          done
+
       - name: Convert WOFF to TTF
         if: matrix.config.convert_from_woff == true
+        working-directory: ./vendors/${{ matrix.config.package_name }}
         run: |
-          WOFF=$(find "vendors/${{ matrix.config.package_name }}/node_modules" -name "*.woff")
+          WOFF=$(find . -name "*.woff")
           for woff in $WOFF; do
             ttx ${woff}
             ttx ${woff%.woff}.ttx
-          done
-
-      - name: Flatten SVG directories
-        if: matrix.config.flatten_svg_dirs == true
-        run: |
-          for font in ${{ matrix.config.fonts[*].svg_dir }}; do
-            SVG_DIR=$(find "vendors/${{ matrix.config.package_name }}/node_modules" -type d -path "*${{ matrix.config.vendor_dir }}/${font}")
-            find "$SVG_DIR" -mindepth 2 -type f -name "*.svg" -exec mv {} -t "$SVG_DIR" +
           done
 
       - name: Set Paths
@@ -158,9 +157,7 @@ jobs:
           cache: true
 
       - name: Generate icons for ${{ matrix.icon_set_name }}
-        run: |
-          dart run tools/generate_icons.dart \
-            --iconset ${{ matrix.icon_set_name }}
+        run: dart run tools/generate_icons.dart --iconset ${{ matrix.icon_set_name }}
 
       - name: Format code
         run: dart format ./packages/${{ matrix.config.package_name }}/

@@ -3,6 +3,7 @@ import 'dart:math' as math;
 import 'package:ant_design_icons/ant_design_icons.dart';
 import 'package:bootstrap_icons/bootstrap_icons.dart';
 import 'package:flutter/material.dart';
+import 'package:hero_icons/hero_icons.dart';
 import 'package:lucide_icons/lucide_icons.dart';
 import 'package:remix_icons/remix_icons.dart';
 import 'package:simple_icons/simple_icons.dart';
@@ -98,6 +99,16 @@ class ExamplePage extends StatelessWidget {
                       BootstrapIcons.activity,
                       BootstrapIcons.dashCircleFill,
                       BootstrapIcons.magic,
+                    ],
+                  ),
+                  const _SliverIconSet(
+                    title: 'Hero Icons',
+                    uri: 'https://heroicons.com',
+                    iconList: [
+                      HeroIcons.homeModern,
+                      HeroIcons.heart_outline,
+                      HeroIcons.adjustmentsHorizontal,
+                      HeroIcons.map,
                     ],
                   ),
                   const _SliverIconSet(
