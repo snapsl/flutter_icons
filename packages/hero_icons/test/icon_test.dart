@@ -1,18 +1,19 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:hero_icons/hero_icons.dart';
 import 'package:hero_icons/src/icon_data.g.dart';
 import 'package:test_utils/test_utils.dart';
 
 void main() async {
-  const icon = HeroIcons.heart_outline;
-  const icon2 = HeroIcons.heart;
+  const icons = [HeroIcons.heart_outline, HeroIcons.heart];
 
   TestWidgetsFlutterBinding.ensureInitialized();
 
   setUpAll(() async {
     await loadFonts(
-      iconMap: {'fonts/outline.ttf': icon, 'fonts/solid.ttf': icon2},
+      iconMap: {
+        'fonts/outline.ttf': icons[0],
+        'fonts/solid.ttf': icons[1],
+      },
       packageName: 'hero_icons',
     );
 
@@ -20,8 +21,8 @@ void main() async {
     goldenFileComparator = LocalFileComparatorWithThreshold(testUrl, 0.05);
   });
 
-  group('Hero Icons Tests', () {
-    for (final icon in [icon, icon2]) {
+  group('Golden tests', () {
+    for (final icon in icons) {
       testWidgets('Widget test ${icon.fontFamily}', (
         WidgetTester tester,
       ) async {
@@ -39,7 +40,7 @@ void main() async {
   });
 
   group('Golden test', () {
-    for (final icon in [icon, icon2]) {
+    for (final icon in icons) {
       testWidgets('Golden test ${icon.fontFamily}', (
         WidgetTester tester,
       ) async {
