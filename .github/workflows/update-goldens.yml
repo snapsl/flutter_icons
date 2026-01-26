@@ -12,7 +12,7 @@ concurrency:
   cancel-in-progress: true
 
 jobs:
-  update-pr:
+  update_goldens:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout selected branch
@@ -45,4 +45,3 @@ jobs:
           token: ${{ secrets.GITHUB_TOKEN }}
           title: "chore: update goldens"
           commit-message: "chore: update goldens"
-          branch: ${{ github.ref_name }}
