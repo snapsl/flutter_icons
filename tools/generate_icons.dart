@@ -67,7 +67,6 @@ void _generateHero() {
       iconSvgPath: '$path/24/solid',
       filled: true,
     )
-    ..addValues([fontsConfigFile, fontsConfigFile2])
     ..build()
     ..writeToFile(outputFile);
 }
@@ -180,7 +179,6 @@ void _generateRemix() {
       iconDataClassName: 'RemixIconData',
       filled: true,
     )
-    ..addValues([fontsConfigFile])
     ..build()
     ..writeToFile(outputFile);
 }
