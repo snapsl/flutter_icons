@@ -17,22 +17,25 @@ updates:
     groups:
       ant-design-icons:
         patterns:
-          - "ant-design"
+          - "@ant-design*"
       bootstrap-icons:
         patterns:
-          - "bootstrap"
+          - "bootstrap*"
+      hero-icons:
+        patterns:
+          - "hero*"
       lucide-icons:
         patterns:
-          - "lucide"
+          - "lucide*"
       remix-icons:
         patterns:
-          - "remix"
+          - "remix*"
       simple-icons:
         patterns:
-          - "simple"
+          - "simple*"
       tabler-icons:
         patterns:
-          - "tabler"
+          - "@tabler*"
   - package-ecosystem: "npm"
     directory: "/"
     schedule:
