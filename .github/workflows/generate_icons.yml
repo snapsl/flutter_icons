@@ -1,7 +1,9 @@
 name: Generate Icons
 
 on:
-  pull_request:
+  push:
+    branches:
+      - main
     paths:
       - "vendors/**"
   workflow_dispatch:
@@ -18,22 +20,10 @@ jobs:
   changes:
     runs-on: ubuntu-latest
     outputs:
-      icon_sets: >-
-        ${{
-          github.event_name == 'workflow_dispatch'
-          && '["antdesign", "bootstrap", "hero", "lucide", "remix", "simple", "tabler"]'
-          || steps.filter.outputs.changes
-        }}
-      includes: ${{ steps.set-matrix.outputs.includes }}
+      matrix: ${{ steps.set-matrix.outputs.matrix }}
     steps:
       - name: Checkout code
         uses: actions/checkout@v6
-
-      - name: Create include matrix
-        id: set-matrix
-        run: |
-          JSON=$(cat .github/matrix/icon_set_matrix.json | jq -c '.')
-          echo "includes=$JSON" >> $GITHUB_OUTPUT
 
       - name: Filter paths
         uses: dorny/paths-filter@v3
@@ -48,16 +38,28 @@ jobs:
             simple: vendors/simple_icons/**
             tabler: vendors/tabler_icons/**
 
+      - name: Set matrix
+        id: set-matrix
+        run: |
+          FULL_MATRIX=$(cat .github/matrix/icon_set_matrix.json)
+
+          if [[ "${{ github.event_name }}" == "workflow_dispatch" ]]; then
+            echo "matrix=$FULL_MATRIX" >> "$GITHUB_OUTPUT"
+          else
+            CHANGES='${{ steps.filter.outputs.changes }}'
+            FILTERED=$(echo "$FULL_MATRIX" | jq -c --argjson changes "$CHANGES" 'map(select(.icon_set_name as $i | $changes | index($i)))')
+            echo "matrix=$FILTERED" >> "$GITHUB_OUTPUT"
+          fi
+
   generate:
     needs: changes
-    if: ${{ needs.changes.outputs.icon_sets != '[]' && needs.changes.outputs.icon_sets != '' || github.event_name == 'workflow_dispatch' }}
+    if: needs.changes.outputs.matrix != '[]' && needs.changes.outputs.matrix != ''
     runs-on: ubuntu-latest
     name: "${{ matrix.icon_set_name }}"
     strategy:
       fail-fast: false
       matrix:
-        icon_set_name: ${{ fromJSON(needs.changes.outputs.icon_sets) }}
-        include: ${{ fromJSON(needs.changes.outputs.includes) }}
+        include: ${{ fromJSON(needs.changes.outputs.matrix) }}
 
     steps:
       - name: Checkout code
@@ -176,4 +178,5 @@ jobs:
           add-paths: packages/${{ matrix.config.package_name }}/*
           sign-commits: true
           title: "feat(${{ matrix.config.package_name }}): bump version to ${{ steps.get-version.outputs.version }}"
+          commit-message: "bump ${{ matrix.config.package_name }} to version ${{ steps.get-version.outputs.version }}"
           branch: "feat/update-${{ matrix.config.package_name }}-${{ steps.get-version.outputs.version }}"
