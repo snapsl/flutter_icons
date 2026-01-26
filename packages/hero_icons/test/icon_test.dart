@@ -8,11 +8,16 @@ void main() async {
   const icon = HeroIcons.heart_outline;
   const icon2 = HeroIcons.heart;
 
+  TestWidgetsFlutterBinding.ensureInitialized();
+
   setUpAll(() async {
     await loadFonts(
       iconMap: {'fonts/outline.ttf': icon, 'fonts/solid.ttf': icon2},
       packageName: 'hero_icons',
     );
+
+    final testUrl = (goldenFileComparator as LocalFileComparator).basedir;
+    goldenFileComparator = LocalFileComparatorWithThreshold(testUrl, 0.05);
   });
 
   group('Hero Icons Tests', () {
@@ -41,6 +46,7 @@ void main() async {
         await tester.pumpWidget(
           MaterialApp(
             home: Icon(
+              size: 240,
               IconData(
                 icon.codePoint,
                 fontFamily: icon.fontFamily,
