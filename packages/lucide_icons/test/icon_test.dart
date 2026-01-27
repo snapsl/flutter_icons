@@ -15,7 +15,10 @@ void main() {
     );
 
     final testUrl = (goldenFileComparator as LocalFileComparator).basedir;
-    goldenFileComparator = LocalFileComparatorWithThreshold(testUrl, 0.05);
+    goldenFileComparator = TolerantGoldenFileComparator(
+      testUrl,
+      precisionTolerance: 0.01,
+    );
   });
 
   group('Lucide Icons Tests', () {
