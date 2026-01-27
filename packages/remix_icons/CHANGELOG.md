@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.2.0](https://github.com/snapsl/flutter_icons/compare/remix_icons-v0.1.0...remix_icons-v0.2.0) (2026-01-27)
+
+
+### Features
+
+* **remix_icons:** bump version to 4.9.0 ([#65](https://github.com/snapsl/flutter_icons/issues/65)) ([2147623](https://github.com/snapsl/flutter_icons/commit/2147623274b27e8461328cdf95c8dade7bfba0e5))
+
 ## [0.1.0](https://github.com/snapsl/flutter_icons/compare/remix_icons-v0.0.1...remix_icons-v0.1.0) (2026-01-21)
 
 
