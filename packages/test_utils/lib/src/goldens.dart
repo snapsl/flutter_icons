@@ -4,13 +4,24 @@ import 'dart:typed_data';
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
 
-/// The custom comparator class (Keep this outside main)
-class LocalFileComparatorWithThreshold extends LocalFileComparator {
-  /// Constructor
-  LocalFileComparatorWithThreshold(super.testFile, this.threshold);
+/// Golden file comparator with tolerance for minor differences.
+class TolerantGoldenFileComparator extends LocalFileComparator {
+  /// Creates a [TolerantGoldenFileComparator].
+  TolerantGoldenFileComparator(
+    Uri testFile, {
+    required this.precisionTolerance,
+  }) : assert(
+         0 <= precisionTolerance && precisionTolerance <= 1,
+         'precisionTolerance must be between 0 and 1',
+       ),
+       super(testFile = Uri.parse('$testFile/dummy.dart'));
 
-  /// Golden test threshold
-  final double threshold;
+  /// How much the golden image can differ from the test image.
+  ///
+  /// It is expected to be between 0 and 1.
+  /// Where 0 is no difference (the same image)
+  /// and 1 is the maximum difference (completely different images).
+  final double precisionTolerance;
 
   @override
   Future<bool> compare(Uint8List imageBytes, Uri golden) async {
@@ -19,20 +30,23 @@ class LocalFileComparatorWithThreshold extends LocalFileComparator {
       await getGoldenBytes(golden),
     );
 
-    if (!result.passed && result.diffPercent <= threshold) {
+    if (!result.passed && result.diffPercent <= precisionTolerance) {
       stdout.write(
         '''
-Soft Match: ${result.diffPercent * 100}% diff (within ${threshold * 100} % limit)
+Soft Match: ${result.diffPercent * 100}% diff (within ${precisionTolerance * 100} % limit)
 ''',
       );
+    }
+
+    final passed = result.passed || result.diffPercent <= precisionTolerance;
+
+    if (passed) {
+      result.dispose();
       return true;
     }
 
-    if (!result.passed) {
-      final error = await generateFailureOutput(result, golden, basedir);
-      throw FlutterError(error);
-    }
-
-    return result.passed;
+    final error = await generateFailureOutput(result, golden, basedir);
+    result.dispose();
+    throw FlutterError(error);
   }
 }
