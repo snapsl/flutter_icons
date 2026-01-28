@@ -18,7 +18,10 @@ void main() async {
     );
 
     final testUrl = (goldenFileComparator as LocalFileComparator).basedir;
-    goldenFileComparator = LocalFileComparatorWithThreshold(testUrl, 0.05);
+    goldenFileComparator = TolerantGoldenFileComparator(
+      testUrl,
+      precisionTolerance: 0.01,
+    );
   });
 
   group('Widget tests', () {
