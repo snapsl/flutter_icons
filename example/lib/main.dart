@@ -59,6 +59,7 @@ class ExamplePage extends StatelessWidget {
         child: ConstrainedBox(
           constraints: const BoxConstraints(maxWidth: 840),
           child: Card.outlined(
+            clipBehavior: Clip.hardEdge,
             child: ScrollConfiguration(
               behavior: ScrollConfiguration.of(
                 context,
@@ -70,8 +71,9 @@ class ExamplePage extends StatelessWidget {
                       Link(
                         uri: .parse('https://github.com/snapsl/flutter_icons'),
                         builder: (context, followLink) => IconButton(
+                          tooltip: 'Open in GitHub',
                           onPressed: followLink,
-                          icon: const Icon(SimpleIcons.github),
+                          icon: const Icon(SimpleIcons.github, size: 28),
                         ),
                       ),
                     ],
@@ -190,7 +192,7 @@ class _SliverIconSet extends StatelessWidget {
                 builder: (context, followLink) => ElevatedButton.icon(
                   onPressed: followLink,
                   label: Text(title),
-                  icon: Icon(Icons.adaptive.arrow_forward),
+                  icon: Icon(Icons.launch, size: 16),
                   iconAlignment: .end,
                 ),
               ),
