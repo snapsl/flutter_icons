@@ -10,7 +10,9 @@ permissions:
 jobs:
   auto_merge_ci:
     runs-on: ubuntu-latest
-    if: github.event.pull_request.user.login == 'snapsl-ci[bot]' && github.event.pull_request.head.repo.full_name == github.repository
+    if: |
+      github.event.pull_request.user.login == 'snapsl-ci[bot]' &&
+      github.event.pull_request.head.repo.full_name == github.repository
     steps:
       - name: Create GitHub App Token
         uses: actions/create-github-app-token@v2
