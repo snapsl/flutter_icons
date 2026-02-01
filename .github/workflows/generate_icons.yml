@@ -124,7 +124,7 @@ jobs:
             SVG_FIXED_PATH=$(mktemp -d)
             echo "The temporary directory is: $SVG_FIXED_PATH"
             
-            npx oslllo-svg-fixer --source "$SVG_DIR" --destination "$SVG_FIXED_PATH" --show-progress true
+            npx oslllo-svg-fixer --source "$SVG_DIR" --destination "$SVG_FIXED_PATH" --show-progress false
             npx svgtofont --sources "$SVG_FIXED_PATH" --output "node_modules/${{ matrix.config.vendor_dir }}/fonts" --fontName "${FONT_FILE%.ttf}"
           done
 
