@@ -11,7 +11,7 @@ void main() {
   setUpAll(() async {
     await loadFonts(
       iconMap: {'fonts/ionicons.ttf': icon},
-      packageName: 'iocnic_icons',
+      packageName: 'ionic_icons',
     );
 
     final testUrl = (goldenFileComparator as LocalFileComparator).basedir;
