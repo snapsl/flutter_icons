@@ -38,6 +38,7 @@ jobs:
             antdesign: vendors/ant_design_icons/**
             bootstrap: vendors/bootstrap_icons/**
             hero: vendors/hero_icons/**
+            ionic: vendors/ionic_icons/**
             lucide: vendors/lucide_icons/**
             remix: vendors/remix_icons/**
             simple: vendors/simple_icons/**
