@@ -37,6 +37,7 @@ dependencies:
     git:
       url: https://github.com/snapsl/flutter_icons.git
       path: packages/bootstrap_icons
+      tag_pattern: "bootstrap_icons-v{{version}}"
     version: latest
 ```
 
