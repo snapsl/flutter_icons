@@ -7,6 +7,17 @@ import 'package:xml/xml.dart';
 
 /// Generator for icon files
 class IconFileGenerator {
+  static const _symbolMap = {
+    '*': 'multiply',
+    '-': 'minus',
+    '+': 'plus',
+    '/': 'divide',
+    '=': 'equals',
+    '%': 'percent',
+    '&': 'and',
+    '@': 'at',
+  };
+
   final _buffer = StringBuffer();
 
   final List<String> _iconNames = [];
@@ -105,9 +116,7 @@ static const List<IconData> values = [${_iconNames.join(', ')}];
   String _createEncodedIcon(String path, bool filled) {
     final file = File(path);
 
-    if (!file.existsSync()) {
-      throw Exception('could not find ${file.path}');
-    }
+    if (!file.existsSync()) throw Exception('could not find ${file.path}');
 
     final document = XmlDocument.parse(file.readAsStringSync());
 
@@ -169,6 +178,11 @@ static const IconData $name = $iconDataClassName($iconUnicode);
 
   String _validateVariableName(String name) {
     var sanName = name;
+
+    // name is a symbol
+    if (_symbolMap.containsKey(name)) {
+      sanName = '${_symbolMap[name]!}_symbol';
+    }
 
     // adds 'icon' suffix to dart keywords
     if (dartKeywords.contains(sanName)) {
