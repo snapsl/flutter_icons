@@ -4,6 +4,7 @@ import 'package:ant_design_icons/ant_design_icons.dart';
 import 'package:bootstrap_icons/bootstrap_icons.dart';
 import 'package:flutter/material.dart';
 import 'package:hero_icons/hero_icons.dart';
+import 'package:ionic_icons/ionic_icons.dart';
 import 'package:lucide_icons/lucide_icons.dart';
 import 'package:remix_icons/remix_icons.dart';
 import 'package:simple_icons/simple_icons.dart';
@@ -50,6 +51,89 @@ class ExampleApp extends StatelessWidget {
 }
 
 class ExamplePage extends StatelessWidget {
+  static const _iconSets = [
+    _SliverIconSet(
+      title: 'Ant Design Icons',
+      uri: 'https://ant.design/components/icon/',
+      iconList: [
+        AntDesignIcons.antDesign_outlined,
+        AntDesignIcons.file_filled,
+        AntDesignIcons.camera_outlined,
+        AntDesignIcons.bug_filled,
+      ],
+    ),
+    _SliverIconSet(
+      title: 'Bootstrap Icons',
+      uri: 'https://icons.getbootstrap.com',
+      iconList: [
+        BootstrapIcons.bootstrap,
+        BootstrapIcons.activity,
+        BootstrapIcons.dashCircleFill,
+        BootstrapIcons.magic,
+      ],
+    ),
+    _SliverIconSet(
+      title: 'Hero Icons',
+      uri: 'https://heroicons.com',
+      iconList: [
+        HeroIcons.shieldCheck_outline,
+        HeroIcons.map,
+        HeroIcons.heart_outline,
+        HeroIcons.adjustmentsHorizontal,
+      ],
+    ),
+    _SliverIconSet(
+      title: 'Ionic Icons',
+      uri: 'https://ionic.io/ionicons',
+      iconList: [
+        IonicIcons.logoIonic,
+        IonicIcons.home,
+        IonicIcons.camera,
+        IonicIcons.airplane,
+      ],
+    ),
+    _SliverIconSet(
+      title: 'Lucide Icons',
+      uri: 'https://lucide.dev/icons/',
+      iconList: [
+        LucideIcons.album,
+        LucideIcons.ban,
+        LucideIcons.diamond,
+        LucideIcons.squareMenu,
+      ],
+    ),
+    _SliverIconSet(
+      title: 'Remix Icons',
+      uri: 'https://remixicon.com/',
+      iconList: [
+        RemixIcons.remixFill,
+        RemixIcons.accountPinBoxFill,
+        RemixIcons.tentLine,
+        RemixIcons.chat3Fill,
+      ],
+    ),
+    _SliverIconSet(
+      title: 'Simple Icons',
+      uri: 'https://simpleicons.org',
+      iconList: [
+        SimpleIcons.simpleicons,
+        SimpleIcons.cesium,
+        SimpleIcons.flutter,
+        SimpleIcons.homeassistant,
+      ],
+    ),
+    _SliverIconSet(
+      title: 'Tabler Icons',
+      uri: 'https://tabler.io/icons',
+      iconList: [
+        TablerIcons.brandTabler,
+        TablerIcons.mail_filled,
+        TablerIcons.album,
+        TablerIcons.sun_filled,
+      ],
+    ),
+  ];
+
   const ExamplePage({super.key});
 
   @override
@@ -76,6 +160,10 @@ class ExamplePage extends StatelessWidget {
                           icon: const Icon(SimpleIcons.github, size: 28),
                         ),
                       ),
+                      TextButton(
+                        onPressed: () => showAboutDialog(context: context),
+                        child: const Text('About'),
+                      ),
                     ],
                     expandedHeight: 120,
                     flexibleSpace: const FlexibleSpaceBar(
@@ -83,76 +171,7 @@ class ExamplePage extends StatelessWidget {
                       centerTitle: true,
                     ),
                   ),
-                  const _SliverIconSet(
-                    title: 'Ant Design Icons',
-                    uri: 'https://ant.design/components/icon/',
-                    iconList: [
-                      AntDesignIcons.antDesign_outlined,
-                      AntDesignIcons.file_filled,
-                      AntDesignIcons.camera_outlined,
-                      AntDesignIcons.bug_filled,
-                    ],
-                  ),
-                  const _SliverIconSet(
-                    title: 'Bootstrap Icons',
-                    uri: 'https://icons.getbootstrap.com',
-                    iconList: [
-                      BootstrapIcons.bootstrap,
-                      BootstrapIcons.activity,
-                      BootstrapIcons.dashCircleFill,
-                      BootstrapIcons.magic,
-                    ],
-                  ),
-                  const _SliverIconSet(
-                    title: 'Hero Icons',
-                    uri: 'https://heroicons.com',
-                    iconList: [
-                      HeroIcons.homeModern,
-                      HeroIcons.heart_outline,
-                      HeroIcons.adjustmentsHorizontal,
-                      HeroIcons.map,
-                    ],
-                  ),
-                  const _SliverIconSet(
-                    title: 'Lucide Icons',
-                    uri: 'https://lucide.dev/icons/',
-                    iconList: [
-                      LucideIcons.album,
-                      LucideIcons.ban,
-                      LucideIcons.diamond,
-                      LucideIcons.squareMenu,
-                    ],
-                  ),
-                  const _SliverIconSet(
-                    title: 'Remix Icons',
-                    uri: 'https://remixicon.com/',
-                    iconList: [
-                      RemixIcons.remixFill,
-                      RemixIcons.accountPinBoxFill,
-                      RemixIcons.tentLine,
-                      RemixIcons.chat3Fill,
-                    ],
-                  ),
-                  const _SliverIconSet(
-                    title: 'Simple Icons',
-                    uri: 'https://simpleicons.org',
-                    iconList: [
-                      SimpleIcons.simpleicons,
-                      SimpleIcons.cesium,
-                      SimpleIcons.flutter,
-                      SimpleIcons.homeassistant,
-                    ],
-                  ),
-                  const _SliverIconSet(
-                    title: 'Tabler Icons',
-                    uri: 'https://tabler.io/icons',
-                    iconList: [
-                      TablerIcons.brandTabler,
-                      TablerIcons.mail_filled,
-                      TablerIcons.album,
-                      TablerIcons.sun_filled,
-                    ],
-                  ),
+                  ..._iconSets,
                 ],
               ),
             ),

@@ -10,6 +10,7 @@ workspace:
   - packages/bootstrap_icons
   - packages/generator
   - packages/hero_icons
+  - packages/ionic_icons
   - packages/lucide_icons
   - packages/remix_icons
   - packages/simple_icons

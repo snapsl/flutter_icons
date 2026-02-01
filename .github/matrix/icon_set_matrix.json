@@ -49,6 +49,20 @@
     }
   },
   {
+    "icon_set_name": "ionic",
+    "config": {
+      "package_name": "ionic_icons",
+      "vendor_dir": "ionicons",
+      "svg_to_font": true,
+      "fonts": [
+        {
+          "file": "ionicons.ttf",
+          "svg_dir": "dist/svg"
+        }
+      ]
+    }
+  },
+  {
     "icon_set_name": "lucide",
     "config": {
       "package_name": "lucide_icons",

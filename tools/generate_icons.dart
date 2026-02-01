@@ -25,6 +25,7 @@ void main(List<String> arguments) {
       IconSet.antdesign => _generateAntDesign(),
       IconSet.bootstrap => _generateBootstrap(),
       IconSet.hero => _generateHero(),
+      IconSet.ionic => _generateIonic(),
       IconSet.lucide => _generateLucide(),
       IconSet.remix => _generateRemix(),
       IconSet.simple => _generateSimple(),
@@ -37,38 +38,6 @@ void main(List<String> arguments) {
       ..writeln(e)
       ..writeln('Usage:\n${parser.usage}');
   }
-}
-
-void _generateHero() {
-  const path = './vendors/hero_icons/node_modules/heroicons/';
-
-  final fontsConfigFile = File('$path/fonts/outline.ttx');
-  final fontsConfigFile2 = File('$path/fonts/solid.ttx');
-
-  final outputFile = File('./packages/hero_icons/lib/src/icon_data.g.dart');
-
-  IconFileGenerator()
-    ..addImports()
-    ..addClassDefinition(
-      iconClassName: 'HeroIcons',
-      url: 'https://heroicons.com/solid',
-    )
-    ..addFontConfigFile(
-      fontsConfigFile,
-      iconSvgPath: '$path/24/outline',
-      brand: 'Heroicons',
-      iconDataClassName: 'HeroOutlineIconData',
-      suffix: 'outline',
-    )
-    ..addFontConfigFile(
-      fontsConfigFile2,
-      iconDataClassName: 'HeroSolidIconData',
-      brand: 'Heroicons',
-      iconSvgPath: '$path/24/solid',
-      filled: true,
-    )
-    ..build()
-    ..writeToFile(outputFile);
 }
 
 void _generateAntDesign() {
@@ -130,6 +99,62 @@ void _generateBootstrap() {
       brand: 'Bootstrap',
       iconSvgPath: '$path/icons',
       iconDataClassName: 'BootstrapIconData',
+      filled: true,
+    )
+    ..build()
+    ..writeToFile(outputFile);
+}
+
+void _generateHero() {
+  const path = './vendors/hero_icons/node_modules/heroicons/';
+
+  final fontsConfigFile = File('$path/fonts/outline.ttx');
+  final fontsConfigFile2 = File('$path/fonts/solid.ttx');
+
+  final outputFile = File('./packages/hero_icons/lib/src/icon_data.g.dart');
+
+  IconFileGenerator()
+    ..addImports()
+    ..addClassDefinition(
+      iconClassName: 'HeroIcons',
+      url: 'https://heroicons.com/solid',
+    )
+    ..addFontConfigFile(
+      fontsConfigFile,
+      iconSvgPath: '$path/24/outline',
+      brand: 'Heroicons',
+      iconDataClassName: 'HeroOutlineIconData',
+      suffix: 'outline',
+    )
+    ..addFontConfigFile(
+      fontsConfigFile2,
+      iconDataClassName: 'HeroSolidIconData',
+      brand: 'Heroicons',
+      iconSvgPath: '$path/24/solid',
+      filled: true,
+    )
+    ..build()
+    ..writeToFile(outputFile);
+}
+
+void _generateIonic() {
+  const path = './vendors/ionic_icons/node_modules/ionicons';
+
+  final fontsConfigFile = File('$path/fonts/ionicons.ttx');
+
+  final outputFile = File('./packages/ionic_icons/lib/src/icon_data.g.dart');
+
+  IconFileGenerator()
+    ..addImports()
+    ..addClassDefinition(
+      iconClassName: 'IonicIcons',
+      url: 'https://ionic.io/ionicons',
+    )
+    ..addFontConfigFile(
+      fontsConfigFile,
+      brand: 'Ionicons',
+      iconSvgPath: '$path/dist/svg',
+      iconDataClassName: 'IonicIconData',
       filled: true,
     )
     ..build()
@@ -247,10 +272,11 @@ enum IconSet {
   antdesign('Ant Design Icons'),
   bootstrap('Bootstrap Icons'),
   hero('Hero Icons'),
+  ionic('Ionic Icons'),
   lucide('Lucide Icons'),
   remix('Remix Icons'),
   simple('Simple Icons'),
-  tabler('Tabler Icons')
+  tabler('Tabler Icons'),
   ;
 
   const IconSet(this.description);

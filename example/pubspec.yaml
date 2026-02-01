@@ -17,6 +17,7 @@ dependencies:
   flutter:
     sdk: flutter
   hero_icons:
+  ionic_icons:
   lucide_icons:
   remix_icons:
   simple_icons:

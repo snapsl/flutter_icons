@@ -24,6 +24,9 @@ updates:
       hero-icons:
         patterns:
           - "hero*"
+      ionic-icons:
+        patterns:
+          - "ionic*"
       lucide-icons:
         patterns:
           - "lucide*"
