@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.3.1](https://github.com/snapsl/flutter_icons/compare/remix_icons-v0.3.0...remix_icons-v0.3.1) (2026-02-01)
+
+
+### Bug Fixes
+
+* LICENSE format ([0d19e13](https://github.com/snapsl/flutter_icons/commit/0d19e13d1e709d6cf694be9cfc24927feb547c2a))
+
 ## [0.3.0](https://github.com/snapsl/flutter_icons/compare/remix_icons-v0.2.0...remix_icons-v0.3.0) (2026-01-30)
 
 
