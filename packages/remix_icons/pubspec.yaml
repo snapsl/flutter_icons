@@ -1,7 +1,7 @@
 name: remix_icons
 description: "Remix icons package"
 publish_to: none
-version: 0.3.0
+version: 0.3.1
 repository: https://github.com/snapsl/flutter_icons
 issue_tracker: https://github.com/snapsl/flutter_icons/issues
 
