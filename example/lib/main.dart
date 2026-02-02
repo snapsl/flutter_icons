@@ -160,10 +160,6 @@ class ExamplePage extends StatelessWidget {
                           icon: const Icon(SimpleIcons.github, size: 28),
                         ),
                       ),
-                      TextButton(
-                        onPressed: () => showAboutDialog(context: context),
-                        child: const Text('About'),
-                      ),
                     ],
                     expandedHeight: 120,
                     flexibleSpace: const FlexibleSpaceBar(
