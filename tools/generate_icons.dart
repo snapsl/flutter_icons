@@ -114,7 +114,7 @@ void _generateHero() {
     ..addImports()
     ..addClassDefinition(
       iconClassName: 'HeroIcons',
-      url: 'https://heroicons.com',
+      url: 'https://heroicons.com/',
     )
     ..addFontConfigFile(
       fontsConfigFile,

@@ -74,7 +74,7 @@ class ExamplePage extends StatelessWidget {
     ),
     _SliverIconSet(
       title: 'Hero Icons',
-      uri: 'https://heroicons.com',
+      uri: 'https://heroicons.com/',
       iconList: [
         HeroIcons.shieldCheck_outline,
         HeroIcons.map,
