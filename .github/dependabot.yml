@@ -30,6 +30,9 @@ updates:
       lucide-icons:
         patterns:
           - "lucide*"
+      radix-icons:
+        patterns:
+          - "@radix*"
       remix-icons:
         patterns:
           - "remix*"

@@ -76,6 +76,24 @@
     }
   },
   {
+    "icon_set_name": "radix",
+    "config": {
+      "package_name": "radix_icons",
+      "vendor_dir": "@radix-ui/react-icons",
+      "repository": {
+        "slug": "radix-ui/icons",
+        "tag": "@radix-ui/react-icons@",
+        "svg_dir": "packages/radix-icons/icons"
+      },
+      "fonts": [
+        {
+          "file": "radix.ttf",
+          "svg_dir": "icons"
+        }
+      ]
+    }
+  },
+  {
     "icon_set_name": "remix",
     "config": {
       "package_name": "remix_icons",
