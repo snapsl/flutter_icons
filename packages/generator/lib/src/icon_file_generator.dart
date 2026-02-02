@@ -42,14 +42,12 @@ abstract final class $iconClassName {
   /// - [iconDataClassName]: Matching IconData class name
   /// - [iconSvgPath]: Used to create icons in doc strings
   /// - [brand]: Brand name of the icon package
-  /// - [filled]: boolean to fill doc string icon
   /// - [suffix]: optional suffix for generated class members
   void addFontConfigFile(
     File file, {
     required String iconDataClassName,
     required String iconSvgPath,
     required String brand,
-    bool filled = false,
     String suffix = '',
   }) {
     final mimeType = file.path.split('.').last;
@@ -68,7 +66,6 @@ abstract final class $iconClassName {
       iconSvgPath,
       suffix,
       brand,
-      filled,
     );
   }
 
@@ -113,10 +110,8 @@ static const List<IconData> values = [${_iconNames.join(', ')}];
     file.writeAsStringSync(_buffer.toString());
   }
 
-  String _createEncodedIcon(String path, bool filled) {
+  String _createEncodedIcon(String path) {
     final file = File(path);
-
-    if (!file.existsSync()) throw Exception('could not find ${file.path}');
 
     final document = XmlDocument.parse(file.readAsStringSync());
 
@@ -125,9 +120,24 @@ static const List<IconData> values = [${_iconNames.join(', ')}];
       ..setAttribute('width', '24')
       ..setAttribute('xmlns', 'http://www.w3.org/2000/svg');
 
-    !filled
-        ? document.rootElement.setAttribute('stroke', 'gray')
-        : document.rootElement.setAttribute('fill', 'gray');
+    const color = 'gray';
+
+    var foundElement = false;
+
+    for (final node in document.findAllElements('*')) {
+      if (node.getAttribute('stroke') == 'currentColor') {
+        node.setAttribute('stroke', color);
+        foundElement = true;
+      }
+
+      if (node.getAttribute('fill') == 'currentColor') {
+        node.setAttribute('fill', color);
+        foundElement = true;
+      }
+    }
+
+    // fallback (just fill the icon)
+    if (!foundElement) document.rootElement.setAttribute('fill', color);
 
     final base64Encoded = base64Encode(utf8.encode(document.toXmlString()));
 
@@ -140,7 +150,6 @@ static const List<IconData> values = [${_iconNames.join(', ')}];
     String iconSvgPath,
     String suffix,
     String brand,
-    bool filled,
   ) {
     iconsData.forEach((String iconName, String iconUnicode) {
       final parsedNamed = _parseName(iconName);
@@ -148,10 +157,7 @@ static const List<IconData> values = [${_iconNames.join(', ')}];
 
       _iconNames.add(name);
 
-      final iconEncoded = _createEncodedIcon(
-        '$iconSvgPath/$iconName.svg',
-        filled,
-      );
+      final iconEncoded = _createEncodedIcon('$iconSvgPath/$iconName.svg');
 
       _buffer.write('''
 /// $iconEncoded

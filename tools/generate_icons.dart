@@ -64,7 +64,6 @@ void _generateAntDesign() {
       brand: 'Ant Design',
       iconSvgPath: '$iconsPath/inline-svg/filled',
       iconDataClassName: 'AntDesignFilledIconData',
-      filled: true,
       suffix: 'filled',
     )
     ..addFontConfigFile(
@@ -72,7 +71,6 @@ void _generateAntDesign() {
       brand: 'Ant Design',
       iconSvgPath: '$iconsPath/inline-svg/outlined',
       iconDataClassName: 'AntDesignOutlinedIconData',
-      filled: true,
       suffix: 'outlined',
     )
     ..build()
@@ -99,14 +97,13 @@ void _generateBootstrap() {
       brand: 'Bootstrap',
       iconSvgPath: '$path/icons',
       iconDataClassName: 'BootstrapIconData',
-      filled: true,
     )
     ..build()
     ..writeToFile(outputFile);
 }
 
 void _generateHero() {
-  const path = './vendors/hero_icons/node_modules/heroicons/';
+  const path = './vendors/hero_icons/node_modules/heroicons';
 
   final fontsConfigFile = File('$path/fonts/outline.ttx');
   final fontsConfigFile2 = File('$path/fonts/solid.ttx');
@@ -117,7 +114,7 @@ void _generateHero() {
     ..addImports()
     ..addClassDefinition(
       iconClassName: 'HeroIcons',
-      url: 'https://heroicons.com/solid',
+      url: 'https://heroicons.com',
     )
     ..addFontConfigFile(
       fontsConfigFile,
@@ -131,7 +128,6 @@ void _generateHero() {
       iconDataClassName: 'HeroSolidIconData',
       brand: 'Heroicons',
       iconSvgPath: '$path/24/solid',
-      filled: true,
     )
     ..build()
     ..writeToFile(outputFile);
@@ -155,7 +151,6 @@ void _generateIonic() {
       brand: 'Ionicons',
       iconSvgPath: '$path/dist/svg',
       iconDataClassName: 'IonicIconData',
-      filled: true,
     )
     ..build()
     ..writeToFile(outputFile);
@@ -202,7 +197,6 @@ void _generateRemix() {
       brand: 'Remix',
       iconSvgPath: '$path/icons',
       iconDataClassName: 'RemixIconData',
-      filled: true,
     )
     ..build()
     ..writeToFile(outputFile);
@@ -227,7 +221,6 @@ void _generateSimple() {
       brand: 'Simple',
       iconSvgPath: '$iconsPath/icons',
       iconDataClassName: 'SimpleIconData',
-      filled: true,
     )
     ..build()
     ..writeToFile(outputFile);
@@ -261,7 +254,6 @@ void _generateTabler() {
       iconDataClassName: 'TablerFilledIconData',
       brand: 'Tabler',
       iconSvgPath: '$iconsPath/icons/filled/',
-      filled: true,
       suffix: 'filled',
     )
     ..build()
