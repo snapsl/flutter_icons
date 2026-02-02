@@ -80,6 +80,7 @@
     "config": {
       "package_name": "radix_icons",
       "vendor_dir": "@radix-ui/react-icons",
+      "svg_to_font": true,
       "repository": {
         "slug": "radix-ui/icons",
         "tag": "@radix-ui/react-icons@",
