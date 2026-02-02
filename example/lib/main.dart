@@ -6,6 +6,7 @@ import 'package:flutter/material.dart';
 import 'package:hero_icons/hero_icons.dart';
 import 'package:ionic_icons/ionic_icons.dart';
 import 'package:lucide_icons/lucide_icons.dart';
+import 'package:radix_icons/radix_icons.dart';
 import 'package:remix_icons/remix_icons.dart';
 import 'package:simple_icons/simple_icons.dart';
 import 'package:tabler_icons/tabler_icons.dart';
@@ -100,6 +101,16 @@ class ExamplePage extends StatelessWidget {
         LucideIcons.ban,
         LucideIcons.diamond,
         LucideIcons.squareMenu,
+      ],
+    ),
+    _SliverIconSet(
+      title: 'Radix Icons',
+      uri: 'https://www.radix-ui.com/icons',
+      iconList: [
+        RadixIcons.crumpledPaper,
+        RadixIcons.lockClosed,
+        RadixIcons.aspectRatio,
+        RadixIcons.copy,
       ],
     ),
     _SliverIconSet(

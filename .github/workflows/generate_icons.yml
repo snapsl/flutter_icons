@@ -82,6 +82,21 @@ jobs:
           VERSION=$(npm list ${{ matrix.config.vendor_dir }} --depth=0 --json | jq -er '.dependencies."${{ matrix.config.vendor_dir }}".version')
           echo "version=$VERSION" >> "$GITHUB_OUTPUT"
 
+      - name: Checkout external repository
+        if: matrix.config.repository
+        uses: actions/checkout@v6
+        with:
+          repository: ${{ matrix.config.repository.slug }}
+          ref: ${{ matrix.config.repository.tag }}${{ steps.get-version.outputs.version }}
+          path: external-repo
+
+      - name: Copy SVGs to vendor
+        if: matrix.config.repository
+        run: |
+          DEST_DIR="./vendors/${{ matrix.config.package_name }}/node_modules/${{ matrix.config.vendor_dir }}/icons"
+          mkdir -p "$DEST_DIR"
+          cp -r ./external-repo/${{ matrix.config.repository.svg_dir }}/* "$DEST_DIR"
+
       - name: Setup Python
         uses: actions/setup-python@v6
         with:

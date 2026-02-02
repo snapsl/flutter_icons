@@ -12,6 +12,7 @@ workspace:
   - packages/hero_icons
   - packages/ionic_icons
   - packages/lucide_icons
+  - packages/radix_icons
   - packages/remix_icons
   - packages/simple_icons
   - packages/tabler_icons

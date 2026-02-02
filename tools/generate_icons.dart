@@ -27,6 +27,7 @@ void main(List<String> arguments) {
       IconSet.hero => _generateHero(),
       IconSet.ionic => _generateIonic(),
       IconSet.lucide => _generateLucide(),
+      IconSet.radix => _generateRadix(),
       IconSet.remix => _generateRemix(),
       IconSet.simple => _generateSimple(),
       IconSet.tabler => _generateTabler(),
@@ -179,6 +180,29 @@ void _generateLucide() {
     ..writeToFile(outputFile);
 }
 
+void _generateRadix() {
+  const path = './vendors/radix_icons/node_modules/@radix-ui/react-icons';
+
+  final fontsConfigFile = File('$path/fonts/radix.ttx');
+
+  final outputFile = File('./packages/radix_icons/lib/src/icon_data.g.dart');
+
+  IconFileGenerator()
+    ..addImports()
+    ..addClassDefinition(
+      iconClassName: 'RadixIcons',
+      url: 'https://icons.radix-ui.com/icons',
+    )
+    ..addFontConfigFile(
+      fontsConfigFile,
+      brand: 'Radix',
+      iconSvgPath: '$path/icons',
+      iconDataClassName: 'RadixIconData',
+    )
+    ..build()
+    ..writeToFile(outputFile);
+}
+
 void _generateRemix() {
   const path = './vendors/remix_icons/node_modules/remixicon';
 
@@ -266,6 +290,7 @@ enum IconSet {
   hero('Hero Icons'),
   ionic('Ionic Icons'),
   lucide('Lucide Icons'),
+  radix('Radix Icons'),
   remix('Remix Icons'),
   simple('Simple Icons'),
   tabler('Tabler Icons'),
