@@ -151,7 +151,7 @@ static const List<IconData> values = [${_iconNames.join(', ')}];
     String suffix,
     String brand,
   ) {
-    iconsData.forEach((String iconName, String iconUnicode) {
+    iconsData.forEach((iconName, iconUnicode) {
       final parsedNamed = _parseName(iconName);
       final name = suffix.isEmpty ? parsedNamed : '${parsedNamed}_$suffix';
 
@@ -210,22 +210,27 @@ static const IconData $name = $iconDataClassName($iconUnicode);
       throw const FormatException('Could not parse XML');
     }
 
-    final relevantChild = cmap.children.firstWhere(
-      (xmlNode) =>
-          xmlNode.getAttribute('platformID') == '0' &&
-          xmlNode.getAttribute('platEncID') == '3' &&
-          xmlNode.getAttribute('language') == '0',
+    final cmapTable = cmap.children.firstWhere(
+      (node) =>
+          node.getAttribute('platformID') == '0' &&
+          node.getAttribute('platEncID') == '3' &&
+          node.getAttribute('language') == '0',
       orElse: () =>
           throw const FormatException('Required cmap table not found.'),
     );
 
-    final mapList = relevantChild.children.whereType<XmlElement>().toList();
+    final icons = Map.fromEntries(
+      cmapTable.findElements('map').map((node) {
+        final name = node.getAttribute('name');
+        final code = node.getAttribute('code');
 
-    final icons = Map<String, String>.fromEntries(
-      mapList.map((XmlElement e) {
-        final code = e.attributes.first.value;
-        final name = e.attributes.last.value;
-        return MapEntry<String, String>(name, code);
+        if (name == null || code == null) {
+          throw const FormatException(
+            'Malformed <map> node: missing name or code',
+          );
+        }
+
+        return MapEntry(name, code);
       }),
     );
 

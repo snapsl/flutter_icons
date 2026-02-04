@@ -14,15 +14,13 @@ void main() {
       packageName: 'simple_icons',
     );
 
-    final testUrl = (goldenFileComparator as LocalFileComparator).basedir;
     goldenFileComparator = TolerantGoldenFileComparator(
-      testUrl,
       precisionTolerance: 0.01,
     );
   });
 
   group('Simple Icons Tests', () {
-    testWidgets('Widget test', (WidgetTester tester) async {
+    testWidgets('Widget test', (tester) async {
       await tester.pumpWidget(const MaterialApp(home: Icon(icon)));
 
       final iconFinder = find.byIcon(icon);
@@ -34,7 +32,7 @@ void main() {
       expect(iconWidget.icon!.fontFamily, 'SimpleIcons');
     });
 
-    testWidgets('Golden test', (WidgetTester tester) async {
+    testWidgets('Golden test', (tester) async {
       await tester.pumpWidget(
         MaterialApp(
           home: Icon(

@@ -17,18 +17,14 @@ void main() async {
       packageName: 'tabler_icons',
     );
 
-    final testUrl = (goldenFileComparator as LocalFileComparator).basedir;
     goldenFileComparator = TolerantGoldenFileComparator(
-      testUrl,
       precisionTolerance: 0.01,
     );
   });
 
   group('Widget tests', () {
     for (final icon in icons) {
-      testWidgets('Widget test ${icon.fontFamily}', (
-        WidgetTester tester,
-      ) async {
+      testWidgets('Widget test ${icon.fontFamily}', (tester) async {
         await tester.pumpWidget(MaterialApp(home: Icon(icon)));
 
         final iconFinder = find.byIcon(icon);
@@ -44,9 +40,7 @@ void main() async {
 
   group('Golden tests', () {
     for (final icon in icons) {
-      testWidgets('Golden test ${icon.fontFamily}', (
-        WidgetTester tester,
-      ) async {
+      testWidgets('Golden test ${icon.fontFamily}', (tester) async {
         await tester.pumpWidget(
           MaterialApp(
             home: Icon(
