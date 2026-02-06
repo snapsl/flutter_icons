@@ -1,6 +1,6 @@
 {
-  "outSVGVue": false,
   "outSVGReact": false,
+  "outSVGVue": false,
   "outSVGPath": false,
   "css": false
 }

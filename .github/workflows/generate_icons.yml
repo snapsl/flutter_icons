@@ -48,7 +48,7 @@ jobs:
             echo "matrix=$FULL_MATRIX" >> "$GITHUB_OUTPUT"
           else
             CHANGES='${{ steps.filter.outputs.changes }}'
-            FILTERED=$(echo "$FULL_MATRIX" | jq -c --argjson changes "$CHANGES" 'map(select(.icon_set_name as $i | $changes | index($i)))')
+            FILTERED=$(echo "$FULL_MATRIX" | jq -c --argjson changes "$CHANGES" 'map(select(.id as $id | $changes | index($id)))')
             echo "matrix=$FILTERED" >> "$GITHUB_OUTPUT"
           fi
           echo $matrix
@@ -57,7 +57,7 @@ jobs:
     needs: changes
     if: needs.changes.outputs.matrix != '[]' && needs.changes.outputs.matrix != ''
     runs-on: ubuntu-latest
-    name: "${{ matrix.icon_set_name }}"
+    name: "${{ matrix.id }}"
     strategy:
       fail-fast: false
       matrix:
@@ -73,30 +73,30 @@ jobs:
           node-version: 24
 
       - name: Install npm dependencies
-        working-directory: ./vendors/${{ matrix.config.package_name }}
+        working-directory: ${{ matrix.vendor_path }}/${{ matrix.package_name }}
         run: npm ci
 
       - name: Get vendor package version
         id: get-version
-        working-directory: ./vendors/${{ matrix.config.package_name }}
+        working-directory: ${{ matrix.vendor_path }}/${{ matrix.package_name }}
         run: |
-          VERSION=$(npm list ${{ matrix.config.vendor_dir }} --depth=0 --json | jq -er '.dependencies."${{ matrix.config.vendor_dir }}".version')
+          VERSION=$(npm list ${{ matrix.vendor_name }} --depth=0 --json | jq -er '.dependencies."${{ matrix.vendor_name }}".version')
           echo "version=$VERSION" >> "$GITHUB_OUTPUT"
 
       - name: Checkout external repository
-        if: matrix.config.repository
+        if: matrix.repository
         uses: actions/checkout@v6
         with:
-          repository: ${{ matrix.config.repository.slug }}
-          ref: ${{ matrix.config.repository.tag }}${{ steps.get-version.outputs.version }}
+          repository: ${{ matrix.repository.slug }}
+          ref: ${{ matrix.repository.tag }}${{ steps.get-version.outputs.version }}
           path: external-repo
 
       - name: Copy SVGs to vendor
-        if: matrix.config.repository
+        if: matrix.repository
         run: |
-          DEST_DIR="./vendors/${{ matrix.config.package_name }}/node_modules/${{ matrix.config.vendor_dir }}/icons"
+          DEST_DIR="${{ matrix.vendor_path }}/${{ matrix.package_name }}/${{ matrix.fonts[0].svg_path }}"
           mkdir -p "$DEST_DIR"
-          cp -r ./external-repo/${{ matrix.config.repository.svg_dir }}/* "$DEST_DIR"
+          cp -r ./external-repo/${{ matrix.repository.svg_path }}/* "$DEST_DIR"
 
       - name: Setup Python
         uses: actions/setup-python@v6
@@ -108,40 +108,40 @@ jobs:
         run: pip install -r requirements.txt
 
       - name: Flatten SVG directories
-        if: matrix.config.flatten_svg_dirs == true
-        working-directory: ./vendors/${{ matrix.config.package_name }}
+        if: matrix.flatten_svg_dirs == true
+        working-directory: ${{ matrix.vendor_path }}/${{ matrix.package_name }}
+        env:
+          FONTS_JSON: ${{ toJSON(matrix.fonts) }}
         run: |
-          for svg_dir in ${{ join(matrix.config.fonts.*.svg_dir, ' ') }}; do
-            SVG_DIR=$(find . -type d -path "*${{ matrix.config.vendor_dir }}/${svg_dir}")
-            echo $SVG_DIR
-            find "$SVG_DIR" -mindepth 2 -type f -name "*.svg" -exec mv -t "$SVG_DIR" {} +
+          echo "$FONTS_JSON" | jq -c '.[]' | while read -r font_item; do
+            SVG_PATH=$(echo "$font_item" | jq -r '.svg_path')
+            find "$SVG_PATH" -mindepth 2 -type f -name "*.svg" -exec mv -t "$SVG_PATH" {} +
           done
 
       - name: Install svgtofont, SVG Fixer
-        if: matrix.config.svg_to_font == true
+        if: matrix.svg_to_font == true
         run: npm ci
 
       - name: Convert SVG to Font
-        if: matrix.config.svg_to_font == true
-        working-directory: ./vendors/${{ matrix.config.package_name }}
+        if: matrix.svg_to_font == true
         env:
-          FONTS_JSON: ${{ toJSON(matrix.config.fonts) }}
+          FONTS_JSON: ${{ toJSON(matrix.fonts) }}
         run: |
           echo "$FONTS_JSON" | jq -c '.[]' | while read -r font_item; do
-            SVG_DIR=$(echo "$font_item" | jq -r '.svg_dir')
+            SVG_PATH="${{ matrix.vendor_path }}/${{ matrix.package_name }}/$(echo "$font_item" | jq -r '.svg_path')"
             FONT_FILE=$(echo "$font_item" | jq -r '.file')
-            SVG_DIR=$(find . -type d -path "*${{ matrix.config.vendor_dir }}/${SVG_DIR}")
+            FONT_PATH="${{ matrix.vendor_path }}/${{ matrix.package_name }}/$(echo "$font_item" | jq -r '.font_path')"
             
             SVG_FIXED_PATH=$(mktemp -d)
             echo "The temporary directory is: $SVG_FIXED_PATH"
             
-            npx oslllo-svg-fixer --source "$SVG_DIR" --destination "$SVG_FIXED_PATH" --show-progress false
-            npx svgtofont --sources "$SVG_FIXED_PATH" --output "node_modules/${{ matrix.config.vendor_dir }}/fonts" --fontName "${FONT_FILE%.ttf}"
+            npx oslllo-svg-fixer --source "$SVG_PATH" --destination "$SVG_FIXED_PATH" --show-progress false
+            npx svgtofont --sources "$SVG_FIXED_PATH" --output "$FONT_PATH" --fontName "${FONT_FILE%.ttf}"
           done
 
       - name: Convert WOFF to TTF
-        if: matrix.config.convert_from_woff == true
-        working-directory: ./vendors/${{ matrix.config.package_name }}
+        if: matrix.convert_from_woff == true
+        working-directory: ${{ matrix.vendor_path }}/${{ matrix.package_name }}
         run: |
           WOFF=$(find . -name "*.woff")
           for woff in $WOFF; do
@@ -149,24 +149,27 @@ jobs:
             ttx ${woff%.woff}.ttx
           done
 
-      - name: Set Paths
-        id: set-paths
+      - name: Generate ttx for ${{ matrix.id }}
+        working-directory: ${{ matrix.vendor_path }}/${{ matrix.package_name }}
+        env:
+          FONTS_JSON: ${{ toJSON(matrix.fonts) }}
         run: |
-          FONT_PATH=$(find "vendors/${{ matrix.config.package_name }}/node_modules" -name "*.ttf" -exec dirname {} \; | head -n 1)
-          SVG_PATH_BASE=$(find "vendors/${{ matrix.config.package_name }}/node_modules" -type d -path "*${{ matrix.config.vendor_dir }}" | head -n 1)
-          echo "font_path=$FONT_PATH" >> "$GITHUB_OUTPUT"
-          echo "svg_path_base=$SVG_PATH_BASE" >> "$GITHUB_OUTPUT"
-
-      - name: Generate ttx for ${{ matrix.icon_set_name }}
-        run: |
-          for font in ${{ join(matrix.config.fonts.*.file, ' ') }}; do
-            ttx -t cmap "${{ steps.set-paths.outputs.font_path }}/${font}"
+          echo "$FONTS_JSON" | jq -c '.[]' | while read -r font_item; do
+            FONT_FILE=$(echo "$font_item" | jq -r '.file')
+            FONT_PATH=$(echo "$font_item" | jq -r '.font_path')
+            ttx -t cmap "${FONT_PATH}/${FONT_FILE}"
           done
 
       - name: Copy fonts to package
+        working-directory: ${{ matrix.vendor_path }}/${{ matrix.package_name }}
+        env:
+          FONTS_JSON: ${{ toJSON(matrix.fonts) }}
         run: |
-          for font in ${{ join(matrix.config.fonts.*.file, ' ') }}; do
-            cp "${{ steps.set-paths.outputs.font_path }}/${font}" "./packages/${{ matrix.config.package_name }}/fonts/${font}"
+          echo "$FONTS_JSON" | jq -c '.[]' | while read -r font_item; do
+            FONT_FILE=$(echo "$font_item" | jq -r '.file')
+            FONT_PATH=$(echo "$font_item" | jq -r '.font_path')
+            mkdir -p "../../${{ matrix.package_path }}/${{ matrix.package_name }}/fonts"
+            cp "${FONT_PATH}/${FONT_FILE}" "../../${{ matrix.package_path }}/${{ matrix.package_name }}/fonts/${FONT_FILE}"
           done
 
       - name: Setup Flutter
@@ -175,11 +178,11 @@ jobs:
           channel: "stable"
           cache: true
 
-      - name: Generate icons for ${{ matrix.icon_set_name }}
-        run: dart run tools/generate_icons.dart --iconset ${{ matrix.icon_set_name }}
+      - name: Generate icons for ${{ matrix.id }}
+        run: dart run tools/generate_icons.dart --iconset ${{ matrix.id }}
 
       - name: Format code
-        run: dart format ./packages/${{ matrix.config.package_name }}/
+        run: dart format ${{ matrix.package_path }}/${{ matrix.package_name }}/
 
       - name: Create GitHub App Token
         uses: actions/create-github-app-token@v2
@@ -192,8 +195,8 @@ jobs:
         uses: peter-evans/create-pull-request@v8
         with:
           token: ${{ steps.generate-token.outputs.token }}
-          add-paths: packages/${{ matrix.config.package_name }}/*
+          add-paths: ${{ matrix.package_path }}/${{ matrix.package_name }}/*
           sign-commits: true
-          title: "feat(${{ matrix.config.package_name }}): bump version to ${{ steps.get-version.outputs.version }}"
-          commit-message: "bump ${{ matrix.config.package_name }} to version ${{ steps.get-version.outputs.version }}"
-          branch: "feat/update-${{ matrix.config.package_name }}-${{ steps.get-version.outputs.version }}"
+          title: "feat(${{ matrix.id }}): bump version to ${{ steps.get-version.outputs.version }}"
+          commit-message: "bump ${{ matrix.id }} to version ${{ steps.get-version.outputs.version }}"
+          branch: "feat/update-${{ matrix.id }}-${{ steps.get-version.outputs.version }}"

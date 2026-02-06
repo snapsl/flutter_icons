@@ -1,141 +1,205 @@
 [
   {
-    "icon_set_name": "antdesign",
-    "config": {
-      "package_name": "ant_design_icons",
-      "vendor_dir": "@ant-design/icons-svg",
-      "fonts": [
-        {
-          "file": "antfill.ttf",
-          "svg_dir": "inline-svg/filled"
-        },
-        {
-          "file": "antoutline.ttf",
-          "svg_dir": "inline-svg/outlined"
-        }
-      ]
-    }
-  },
-  {
-    "icon_set_name": "bootstrap",
-    "config": {
-      "package_name": "bootstrap_icons",
-      "vendor_dir": "bootstrap-icons",
-      "convert_from_woff": true,
-      "fonts": [
-        {
-          "file": "bootstrap-icons.ttf",
-          "svg_dir": "icons"
-        }
-      ]
-    }
-  },
-  {
-    "icon_set_name": "hero",
-    "config": {
-      "package_name": "hero_icons",
-      "vendor_dir": "heroicons",
-      "svg_to_font": true,
-      "fonts": [
-        {
-          "file": "outline.ttf",
-          "svg_dir": "24/outline"
-        },
-        {
-          "file": "solid.ttf",
-          "svg_dir": "24/solid"
-        }
-      ]
-    }
-  },
-  {
-    "icon_set_name": "ionic",
-    "config": {
-      "package_name": "ionic_icons",
-      "vendor_dir": "ionicons",
-      "svg_to_font": true,
-      "fonts": [
-        {
-          "file": "ionicons.ttf",
-          "svg_dir": "dist/svg"
-        }
-      ]
-    }
-  },
-  {
-    "icon_set_name": "lucide",
-    "config": {
-      "package_name": "lucide_icons",
-      "vendor_dir": "lucide-static",
-      "fonts": [
-        {
-          "file": "lucide.ttf",
-          "svg_dir": "icons"
-        }
-      ]
-    }
-  },
-  {
-    "icon_set_name": "radix",
-    "config": {
-      "package_name": "radix_icons",
-      "vendor_dir": "@radix-ui/react-icons",
-      "svg_to_font": true,
-      "repository": {
-        "slug": "radix-ui/icons",
-        "tag": "@radix-ui/react-icons@",
-        "svg_dir": "packages/radix-icons/icons"
+    "id": "antdesign",
+    "package_path": "packages",
+    "vendor_path": "vendors",
+    "package_name": "ant_design_icons",
+    "vendor_name": "@ant-design/icons-svg",
+    "url": "https://ant.design/components/icon",
+    "brand": "Ant Design",
+    "class_name": "AntDesignIcons",
+    "output_path": "lib/src/icon_data.g.dart",
+    "fonts": [
+      {
+        "file": "antfill.ttf",
+        "svg_path": "node_modules/@ant-design/icons-svg/inline-svg/filled",
+        "font_path": "node_modules/@ant-design/icons-react-native/fonts",
+        "data_class_name": "AntDesignFilledIconData",
+        "suffix": "filled"
       },
-      "fonts": [
-        {
-          "file": "radix.ttf",
-          "svg_dir": "icons"
-        }
-      ]
-    }
+      {
+        "file": "antoutline.ttf",
+        "svg_path": "node_modules/@ant-design/icons-svg/inline-svg/outlined",
+        "font_path": "node_modules/@ant-design/icons-react-native/fonts",
+        "data_class_name": "AntDesignOutlinedIconData",
+        "suffix": "outlined"
+      }
+    ]
   },
   {
-    "icon_set_name": "remix",
-    "config": {
-      "package_name": "remix_icons",
-      "vendor_dir": "remixicon",
-      "flatten_svg_dirs": true,
-      "fonts": [
-        {
-          "file": "remixicon.ttf",
-          "svg_dir": "icons"
-        }
-      ]
-    }
+    "id": "bootstrap",
+    "package_path": "packages",
+    "vendor_path": "vendors",
+    "package_name": "bootstrap_icons",
+    "vendor_name": "bootstrap-icons",
+    "convert_from_woff": true,
+    "url": "https://icons.getbootstrap.com",
+    "brand": "Bootstrap",
+    "class_name": "BootstrapIcons",
+    "output_path": "lib/src/icon_data.g.dart",
+    "fonts": [
+      {
+        "file": "bootstrap-icons.ttf",
+        "svg_path": "node_modules/bootstrap-icons/icons",
+        "font_path": "node_modules/bootstrap-icons/font/fonts",
+        "data_class_name": "BootstrapIconData"
+      }
+    ]
   },
   {
-    "icon_set_name": "simple",
-    "config": {
-      "package_name": "simple_icons",
-      "vendor_dir": "simple-icons",
-      "fonts": [
-        {
-          "file": "SimpleIcons.ttf",
-          "svg_dir": "icons"
-        }
-      ]
-    }
+    "id": "hero",
+    "package_path": "packages",
+    "vendor_path": "vendors",
+    "package_name": "hero_icons",
+    "vendor_name": "heroicons",
+    "svg_to_font": true,
+    "url": "https://heroicons.com/",
+    "brand": "Heroicons",
+    "class_name": "HeroIcons",
+    "output_path": "lib/src/icon_data.g.dart",
+    "fonts": [
+      {
+        "file": "outline.ttf",
+        "svg_path": "node_modules/heroicons/24/outline",
+        "font_path": "node_modules/heroicons/fonts",
+        "data_class_name": "HeroOutlineIconData",
+        "suffix": "outline"
+      },
+      {
+        "file": "solid.ttf",
+        "svg_path": "node_modules/heroicons/24/solid",
+        "font_path": "node_modules/heroicons/fonts",
+        "data_class_name": "HeroSolidIconData"
+      }
+    ]
   },
   {
-    "icon_set_name": "tabler",
-    "config": {
-      "package_name": "tabler_icons",
-      "vendor_dir": "@tabler/icons",
-      "fonts": [
-        {
-          "file": "tabler-icons.ttf",
-          "svg_dir": "icons/outline"
-        },
-        {
-          "file": "tabler-icons-filled.ttf",
-          "svg_dir": "icons/filled"
-        }
-      ]
-    }
+    "id": "ionic",
+    "package_path": "packages",
+    "vendor_path": "vendors",
+    "package_name": "ionic_icons",
+    "vendor_name": "ionicons",
+    "svg_to_font": true,
+    "url": "https://ionic.io/ionicons",
+    "brand": "Ionicons",
+    "class_name": "IonicIcons",
+    "output_path": "lib/src/icon_data.g.dart",
+    "fonts": [
+      {
+        "file": "ionicons.ttf",
+        "svg_path": "node_modules/ionicons/dist/svg",
+        "font_path": "node_modules/ionicons/fonts",
+        "data_class_name": "IonicIconData"
+      }
+    ]
+  },
+  {
+    "id": "lucide",
+    "package_path": "packages",
+    "vendor_path": "vendors",
+    "package_name": "lucide_icons",
+    "vendor_name": "lucide-static",
+    "url": "https://lucide.dev/icons",
+    "brand": "Lucide",
+    "class_name": "LucideIcons",
+    "output_path": "lib/src/icon_data.g.dart",
+    "fonts": [
+      {
+        "file": "lucide.ttf",
+        "svg_path": "node_modules/lucide-static/icons",
+        "font_path": "node_modules/lucide-static/font",
+        "data_class_name": "LucideIconData"
+      }
+    ]
+  },
+  {
+    "id": "radix",
+    "package_path": "packages",
+    "vendor_path": "vendors",
+    "package_name": "radix_icons",
+    "vendor_name": "@radix-ui/react-icons",
+    "svg_to_font": true,
+    "repository": {
+      "slug": "radix-ui/icons",
+      "tag": "@radix-ui/react-icons@",
+      "svg_path": "packages/radix-icons/icons"
+    },
+    "url": "https://icons.radix-ui.com/icons",
+    "brand": "Radix",
+    "class_name": "RadixIcons",
+    "output_path": "lib/src/icon_data.g.dart",
+    "fonts": [
+      {
+        "file": "radix.ttf",
+        "svg_path": "node_modules/@radix-ui/react-icons/icons",
+        "font_path": "node_modules/@radix-ui/react-icons/fonts",
+        "data_class_name": "RadixIconData"
+      }
+    ]
+  },
+  {
+    "id": "remix",
+    "package_path": "packages",
+    "vendor_path": "vendors",
+    "package_name": "remix_icons",
+    "vendor_name": "remixicon",
+    "flatten_svg_dirs": true,
+    "url": "https://remixicon.com",
+    "brand": "Remix",
+    "class_name": "RemixIcons",
+    "output_path": "lib/src/icon_data.g.dart",
+    "fonts": [
+      {
+        "file": "remixicon.ttf",
+        "svg_path": "node_modules/remixicon/icons",
+        "font_path": "node_modules/remixicon/fonts",
+        "data_class_name": "RemixIconData"
+      }
+    ]
+  },
+  {
+    "id": "simple",
+    "package_path": "packages",
+    "vendor_path": "vendors",
+    "package_name": "simple_icons",
+    "vendor_name": "simple-icons",
+    "url": "https://simpleicons.org",
+    "brand": "Simple",
+    "class_name": "SimpleIcons",
+    "output_path": "lib/src/icon_data.g.dart",
+    "fonts": [
+      {
+        "file": "SimpleIcons.ttf",
+        "svg_path": "node_modules/simple-icons/icons",
+        "font_path": "node_modules/simple-icons-font/font",
+        "data_class_name": "SimpleIconData"
+      }
+    ]
+  },
+  {
+    "id": "tabler",
+    "package_path": "packages",
+    "vendor_path": "vendors",
+    "package_name": "tabler_icons",
+    "vendor_name": "@tabler/icons",
+    "url": "https://tabler.io/icons",
+    "brand": "Tabler",
+    "class_name": "TablerIcons",
+    "output_path": "lib/src/icon_data.g.dart",
+    "fonts": [
+      {
+        "file": "tabler-icons.ttf",
+        "svg_path": "node_modules/@tabler/icons/icons/outline",
+        "font_path": "node_modules/@tabler/icons-webfont/dist/fonts",
+        "data_class_name": "TablerIconData"
+      },
+      {
+        "file": "tabler-icons-filled.ttf",
+        "svg_path": "node_modules/@tabler/icons/icons/filled",
+        "font_path": "node_modules/@tabler/icons-webfont/dist/fonts",
+        "data_class_name": "TablerFilledIconData",
+        "suffix": "filled"
+      }
+    ]
   }
 ]
