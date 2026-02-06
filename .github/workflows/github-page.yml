@@ -7,6 +7,8 @@ on:
     paths:
       - "example/**"
       - "packages/**"
+      - "!packages/generator/**"
+      - "!packages/test_utils/**"
   workflow_dispatch:
 
 permissions:
