@@ -51,7 +51,6 @@ jobs:
             FILTERED=$(echo "$FULL_MATRIX" | jq -c --argjson changes "$CHANGES" 'map(select(.id as $id | $changes | index($id)))')
             echo "matrix=$FILTERED" >> "$GITHUB_OUTPUT"
           fi
-          echo $matrix
 
   generate:
     needs: changes
@@ -131,10 +130,9 @@ jobs:
             SVG_PATH="${{ matrix.vendor_path }}/${{ matrix.package_name }}/$(echo "$font_item" | jq -r '.svg_path')"
             FONT_FILE=$(echo "$font_item" | jq -r '.file')
             FONT_PATH="${{ matrix.vendor_path }}/${{ matrix.package_name }}/$(echo "$font_item" | jq -r '.font_path')"
-            
+
             SVG_FIXED_PATH=$(mktemp -d)
-            echo "The temporary directory is: $SVG_FIXED_PATH"
-            
+
             npx oslllo-svg-fixer --source "$SVG_PATH" --destination "$SVG_FIXED_PATH" --show-progress false
             npx svgtofont --sources "$SVG_FIXED_PATH" --output "$FONT_PATH" --fontName "${FONT_FILE%.ttf}"
           done
@@ -197,6 +195,6 @@ jobs:
           token: ${{ steps.generate-token.outputs.token }}
           add-paths: ${{ matrix.package_path }}/${{ matrix.package_name }}/*
           sign-commits: true
-          title: "feat(${{ matrix.id }}): bump version to ${{ steps.get-version.outputs.version }}"
-          commit-message: "bump ${{ matrix.id }} to version ${{ steps.get-version.outputs.version }}"
+          title: "feat(${{ matrix.package_name }}): bump version to ${{ steps.get-version.outputs.version }}"
+          commit-message: "bump ${{ matrix.vendor_name }} to version ${{ steps.get-version.outputs.version }}"
           branch: "feat/update-${{ matrix.id }}-${{ steps.get-version.outputs.version }}"
