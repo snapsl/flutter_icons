@@ -25,9 +25,7 @@ class TolerantGoldenFileComparator extends LocalFileComparator {
     : assert(
         0 <= precisionTolerance && precisionTolerance <= 1,
         'precisionTolerance must be between 0 and 1',
-      ) {
-    goldenFileComparator = this;
-  }
+      );
 
   /// How much the golden image can differ from the test image.
   ///
