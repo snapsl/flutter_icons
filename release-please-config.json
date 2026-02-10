@@ -1,14 +1,106 @@
 {
   "release-type": "dart",
+  "changelog-sections": [
+    {
+      "type": "feat",
+      "section": "Features"
+    },
+    {
+      "type": "fix",
+      "section": "Bug Fixes"
+    },
+    {
+      "type": "perf",
+      "section": "Performance Improvements"
+    },
+    {
+      "type": "refactor",
+      "section": "Code Refactoring"
+    },
+    {
+      "type": "chore",
+      "scope": "deps",
+      "section": "Dependencies"
+    },
+    {
+      "type": "docs",
+      "section": "Documentation"
+    },
+    {
+      "type": "revert",
+      "section": "Reverts"
+    },
+    {
+      "type": "style",
+      "section": "Styles",
+      "hidden": true
+    },
+    {
+      "type": "test",
+      "section": "Tests",
+      "hidden": true
+    },
+    {
+      "type": "build",
+      "section": "Build System",
+      "hidden": true
+    },
+    {
+      "type": "ci",
+      "section": "Continuous Integration",
+      "hidden": true
+    },
+    {
+      "type": "chore",
+      "section": "Miscellaneous",
+      "hidden": true
+    }
+  ],
   "packages": {
-    "packages/ant_design_icons": {},
-    "packages/bootstrap_icons": {},
-    "packages/hero_icons": {},
-    "packages/ionic_icons": {},
-    "packages/lucide_icons": {},
-    "packages/radix_icons": {},
-    "packages/remix_icons": {},
-    "packages/simple_icons": {},
-    "packages/tabler_icons": {}
+    "packages/ant_design_icons": {
+      "extra-files": [
+        "vendors/ant_design_icons/package.json"
+      ]
+    },
+    "packages/bootstrap_icons": {
+      "extra-files": [
+        "vendors/bootstrap_icons/package.json"
+      ]
+    },
+    "packages/hero_icons": {
+      "extra-files": [
+        "vendors/hero_icons/package.json"
+      ]
+    },
+    "packages/ionic_icons": {
+      "extra-files": [
+        "vendors/ionic_icons/package.json"
+      ]
+    },
+    "packages/lucide_icons": {
+      "extra-files": [
+        "vendors/lucide_icons/package.json"
+      ]
+    },
+    "packages/radix_icons": {
+      "extra-files": [
+        "vendors/radix_icons/package.json"
+      ]
+    },
+    "packages/remix_icons": {
+      "extra-files": [
+        "vendors/remix_icons/package.json"
+      ]
+    },
+    "packages/simple_icons": {
+      "extra-files": [
+        "vendors/simple_icons/package.json"
+      ]
+    },
+    "packages/tabler_icons": {
+      "extra-files": [
+        "vendors/tabler_icons/package.json"
+      ]
+    }
   }
 }
