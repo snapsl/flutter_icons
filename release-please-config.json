@@ -59,47 +59,47 @@
   "packages": {
     "packages/ant_design_icons": {
       "extra-files": [
-        "vendors/ant_design_icons/package.json"
+        "../../vendors/ant_design_icons/package.json"
       ]
     },
     "packages/bootstrap_icons": {
       "extra-files": [
-        "vendors/bootstrap_icons/package.json"
+        "../../vendors/bootstrap_icons/package.json"
       ]
     },
     "packages/hero_icons": {
       "extra-files": [
-        "vendors/hero_icons/package.json"
+        "../../vendors/hero_icons/package.json"
       ]
     },
     "packages/ionic_icons": {
       "extra-files": [
-        "vendors/ionic_icons/package.json"
+        "../../vendors/ionic_icons/package.json"
       ]
     },
     "packages/lucide_icons": {
       "extra-files": [
-        "vendors/lucide_icons/package.json"
+        "../../vendors/lucide_icons/package.json"
       ]
     },
     "packages/radix_icons": {
       "extra-files": [
-        "vendors/radix_icons/package.json"
+        "../../vendors/radix_icons/package.json"
       ]
     },
     "packages/remix_icons": {
       "extra-files": [
-        "vendors/remix_icons/package.json"
+        "../../vendors/remix_icons/package.json"
       ]
     },
     "packages/simple_icons": {
       "extra-files": [
-        "vendors/simple_icons/package.json"
+        "../../vendors/simple_icons/package.json"
       ]
     },
     "packages/tabler_icons": {
       "extra-files": [
-        "vendors/tabler_icons/package.json"
+        "../../vendors/tabler_icons/package.json"
       ]
     }
   }
