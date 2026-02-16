@@ -114,6 +114,10 @@ static const List<IconData> values = [${_iconNames.join(', ')}];
   String _createEncodedIcon(String path) {
     final file = File(path);
 
+    if (!file.existsSync()) {
+      return '';
+    }
+
     final document = XmlDocument.parse(file.readAsStringSync());
 
     document.rootElement
@@ -159,6 +163,11 @@ static const List<IconData> values = [${_iconNames.join(', ')}];
       _iconNames.add(name);
 
       final iconEncoded = _createEncodedIcon('$iconSvgPath/$iconName.svg');
+
+      if (iconEncoded.isEmpty) {
+        stderr.writeln('$iconName.svg not found');
+        return;
+      }
 
       _buffer.writeln('''
 /// $iconEncoded
