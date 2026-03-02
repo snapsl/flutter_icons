@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.3.1](https://github.com/snapsl/flutter_icons/compare/tabler_icons-v0.3.0...tabler_icons-v0.3.1) (2026-03-02)
+
+
+### Bug Fixes
+
+* **tabler_icons:** add missing icons ([#135](https://github.com/snapsl/flutter_icons/issues/135)) ([13d7dbd](https://github.com/snapsl/flutter_icons/commit/13d7dbd5768d58e7364e84d0d7467c5d9792559a))
+
 ## [0.3.0](https://github.com/snapsl/flutter_icons/compare/tabler_icons-v0.2.0...tabler_icons-v0.3.0) (2026-03-02)
 
 
