@@ -100,7 +100,7 @@ class ExamplePage extends StatelessWidget {
         LucideIcons.album,
         LucideIcons.ban,
         LucideIcons.diamond,
-        LucideIcons.squareMenu,
+        LucideIcons.menuSquare,
       ],
     ),
     _SliverIconSet(
