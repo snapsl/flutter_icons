@@ -222,9 +222,18 @@ static const IconData $name = $iconDataClassName($iconUnicode);
 
     final icons = <String, String>{};
 
-    final tables = cmap.children.whereType<XmlElement>().where(
-      (e) => e.name.local.startsWith('cmap_format_'),
-    );
+    final tables = cmap.children.whereType<XmlElement>().where((node) {
+      final pId = node.getAttribute('platformID');
+      final eId = node.getAttribute('platEncID');
+      final lng = node.getAttribute('language');
+
+      return switch ((pId, eId, lng)) {
+        ('0', '3', '0') => true, // Unicode BMP
+        ('0', '4', '0') => true, // Unicode Full
+        ('3', '1', '0') => true, // Windows Unicode
+        _ => false,
+      };
+    });
 
     if (tables.isEmpty) {
       throw const FormatException('No valid cmap tables found.');
@@ -232,12 +241,13 @@ static const IconData $name = $iconDataClassName($iconUnicode);
 
     for (final table in tables) {
       final maps = table.findElements('map');
+
       for (final node in maps) {
         final name = node.getAttribute('name');
         final code = node.getAttribute('code');
 
         if (name != null && code != null) {
-          icons.putIfAbsent(name, () => code);
+          icons[name] = code;
         }
       }
     }
