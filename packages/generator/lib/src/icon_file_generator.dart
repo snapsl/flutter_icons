@@ -220,29 +220,27 @@ static const IconData $name = $iconDataClassName($iconUnicode);
       throw const FormatException('Could not parse XML');
     }
 
-    final cmapTable = cmap.children.firstWhere(
-      (node) =>
-          node.getAttribute('platformID') == '0' &&
-          node.getAttribute('platEncID') == '3' &&
-          node.getAttribute('language') == '0',
-      orElse: () =>
-          throw const FormatException('Required cmap table not found.'),
+    final icons = <String, String>{};
+
+    final tables = cmap.children.whereType<XmlElement>().where(
+      (e) => e.name.local.startsWith('cmap_format_'),
     );
 
-    final icons = Map.fromEntries(
-      cmapTable.findElements('map').map((node) {
+    if (tables.isEmpty) {
+      throw const FormatException('No valid cmap tables found.');
+    }
+
+    for (final table in tables) {
+      final maps = table.findElements('map');
+      for (final node in maps) {
         final name = node.getAttribute('name');
         final code = node.getAttribute('code');
 
-        if (name == null || code == null) {
-          throw const FormatException(
-            'Malformed <map> node: missing name or code',
-          );
+        if (name != null && code != null) {
+          icons.putIfAbsent(name, () => code);
         }
-
-        return MapEntry(name, code);
-      }),
-    );
+      }
+    }
 
     return icons;
   }
