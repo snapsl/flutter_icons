@@ -1,5 +1,5 @@
 {
-  "packageManager": "npm@11.8.0",
+  "packageManager": "npm@11.11.0",
   "dependencies": {
     "oslllo-svg-fixer": "^6.0.1",
     "svgtofont": "^6.5.1"
