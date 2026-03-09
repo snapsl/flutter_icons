@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.7.0](https://github.com/snapsl/flutter_icons/compare/simple_icons-v0.6.0...simple_icons-v0.7.0) (2026-03-09)
+
+
+### Features
+
+* **simple_icons:** bump version to 16.11.0 ([#148](https://github.com/snapsl/flutter_icons/issues/148)) ([dedf1b6](https://github.com/snapsl/flutter_icons/commit/dedf1b60e100b191e3c9c5e264ab3ee2d85ed758))
+
 ## [0.6.0](https://github.com/snapsl/flutter_icons/compare/simple_icons-v0.5.0...simple_icons-v0.6.0) (2026-03-02)
 
 
