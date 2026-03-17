@@ -183,7 +183,7 @@ jobs:
         run: dart format ${{ matrix.package_path }}/${{ matrix.package_name }}/
 
       - name: Create GitHub App Token
-        uses: actions/create-github-app-token@v2
+        uses: actions/create-github-app-token@v3
         id: generate-token
         with:
           app-id: ${{ secrets.APP_ID }}
