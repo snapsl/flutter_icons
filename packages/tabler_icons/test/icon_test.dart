@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:tabler_icons/src/icon_data.g.dart';
+import 'package:tabler_icons/tabler_icons.dart';
 import 'package:test_utils/test_utils.dart';
 
 void main() async {

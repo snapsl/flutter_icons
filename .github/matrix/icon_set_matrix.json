@@ -8,20 +8,20 @@
     "url": "https://ant.design/components/icon",
     "brand": "Ant Design",
     "class_name": "AntDesignIcons",
-    "output_path": "lib/src/icon_data.g.dart",
+    "output_path": "lib/src/icon_data.dart",
     "fonts": [
       {
         "file": "antfill.ttf",
         "svg_path": "node_modules/@ant-design/icons-svg/inline-svg/filled",
         "font_path": "node_modules/@ant-design/icons-react-native/fonts",
-        "data_class_name": "AntDesignFilledIconData",
+        "font_family": "AntDesignFilledIcons",
         "suffix": "filled"
       },
       {
         "file": "antoutline.ttf",
         "svg_path": "node_modules/@ant-design/icons-svg/inline-svg/outlined",
         "font_path": "node_modules/@ant-design/icons-react-native/fonts",
-        "data_class_name": "AntDesignOutlinedIconData",
+        "font_family": "AntDesignOutlinedIcons",
         "suffix": "outlined"
       }
     ]
@@ -36,13 +36,13 @@
     "url": "https://icons.getbootstrap.com",
     "brand": "Bootstrap",
     "class_name": "BootstrapIcons",
-    "output_path": "lib/src/icon_data.g.dart",
+    "output_path": "lib/src/icon_data.dart",
     "fonts": [
       {
         "file": "bootstrap-icons.ttf",
         "svg_path": "node_modules/bootstrap-icons/icons",
         "font_path": "node_modules/bootstrap-icons/font/fonts",
-        "data_class_name": "BootstrapIconData"
+        "font_family": "BootstrapIcons"
       }
     ]
   },
@@ -56,20 +56,20 @@
     "url": "https://heroicons.com/",
     "brand": "Heroicons",
     "class_name": "HeroIcons",
-    "output_path": "lib/src/icon_data.g.dart",
+    "output_path": "lib/src/icon_data.dart",
     "fonts": [
       {
         "file": "outline.ttf",
         "svg_path": "node_modules/heroicons/24/outline",
         "font_path": "node_modules/heroicons/fonts",
-        "data_class_name": "HeroOutlineIconData",
+        "font_family": "HeroOutlineIcons",
         "suffix": "outline"
       },
       {
         "file": "solid.ttf",
         "svg_path": "node_modules/heroicons/24/solid",
         "font_path": "node_modules/heroicons/fonts",
-        "data_class_name": "HeroSolidIconData"
+        "font_family": "HeroSolidIcons"
       }
     ]
   },
@@ -83,13 +83,13 @@
     "url": "https://ionic.io/ionicons",
     "brand": "Ionicons",
     "class_name": "IonicIcons",
-    "output_path": "lib/src/icon_data.g.dart",
+    "output_path": "lib/src/icon_data.dart",
     "fonts": [
       {
         "file": "ionicons.ttf",
         "svg_path": "node_modules/ionicons/dist/svg",
         "font_path": "node_modules/ionicons/fonts",
-        "data_class_name": "IonicIconData"
+        "font_family": "IonicIcons"
       }
     ]
   },
@@ -102,13 +102,13 @@
     "url": "https://lucide.dev/icons",
     "brand": "Lucide",
     "class_name": "LucideIcons",
-    "output_path": "lib/src/icon_data.g.dart",
+    "output_path": "lib/src/icon_data.dart",
     "fonts": [
       {
         "file": "lucide.ttf",
         "svg_path": "node_modules/lucide-static/icons",
         "font_path": "node_modules/lucide-static/font",
-        "data_class_name": "LucideIconData"
+        "font_family": "LucideIcons"
       }
     ]
   },
@@ -127,13 +127,13 @@
     "url": "https://icons.radix-ui.com/icons",
     "brand": "Radix",
     "class_name": "RadixIcons",
-    "output_path": "lib/src/icon_data.g.dart",
+    "output_path": "lib/src/icon_data.dart",
     "fonts": [
       {
         "file": "radix.ttf",
         "svg_path": "node_modules/@radix-ui/react-icons/icons",
         "font_path": "node_modules/@radix-ui/react-icons/fonts",
-        "data_class_name": "RadixIconData"
+        "font_family": "RadixIcons"
       }
     ]
   },
@@ -147,13 +147,13 @@
     "url": "https://remixicon.com",
     "brand": "Remix",
     "class_name": "RemixIcons",
-    "output_path": "lib/src/icon_data.g.dart",
+    "output_path": "lib/src/icon_data.dart",
     "fonts": [
       {
         "file": "remixicon.ttf",
         "svg_path": "node_modules/remixicon/icons",
         "font_path": "node_modules/remixicon/fonts",
-        "data_class_name": "RemixIconData"
+        "font_family": "RemixIcons"
       }
     ]
   },
@@ -166,13 +166,13 @@
     "url": "https://simpleicons.org",
     "brand": "Simple",
     "class_name": "SimpleIcons",
-    "output_path": "lib/src/icon_data.g.dart",
+    "output_path": "lib/src/icon_data.dart",
     "fonts": [
       {
         "file": "SimpleIcons.ttf",
         "svg_path": "node_modules/simple-icons/icons",
         "font_path": "node_modules/simple-icons-font/font",
-        "data_class_name": "SimpleIconData"
+        "font_family": "SimpleIcons"
       }
     ]
   },
@@ -185,19 +185,19 @@
     "url": "https://tabler.io/icons",
     "brand": "Tabler",
     "class_name": "TablerIcons",
-    "output_path": "lib/src/icon_data.g.dart",
+    "output_path": "lib/src/icon_data.dart",
     "fonts": [
       {
         "file": "tabler-icons.ttf",
         "svg_path": "node_modules/@tabler/icons/icons/outline",
         "font_path": "node_modules/@tabler/icons-webfont/dist/fonts",
-        "data_class_name": "TablerIconData"
+        "font_family": "TablerIcons"
       },
       {
         "file": "tabler-icons-filled.ttf",
         "svg_path": "node_modules/@tabler/icons/icons/filled",
         "font_path": "node_modules/@tabler/icons-webfont/dist/fonts",
-        "data_class_name": "TablerFilledIconData",
+        "font_family": "TablerFilledIcons",
         "suffix": "filled"
       }
     ]

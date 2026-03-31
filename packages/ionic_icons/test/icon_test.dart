@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:ionic_icons/src/icon_data.g.dart';
+import 'package:ionic_icons/ionic_icons.dart';
 import 'package:test_utils/test_utils.dart';
 
 void main() {
