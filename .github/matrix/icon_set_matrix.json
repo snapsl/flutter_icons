@@ -8,7 +8,7 @@
     "url": "https://ant.design/components/icon",
     "brand": "Ant Design",
     "class_name": "AntDesignIcons",
-    "output_path": "lib/src/icon_data.g.dart",
+    "output_path": "lib/src/icon_data.dart",
     "fonts": [
       {
         "file": "antfill.ttf",
@@ -36,7 +36,7 @@
     "url": "https://icons.getbootstrap.com",
     "brand": "Bootstrap",
     "class_name": "BootstrapIcons",
-    "output_path": "lib/src/icon_data.g.dart",
+    "output_path": "lib/src/icon_data.dart",
     "fonts": [
       {
         "file": "bootstrap-icons.ttf",
@@ -56,7 +56,7 @@
     "url": "https://heroicons.com/",
     "brand": "Heroicons",
     "class_name": "HeroIcons",
-    "output_path": "lib/src/icon_data.g.dart",
+    "output_path": "lib/src/icon_data.dart",
     "fonts": [
       {
         "file": "outline.ttf",
@@ -83,7 +83,7 @@
     "url": "https://ionic.io/ionicons",
     "brand": "Ionicons",
     "class_name": "IonicIcons",
-    "output_path": "lib/src/icon_data.g.dart",
+    "output_path": "lib/src/icon_data.dart",
     "fonts": [
       {
         "file": "ionicons.ttf",
@@ -102,7 +102,7 @@
     "url": "https://lucide.dev/icons",
     "brand": "Lucide",
     "class_name": "LucideIcons",
-    "output_path": "lib/src/icon_data.g.dart",
+    "output_path": "lib/src/icon_data.dart",
     "fonts": [
       {
         "file": "lucide.ttf",
@@ -127,7 +127,7 @@
     "url": "https://icons.radix-ui.com/icons",
     "brand": "Radix",
     "class_name": "RadixIcons",
-    "output_path": "lib/src/icon_data.g.dart",
+    "output_path": "lib/src/icon_data.dart",
     "fonts": [
       {
         "file": "radix.ttf",
@@ -147,7 +147,7 @@
     "url": "https://remixicon.com",
     "brand": "Remix",
     "class_name": "RemixIcons",
-    "output_path": "lib/src/icon_data.g.dart",
+    "output_path": "lib/src/icon_data.dart",
     "fonts": [
       {
         "file": "remixicon.ttf",
@@ -166,7 +166,7 @@
     "url": "https://simpleicons.org",
     "brand": "Simple",
     "class_name": "SimpleIcons",
-    "output_path": "lib/src/icon_data.g.dart",
+    "output_path": "lib/src/icon_data.dart",
     "fonts": [
       {
         "file": "SimpleIcons.ttf",
@@ -185,7 +185,7 @@
     "url": "https://tabler.io/icons",
     "brand": "Tabler",
     "class_name": "TablerIcons",
-    "output_path": "lib/src/icon_data.g.dart",
+    "output_path": "lib/src/icon_data.dart",
     "fonts": [
       {
         "file": "tabler-icons.ttf",
