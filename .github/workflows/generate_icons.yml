@@ -205,7 +205,6 @@ jobs:
           token: ${{ steps.generate-token.outputs.token }}
           add-paths: ${{ matrix.package_path }}/${{ matrix.package_name }}/*
           sign-commits: true
-          base: main
           title: "feat(${{ matrix.package_name }}): bump version to ${{ steps.get-version.outputs.version }}"
           commit-message: "bump ${{ matrix.vendor_name }} to version ${{ steps.get-version.outputs.version }}"
           branch: "feat/update-${{ matrix.id }}-${{ steps.get-version.outputs.version }}"
