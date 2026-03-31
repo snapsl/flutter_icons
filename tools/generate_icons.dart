@@ -76,7 +76,8 @@ void _generate(IconSet iconSet) {
       ttxFile,
       brand: iconSet.brand,
       iconSvgPath: '$vendorPath/${font.svgPath}',
-      iconDataClassName: font.dataClassName,
+      fontFamily: font.fontFamily,
+      fontPackage: iconSet.packageName,
       suffix: font.suffix,
     );
   }
