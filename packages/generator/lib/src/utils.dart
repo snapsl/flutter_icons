@@ -71,3 +71,15 @@ const dartKeywords = {
   'while',
   'yield',
 };
+
+/// Symbol map for invalid characters in Dart identifiers
+const symbolMap = {
+  '*': 'multiply',
+  '-': 'minus',
+  '+': 'plus',
+  '/': 'divide',
+  '=': 'equals',
+  '%': 'percent',
+  '&': 'and',
+  '@': 'at',
+};

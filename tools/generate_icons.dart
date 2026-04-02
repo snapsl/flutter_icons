@@ -25,12 +25,14 @@ void main(List<String> arguments) {
     final matrixPath = results.option('matrix')!;
 
     final matrixFile = File(matrixPath);
+
     if (!matrixFile.existsSync()) {
       throw FileSystemException('Matrix file not found', matrixPath);
     }
 
     final matrixJson =
         jsonDecode(matrixFile.readAsStringSync()) as List<dynamic>;
+
     final matrix = matrixJson
         .map((e) => IconSet.fromJson(e as Map<String, dynamic>))
         .toList();
@@ -59,10 +61,7 @@ void _generate(IconSet iconSet) {
 
   final generator = IconFileGenerator()
     ..addImports()
-    ..addClassDefinition(
-      iconClassName: iconSet.className,
-      url: iconSet.url,
-    );
+    ..addClassDefinition(iconClassName: iconSet.className, url: iconSet.url);
 
   for (final font in iconSet.fonts) {
     final ttxFileName = font.file.replaceAll('.ttf', '.ttx');

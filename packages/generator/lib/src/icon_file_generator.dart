@@ -7,17 +7,6 @@ import 'package:xml/xml.dart';
 
 /// Generator for icon files
 class IconFileGenerator {
-  static const _symbolMap = {
-    '*': 'multiply',
-    '-': 'minus',
-    '+': 'plus',
-    '/': 'divide',
-    '=': 'equals',
-    '%': 'percent',
-    '&': 'and',
-    '@': 'at',
-  };
-
   final _buffer = StringBuffer();
 
   final List<String> _iconNames = [];
@@ -50,7 +39,6 @@ abstract final class $iconClassName {
     required String fontPackage,
     required String iconSvgPath,
     required String brand,
-
     String suffix = '',
   }) {
     final mimeType = file.path.split('.').last;
@@ -115,9 +103,7 @@ static const List<IconData> values = [${_iconNames.join(', ')}];
   String _createEncodedIcon(String path) {
     final file = File(path);
 
-    if (!file.existsSync()) {
-      return '';
-    }
+    if (!file.existsSync()) return '';
 
     final document = XmlDocument.parse(file.readAsStringSync());
 
@@ -168,6 +154,7 @@ static const List<IconData> values = [${_iconNames.join(', ')}];
 
       if (iconEncoded.isEmpty) {
         stderr.writeln('$iconName.svg not found');
+
         return;
       }
 
@@ -182,6 +169,7 @@ static const IconData $name = IconData($iconUnicode, fontFamily: '$fontFamily', 
 
   String _parseName(String iconName) {
     final iconNameValidated = _validateVariableName(iconName);
+
     return ReCase(iconNameValidated).camelCase;
   }
 
@@ -191,6 +179,7 @@ static const IconData $name = IconData($iconUnicode, fontFamily: '$fontFamily', 
     final document = XmlDocument.parse(content);
 
     final icons = _xmlToIcons(document);
+
     return icons;
   }
 
@@ -198,8 +187,8 @@ static const IconData $name = IconData($iconUnicode, fontFamily: '$fontFamily', 
     var sanName = name;
 
     // name is a symbol
-    if (_symbolMap.containsKey(name)) {
-      sanName = '${_symbolMap[name]!}_symbol';
+    if (symbolMap.containsKey(name)) {
+      sanName = '${symbolMap[name]!}_symbol';
     }
 
     // adds 'icon' suffix to dart keywords
@@ -211,6 +200,7 @@ static const IconData $name = IconData($iconUnicode, fontFamily: '$fontFamily', 
     if (sanName.startsWith(RegExp(r'\d'))) {
       sanName = 'n$sanName';
     }
+
     return sanName;
   }
 

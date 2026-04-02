@@ -20,5 +20,6 @@ Future<void> loadFonts({
 
 Future<ByteData> _loadFromFileSystem(String path) async {
   final bytes = await File(path).readAsBytes();
+
   return ByteData.view(bytes.buffer);
 }
