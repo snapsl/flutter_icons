@@ -74,8 +74,8 @@ import 'package:flutter/widgets.dart';
 
   /// Add icon value list
   ///
-  /// Add a list containing all IconData included in [files].
-  void addValues(List<File> files) {
+  /// Add a list containing all IconData included.
+  void addValues() {
     _buffer.writeln('''
 /// A list containing all [IconData] of the icon set.
 ///

@@ -82,6 +82,7 @@ void _generate(IconSet iconSet) {
   }
 
   generator
+    ..addValues()
     ..build()
     ..writeToFile(outputFile);
 }
