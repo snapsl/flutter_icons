@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.10.0](https://github.com/snapsl/flutter_icons/compare/simple_icons-v0.9.0...simple_icons-v0.10.0) (2026-04-04)
+
+
+### Features
+
+* add `.values` list to icon sets ([#213](https://github.com/snapsl/flutter_icons/issues/213)) ([f2f06e9](https://github.com/snapsl/flutter_icons/commit/f2f06e9e47721ef74c27781940932266cf4f8f0e))
+* support final `IconData` ([#185](https://github.com/snapsl/flutter_icons/issues/185)) ([26deb36](https://github.com/snapsl/flutter_icons/commit/26deb36c7245f57059cd2e72fe9bc8aa92b77f41))
+
 ## [0.9.0](https://github.com/snapsl/flutter_icons/compare/simple_icons-v0.8.0...simple_icons-v0.9.0) (2026-03-30)
 
 
