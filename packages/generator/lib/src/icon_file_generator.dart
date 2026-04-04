@@ -74,8 +74,8 @@ import 'package:flutter/widgets.dart';
 
   /// Add icon value list
   ///
-  /// Add a list containing all IconData included in [files].
-  void addValues(List<File> files) {
+  /// Add a list containing all IconData included.
+  void addValues() {
     _buffer.writeln('''
 /// A list containing all [IconData] of the icon set.
 ///
@@ -148,8 +148,6 @@ static const List<IconData> values = [${_iconNames.join(', ')}];
       final parsedNamed = _parseName(iconName);
       final name = suffix.isEmpty ? parsedNamed : '${parsedNamed}_$suffix';
 
-      _iconNames.add(name);
-
       final iconEncoded = _createEncodedIcon('$iconSvgPath/$iconName.svg');
 
       if (iconEncoded.isEmpty) {
@@ -157,6 +155,8 @@ static const List<IconData> values = [${_iconNames.join(', ')}];
 
         return;
       }
+
+      _iconNames.add(name);
 
       _buffer.writeln('''
 /// $iconEncoded
