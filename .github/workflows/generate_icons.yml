@@ -1,7 +1,7 @@
 name: Generate Icons
 
 on:
-  push:
+  pull_request:
     branches:
       - main
     paths:
@@ -15,7 +15,9 @@ permissions:
 jobs:
   changes:
     runs-on: ubuntu-latest
-    if: github.event_name == 'workflow_dispatch' || github.actor == 'dependabot[bot]'
+    if: |
+      github.event_name == 'workflow_dispatch' ||
+      (github.event.pull_request.user.login == 'dependabot[bot]' && github.event.pull_request.head.repo.full_name == github.repository)
     outputs:
       matrix: ${{ steps.set-matrix.outputs.matrix }}
     steps:
@@ -207,6 +209,7 @@ jobs:
           commit-message: "bump ${{ matrix.vendor_name }} to version ${{ steps.get-version.outputs.version }}"
           branch: "feat/update-${{ matrix.id }}-${{ steps.get-version.outputs.version }}"
           delete-branch: true
+          base: ${{ github.event_name == 'pull_request' && 'main' || null }}
           body: |
             ### 🤖 Icon Generation
             Icons have been automatically generated for `${{ matrix.package_name }}`.
