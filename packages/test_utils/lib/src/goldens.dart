@@ -1,4 +1,3 @@
-import 'dart:io';
 import 'dart:typed_data';
 
 import 'package:flutter/material.dart';
@@ -41,11 +40,11 @@ class TolerantGoldenFileComparator extends LocalFileComparator {
       await getGoldenBytes(golden),
     );
 
-    final difference = result.diffPercent * 100;
-    final tolerance = precisionTolerance * 100;
+    final difference = (result.diffPercent * 100).toStringAsFixed(2);
+    final tolerance = (precisionTolerance * 100).toStringAsFixed(2);
 
     if (!result.passed && result.diffPercent <= precisionTolerance) {
-      stdout.write('Soft Match: $difference% diff (within $tolerance % limit)');
+      debugPrint('Soft Match: $difference% diff (within $tolerance % limit)');
     }
 
     final passed = result.passed || result.diffPercent <= precisionTolerance;
