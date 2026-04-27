@@ -31,5 +31,5 @@ jobs:
           require_passed_checks: true
           allow_ongoing_checks: true
           sort: "created"
-          direction: "desc"
+          direction: "asc"
           require_auto_merge_enabled: true
