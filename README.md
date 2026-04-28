@@ -8,6 +8,9 @@
 
 A collection of icon sets for your Flutter apps.
 
+> [!IMPORTANT]
+> Compatible with the [breaking change][breaking-change]: `IconData` class marked as `final`.
+
 ## Overview
 
 This project contains a collection of icon sets for Flutter. The icons are generated from popular open-source icon libraries.
@@ -116,3 +119,4 @@ Please refer to the respective `LICENSE` files within each package directory for
 [fluentui-pub-link]: https://pub.dev/packages/fluentui_system_icons
 [font-awesome-pub-badge]: https://img.shields.io/pub/v/font_awesome_flutter.svg
 [font-awesome-pub-link]: https://pub.dev/packages/font_awesome_flutter
+[breaking-change]: https://docs.flutter.dev/release/breaking-changes/icondata-class-marked-final
