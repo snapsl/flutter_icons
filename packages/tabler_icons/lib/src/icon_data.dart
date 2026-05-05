@@ -45149,6 +45149,168 @@ abstract final class TablerIcons {
     fontPackage: 'tabler_icons',
   );
 
+  /// ![Icon](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9ImdyYXkiIHN0cm9rZS13aWR0aD0iMiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIiBjbGFzcz0iaWNvbiBpY29uLXRhYmxlciBpY29ucy10YWJsZXItb3V0bGluZSBpY29uLXRhYmxlci1wbHVuZ2VyIj4KICA8cGF0aCBzdHJva2U9Im5vbmUiIGQ9Ik0wIDBoMjR2MjRIMHoiIGZpbGw9Im5vbmUiLz4KICA8cGF0aCBkPSJNMTIuNzEgMTQuMTJsNy44MSAtNy44MmEyIDIgMCAwIDAgLTIuODIgLTIuODJsLTcuODIgNy44MSIvPgogIDxwYXRoIGQ9Ik0zLjcxIDEzLjIybC43IC0uNzFhNSA1IDAgMCAxIDcuMDggMGE1IDUgMCAwIDEgMCA3LjA4bC0uNzEgLjciLz4KICA8cGF0aCBkPSJNMyAxMi41bDguNSA4LjUiLz4KPC9zdmc+)
+  ///
+  /// Tabler icon named "plunger".
+  static const IconData plunger = IconData(
+    0x10232,
+    fontFamily: 'TablerIcons',
+    fontPackage: 'tabler_icons',
+  );
+
+  /// ![Icon](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9ImdyYXkiIHN0cm9rZS13aWR0aD0iMiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIiBjbGFzcz0iaWNvbiBpY29uLXRhYmxlciBpY29ucy10YWJsZXItb3V0bGluZSBpY29uLXRhYmxlci1wZW5kdWx1bSI+CiAgPHBhdGggc3Ryb2tlPSJub25lIiBkPSJNMCAwaDI0djI0SDB6IiBmaWxsPSJub25lIi8+CiAgPHBhdGggZD0iTTUgMTlhMiAyIDAgMSAxIDQgMGEyIDIgMCAwIDEgLTQgMCIvPgogIDxwYXRoIGQ9Ik0xMiAzbC00LjQgMTQuMDkiLz4KICA8cGF0aCBkPSJNMTkgM2gtMTQiLz4KPC9zdmc+)
+  ///
+  /// Tabler icon named "pendulum".
+  static const IconData pendulum = IconData(
+    0x10233,
+    fontFamily: 'TablerIcons',
+    fontPackage: 'tabler_icons',
+  );
+
+  /// ![Icon](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9ImdyYXkiIHN0cm9rZS13aWR0aD0iMiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIiBjbGFzcz0iaWNvbiBpY29uLXRhYmxlciBpY29ucy10YWJsZXItb3V0bGluZSBpY29uLXRhYmxlci1tb3NxdWUiPgogIDxwYXRoIHN0cm9rZT0ibm9uZSIgZD0iTTAgMGgyNHYyNEgweiIgZmlsbD0ibm9uZSIvPgogIDxwYXRoIGQ9Ik0xMy41IDUuNDlhMS43NjQgMS43NjQgMCAwIDEgLTIuNSAtMi40OSIvPgogIDxwYXRoIGQ9Ik0xMiA2djMiLz4KICA8cGF0aCBkPSJNMTkgMjFhOC45IDguOSAwIDAgMCAxIC0zLjY3YzAgLTIgLS45MiAtMy4yNSAtMy4yNCAtNC41MWExNy40IDE3LjQgMCAwIDEgLTQuNzYgLTMuODJhMTcuNCAxNy40IDAgMCAxIC00Ljc2IDMuODJjLTIuMzIgMS4yNiAtMy4yNCAyLjU1IC0zLjI0IDQuNTFhOC45IDguOSAwIDAgMCAxIDMuNjdoMTQiLz4KPC9zdmc+)
+  ///
+  /// Tabler icon named "mosque".
+  static const IconData mosque = IconData(
+    0x10234,
+    fontFamily: 'TablerIcons',
+    fontPackage: 'tabler_icons',
+  );
+
+  /// ![Icon](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9ImdyYXkiIHN0cm9rZS13aWR0aD0iMiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIiBjbGFzcz0iaWNvbiBpY29uLXRhYmxlciBpY29ucy10YWJsZXItb3V0bGluZSBpY29uLXRhYmxlci1sb2FkZXItNCI+CiAgPHBhdGggc3Ryb2tlPSJub25lIiBkPSJNMCAwaDI0djI0SDB6IiBmaWxsPSJub25lIi8+CiAgPHBhdGggZD0iTTEyIDIxdi0zbTYuMzYgLjM2bC0yLjEyIC0yLjEybTQuNzYgLTQuMjRoLTNtLjM2IC02LjM2bC0yLjEyIDIuMTJtLTQuMjQgLTQuNzZ2M20tNi4zNiAtLjM2bDIuMTIgMi4xMm0tMy43NiA0LjI0aDJtMSA0Ljk1bC43MSAtLjcxIi8+Cjwvc3ZnPg==)
+  ///
+  /// Tabler icon named "loader-4".
+  static const IconData loader4 = IconData(
+    0x10235,
+    fontFamily: 'TablerIcons',
+    fontPackage: 'tabler_icons',
+  );
+
+  /// ![Icon](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9ImdyYXkiIHN0cm9rZS13aWR0aD0iMiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIiBjbGFzcz0iaWNvbiBpY29uLXRhYmxlciBpY29ucy10YWJsZXItb3V0bGluZSBpY29uLXRhYmxlci1sYXduLW1vd2VyIj4KICA8cGF0aCBzdHJva2U9Im5vbmUiIGQ9Ik0wIDBoMjR2MjRIMHoiIGZpbGw9Im5vbmUiLz4KICA8cGF0aCBkPSJNNiAxMWg1LjM4YTEgMSAwIDAgMSAuOSAuNTVsLjcyIDEuNDVoNWExIDEgMCAwIDEgMSAxdjIiLz4KICA8cGF0aCBkPSJNMyA0aDEuMTNhMSAxIDAgMCAxIDEgLjg2bDEuNTkgMTEuMTQiLz4KICA8cGF0aCBkPSJNMTcgMThoLTgiLz4KICA8cGF0aCBkPSJNOSAxOGEyIDIgMCAxIDEgLTQgMGEyIDIgMCAwIDEgNCAwIi8+CiAgPHBhdGggZD0iTTIxIDE4YTIgMiAwIDEgMSAtNCAwYTIgMiAwIDAgMSA0IDAiLz4KPC9zdmc+)
+  ///
+  /// Tabler icon named "lawn-mower".
+  static const IconData lawnMower = IconData(
+    0x10236,
+    fontFamily: 'TablerIcons',
+    fontPackage: 'tabler_icons',
+  );
+
+  /// ![Icon](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9ImdyYXkiIHN0cm9rZS13aWR0aD0iMiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIiBjbGFzcz0iaWNvbiBpY29uLXRhYmxlciBpY29ucy10YWJsZXItb3V0bGluZSBpY29uLXRhYmxlci1pbmZpbml0eS0yIj4KICA8cGF0aCBzdHJva2U9Im5vbmUiIGQ9Ik0wIDBoMjR2MjRIMHoiIGZpbGw9Im5vbmUiLz4KICA8cGF0aCBkPSJNMTMuOTQgOS4zOWExMCAxMCAwIDAgMSAuMjMyIC0uMjE4YTQgNCAwIDEgMSAwIDUuNjU2YTEwIDEwIDAgMCAxIC0yLjE3MiAtMi44MjhhMTAgMTAgMCAwIDAgLTIuMTcyIC0yLjgyOGE0IDQgMCAxIDAgMCA1LjY1NmExMCAxMCAwIDAgMCAuMjM0IC0uMjE5Ii8+Cjwvc3ZnPg==)
+  ///
+  /// Tabler icon named "infinity-2".
+  static const IconData infinity2 = IconData(
+    0x10237,
+    fontFamily: 'TablerIcons',
+    fontPackage: 'tabler_icons',
+  );
+
+  /// ![Icon](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9ImdyYXkiIHN0cm9rZS13aWR0aD0iMiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIiBjbGFzcz0iaWNvbiBpY29uLXRhYmxlciBpY29ucy10YWJsZXItb3V0bGluZSBpY29uLXRhYmxlci1oYW1tZXItZHJpbGwiPgogIDxwYXRoIHN0cm9rZT0ibm9uZSIgZD0iTTAgMGgyNHYyNEgweiIgZmlsbD0ibm9uZSIvPgogIDxwYXRoIGQ9Ik0xMiAxNXY2Ii8+CiAgPHBhdGggZD0iTTE2IDVoNCIvPgogIDxwYXRoIGQ9Ik04IDVoLTQiLz4KICA8cGF0aCBkPSJNMTUgMTFoLTZhMSAxIDAgMCAxIC0xIC0xdi02YTEgMSAwIDAgMSAxIC0xaDZhMSAxIDAgMCAxIDEgMXY2YTEgMSAwIDAgMSAtMSAxIi8+CiAgPHBhdGggZD0iTTE0IDExaC00djNhMSAxIDAgMCAwIDEgMWgyYTEgMSAwIDAgMCAxIC0xdi0zIi8+Cjwvc3ZnPg==)
+  ///
+  /// Tabler icon named "hammer-drill".
+  static const IconData hammerDrill = IconData(
+    0x10238,
+    fontFamily: 'TablerIcons',
+    fontPackage: 'tabler_icons',
+  );
+
+  /// ![Icon](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9ImdyYXkiIHN0cm9rZS13aWR0aD0iMiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIiBjbGFzcz0iaWNvbiBpY29uLXRhYmxlciBpY29ucy10YWJsZXItb3V0bGluZSBpY29uLXRhYmxlci1ncmFwZSI+CiAgPHBhdGggc3Ryb2tlPSJub25lIiBkPSJNMCAwaDI0djI0SDB6IiBmaWxsPSJub25lIi8+CiAgPHBhdGggZD0iTTEzIDNhMTQuNSAxNC41IDAgMCAwIC0xIDYiLz4KICA8cGF0aCBkPSJNMTIgOC45cy0yLjc3IC41MiAtNC4xIC0uOHMtLjggLTQgLS44IC00czIuNTcgLS41MyAzLjg4IC44czEuMDIgNCAxLjAyIDQiLz4KICA8cGF0aCBkPSJNMTQgMTlhMiAyIDAgMSAwIC00IDBhMiAyIDAgMCAwIDQgMCIvPgogIDxwYXRoIGQ9Ik0xNCAxN2EyIDIgMCAxIDEgMCAtNGEyIDIgMCAwIDEgMCA0Ii8+CiAgPHBhdGggZD0iTTEwIDE3YTIgMiAwIDEgMSAwIC00YTIgMiAwIDAgMSAwIDQiLz4KICA8cGF0aCBkPSJNMTIgMTNhMiAyIDAgMSAxIDAgLTRhMiAyIDAgMCAxIDAgNCIvPgogIDxwYXRoIGQ9Ik0xNiAxM2EyIDIgMCAxIDEgMCAtNGEyIDIgMCAwIDEgMCA0Ii8+CiAgPHBhdGggZD0iTTggMTNhMiAyIDAgMSAxIDAgLTRhMiAyIDAgMCAxIDAgNCIvPgo8L3N2Zz4=)
+  ///
+  /// Tabler icon named "grape".
+  static const IconData grape = IconData(
+    0x10239,
+    fontFamily: 'TablerIcons',
+    fontPackage: 'tabler_icons',
+  );
+
+  /// ![Icon](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9ImdyYXkiIHN0cm9rZS13aWR0aD0iMiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIiBjbGFzcz0iaWNvbiBpY29uLXRhYmxlciBpY29ucy10YWJsZXItb3V0bGluZSBpY29uLXRhYmxlci1lYXJwaG9uZS1ibHVldG9vdGgiPgogIDxwYXRoIHN0cm9rZT0ibm9uZSIgZD0iTTAgMGgyNHYyNEgweiIgZmlsbD0ibm9uZSIvPgogIDxwYXRoIGQ9Ik02LjU3IDEyLjc3YTYuOSA2LjkgMCAwIDEgLS41NyAtMi43N2E3IDcgMCAwIDEgMTQgMCIvPgogIDxwYXRoIGQ9Ik05IDE2bC0xIDEiLz4KICA8cGF0aCBkPSJNMTAuODMgMTkuODNsNi4zNiAtNi4zN2ExIDEgMCAwIDAgMCAtMS40MWwtNC4xOSAtNC4yNGExIDEgMCAwIDAgLTEuNDEgMGwtNi40MiA2LjM2YTQgNCAwIDAgMCAwIDUuNjZhNCA0IDAgMCAwIDUuNjYgMCIvPgo8L3N2Zz4=)
+  ///
+  /// Tabler icon named "earphone-bluetooth".
+  static const IconData earphoneBluetooth = IconData(
+    0x1023a,
+    fontFamily: 'TablerIcons',
+    fontPackage: 'tabler_icons',
+  );
+
+  /// ![Icon](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9ImdyYXkiIHN0cm9rZS13aWR0aD0iMiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIiBjbGFzcz0iaWNvbiBpY29uLXRhYmxlciBpY29ucy10YWJsZXItb3V0bGluZSBpY29uLXRhYmxlci1kb29yLWhhbmdlciI+CiAgPHBhdGggc3Ryb2tlPSJub25lIiBkPSJNMCAwaDI0djI0SDB6IiBmaWxsPSJub25lIi8+CiAgPHBhdGggZD0iTTEyIDNhNyA3IDAgMCAwIC01LjQ4IDIuNjRhMSAxIDAgMCAwIC4zMSAxLjQ5bDEuNzYgMWExIDEgMCAwIDAgMS4yMiAtLjEzYTMgMyAwIDAgMSAyLjgyIC0uODhhMy4wOSAzLjA5IDAgMCAxIDIuMzcgMy4wMXYuODdsLTkuMiAxLjg0YTEgMSAwIDAgMCAtLjggMXY2LjE2YTEgMSAwIDAgMCAxIDFoMTJhMSAxIDAgMCAwIDEgLTF2LTkuNzJhNy4xOCA3LjE4IDAgMCAwIC03IC03LjI4Ii8+CiAgPHBhdGggZD0iTTEyIDE3di4wMSIvPgo8L3N2Zz4=)
+  ///
+  /// Tabler icon named "door-hanger".
+  static const IconData doorHanger = IconData(
+    0x1023b,
+    fontFamily: 'TablerIcons',
+    fontPackage: 'tabler_icons',
+  );
+
+  /// ![Icon](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9ImdyYXkiIHN0cm9rZS13aWR0aD0iMiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIiBjbGFzcz0iaWNvbiBpY29uLXRhYmxlciBpY29ucy10YWJsZXItb3V0bGluZSBpY29uLXRhYmxlci1kZXZpY2UtY29tcHV0ZXItY2FtZXJhLTIiPgogIDxwYXRoIHN0cm9rZT0ibm9uZSIgZD0iTTAgMGgyNHYyNEgweiIgZmlsbD0ibm9uZSIvPgogIDxwYXRoIGQ9Ik0xNyAxNGgtMTBhNCA0IDAgMCAxIC00IC00YTQgNCAwIDAgMSA0IC00aDEwYTQgNCAwIDAgMSA0IDRhNCA0IDAgMCAxIC00IDQiLz4KICA8cGF0aCBkPSJNMTUgMTRoLTZ2NGg2di00Ii8+CiAgPHBhdGggZD0iTTE3IDE4aC0xMCIvPgogIDxwYXRoIGQ9Ik0xMiAxMC4wMnYuMDEiLz4KPC9zdmc+)
+  ///
+  /// Tabler icon named "device-computer-camera-2".
+  static const IconData deviceComputerCamera2 = IconData(
+    0x1023c,
+    fontFamily: 'TablerIcons',
+    fontPackage: 'tabler_icons',
+  );
+
+  /// ![Icon](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9ImdyYXkiIHN0cm9rZS13aWR0aD0iMiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIiBjbGFzcz0iaWNvbiBpY29uLXRhYmxlciBpY29ucy10YWJsZXItb3V0bGluZSBpY29uLXRhYmxlci1jdXJyZW5jeS16Y2FzaCI+CiAgPHBhdGggc3Ryb2tlPSJub25lIiBkPSJNMCAwaDI0djI0SDB6IiBmaWxsPSJub25lIi8+CiAgPHBhdGggZD0iTTcgNmgxMGwtMTAgMTJoMTAiLz4KICA8cGF0aCBkPSJNMTIgNHYyIi8+CiAgPHBhdGggZD0iTTEyIDE4djIiLz4KPC9zdmc+)
+  ///
+  /// Tabler icon named "currency-zcash".
+  static const IconData currencyZcash = IconData(
+    0x1023d,
+    fontFamily: 'TablerIcons',
+    fontPackage: 'tabler_icons',
+  );
+
+  /// ![Icon](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9ImdyYXkiIHN0cm9rZS13aWR0aD0iMiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIiBjbGFzcz0iaWNvbiBpY29uLXRhYmxlciBpY29ucy10YWJsZXItb3V0bGluZSBpY29uLXRhYmxlci1jdXJyZW5jeS10ZXRoZXIiPgogIDxwYXRoIHN0cm9rZT0ibm9uZSIgZD0iTTAgMGgyNHYyNEgweiIgZmlsbD0ibm9uZSIvPgogIDxwYXRoIGQ9Ik00IDExYTggMiAwIDEgMCAxNiAwYTggMiAwIDEgMCAtMTYgMCIvPgogIDxwYXRoIGQ9Ik0xMiAyMHYtMTYiLz4KICA8cGF0aCBkPSJNNCA0aDE2Ii8+Cjwvc3ZnPg==)
+  ///
+  /// Tabler icon named "currency-tether".
+  static const IconData currencyTether = IconData(
+    0x1023e,
+    fontFamily: 'TablerIcons',
+    fontPackage: 'tabler_icons',
+  );
+
+  /// ![Icon](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9ImdyYXkiIHN0cm9rZS13aWR0aD0iMiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIiBjbGFzcz0iaWNvbiBpY29uLXRhYmxlciBpY29ucy10YWJsZXItb3V0bGluZSBpY29uLXRhYmxlci1jdXJyZW5jeS1odXNkIj4KICA8cGF0aCBzdHJva2U9Im5vbmUiIGQ9Ik0wIDBoMjR2MjRIMHoiIGZpbGw9Im5vbmUiLz4KICA8cGF0aCBkPSJNNyAyMHYtNSIvPgogIDxwYXRoIGQ9Ik0xNyA5di01Ii8+CiAgPHBhdGggZD0iTTE3IDIwdi02YTIgMiAwIDAgMCAtMiAtMmgtNmEyIDIgMCAwIDEgLTIgLTJ2LTYiLz4KPC9zdmc+)
+  ///
+  /// Tabler icon named "currency-husd".
+  static const IconData currencyHusd = IconData(
+    0x1023f,
+    fontFamily: 'TablerIcons',
+    fontPackage: 'tabler_icons',
+  );
+
+  /// ![Icon](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9ImdyYXkiIHN0cm9rZS13aWR0aD0iMiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIiBjbGFzcz0iaWNvbiBpY29uLXRhYmxlciBpY29ucy10YWJsZXItb3V0bGluZSBpY29uLXRhYmxlci1jbGVmIj4KICA8cGF0aCBzdHJva2U9Im5vbmUiIGQ9Ik0wIDBoMjR2MjRIMHoiIGZpbGw9Im5vbmUiLz4KICA8cGF0aCBkPSJNMTYgMTJhNC4xNiA0LjE2IDAgMCAxIC01LjYyIDMuODlhMy43OCAzLjc4IDAgMCAxIC0yLjM4IC0zLjM5YTMuNDIgMy40MiAwIDAgMSAyLjM0IC0zLjM4bDMuNzkgLTEuNDJhMi44OSAyLjg5IDAgMCAwIDEuODcgLTIuN2EyIDIgMCAxIDAgLTQgMHYxNGEyIDIgMCAxIDEgLTQgMCIvPgo8L3N2Zz4=)
+  ///
+  /// Tabler icon named "clef".
+  static const IconData clef = IconData(
+    0x10240,
+    fontFamily: 'TablerIcons',
+    fontPackage: 'tabler_icons',
+  );
+
+  /// ![Icon](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9ImdyYXkiIHN0cm9rZS13aWR0aD0iMiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIiBjbGFzcz0iaWNvbiBpY29uLXRhYmxlciBpY29ucy10YWJsZXItb3V0bGluZSBpY29uLXRhYmxlci1jbGVmLXN0YWZmIj4KICA8cGF0aCBzdHJva2U9Im5vbmUiIGQ9Ik0wIDBoMjR2MjRIMHoiIGZpbGw9Im5vbmUiLz4KICA8cGF0aCBkPSJNMTUgMTVoNiIvPgogIDxwYXRoIGQ9Ik0xNSAxMWg2Ii8+CiAgPHBhdGggZD0iTTExIDE5aDEwIi8+CiAgPHBhdGggZD0iTTExIDEyYTQuMTYgNC4xNiAwIDAgMSAtNS42MiAzLjg5YTMuNzggMy43OCAwIDAgMSAtMi4zOCAtMy4zOWEzLjQyIDMuNDIgMCAwIDEgMi4zNCAtMy4zOGwzLjc5IC0xLjQyYTIuODkgMi44OSAwIDAgMCAxLjg3IC0yLjdhMiAyIDAgMCAwIC0yIC0yYTIgMiAwIDAgMCAtMiAydjE0YTIgMiAwIDAgMSAtMiAyYTIgMiAwIDAgMSAtMiAtMiIvPgo8L3N2Zz4=)
+  ///
+  /// Tabler icon named "clef-staff".
+  static const IconData clefStaff = IconData(
+    0x10241,
+    fontFamily: 'TablerIcons',
+    fontPackage: 'tabler_icons',
+  );
+
+  /// ![Icon](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9ImdyYXkiIHN0cm9rZS13aWR0aD0iMiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIiBjbGFzcz0iaWNvbiBpY29uLXRhYmxlciBpY29ucy10YWJsZXItb3V0bGluZSBpY29uLXRhYmxlci1icmFuZC12ZWNoYWluIj4KICA8cGF0aCBzdHJva2U9Im5vbmUiIGQ9Ik0wIDBoMjR2MjRIMHoiIGZpbGw9Im5vbmUiLz4KICA8cGF0aCBkPSJNMjAgNGwtOCAxNmwtOCAtMTZoMi4wMjhhNCA0IDAgMCAxIDMuNTc4IDIuMjExbDIuODk0IDUuNzg5Ii8+Cjwvc3ZnPg==)
+  ///
+  /// Tabler icon named "brand-vechain".
+  static const IconData brandVechain = IconData(
+    0x10242,
+    fontFamily: 'TablerIcons',
+    fontPackage: 'tabler_icons',
+  );
+
+  /// ![Icon](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9ImdyYXkiIHN0cm9rZS13aWR0aD0iMiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIiBjbGFzcz0iaWNvbiBpY29uLXRhYmxlciBpY29ucy10YWJsZXItb3V0bGluZSBpY29uLXRhYmxlci1icmFuZC1zdGVsbGFyIj4KICA8cGF0aCBzdHJva2U9Im5vbmUiIGQ9Ik0wIDBoMjR2MjRIMHoiIGZpbGw9Im5vbmUiLz4KICA8cGF0aCBkPSJNMjEgNmwtMTcgN3YtMWMtLjAwNCAtMS4yNTkgLjIzNCAtMi41IC44MSAtMy42MmMxLjM2MyAtMi42ODYgNC4xNzggLTQuMzc4IDcuMTkgLTQuMzhhNy41IDcuNSAwIDAgMSAyLjYxIC40NiIvPgogIDxwYXRoIGQ9Ik05LjM4IDE5LjU0YTggOCAwIDAgMCA5LjgxIC0zLjkyYy41NzYgLTEuMTIgLjgxNCAtMi4zNjEgLjgxIC0zLjYydi0xbC0xNyA3Ii8+Cjwvc3ZnPg==)
+  ///
+  /// Tabler icon named "brand-stellar".
+  static const IconData brandStellar = IconData(
+    0x10243,
+    fontFamily: 'TablerIcons',
+    fontPackage: 'tabler_icons',
+  );
+
   /// ![Icon](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJncmF5IiBjbGFzcz0iaWNvbiBpY29uLXRhYmxlciBpY29ucy10YWJsZXItZmlsbGVkIGljb24tdGFibGVyLWRyb3BsZXQiPgogIDxwYXRoIHN0cm9rZT0ibm9uZSIgZD0iTTAgMGgyNHYyNEgweiIgZmlsbD0ibm9uZSIvPgogIDxwYXRoIGQ9Ik0xMC43MDggMi4zNzJhMi4zODIgMi4zODIgMCAwIDAgLS43MSAuNjg2bC00Ljg5MiA3LjI2Yy0xLjk4MSAzLjMxNCAtMS4yMiA3LjQ2NiAxLjc2NyA5Ljg4MmMyLjk2OSAyLjQwMiA3LjI4NiAyLjQwMiAxMC4yNTQgMGMyLjk4NyAtMi40MTYgMy43NDggLTYuNTY5IDEuNzk1IC05LjgzNmwtNC45MTkgLTcuMzA2Yy0uNzIyIC0xLjA3NSAtMi4xOTIgLTEuMzc2IC0zLjI5NSAtLjY4NnoiLz4KPC9zdmc+)
   ///
   /// Tabler icon named "droplet".
@@ -59621,6 +59783,24 @@ abstract final class TablerIcons {
     carSuspension,
     carOffRoad,
     brandJira,
+    plunger,
+    pendulum,
+    mosque,
+    loader4,
+    lawnMower,
+    infinity2,
+    hammerDrill,
+    grape,
+    earphoneBluetooth,
+    doorHanger,
+    deviceComputerCamera2,
+    currencyZcash,
+    currencyTether,
+    currencyHusd,
+    clef,
+    clefStaff,
+    brandVechain,
+    brandStellar,
     droplet_filled,
     shieldHalf_filled,
     badge_filled,
