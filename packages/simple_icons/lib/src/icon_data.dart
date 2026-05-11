@@ -4604,11 +4604,20 @@ abstract final class SimpleIcons {
     fontPackage: 'simple_icons',
   );
 
+  /// ![Icon](data:image/svg+xml;base64,PHN2ZyByb2xlPSJpbWciIHZpZXdCb3g9IjAgMCAyNCAyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiBoZWlnaHQ9IjI0IiB3aWR0aD0iMjQiIGZpbGw9ImdyYXkiPjx0aXRsZT5DaW5ueTwvdGl0bGU+PHBhdGggZD0iTTEyIDBDNS4zMzMgMCAwIDUuMzMzIDAgMTJzNS4zMzMgMTIgMTIgMTIgMTItNS4zMzMgMTItMTJTMTguNjY3IDAgMTIgMG0tMS41OTkgNi40MDFoLjUzMWMxLjYgMCAzLjA2Ny44IDMuODY3IDIuMTMzQzE1LjIgOC40IDE1LjYgOC40IDE2IDguNGMuNTMzIDAgMS4wNjYgMCAxLjU5OS4xMzMuOTMzLjI2NyAxLjg2Ny42NjcgMi42NjcgMS4yYTcuOCA3LjggMCAwIDAtMi41MzItLjRjLTEuNiAwLTIuOTMzLjUzMy0zLjg2NyAxLjg2N2E2LjkgNi45IDAgMCAwLTEuNDY2IDQuMjY1YzAgMi0uNTM0IDMuODY4LTEuNzM0IDUuNjAyLS40LjUzMy0uNjY4LjkzMy0xLjA2OCAxLjMzMy00LS45MzMtNy4wNjctNC04LThsNC42NjctMy4wNjh2LS40QzYuMjY2IDguNTMyIDggNi42NjcgMTAuNCA2LjRtMi4yNjYgMS40NjZhLjY2Ny42NjcgMCAwIDAtLjY2Ny42NjcuNjY3LjY2NyAwIDAgMCAuNjY3LjY2Ny42NjcuNjY3IDAgMCAwIC42NjYtLjY2Ny42NjcuNjY3IDAgMCAwLS42NjYtLjY2NyIvPjwvc3ZnPg==)
+  ///
+  /// Simple icon named "cinny".
+  static const IconData cinny = IconData(
+    0xec00,
+    fontFamily: 'SimpleIcons',
+    fontPackage: 'simple_icons',
+  );
+
   /// ![Icon](data:image/svg+xml;base64,PHN2ZyByb2xlPSJpbWciIHZpZXdCb3g9IjAgMCAyNCAyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiBoZWlnaHQ9IjI0IiB3aWR0aD0iMjQiIGZpbGw9ImdyYXkiPjx0aXRsZT5DaXJjbGU8L3RpdGxlPjxwYXRoIGQ9Ik0yMC43ODggMy44MzJjLS4xMDEtLjEwNS0uMTk3LS4yMTMtLjMwMS0uMzE3LS4xMDMtLjEwMy0uMjExLS4yMDItLjMyLS4zMDJBMTEuOTAzIDExLjkwMyAwIDAgMCAxMiAwYTExLjkyNiAxMS45MjYgMCAwIDAtOC40ODYgMy41MTRDLTEuMDYyIDguMDktMS4xNiAxNS40NyAzLjIxMyAyMC4xNjhjLjA5OS4xMDguMTk3LjIxNC4zLjMyLjEwNC4xMDMuMjEuMi4zMTcuM0ExMS45MiAxMS45MiAwIDAgMCAxMiAyNGMzLjIwNiAwIDYuMjItMS4yNDcgOC40ODctMy41MTIgNC41NzYtNC41NzYgNC42NzMtMTEuOTU2LjMwMS0xNi42NTZ6bS0xNi42NTUuMzAxQTExLjA1NyAxMS4wNTcgMCAwIDEgMTIgLjg3NGMyLjgyNSAwIDUuNDkgMS4wNDggNy41NSAyLjk1OGwtMS4wMDEgMS4wMDJBOS42NDYgOS42NDYgMCAwIDAgMTIgMi4yOTJhOS42NDQgOS42NDQgMCAwIDAtNi44NjUgMi44NDRBOS42NDQgOS42NDQgMCAwIDAgMi4yOTIgMTJjMCAyLjQ0OC45IDQuNzUzIDIuNTQyIDYuNTQ5TDMuODMxIDE5LjU1Qy0uMjAxIDE1LjE5MS0uMTAxIDguMzY3IDQuMTMzIDQuMTMzem0xMy43OTggMS4zMTh2LjAwMmwtMS4wMTUgMS4wMTRBNy4zNDYgNy4zNDYgMCAwIDAgMTIgNC41ODkgNy4zNTcgNy4zNTcgMCAwIDAgNi43NjEgNi43NiA3LjM2MiA3LjM2MiAwIDAgMCA0LjU4OSAxMmE3LjM0IDcuMzQgMCAwIDAgMS44NzcgNC45MTNsLTEuMDE0IDEuMDE2QTguNzcgOC43NyAwIDAgMSAzLjE2NyAxMmE4Ljc3IDguNzcgMCAwIDEgMi41ODgtNi4yNDVBOC43NzEgOC43NzEgMCAwIDEgMTIgMy4xNjdjMi4yMTMgMCA0LjMwMS44MDkgNS45MzEgMi4yODR6TTE4LjUzNyAxMmMwIDEuNzQ1LS42ODEgMy4zODctMS45MTYgNC42MjJTMTMuNzQ2IDE4LjUzOCAxMiAxOC41MzhhNi40OTEgNi40OTEgMCAwIDEtNC4yOTYtMS42MjFsLS4wMDEtLjAwNGMtLjExLS4wOTQtLjIyLS4xODgtLjMyNC0uMjkxYTYuMDI3IDYuMDI3IDAgMCAxLS4yOTMtLjMyNkE2LjQ3IDYuNDcgMCAwIDEgNS40NjYgMTJjMC0xLjc0Ni42NzktMy4zODcgMS45MTQtNC42MjFBNi40ODggNi40ODggMCAwIDEgMTIgNS40NjVjMS41OTkgMCAzLjEwNS41NzYgNC4yOTUgMS42Mi4xMTEuMDk2LjIyNC4xOS4zMjYuMjk1LjEwNC4xMDQuMi4yMTQuMjk1LjMyNEE2LjQ4MiA2LjQ4MiAwIDAgMSAxOC41MzcgMTJ6TTcuMDg0IDE3LjUzNGguMDAxQTcuMzQ5IDcuMzQ5IDAgMCAwIDEyIDE5LjQxM2E3LjM1IDcuMzUgMCAwIDAgNS4yMzktMi4xNzRBNy4zNTQgNy4zNTQgMCAwIDAgMTkuNDEyIDEyYTcuMzY0IDcuMzY0IDAgMCAwLTEuODc2LTQuOTE2bDEuMDEzLTEuMDEyQTguNzc3IDguNzc3IDAgMCAxIDIwLjgzNCAxMmE4Ljc2NSA4Ljc2NSAwIDAgMS0yLjU4OSA2LjI0NkE4Ljc2NCA4Ljc2NCAwIDAgMSAxMiAyMC44MzRhOC43ODIgOC43ODIgMCAwIDEtNS45My0yLjI4NWwxLjAxNC0xLjAxNXptMTIuNzgzIDIuMzMzQTExLjA0NiAxMS4wNDYgMCAwIDEgMTIgMjMuMTI1YTExLjA0MiAxMS4wNDIgMCAwIDEtNy41NTEtMi45NTdsMS4wMDQtMS4wMDFhOS42NCA5LjY0IDAgMCAwIDYuNTQ5IDIuNTQyIDkuNjM5IDkuNjM5IDAgMCAwIDYuODY1LTIuODQ2QTkuNjQyIDkuNjQyIDAgMCAwIDIxLjcxIDEyYTkuNjQgOS42NCAwIDAgMC0yLjU0My02LjU0OGwxLjAwMS0xLjAwMmM0LjAzMSA0LjM1OSAzLjkzNSAxMS4xODItLjMwMSAxNS40MTd6Ii8+PC9zdmc+)
   ///
   /// Simple icon named "circle".
   static const IconData circle = IconData(
-    0xec00,
+    0xec01,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -4617,7 +4626,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "circleci".
   static const IconData circleci = IconData(
-    0xec01,
+    0xec02,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -4626,7 +4635,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "circuitverse".
   static const IconData circuitverse = IconData(
-    0xec02,
+    0xec03,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -4635,7 +4644,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "cirrusci".
   static const IconData cirrusci = IconData(
-    0xec03,
+    0xec04,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -4644,7 +4653,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "cisco".
   static const IconData cisco = IconData(
-    0xec04,
+    0xec05,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -4653,7 +4662,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "citrix".
   static const IconData citrix = IconData(
-    0xec05,
+    0xec06,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -4662,7 +4671,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "citroen".
   static const IconData citroen = IconData(
-    0xec06,
+    0xec07,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -4671,7 +4680,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "civicrm".
   static const IconData civicrm = IconData(
-    0xec07,
+    0xec08,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -4680,7 +4689,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "civo".
   static const IconData civo = IconData(
-    0xec08,
+    0xec09,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -4689,7 +4698,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "clarifai".
   static const IconData clarifai = IconData(
-    0xec09,
+    0xec0a,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -4698,7 +4707,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "claris".
   static const IconData claris = IconData(
-    0xec0a,
+    0xec0b,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -4707,7 +4716,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "clarivate".
   static const IconData clarivate = IconData(
-    0xec0b,
+    0xec0c,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -4716,7 +4725,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "claude".
   static const IconData claude = IconData(
-    0xec0c,
+    0xec0d,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -4725,7 +4734,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "clerk".
   static const IconData clerk = IconData(
-    0xec0d,
+    0xec0e,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -4734,7 +4743,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "clevercloud".
   static const IconData clevercloud = IconData(
-    0xec0e,
+    0xec0f,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -4743,7 +4752,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "clickhouse".
   static const IconData clickhouse = IconData(
-    0xec0f,
+    0xec10,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -4752,7 +4761,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "clickup".
   static const IconData clickup = IconData(
-    0xec10,
+    0xec11,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -4761,7 +4770,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "cline".
   static const IconData cline = IconData(
-    0xec11,
+    0xec12,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -4770,7 +4779,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "clion".
   static const IconData clion = IconData(
-    0xec12,
+    0xec13,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -4779,7 +4788,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "clockify".
   static const IconData clockify = IconData(
-    0xec13,
+    0xec14,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -4788,7 +4797,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "clojure".
   static const IconData clojure = IconData(
-    0xec14,
+    0xec15,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -4797,7 +4806,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "cloud66".
   static const IconData cloud66 = IconData(
-    0xec15,
+    0xec16,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -4806,7 +4815,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "cloudfoundry".
   static const IconData cloudfoundry = IconData(
-    0xec16,
+    0xec17,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -4815,7 +4824,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "cloudnativebuild".
   static const IconData cloudnativebuild = IconData(
-    0xec17,
+    0xec18,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -4824,7 +4833,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "cloudbees".
   static const IconData cloudbees = IconData(
-    0xec18,
+    0xec19,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -4833,7 +4842,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "cloudcannon".
   static const IconData cloudcannon = IconData(
-    0xec19,
+    0xec1a,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -4842,7 +4851,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "cloudera".
   static const IconData cloudera = IconData(
-    0xec1a,
+    0xec1b,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -4851,7 +4860,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "cloudflare".
   static const IconData cloudflare = IconData(
-    0xec1b,
+    0xec1c,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -4860,7 +4869,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "cloudflarepages".
   static const IconData cloudflarepages = IconData(
-    0xec1c,
+    0xec1d,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -4869,7 +4878,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "cloudflareworkers".
   static const IconData cloudflareworkers = IconData(
-    0xec1d,
+    0xec1e,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -4878,7 +4887,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "cloudinary".
   static const IconData cloudinary = IconData(
-    0xec1e,
+    0xec1f,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -4887,7 +4896,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "cloudron".
   static const IconData cloudron = IconData(
-    0xec1f,
+    0xec20,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -4896,7 +4905,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "cloudsmith".
   static const IconData cloudsmith = IconData(
-    0xec20,
+    0xec21,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -4905,7 +4914,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "cloudways".
   static const IconData cloudways = IconData(
-    0xec21,
+    0xec22,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -4914,7 +4923,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "clubforce".
   static const IconData clubforce = IconData(
-    0xec22,
+    0xec23,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -4923,7 +4932,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "clubhouse".
   static const IconData clubhouse = IconData(
-    0xec23,
+    0xec24,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -4932,7 +4941,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "clyp".
   static const IconData clyp = IconData(
-    0xec24,
+    0xec25,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -4941,7 +4950,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "cmake".
   static const IconData cmake = IconData(
-    0xec25,
+    0xec26,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -4950,7 +4959,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "cncf".
   static const IconData cncf = IconData(
-    0xec26,
+    0xec27,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -4959,7 +4968,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "cnes".
   static const IconData cnes = IconData(
-    0xec27,
+    0xec28,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -4968,7 +4977,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "cnet".
   static const IconData cnet = IconData(
-    0xec28,
+    0xec29,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -4977,7 +4986,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "cnn".
   static const IconData cnn = IconData(
-    0xec29,
+    0xec2a,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -4986,7 +4995,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "coop".
   static const IconData coop = IconData(
-    0xec2a,
+    0xec2b,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -4995,7 +5004,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "cobalt".
   static const IconData cobalt = IconData(
-    0xec2b,
+    0xec2c,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -5004,7 +5013,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "cocacola".
   static const IconData cocacola = IconData(
-    0xec2c,
+    0xec2d,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -5013,7 +5022,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "cockpit".
   static const IconData cockpit = IconData(
-    0xec2d,
+    0xec2e,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -5022,7 +5031,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "cockroachlabs".
   static const IconData cockroachlabs = IconData(
-    0xec2e,
+    0xec2f,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -5031,7 +5040,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "cocoapods".
   static const IconData cocoapods = IconData(
-    0xec2f,
+    0xec30,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -5040,7 +5049,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "cocos".
   static const IconData cocos = IconData(
-    0xec30,
+    0xec31,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -5049,7 +5058,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "coda".
   static const IconData coda = IconData(
-    0xec31,
+    0xec32,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -5058,7 +5067,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "codacy".
   static const IconData codacy = IconData(
-    0xec32,
+    0xec33,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -5067,7 +5076,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "codeclimate".
   static const IconData codeclimate = IconData(
-    0xec33,
+    0xec34,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -5076,7 +5085,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "codeblocks".
   static const IconData codeblocks = IconData(
-    0xec34,
+    0xec35,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -5085,7 +5094,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "codeberg".
   static const IconData codeberg = IconData(
-    0xec35,
+    0xec36,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -5094,7 +5103,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "codecademy".
   static const IconData codecademy = IconData(
-    0xec36,
+    0xec37,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -5103,7 +5112,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "codeceptjs".
   static const IconData codeceptjs = IconData(
-    0xec37,
+    0xec38,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -5112,7 +5121,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "codechef".
   static const IconData codechef = IconData(
-    0xec38,
+    0xec39,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -5121,7 +5130,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "codecov".
   static const IconData codecov = IconData(
-    0xec39,
+    0xec3a,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -5130,7 +5139,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "codecrafters".
   static const IconData codecrafters = IconData(
-    0xec3a,
+    0xec3b,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -5139,7 +5148,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "codefactor".
   static const IconData codefactor = IconData(
-    0xec3b,
+    0xec3c,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -5148,7 +5157,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "codeforces".
   static const IconData codeforces = IconData(
-    0xec3c,
+    0xec3d,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -5157,7 +5166,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "codefresh".
   static const IconData codefresh = IconData(
-    0xec3d,
+    0xec3e,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -5166,7 +5175,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "codeigniter".
   static const IconData codeigniter = IconData(
-    0xec3e,
+    0xec3f,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -5175,7 +5184,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "codemagic".
   static const IconData codemagic = IconData(
-    0xec3f,
+    0xec40,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -5184,7 +5193,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "codementor".
   static const IconData codementor = IconData(
-    0xec40,
+    0xec41,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -5193,7 +5202,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "codemirror".
   static const IconData codemirror = IconData(
-    0xec41,
+    0xec42,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -5202,7 +5211,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "codenewbie".
   static const IconData codenewbie = IconData(
-    0xec42,
+    0xec43,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -5211,7 +5220,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "codeproject".
   static const IconData codeproject = IconData(
-    0xec43,
+    0xec44,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -5220,7 +5229,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "coder".
   static const IconData coder = IconData(
-    0xec44,
+    0xec45,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -5229,7 +5238,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "coderabbit".
   static const IconData coderabbit = IconData(
-    0xec45,
+    0xec46,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -5238,7 +5247,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "codersrank".
   static const IconData codersrank = IconData(
-    0xec46,
+    0xec47,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -5247,7 +5256,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "coderwall".
   static const IconData coderwall = IconData(
-    0xec47,
+    0xec48,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -5256,7 +5265,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "codesandbox".
   static const IconData codesandbox = IconData(
-    0xec48,
+    0xec49,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -5265,7 +5274,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "codeship".
   static const IconData codeship = IconData(
-    0xec49,
+    0xec4a,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -5274,7 +5283,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "codesignal".
   static const IconData codesignal = IconData(
-    0xec4a,
+    0xec4b,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -5283,7 +5292,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "codestream".
   static const IconData codestream = IconData(
-    0xec4b,
+    0xec4c,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -5292,7 +5301,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "codewars".
   static const IconData codewars = IconData(
-    0xec4c,
+    0xec4d,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -5301,7 +5310,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "codingninjas".
   static const IconData codingninjas = IconData(
-    0xec4d,
+    0xec4e,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -5310,7 +5319,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "codingame".
   static const IconData codingame = IconData(
-    0xec4e,
+    0xec4f,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -5319,7 +5328,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "codio".
   static const IconData codio = IconData(
-    0xec4f,
+    0xec50,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -5328,7 +5337,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "coffeescript".
   static const IconData coffeescript = IconData(
-    0xec50,
+    0xec51,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -5337,7 +5346,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "coggle".
   static const IconData coggle = IconData(
-    0xec51,
+    0xec52,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -5346,7 +5355,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "coinbase".
   static const IconData coinbase = IconData(
-    0xec52,
+    0xec53,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -5355,7 +5364,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "coinmarketcap".
   static const IconData coinmarketcap = IconData(
-    0xec53,
+    0xec54,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -5364,7 +5373,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "collaboraonline".
   static const IconData collaboraonline = IconData(
-    0xec54,
+    0xec55,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -5373,7 +5382,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "comicfury".
   static const IconData comicfury = IconData(
-    0xec55,
+    0xec56,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -5382,7 +5391,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "comma".
   static const IconData comma = IconData(
-    0xec56,
+    0xec57,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -5391,7 +5400,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "commerzbank".
   static const IconData commerzbank = IconData(
-    0xec57,
+    0xec58,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -5400,7 +5409,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "commitlint".
   static const IconData commitlint = IconData(
-    0xec58,
+    0xec59,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -5409,7 +5418,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "commodore".
   static const IconData commodore = IconData(
-    0xec59,
+    0xec5a,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -5418,7 +5427,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "commonlisp".
   static const IconData commonlisp = IconData(
-    0xec5a,
+    0xec5b,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -5427,7 +5436,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "commonworkflowlanguage".
   static const IconData commonworkflowlanguage = IconData(
-    0xec5b,
+    0xec5c,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -5436,7 +5445,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "compilerexplorer".
   static const IconData compilerexplorer = IconData(
-    0xec5c,
+    0xec5d,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -5445,7 +5454,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "composer".
   static const IconData composer = IconData(
-    0xec5d,
+    0xec5e,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -5454,7 +5463,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "comptia".
   static const IconData comptia = IconData(
-    0xec5e,
+    0xec5f,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -5463,7 +5472,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "comsol".
   static const IconData comsol = IconData(
-    0xec5f,
+    0xec60,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -5472,7 +5481,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "conan".
   static const IconData conan = IconData(
-    0xec60,
+    0xec61,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -5481,7 +5490,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "concourse".
   static const IconData concourse = IconData(
-    0xec61,
+    0xec62,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -5490,7 +5499,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "condaforge".
   static const IconData condaforge = IconData(
-    0xec62,
+    0xec63,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -5499,7 +5508,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "conekta".
   static const IconData conekta = IconData(
-    0xec63,
+    0xec64,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -5508,7 +5517,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "confluence".
   static const IconData confluence = IconData(
-    0xec64,
+    0xec65,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -5517,7 +5526,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "construct3".
   static const IconData construct3 = IconData(
-    0xec65,
+    0xec66,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -5526,7 +5535,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "consul".
   static const IconData consul = IconData(
-    0xec66,
+    0xec67,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -5535,7 +5544,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "contabo".
   static const IconData contabo = IconData(
-    0xec67,
+    0xec68,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -5544,7 +5553,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "contactlesspayment".
   static const IconData contactlesspayment = IconData(
-    0xec68,
+    0xec69,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -5553,7 +5562,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "containerd".
   static const IconData containerd = IconData(
-    0xec69,
+    0xec6a,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -5562,7 +5571,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "contao".
   static const IconData contao = IconData(
-    0xec6a,
+    0xec6b,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -5571,7 +5580,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "contensis".
   static const IconData contensis = IconData(
-    0xec6b,
+    0xec6c,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -5580,7 +5589,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "contentful".
   static const IconData contentful = IconData(
-    0xec6c,
+    0xec6d,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -5589,7 +5598,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "contentstack".
   static const IconData contentstack = IconData(
-    0xec6d,
+    0xec6e,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -5598,7 +5607,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "continente".
   static const IconData continente = IconData(
-    0xec6e,
+    0xec6f,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -5607,7 +5616,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "contributorcovenant".
   static const IconData contributorcovenant = IconData(
-    0xec6f,
+    0xec70,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -5616,7 +5625,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "conventionalcommits".
   static const IconData conventionalcommits = IconData(
-    0xec70,
+    0xec71,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -5625,7 +5634,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "convertio".
   static const IconData convertio = IconData(
-    0xec71,
+    0xec72,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -5634,7 +5643,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "convex".
   static const IconData convex = IconData(
-    0xec72,
+    0xec73,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -5643,7 +5652,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "cookiecutter".
   static const IconData cookiecutter = IconData(
-    0xec73,
+    0xec74,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -5652,7 +5661,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "coolermaster".
   static const IconData coolermaster = IconData(
-    0xec74,
+    0xec75,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -5661,7 +5670,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "coolify".
   static const IconData coolify = IconData(
-    0xec75,
+    0xec76,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -5670,7 +5679,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "copaairlines".
   static const IconData copaairlines = IconData(
-    0xec76,
+    0xec77,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -5679,7 +5688,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "coppel".
   static const IconData coppel = IconData(
-    0xec77,
+    0xec78,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -5688,7 +5697,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "cora".
   static const IconData cora = IconData(
-    0xec78,
+    0xec79,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -5697,7 +5706,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "coreboot".
   static const IconData coreboot = IconData(
-    0xec79,
+    0xec7a,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -5706,7 +5715,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "coreldraw".
   static const IconData coreldraw = IconData(
-    0xec7a,
+    0xec7b,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -5715,7 +5724,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "coronaengine".
   static const IconData coronaengine = IconData(
-    0xec7b,
+    0xec7c,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -5724,7 +5733,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "coronarenderer".
   static const IconData coronarenderer = IconData(
-    0xec7c,
+    0xec7d,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -5733,7 +5742,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "corsair".
   static const IconData corsair = IconData(
-    0xec7d,
+    0xec7e,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -5742,7 +5751,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "couchbase".
   static const IconData couchbase = IconData(
-    0xec7e,
+    0xec7f,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -5751,7 +5760,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "counterstrike".
   static const IconData counterstrike = IconData(
-    0xec7f,
+    0xec80,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -5760,7 +5769,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "countingworkspro".
   static const IconData countingworkspro = IconData(
-    0xec80,
+    0xec81,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -5769,7 +5778,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "coursera".
   static const IconData coursera = IconData(
-    0xec81,
+    0xec82,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -5778,7 +5787,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "coveralls".
   static const IconData coveralls = IconData(
-    0xec82,
+    0xec83,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -5787,7 +5796,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "coze".
   static const IconData coze = IconData(
-    0xec83,
+    0xec84,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -5796,7 +5805,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "cpanel".
   static const IconData cpanel = IconData(
-    0xec84,
+    0xec85,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -5805,7 +5814,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "craftcms".
   static const IconData craftcms = IconData(
-    0xec85,
+    0xec86,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -5814,7 +5823,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "craftsman".
   static const IconData craftsman = IconData(
-    0xec86,
+    0xec87,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -5823,7 +5832,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "cratedb".
   static const IconData cratedb = IconData(
-    0xec87,
+    0xec88,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -5832,7 +5841,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "crayon".
   static const IconData crayon = IconData(
-    0xec88,
+    0xec89,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -5841,7 +5850,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "creality".
   static const IconData creality = IconData(
-    0xec89,
+    0xec8a,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -5850,7 +5859,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "createreactapp".
   static const IconData createreactapp = IconData(
-    0xec8a,
+    0xec8b,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -5859,7 +5868,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "creativecommons".
   static const IconData creativecommons = IconData(
-    0xec8b,
+    0xec8c,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -5868,7 +5877,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "creativetechnology".
   static const IconData creativetechnology = IconData(
-    0xec8c,
+    0xec8d,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -5877,7 +5886,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "credly".
   static const IconData credly = IconData(
-    0xec8d,
+    0xec8e,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -5886,7 +5895,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "crehana".
   static const IconData crehana = IconData(
-    0xec8e,
+    0xec8f,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -5895,7 +5904,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "crewunited".
   static const IconData crewunited = IconData(
-    0xec8f,
+    0xec90,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -5904,7 +5913,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "crewai".
   static const IconData crewai = IconData(
-    0xec90,
+    0xec91,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -5913,7 +5922,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "criticalrole".
   static const IconData criticalrole = IconData(
-    0xec91,
+    0xec92,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -5922,7 +5931,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "crowdin".
   static const IconData crowdin = IconData(
-    0xec92,
+    0xec93,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -5931,7 +5940,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "crowdsource".
   static const IconData crowdsource = IconData(
-    0xec93,
+    0xec94,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -5940,7 +5949,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "crunchbase".
   static const IconData crunchbase = IconData(
-    0xec94,
+    0xec95,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -5949,7 +5958,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "crunchyroll".
   static const IconData crunchyroll = IconData(
-    0xec95,
+    0xec96,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -5958,7 +5967,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "cryengine".
   static const IconData cryengine = IconData(
-    0xec96,
+    0xec97,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -5967,7 +5976,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "cryptomator".
   static const IconData cryptomator = IconData(
-    0xec97,
+    0xec98,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -5976,7 +5985,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "cryptpad".
   static const IconData cryptpad = IconData(
-    0xec98,
+    0xec99,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -5985,7 +5994,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "crystal".
   static const IconData crystal = IconData(
-    0xec99,
+    0xec9a,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -5994,7 +6003,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "csdn".
   static const IconData csdn = IconData(
-    0xec9a,
+    0xec9b,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -6003,7 +6012,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "css".
   static const IconData css = IconData(
-    0xec9b,
+    0xec9c,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -6012,7 +6021,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "cssdesignawards".
   static const IconData cssdesignawards = IconData(
-    0xec9c,
+    0xec9d,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -6021,7 +6030,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "cssmodules".
   static const IconData cssmodules = IconData(
-    0xec9d,
+    0xec9e,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -6030,7 +6039,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "csswizardry".
   static const IconData csswizardry = IconData(
-    0xec9e,
+    0xec9f,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -6039,7 +6048,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "cts".
   static const IconData cts = IconData(
-    0xec9f,
+    0xeca0,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -6048,7 +6057,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "cucumber".
   static const IconData cucumber = IconData(
-    0xeca0,
+    0xeca1,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -6057,7 +6066,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "cultura".
   static const IconData cultura = IconData(
-    0xeca1,
+    0xeca2,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -6066,7 +6075,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "curl".
   static const IconData curl = IconData(
-    0xeca2,
+    0xeca3,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -6075,7 +6084,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "curseforge".
   static const IconData curseforge = IconData(
-    0xeca3,
+    0xeca4,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -6084,7 +6093,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "cursor".
   static const IconData cursor = IconData(
-    0xeca4,
+    0xeca5,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -6093,7 +6102,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "customink".
   static const IconData customink = IconData(
-    0xeca5,
+    0xeca6,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -6102,7 +6111,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "cyberdefenders".
   static const IconData cyberdefenders = IconData(
-    0xeca6,
+    0xeca7,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -6111,7 +6120,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "cycling74".
   static const IconData cycling74 = IconData(
-    0xeca7,
+    0xeca8,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -6120,7 +6129,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "cypress".
   static const IconData cypress = IconData(
-    0xeca8,
+    0xeca9,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -6129,7 +6138,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "cytoscapedotjs".
   static const IconData cytoscapedotjs = IconData(
-    0xeca9,
+    0xecaa,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -6138,7 +6147,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "d".
   static const IconData d = IconData(
-    0xecaa,
+    0xecab,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -6147,7 +6156,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "dedge".
   static const IconData dedge = IconData(
-    0xecab,
+    0xecac,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -6156,7 +6165,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "dwavesystems".
   static const IconData dwavesystems = IconData(
-    0xecac,
+    0xecad,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -6165,7 +6174,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "d3".
   static const IconData d3 = IconData(
-    0xecad,
+    0xecae,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -6174,7 +6183,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "dacia".
   static const IconData dacia = IconData(
-    0xecae,
+    0xecaf,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -6183,7 +6192,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "daf".
   static const IconData daf = IconData(
-    0xecaf,
+    0xecb0,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -6192,7 +6201,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "dailydotdev".
   static const IconData dailydotdev = IconData(
-    0xecb0,
+    0xecb1,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -6201,7 +6210,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "dailymotion".
   static const IconData dailymotion = IconData(
-    0xecb1,
+    0xecb2,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -6210,7 +6219,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "daisyui".
   static const IconData daisyui = IconData(
-    0xecb2,
+    0xecb3,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -6219,7 +6228,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "dapr".
   static const IconData dapr = IconData(
-    0xecb3,
+    0xecb4,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -6228,7 +6237,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "darkreader".
   static const IconData darkreader = IconData(
-    0xecb4,
+    0xecb5,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -6237,7 +6246,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "dart".
   static const IconData dart = IconData(
-    0xecb5,
+    0xecb6,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -6246,7 +6255,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "darty".
   static const IconData darty = IconData(
-    0xecb6,
+    0xecb7,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -6255,7 +6264,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "daserste".
   static const IconData daserste = IconData(
-    0xecb7,
+    0xecb8,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -6264,7 +6273,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "dash".
   static const IconData dash = IconData(
-    0xecb8,
+    0xecb9,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -6273,7 +6282,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "dash0".
   static const IconData dash0 = IconData(
-    0xecb9,
+    0xecba,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -6282,7 +6291,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "dashlane".
   static const IconData dashlane = IconData(
-    0xecba,
+    0xecbb,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -6291,7 +6300,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "dask".
   static const IconData dask = IconData(
-    0xecbb,
+    0xecbc,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -6300,7 +6309,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "dassaultsystemes".
   static const IconData dassaultsystemes = IconData(
-    0xecbc,
+    0xecbd,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -6309,7 +6318,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "datadotai".
   static const IconData datadotai = IconData(
-    0xecbd,
+    0xecbe,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -6318,7 +6327,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "databricks".
   static const IconData databricks = IconData(
-    0xecbe,
+    0xecbf,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -6327,7 +6336,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "datacamp".
   static const IconData datacamp = IconData(
-    0xecbf,
+    0xecc0,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -6336,7 +6345,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "datadog".
   static const IconData datadog = IconData(
-    0xecc0,
+    0xecc1,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -6345,7 +6354,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "datagrip".
   static const IconData datagrip = IconData(
-    0xecc1,
+    0xecc2,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -6354,7 +6363,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "dataiku".
   static const IconData dataiku = IconData(
-    0xecc2,
+    0xecc3,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -6363,7 +6372,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "datastax".
   static const IconData datastax = IconData(
-    0xecc3,
+    0xecc4,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -6372,7 +6381,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "datefns".
   static const IconData datefns = IconData(
-    0xecc4,
+    0xecc5,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -6381,7 +6390,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "datev".
   static const IconData datev = IconData(
-    0xecc5,
+    0xecc6,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -6390,7 +6399,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "datocms".
   static const IconData datocms = IconData(
-    0xecc6,
+    0xecc7,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -6399,7 +6408,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "datto".
   static const IconData datto = IconData(
-    0xecc7,
+    0xecc8,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -6408,7 +6417,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "davinciresolve".
   static const IconData davinciresolve = IconData(
-    0xecc8,
+    0xecc9,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -6417,7 +6426,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "dazhongdianping".
   static const IconData dazhongdianping = IconData(
-    0xecc9,
+    0xecca,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -6426,7 +6435,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "dazn".
   static const IconData dazn = IconData(
-    0xecca,
+    0xeccb,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -6435,7 +6444,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "dbeaver".
   static const IconData dbeaver = IconData(
-    0xeccb,
+    0xeccc,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -6444,7 +6453,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "dblp".
   static const IconData dblp = IconData(
-    0xeccc,
+    0xeccd,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -6453,7 +6462,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "dcentertainment".
   static const IconData dcentertainment = IconData(
-    0xeccd,
+    0xecce,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -6462,7 +6471,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "delonghi".
   static const IconData delonghi = IconData(
-    0xecce,
+    0xeccf,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -6471,7 +6480,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "debian".
   static const IconData debian = IconData(
-    0xeccf,
+    0xecd0,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -6480,7 +6489,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "debridlink".
   static const IconData debridlink = IconData(
-    0xecd0,
+    0xecd1,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -6489,7 +6498,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "decapcms".
   static const IconData decapcms = IconData(
-    0xecd1,
+    0xecd2,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -6498,7 +6507,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "decentraland".
   static const IconData decentraland = IconData(
-    0xecd2,
+    0xecd3,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -6507,7 +6516,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "deepcool".
   static const IconData deepcool = IconData(
-    0xecd3,
+    0xecd4,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -6516,7 +6525,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "deepgram".
   static const IconData deepgram = IconData(
-    0xecd4,
+    0xecd5,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -6525,7 +6534,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "deepin".
   static const IconData deepin = IconData(
-    0xecd5,
+    0xecd6,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -6534,7 +6543,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "deepl".
   static const IconData deepl = IconData(
-    0xecd6,
+    0xecd7,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -6543,7 +6552,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "deepmind".
   static const IconData deepmind = IconData(
-    0xecd7,
+    0xecd8,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -6552,7 +6561,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "deepnote".
   static const IconData deepnote = IconData(
-    0xecd8,
+    0xecd9,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -6561,7 +6570,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "deepseek".
   static const IconData deepseek = IconData(
-    0xecd9,
+    0xecda,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -6570,7 +6579,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "deezer".
   static const IconData deezer = IconData(
-    0xecda,
+    0xecdb,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -6579,7 +6588,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "deliveroo".
   static const IconData deliveroo = IconData(
-    0xecdb,
+    0xecdc,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -6588,7 +6597,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "dell".
   static const IconData dell = IconData(
-    0xecdc,
+    0xecdd,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -6597,7 +6606,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "delphi".
   static const IconData delphi = IconData(
-    0xecdd,
+    0xecde,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -6606,7 +6615,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "delta".
   static const IconData delta = IconData(
-    0xecde,
+    0xecdf,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -6615,7 +6624,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "deluge".
   static const IconData deluge = IconData(
-    0xecdf,
+    0xece0,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -6624,7 +6633,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "deno".
   static const IconData deno = IconData(
-    0xece0,
+    0xece1,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -6633,7 +6642,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "denodeploy".
   static const IconData denodeploy = IconData(
-    0xece1,
+    0xece2,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -6642,7 +6651,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "denon".
   static const IconData denon = IconData(
-    0xece2,
+    0xece3,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -6651,7 +6660,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "dependabot".
   static const IconData dependabot = IconData(
-    0xece3,
+    0xece4,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -6660,7 +6669,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "depositphotos".
   static const IconData depositphotos = IconData(
-    0xece4,
+    0xece5,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -6669,7 +6678,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "derspiegel".
   static const IconData derspiegel = IconData(
-    0xece5,
+    0xece6,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -6678,7 +6687,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "deutschebahn".
   static const IconData deutschebahn = IconData(
-    0xece6,
+    0xece7,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -6687,7 +6696,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "deutschebank".
   static const IconData deutschebank = IconData(
-    0xece7,
+    0xece8,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -6696,7 +6705,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "deutschepost".
   static const IconData deutschepost = IconData(
-    0xece8,
+    0xece9,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -6705,7 +6714,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "deutschetelekom".
   static const IconData deutschetelekom = IconData(
-    0xece9,
+    0xecea,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -6714,7 +6723,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "deutschewelle".
   static const IconData deutschewelle = IconData(
-    0xecea,
+    0xeceb,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -6723,7 +6732,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "devdotto".
   static const IconData devdotto = IconData(
-    0xeceb,
+    0xecec,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -6732,7 +6741,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "devbox".
   static const IconData devbox = IconData(
-    0xecec,
+    0xeced,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -6741,7 +6750,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "developmentcontainers".
   static const IconData developmentcontainers = IconData(
-    0xeced,
+    0xecee,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -6750,7 +6759,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "devexpress".
   static const IconData devexpress = IconData(
-    0xecee,
+    0xecef,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -6759,7 +6768,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "deviantart".
   static const IconData deviantart = IconData(
-    0xecef,
+    0xecf0,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -6768,7 +6777,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "devpost".
   static const IconData devpost = IconData(
-    0xecf0,
+    0xecf1,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -6777,7 +6786,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "devrant".
   static const IconData devrant = IconData(
-    0xecf1,
+    0xecf2,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -6786,7 +6795,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "devuan".
   static const IconData devuan = IconData(
-    0xecf2,
+    0xecf3,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -6795,7 +6804,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "dgraph".
   static const IconData dgraph = IconData(
-    0xecf3,
+    0xecf4,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -6804,7 +6813,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "dhl".
   static const IconData dhl = IconData(
-    0xecf4,
+    0xecf5,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -6813,7 +6822,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "diagramsdotnet".
   static const IconData diagramsdotnet = IconData(
-    0xecf5,
+    0xecf6,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -6822,7 +6831,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "dialogflow".
   static const IconData dialogflow = IconData(
-    0xecf6,
+    0xecf7,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -6831,7 +6840,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "diaspora".
   static const IconData diaspora = IconData(
-    0xecf7,
+    0xecf8,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -6840,7 +6849,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "dicebear".
   static const IconData dicebear = IconData(
-    0xecf8,
+    0xecf9,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -6849,7 +6858,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "dictionarydotcom".
   static const IconData dictionarydotcom = IconData(
-    0xecf9,
+    0xecfa,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -6858,7 +6867,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "dify".
   static const IconData dify = IconData(
-    0xecfa,
+    0xecfb,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -6867,7 +6876,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "digg".
   static const IconData digg = IconData(
-    0xecfb,
+    0xecfc,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -6876,7 +6885,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "digikeyelectronics".
   static const IconData digikeyelectronics = IconData(
-    0xecfc,
+    0xecfd,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -6885,7 +6894,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "digitalocean".
   static const IconData digitalocean = IconData(
-    0xecfd,
+    0xecfe,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -6894,7 +6903,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "dinersclub".
   static const IconData dinersclub = IconData(
-    0xecfe,
+    0xecff,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -6903,7 +6912,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "dior".
   static const IconData dior = IconData(
-    0xecff,
+    0xed00,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -6912,7 +6921,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "directus".
   static const IconData directus = IconData(
-    0xed00,
+    0xed01,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -6921,7 +6930,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "discogs".
   static const IconData discogs = IconData(
-    0xed01,
+    0xed02,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -6930,7 +6939,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "discord".
   static const IconData discord = IconData(
-    0xed02,
+    0xed03,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -6939,7 +6948,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "discorddotjs".
   static const IconData discorddotjs = IconData(
-    0xed03,
+    0xed04,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -6948,7 +6957,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "discourse".
   static const IconData discourse = IconData(
-    0xed04,
+    0xed05,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -6957,7 +6966,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "discover".
   static const IconData discover = IconData(
-    0xed05,
+    0xed06,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -6966,7 +6975,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "disqus".
   static const IconData disqus = IconData(
-    0xed06,
+    0xed07,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -6975,7 +6984,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "disroot".
   static const IconData disroot = IconData(
-    0xed07,
+    0xed08,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -6984,7 +6993,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "distrobox".
   static const IconData distrobox = IconData(
-    0xed08,
+    0xed09,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -6993,7 +7002,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "distrokid".
   static const IconData distrokid = IconData(
-    0xed09,
+    0xed0a,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -7002,7 +7011,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "django".
   static const IconData django = IconData(
-    0xed0a,
+    0xed0b,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -7011,7 +7020,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "dji".
   static const IconData dji = IconData(
-    0xed0b,
+    0xed0c,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -7020,7 +7029,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "dlib".
   static const IconData dlib = IconData(
-    0xed0c,
+    0xed0d,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -7029,7 +7038,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "dlna".
   static const IconData dlna = IconData(
-    0xed0d,
+    0xed0e,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -7038,7 +7047,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "dlthub".
   static const IconData dlthub = IconData(
-    0xed0e,
+    0xed0f,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -7047,7 +7056,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "dm".
   static const IconData dm = IconData(
-    0xed0f,
+    0xed10,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -7056,7 +7065,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "dmm".
   static const IconData dmm = IconData(
-    0xed10,
+    0xed11,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -7065,7 +7074,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "docker".
   static const IconData docker = IconData(
-    0xed11,
+    0xed12,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -7074,7 +7083,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "docsdotrs".
   static const IconData docsdotrs = IconData(
-    0xed12,
+    0xed13,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -7083,7 +7092,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "docsify".
   static const IconData docsify = IconData(
-    0xed13,
+    0xed14,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -7092,7 +7101,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "doctrine".
   static const IconData doctrine = IconData(
-    0xed14,
+    0xed15,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -7101,7 +7110,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "docusaurus".
   static const IconData docusaurus = IconData(
-    0xed15,
+    0xed16,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -7110,7 +7119,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "dodopayments".
   static const IconData dodopayments = IconData(
-    0xed16,
+    0xed17,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -7119,7 +7128,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "dogecoin".
   static const IconData dogecoin = IconData(
-    0xed17,
+    0xed18,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -7128,7 +7137,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "doi".
   static const IconData doi = IconData(
-    0xed18,
+    0xed19,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -7137,7 +7146,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "dolby".
   static const IconData dolby = IconData(
-    0xed19,
+    0xed1a,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -7146,7 +7155,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "dolibarr".
   static const IconData dolibarr = IconData(
-    0xed1a,
+    0xed1b,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -7155,7 +7164,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "dolphin".
   static const IconData dolphin = IconData(
-    0xed1b,
+    0xed1c,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -7164,7 +7173,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "doordash".
   static const IconData doordash = IconData(
-    0xed1c,
+    0xed1d,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -7173,7 +7182,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "dota2".
   static const IconData dota2 = IconData(
-    0xed1d,
+    0xed1e,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -7182,7 +7191,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "douban".
   static const IconData douban = IconData(
-    0xed1e,
+    0xed1f,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -7191,7 +7200,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "doubanread".
   static const IconData doubanread = IconData(
-    0xed1f,
+    0xed20,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -7200,7 +7209,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "dovecot".
   static const IconData dovecot = IconData(
-    0xed20,
+    0xed21,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -7209,7 +7218,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "dovetail".
   static const IconData dovetail = IconData(
-    0xed21,
+    0xed22,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -7218,7 +7227,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "downdetector".
   static const IconData downdetector = IconData(
-    0xed22,
+    0xed23,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -7227,7 +7236,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "doxygen".
   static const IconData doxygen = IconData(
-    0xed23,
+    0xed24,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -7236,7 +7245,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "dpd".
   static const IconData dpd = IconData(
-    0xed24,
+    0xed25,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -7245,7 +7254,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "dragonframe".
   static const IconData dragonframe = IconData(
-    0xed25,
+    0xed26,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -7254,7 +7263,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "draugiemdotlv".
   static const IconData draugiemdotlv = IconData(
-    0xed26,
+    0xed27,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -7263,7 +7272,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "dreamstime".
   static const IconData dreamstime = IconData(
-    0xed27,
+    0xed28,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -7272,7 +7281,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "dribbble".
   static const IconData dribbble = IconData(
-    0xed28,
+    0xed29,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -7281,7 +7290,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "drizzle".
   static const IconData drizzle = IconData(
-    0xed29,
+    0xed2a,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -7290,7 +7299,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "drone".
   static const IconData drone = IconData(
-    0xed2a,
+    0xed2b,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -7299,7 +7308,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "drooble".
   static const IconData drooble = IconData(
-    0xed2b,
+    0xed2c,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -7308,7 +7317,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "dropbox".
   static const IconData dropbox = IconData(
-    0xed2c,
+    0xed2d,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -7317,7 +7326,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "drupal".
   static const IconData drupal = IconData(
-    0xed2d,
+    0xed2e,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -7326,7 +7335,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "dsautomobiles".
   static const IconData dsautomobiles = IconData(
-    0xed2e,
+    0xed2f,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -7335,7 +7344,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "dts".
   static const IconData dts = IconData(
-    0xed2f,
+    0xed30,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -7344,7 +7353,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "dtube".
   static const IconData dtube = IconData(
-    0xed30,
+    0xed31,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -7353,7 +7362,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "ducati".
   static const IconData ducati = IconData(
-    0xed31,
+    0xed32,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -7362,7 +7371,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "duckdb".
   static const IconData duckdb = IconData(
-    0xed32,
+    0xed33,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -7371,7 +7380,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "duckduckgo".
   static const IconData duckduckgo = IconData(
-    0xed33,
+    0xed34,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -7380,7 +7389,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "dungeonsanddragons".
   static const IconData dungeonsanddragons = IconData(
-    0xed34,
+    0xed35,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -7389,7 +7398,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "dunked".
   static const IconData dunked = IconData(
-    0xed35,
+    0xed36,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -7398,7 +7407,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "dunzo".
   static const IconData dunzo = IconData(
-    0xed36,
+    0xed37,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -7407,7 +7416,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "duolingo".
   static const IconData duolingo = IconData(
-    0xed37,
+    0xed38,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -7416,7 +7425,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "duplicati".
   static const IconData duplicati = IconData(
-    0xed38,
+    0xed39,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -7425,7 +7434,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "dvc".
   static const IconData dvc = IconData(
-    0xed39,
+    0xed3a,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -7434,7 +7443,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "dwm".
   static const IconData dwm = IconData(
-    0xed3a,
+    0xed3b,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -7443,7 +7452,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "dynatrace".
   static const IconData dynatrace = IconData(
-    0xed3b,
+    0xed3c,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -7452,7 +7461,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "edotleclerc".
   static const IconData edotleclerc = IconData(
-    0xed3c,
+    0xed3d,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -7461,7 +7470,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "e3".
   static const IconData e3 = IconData(
-    0xed3d,
+    0xed3e,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -7470,7 +7479,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "ea".
   static const IconData ea = IconData(
-    0xed3e,
+    0xed3f,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -7479,7 +7488,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "eac".
   static const IconData eac = IconData(
-    0xed3f,
+    0xed40,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -7488,7 +7497,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "eagle".
   static const IconData eagle = IconData(
-    0xed40,
+    0xed41,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -7497,7 +7506,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "easyeda".
   static const IconData easyeda = IconData(
-    0xed41,
+    0xed42,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -7506,7 +7515,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "easyjet".
   static const IconData easyjet = IconData(
-    0xed42,
+    0xed43,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -7515,7 +7524,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "ebay".
   static const IconData ebay = IconData(
-    0xed43,
+    0xed44,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -7524,7 +7533,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "ebox".
   static const IconData ebox = IconData(
-    0xed44,
+    0xed45,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -7533,7 +7542,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "eclipseadoptium".
   static const IconData eclipseadoptium = IconData(
-    0xed45,
+    0xed46,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -7542,7 +7551,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "eclipseche".
   static const IconData eclipseche = IconData(
-    0xed46,
+    0xed47,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -7551,7 +7560,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "eclipseide".
   static const IconData eclipseide = IconData(
-    0xed47,
+    0xed48,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -7560,7 +7569,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "eclipsejetty".
   static const IconData eclipsejetty = IconData(
-    0xed48,
+    0xed49,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -7569,7 +7578,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "eclipsemosquitto".
   static const IconData eclipsemosquitto = IconData(
-    0xed49,
+    0xed4a,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -7578,7 +7587,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "eclipsevertdotx".
   static const IconData eclipsevertdotx = IconData(
-    0xed4a,
+    0xed4b,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -7587,7 +7596,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "ecosia".
   static const IconData ecosia = IconData(
-    0xed4b,
+    0xed4c,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -7596,7 +7605,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "ecovacs".
   static const IconData ecovacs = IconData(
-    0xed4c,
+    0xed4d,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -7605,7 +7614,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "edeka".
   static const IconData edeka = IconData(
-    0xed4d,
+    0xed4e,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -7614,7 +7623,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "edgeimpulse".
   static const IconData edgeimpulse = IconData(
-    0xed4e,
+    0xed4f,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -7623,7 +7632,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "editorconfig".
   static const IconData editorconfig = IconData(
-    0xed4f,
+    0xed50,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -7632,7 +7641,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "educative".
   static const IconData educative = IconData(
-    0xed50,
+    0xed51,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -7641,7 +7650,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "edx".
   static const IconData edx = IconData(
-    0xed51,
+    0xed52,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -7650,7 +7659,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "effect".
   static const IconData effect = IconData(
-    0xed52,
+    0xed53,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -7659,7 +7668,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "egghead".
   static const IconData egghead = IconData(
-    0xed53,
+    0xed54,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -7668,7 +7677,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "egnyte".
   static const IconData egnyte = IconData(
-    0xed54,
+    0xed55,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -7677,7 +7686,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "eight".
   static const IconData eight = IconData(
-    0xed55,
+    0xed56,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -7686,7 +7695,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "eightsleep".
   static const IconData eightsleep = IconData(
-    0xed56,
+    0xed57,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -7695,7 +7704,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "ejs".
   static const IconData ejs = IconData(
-    0xed57,
+    0xed58,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -7704,7 +7713,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "elastic".
   static const IconData elastic = IconData(
-    0xed58,
+    0xed59,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -7713,7 +7722,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "elasticcloud".
   static const IconData elasticcloud = IconData(
-    0xed59,
+    0xed5a,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -7722,7 +7731,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "elasticstack".
   static const IconData elasticstack = IconData(
-    0xed5a,
+    0xed5b,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -7731,7 +7740,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "elasticsearch".
   static const IconData elasticsearch = IconData(
-    0xed5b,
+    0xed5c,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -7740,7 +7749,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "elavon".
   static const IconData elavon = IconData(
-    0xed5c,
+    0xed5d,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -7749,7 +7758,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "electron".
   static const IconData electron = IconData(
-    0xed5d,
+    0xed5e,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -7758,7 +7767,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "electronfiddle".
   static const IconData electronfiddle = IconData(
-    0xed5e,
+    0xed5f,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -7767,7 +7776,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "electronbuilder".
   static const IconData electronbuilder = IconData(
-    0xed5f,
+    0xed60,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -7776,7 +7785,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "elegoo".
   static const IconData elegoo = IconData(
-    0xed60,
+    0xed61,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -7785,7 +7794,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "element".
   static const IconData element = IconData(
-    0xed61,
+    0xed62,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -7794,7 +7803,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "elementary".
   static const IconData elementary = IconData(
-    0xed62,
+    0xed63,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -7803,7 +7812,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "elementor".
   static const IconData elementor = IconData(
-    0xed63,
+    0xed64,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -7812,7 +7821,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "elevenlabs".
   static const IconData elevenlabs = IconData(
-    0xed64,
+    0xed65,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -7821,7 +7830,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "eleventy".
   static const IconData eleventy = IconData(
-    0xed65,
+    0xed66,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -7830,7 +7839,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "elgato".
   static const IconData elgato = IconData(
-    0xed66,
+    0xed67,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -7839,7 +7848,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "elixir".
   static const IconData elixir = IconData(
-    0xed67,
+    0xed68,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -7848,7 +7857,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "elk".
   static const IconData elk = IconData(
-    0xed68,
+    0xed69,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -7857,7 +7866,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "elm".
   static const IconData elm = IconData(
-    0xed69,
+    0xed6a,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -7866,7 +7875,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "elsevier".
   static const IconData elsevier = IconData(
-    0xed6a,
+    0xed6b,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -7875,7 +7884,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "embarcadero".
   static const IconData embarcadero = IconData(
-    0xed6b,
+    0xed6c,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -7884,7 +7893,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "embark".
   static const IconData embark = IconData(
-    0xed6c,
+    0xed6d,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -7893,7 +7902,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "emberdotjs".
   static const IconData emberdotjs = IconData(
-    0xed6d,
+    0xed6e,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -7902,7 +7911,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "emby".
   static const IconData emby = IconData(
-    0xed6e,
+    0xed6f,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -7911,7 +7920,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "emirates".
   static const IconData emirates = IconData(
-    0xed6f,
+    0xed70,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -7920,7 +7929,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "emlakjet".
   static const IconData emlakjet = IconData(
-    0xed70,
+    0xed71,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -7929,7 +7938,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "endeavouros".
   static const IconData endeavouros = IconData(
-    0xed71,
+    0xed72,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -7938,7 +7947,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "enpass".
   static const IconData enpass = IconData(
-    0xed72,
+    0xed73,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -7947,7 +7956,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "ens".
   static const IconData ens = IconData(
-    0xed73,
+    0xed74,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -7956,7 +7965,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "ente".
   static const IconData ente = IconData(
-    0xed74,
+    0xed75,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -7965,7 +7974,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "enterprisedb".
   static const IconData enterprisedb = IconData(
-    0xed75,
+    0xed76,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -7974,7 +7983,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "envato".
   static const IconData envato = IconData(
-    0xed76,
+    0xed77,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -7983,7 +7992,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "envoyproxy".
   static const IconData envoyproxy = IconData(
-    0xed77,
+    0xed78,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -7992,7 +8001,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "epel".
   static const IconData epel = IconData(
-    0xed78,
+    0xed79,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -8001,7 +8010,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "epicgames".
   static const IconData epicgames = IconData(
-    0xed79,
+    0xed7a,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -8010,7 +8019,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "epson".
   static const IconData epson = IconData(
-    0xed7a,
+    0xed7b,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -8019,7 +8028,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "equinixmetal".
   static const IconData equinixmetal = IconData(
-    0xed7b,
+    0xed7c,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -8028,7 +8037,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "eraser".
   static const IconData eraser = IconData(
-    0xed7c,
+    0xed7d,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -8037,7 +8046,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "ericsson".
   static const IconData ericsson = IconData(
-    0xed7d,
+    0xed7e,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -8046,7 +8055,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "erlang".
   static const IconData erlang = IconData(
-    0xed7e,
+    0xed7f,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -8055,7 +8064,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "erpnext".
   static const IconData erpnext = IconData(
-    0xed7f,
+    0xed80,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -8064,7 +8073,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "esbuild".
   static const IconData esbuild = IconData(
-    0xed80,
+    0xed81,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -8073,7 +8082,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "esea".
   static const IconData esea = IconData(
-    0xed81,
+    0xed82,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -8082,7 +8091,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "eslgaming".
   static const IconData eslgaming = IconData(
-    0xed82,
+    0xed83,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -8091,7 +8100,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "eslint".
   static const IconData eslint = IconData(
-    0xed83,
+    0xed84,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -8100,7 +8109,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "esotericsoftware".
   static const IconData esotericsoftware = IconData(
-    0xed84,
+    0xed85,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -8109,7 +8118,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "esphome".
   static const IconData esphome = IconData(
-    0xed85,
+    0xed86,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -8118,7 +8127,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "espressif".
   static const IconData espressif = IconData(
-    0xed86,
+    0xed87,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -8127,7 +8136,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "esri".
   static const IconData esri = IconData(
-    0xed87,
+    0xed88,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -8136,7 +8145,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "etcd".
   static const IconData etcd = IconData(
-    0xed88,
+    0xed89,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -8145,7 +8154,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "ethereum".
   static const IconData ethereum = IconData(
-    0xed89,
+    0xed8a,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -8154,7 +8163,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "ethers".
   static const IconData ethers = IconData(
-    0xed8a,
+    0xed8b,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -8163,7 +8172,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "ethiopianairlines".
   static const IconData ethiopianairlines = IconData(
-    0xed8b,
+    0xed8c,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -8172,7 +8181,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "etihadairways".
   static const IconData etihadairways = IconData(
-    0xed8c,
+    0xed8d,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -8181,7 +8190,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "etsy".
   static const IconData etsy = IconData(
-    0xed8d,
+    0xed8e,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -8190,7 +8199,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "europeanunion".
   static const IconData europeanunion = IconData(
-    0xed8e,
+    0xed8f,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -8199,7 +8208,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "eventstore".
   static const IconData eventstore = IconData(
-    0xed8f,
+    0xed90,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -8208,7 +8217,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "evernote".
   static const IconData evernote = IconData(
-    0xed90,
+    0xed91,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -8217,7 +8226,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "everydotorg".
   static const IconData everydotorg = IconData(
-    0xed91,
+    0xed92,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -8226,7 +8235,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "excalidraw".
   static const IconData excalidraw = IconData(
-    0xed92,
+    0xed93,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -8235,7 +8244,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "exercism".
   static const IconData exercism = IconData(
-    0xed93,
+    0xed94,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -8244,7 +8253,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "exordo".
   static const IconData exordo = IconData(
-    0xed94,
+    0xed95,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -8253,7 +8262,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "exoscale".
   static const IconData exoscale = IconData(
-    0xed95,
+    0xed96,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -8262,7 +8271,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "expedia".
   static const IconData expedia = IconData(
-    0xed96,
+    0xed97,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -8271,7 +8280,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "expensify".
   static const IconData expensify = IconData(
-    0xed97,
+    0xed98,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -8280,7 +8289,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "expertsexchange".
   static const IconData expertsexchange = IconData(
-    0xed98,
+    0xed99,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -8289,7 +8298,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "expo".
   static const IconData expo = IconData(
-    0xed99,
+    0xed9a,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -8298,7 +8307,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "express".
   static const IconData express = IconData(
-    0xed9a,
+    0xed9b,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -8307,7 +8316,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "expressdotcom".
   static const IconData expressdotcom = IconData(
-    0xed9b,
+    0xed9c,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -8316,7 +8325,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "expressvpn".
   static const IconData expressvpn = IconData(
-    0xed9c,
+    0xed9d,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -8325,7 +8334,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "eyeem".
   static const IconData eyeem = IconData(
-    0xed9d,
+    0xed9e,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -8334,7 +8343,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "fdroid".
   static const IconData fdroid = IconData(
-    0xed9e,
+    0xed9f,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -8343,7 +8352,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "fsharp".
   static const IconData fsharp = IconData(
-    0xed9f,
+    0xeda0,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -8352,7 +8361,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "f1".
   static const IconData f1 = IconData(
-    0xeda0,
+    0xeda1,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -8361,7 +8370,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "f5".
   static const IconData f5 = IconData(
-    0xeda1,
+    0xeda2,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -8370,7 +8379,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "facebook".
   static const IconData facebook = IconData(
-    0xeda2,
+    0xeda3,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -8379,7 +8388,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "facebookgaming".
   static const IconData facebookgaming = IconData(
-    0xeda3,
+    0xeda4,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -8388,7 +8397,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "facebooklive".
   static const IconData facebooklive = IconData(
-    0xeda4,
+    0xeda5,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -8397,7 +8406,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "faceit".
   static const IconData faceit = IconData(
-    0xeda5,
+    0xeda6,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -8406,7 +8415,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "facepunch".
   static const IconData facepunch = IconData(
-    0xeda6,
+    0xeda7,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -8415,7 +8424,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "fairphone".
   static const IconData fairphone = IconData(
-    0xeda7,
+    0xeda8,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -8424,7 +8433,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "faker".
   static const IconData faker = IconData(
-    0xeda8,
+    0xeda9,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -8433,7 +8442,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "falco".
   static const IconData falco = IconData(
-    0xeda9,
+    0xedaa,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -8442,7 +8451,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "falcon".
   static const IconData falcon = IconData(
-    0xedaa,
+    0xedab,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -8451,7 +8460,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "fampay".
   static const IconData fampay = IconData(
-    0xedab,
+    0xedac,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -8460,7 +8469,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "fandango".
   static const IconData fandango = IconData(
-    0xedac,
+    0xedad,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -8469,7 +8478,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "fandom".
   static const IconData fandom = IconData(
-    0xedad,
+    0xedae,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -8478,7 +8487,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "fanfou".
   static const IconData fanfou = IconData(
-    0xedae,
+    0xedaf,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -8487,7 +8496,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "fantom".
   static const IconData fantom = IconData(
-    0xedaf,
+    0xedb0,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -8496,7 +8505,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "farcaster".
   static const IconData farcaster = IconData(
-    0xedb0,
+    0xedb1,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -8505,7 +8514,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "fareharbor".
   static const IconData fareharbor = IconData(
-    0xedb1,
+    0xedb2,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -8514,7 +8523,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "farfetch".
   static const IconData farfetch = IconData(
-    0xedb2,
+    0xedb3,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -8523,7 +8532,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "fastapi".
   static const IconData fastapi = IconData(
-    0xedb3,
+    0xedb4,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -8532,7 +8541,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "fastify".
   static const IconData fastify = IconData(
-    0xedb4,
+    0xedb5,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -8541,7 +8550,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "fastlane".
   static const IconData fastlane = IconData(
-    0xedb5,
+    0xedb6,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -8550,7 +8559,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "fastly".
   static const IconData fastly = IconData(
-    0xedb6,
+    0xedb7,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -8559,7 +8568,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "fathom".
   static const IconData fathom = IconData(
-    0xedb7,
+    0xedb8,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -8568,7 +8577,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "fauna".
   static const IconData fauna = IconData(
-    0xedb8,
+    0xedb9,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -8577,7 +8586,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "favro".
   static const IconData favro = IconData(
-    0xedb9,
+    0xedba,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -8586,7 +8595,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "fcc".
   static const IconData fcc = IconData(
-    0xedba,
+    0xedbb,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -8595,7 +8604,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "fedex".
   static const IconData fedex = IconData(
-    0xedbb,
+    0xedbc,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -8604,7 +8613,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "fedora".
   static const IconData fedora = IconData(
-    0xedbc,
+    0xedbd,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -8613,7 +8622,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "feedly".
   static const IconData feedly = IconData(
-    0xedbd,
+    0xedbe,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -8622,7 +8631,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "ferrari".
   static const IconData ferrari = IconData(
-    0xedbe,
+    0xedbf,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -8631,7 +8640,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "ferrarinv".
   static const IconData ferrarinv = IconData(
-    0xedbf,
+    0xedc0,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -8640,7 +8649,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "ferretdb".
   static const IconData ferretdb = IconData(
-    0xedc0,
+    0xedc1,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -8649,7 +8658,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "ffmpeg".
   static const IconData ffmpeg = IconData(
-    0xedc1,
+    0xedc2,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -8658,7 +8667,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "fi".
   static const IconData fi = IconData(
-    0xedc2,
+    0xedc3,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -8667,7 +8676,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "fiat".
   static const IconData fiat = IconData(
-    0xedc3,
+    0xedc4,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -8676,7 +8685,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "fidoalliance".
   static const IconData fidoalliance = IconData(
-    0xedc4,
+    0xedc5,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -8685,7 +8694,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "fifa".
   static const IconData fifa = IconData(
-    0xedc5,
+    0xedc6,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -8694,7 +8703,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "fig".
   static const IconData fig = IconData(
-    0xedc6,
+    0xedc7,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -8703,7 +8712,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "figma".
   static const IconData figma = IconData(
-    0xedc7,
+    0xedc8,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -8712,7 +8721,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "figshare".
   static const IconData figshare = IconData(
-    0xedc8,
+    0xedc9,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -8721,7 +8730,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "fila".
   static const IconData fila = IconData(
-    0xedc9,
+    0xedca,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -8730,7 +8739,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "filament".
   static const IconData filament = IconData(
-    0xedca,
+    0xedcb,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -8739,7 +8748,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "filedotio".
   static const IconData filedotio = IconData(
-    0xedcb,
+    0xedcc,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -8748,7 +8757,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "filen".
   static const IconData filen = IconData(
-    0xedcc,
+    0xedcd,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -8757,7 +8766,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "files".
   static const IconData files = IconData(
-    0xedcd,
+    0xedce,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -8766,7 +8775,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "filezilla".
   static const IconData filezilla = IconData(
-    0xedce,
+    0xedcf,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -8775,7 +8784,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "fillout".
   static const IconData fillout = IconData(
-    0xedcf,
+    0xedd0,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -8784,7 +8793,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "fineco".
   static const IconData fineco = IconData(
-    0xedd0,
+    0xedd1,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -8793,7 +8802,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "fing".
   static const IconData fing = IconData(
-    0xedd1,
+    0xedd2,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -8802,7 +8811,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "firebase".
   static const IconData firebase = IconData(
-    0xedd2,
+    0xedd3,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -8811,7 +8820,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "firefish".
   static const IconData firefish = IconData(
-    0xedd3,
+    0xedd4,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -8820,7 +8829,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "fireflyiii".
   static const IconData fireflyiii = IconData(
-    0xedd4,
+    0xedd5,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -8829,7 +8838,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "firefox".
   static const IconData firefox = IconData(
-    0xedd5,
+    0xedd6,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -8838,7 +8847,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "firefoxbrowser".
   static const IconData firefoxbrowser = IconData(
-    0xedd6,
+    0xedd7,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -8847,7 +8856,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "fireship".
   static const IconData fireship = IconData(
-    0xedd7,
+    0xedd8,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -8856,7 +8865,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "firewalla".
   static const IconData firewalla = IconData(
-    0xedd8,
+    0xedd9,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -8865,7 +8874,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "first".
   static const IconData first = IconData(
-    0xedd9,
+    0xedda,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -8874,7 +8883,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "fishaudio".
   static const IconData fishaudio = IconData(
-    0xedda,
+    0xeddb,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -8883,7 +8892,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "fishshell".
   static const IconData fishshell = IconData(
-    0xeddb,
+    0xeddc,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -8892,7 +8901,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "fitbit".
   static const IconData fitbit = IconData(
-    0xeddc,
+    0xeddd,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -8901,7 +8910,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "fivem".
   static const IconData fivem = IconData(
-    0xeddd,
+    0xedde,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -8910,7 +8919,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "fiverr".
   static const IconData fiverr = IconData(
-    0xedde,
+    0xeddf,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -8919,7 +8928,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "fizz".
   static const IconData fizz = IconData(
-    0xeddf,
+    0xede0,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -8928,7 +8937,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "flashforge".
   static const IconData flashforge = IconData(
-    0xede0,
+    0xede1,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -8937,7 +8946,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "flask".
   static const IconData flask = IconData(
-    0xede1,
+    0xede2,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -8946,7 +8955,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "flat".
   static const IconData flat = IconData(
-    0xede2,
+    0xede3,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -8955,7 +8964,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "flathub".
   static const IconData flathub = IconData(
-    0xede3,
+    0xede4,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -8964,7 +8973,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "flatpak".
   static const IconData flatpak = IconData(
-    0xede4,
+    0xede5,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -8973,7 +8982,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "flickr".
   static const IconData flickr = IconData(
-    0xede5,
+    0xede6,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -8982,7 +8991,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "flightaware".
   static const IconData flightaware = IconData(
-    0xede6,
+    0xede7,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -8991,7 +9000,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "flipboard".
   static const IconData flipboard = IconData(
-    0xede7,
+    0xede8,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -9000,7 +9009,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "floatplane".
   static const IconData floatplane = IconData(
-    0xede8,
+    0xede9,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -9009,7 +9018,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "flood".
   static const IconData flood = IconData(
-    0xede9,
+    0xedea,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -9018,7 +9027,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "floorp".
   static const IconData floorp = IconData(
-    0xedea,
+    0xedeb,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -9027,7 +9036,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "flower".
   static const IconData flower = IconData(
-    0xedeb,
+    0xedec,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -9036,7 +9045,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "fluentbit".
   static const IconData fluentbit = IconData(
-    0xedec,
+    0xeded,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -9045,7 +9054,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "fluentd".
   static const IconData fluentd = IconData(
-    0xeded,
+    0xedee,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -9054,7 +9063,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "fluke".
   static const IconData fluke = IconData(
-    0xedee,
+    0xedef,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -9063,7 +9072,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "flutter".
   static const IconData flutter = IconData(
-    0xedef,
+    0xedf0,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -9072,7 +9081,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "flux".
   static const IconData flux = IconData(
-    0xedf0,
+    0xedf1,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -9081,7 +9090,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "fluxer".
   static const IconData fluxer = IconData(
-    0xedf1,
+    0xedf2,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -9090,7 +9099,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "flydotio".
   static const IconData flydotio = IconData(
-    0xedf2,
+    0xedf3,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -9099,7 +9108,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "flyway".
   static const IconData flyway = IconData(
-    0xedf3,
+    0xedf4,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -9108,7 +9117,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "fmod".
   static const IconData fmod = IconData(
-    0xedf4,
+    0xedf5,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -9117,7 +9126,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "fnac".
   static const IconData fnac = IconData(
-    0xedf5,
+    0xedf6,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -9126,7 +9135,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "folium".
   static const IconData folium = IconData(
-    0xedf6,
+    0xedf7,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -9135,7 +9144,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "folo".
   static const IconData folo = IconData(
-    0xedf7,
+    0xedf8,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -9144,7 +9153,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "fonoma".
   static const IconData fonoma = IconData(
-    0xedf8,
+    0xedf9,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -9153,7 +9162,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "fontawesome".
   static const IconData fontawesome = IconData(
-    0xedf9,
+    0xedfa,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -9162,7 +9171,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "fontbase".
   static const IconData fontbase = IconData(
-    0xedfa,
+    0xedfb,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -9171,7 +9180,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "fontforge".
   static const IconData fontforge = IconData(
-    0xedfb,
+    0xedfc,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -9180,7 +9189,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "foobar2000".
   static const IconData foobar2000 = IconData(
-    0xedfc,
+    0xedfd,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -9189,7 +9198,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "foodpanda".
   static const IconData foodpanda = IconData(
-    0xedfd,
+    0xedfe,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -9198,7 +9207,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "ford".
   static const IconData ford = IconData(
-    0xedfe,
+    0xedff,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -9207,7 +9216,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "forgejo".
   static const IconData forgejo = IconData(
-    0xedff,
+    0xee00,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -9216,7 +9225,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "formbricks".
   static const IconData formbricks = IconData(
-    0xee00,
+    0xee01,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -9225,7 +9234,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "formik".
   static const IconData formik = IconData(
-    0xee01,
+    0xee02,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -9234,7 +9243,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "formspree".
   static const IconData formspree = IconData(
-    0xee02,
+    0xee03,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -9243,7 +9252,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "formstack".
   static const IconData formstack = IconData(
-    0xee03,
+    0xee04,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -9252,7 +9261,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "fortinet".
   static const IconData fortinet = IconData(
-    0xee04,
+    0xee05,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -9261,7 +9270,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "fortnite".
   static const IconData fortnite = IconData(
-    0xee05,
+    0xee06,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -9270,7 +9279,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "fortran".
   static const IconData fortran = IconData(
-    0xee06,
+    0xee07,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -9279,7 +9288,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "fossa".
   static const IconData fossa = IconData(
-    0xee07,
+    0xee08,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -9288,7 +9297,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "fossilscm".
   static const IconData fossilscm = IconData(
-    0xee08,
+    0xee09,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -9297,7 +9306,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "foundryvirtualtabletop".
   static const IconData foundryvirtualtabletop = IconData(
-    0xee09,
+    0xee0a,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -9306,7 +9315,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "foursquare".
   static const IconData foursquare = IconData(
-    0xee0a,
+    0xee0b,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -9315,7 +9324,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "fox".
   static const IconData fox = IconData(
-    0xee0b,
+    0xee0c,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -9324,7 +9333,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "foxtel".
   static const IconData foxtel = IconData(
-    0xee0c,
+    0xee0d,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -9333,7 +9342,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "fozzy".
   static const IconData fozzy = IconData(
-    0xee0d,
+    0xee0e,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -9342,7 +9351,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "framer".
   static const IconData framer = IconData(
-    0xee0e,
+    0xee0f,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -9351,7 +9360,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "framework".
   static const IconData framework = IconData(
-    0xee0f,
+    0xee10,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -9360,7 +9369,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "framework7".
   static const IconData framework7 = IconData(
-    0xee10,
+    0xee11,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -9369,7 +9378,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "franprix".
   static const IconData franprix = IconData(
-    0xee11,
+    0xee12,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -9378,7 +9387,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "frappe".
   static const IconData frappe = IconData(
-    0xee12,
+    0xee13,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -9387,7 +9396,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "fraunhofergesellschaft".
   static const IconData fraunhofergesellschaft = IconData(
-    0xee13,
+    0xee14,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -9396,7 +9405,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "freebsd".
   static const IconData freebsd = IconData(
-    0xee14,
+    0xee15,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -9405,7 +9414,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "freecad".
   static const IconData freecad = IconData(
-    0xee15,
+    0xee16,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -9414,7 +9423,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "freecodecamp".
   static const IconData freecodecamp = IconData(
-    0xee16,
+    0xee17,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -9423,7 +9432,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "freedesktopdotorg".
   static const IconData freedesktopdotorg = IconData(
-    0xee17,
+    0xee18,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -9432,7 +9441,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "freelancer".
   static const IconData freelancer = IconData(
-    0xee18,
+    0xee19,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -9441,7 +9450,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "freelancermap".
   static const IconData freelancermap = IconData(
-    0xee19,
+    0xee1a,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -9450,7 +9459,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "freenas".
   static const IconData freenas = IconData(
-    0xee1a,
+    0xee1b,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -9459,7 +9468,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "freenet".
   static const IconData freenet = IconData(
-    0xee1b,
+    0xee1c,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -9468,7 +9477,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "freepik".
   static const IconData freepik = IconData(
-    0xee1c,
+    0xee1d,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -9477,7 +9486,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "freetube".
   static const IconData freetube = IconData(
-    0xee1d,
+    0xee1e,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -9486,7 +9495,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "fresh".
   static const IconData fresh = IconData(
-    0xee1e,
+    0xee1f,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -9495,7 +9504,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "freshrss".
   static const IconData freshrss = IconData(
-    0xee1f,
+    0xee20,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -9504,7 +9513,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "frigate".
   static const IconData frigate = IconData(
-    0xee20,
+    0xee21,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -9513,7 +9522,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "fritz".
   static const IconData fritz = IconData(
-    0xee21,
+    0xee22,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -9522,7 +9531,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "frontendmentor".
   static const IconData frontendmentor = IconData(
-    0xee22,
+    0xee23,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -9531,7 +9540,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "frontify".
   static const IconData frontify = IconData(
-    0xee23,
+    0xee24,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -9540,7 +9549,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "fubo".
   static const IconData fubo = IconData(
-    0xee24,
+    0xee25,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -9549,7 +9558,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "fueler".
   static const IconData fueler = IconData(
-    0xee25,
+    0xee26,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -9558,7 +9567,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "fugacloud".
   static const IconData fugacloud = IconData(
-    0xee26,
+    0xee27,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -9567,7 +9576,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "fujifilm".
   static const IconData fujifilm = IconData(
-    0xee27,
+    0xee28,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -9576,7 +9585,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "fujitsu".
   static const IconData fujitsu = IconData(
-    0xee28,
+    0xee29,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -9585,7 +9594,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "furaffinity".
   static const IconData furaffinity = IconData(
-    0xee29,
+    0xee2a,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -9594,7 +9603,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "furrynetwork".
   static const IconData furrynetwork = IconData(
-    0xee2a,
+    0xee2b,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -9603,7 +9612,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "fusionauth".
   static const IconData fusionauth = IconData(
-    0xee2b,
+    0xee2c,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -9612,7 +9621,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "futurelearn".
   static const IconData futurelearn = IconData(
-    0xee2c,
+    0xee2d,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -9621,7 +9630,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "fyle".
   static const IconData fyle = IconData(
-    0xee2d,
+    0xee2e,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -9630,7 +9639,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "g2".
   static const IconData g2 = IconData(
-    0xee2e,
+    0xee2f,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -9639,7 +9648,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "g2a".
   static const IconData g2a = IconData(
-    0xee2f,
+    0xee30,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -9648,7 +9657,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "g2g".
   static const IconData g2g = IconData(
-    0xee30,
+    0xee31,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -9657,7 +9666,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "galaxus".
   static const IconData galaxus = IconData(
-    0xee31,
+    0xee32,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -9666,7 +9675,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "gamedeveloper".
   static const IconData gamedeveloper = IconData(
-    0xee32,
+    0xee33,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -9675,7 +9684,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "gamejolt".
   static const IconData gamejolt = IconData(
-    0xee33,
+    0xee34,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -9684,7 +9693,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "gamescience".
   static const IconData gamescience = IconData(
-    0xee34,
+    0xee35,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -9693,7 +9702,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "gamebanana".
   static const IconData gamebanana = IconData(
-    0xee35,
+    0xee36,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -9702,7 +9711,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "gameloft".
   static const IconData gameloft = IconData(
-    0xee36,
+    0xee37,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -9711,7 +9720,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "gamemaker".
   static const IconData gamemaker = IconData(
-    0xee37,
+    0xee38,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -9720,7 +9729,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "gandi".
   static const IconData gandi = IconData(
-    0xee38,
+    0xee39,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -9729,7 +9738,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "garmin".
   static const IconData garmin = IconData(
-    0xee39,
+    0xee3a,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -9738,7 +9747,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "garudalinux".
   static const IconData garudalinux = IconData(
-    0xee3a,
+    0xee3b,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -9747,7 +9756,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "gatling".
   static const IconData gatling = IconData(
-    0xee3b,
+    0xee3c,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -9756,7 +9765,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "gatsby".
   static const IconData gatsby = IconData(
-    0xee3c,
+    0xee3d,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -9765,7 +9774,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "gcore".
   static const IconData gcore = IconData(
-    0xee3d,
+    0xee3e,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -9774,7 +9783,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "gdal".
   static const IconData gdal = IconData(
-    0xee3e,
+    0xee3f,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -9783,7 +9792,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "geeksforgeeks".
   static const IconData geeksforgeeks = IconData(
-    0xee3f,
+    0xee40,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -9792,7 +9801,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "generalelectric".
   static const IconData generalelectric = IconData(
-    0xee40,
+    0xee41,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -9801,7 +9810,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "generalmotors".
   static const IconData generalmotors = IconData(
-    0xee41,
+    0xee42,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -9810,7 +9819,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "genius".
   static const IconData genius = IconData(
-    0xee42,
+    0xee43,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -9819,7 +9828,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "gentoo".
   static const IconData gentoo = IconData(
-    0xee43,
+    0xee44,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -9828,7 +9837,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "geocaching".
   static const IconData geocaching = IconData(
-    0xee44,
+    0xee45,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -9837,7 +9846,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "geode".
   static const IconData geode = IconData(
-    0xee45,
+    0xee46,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -9846,7 +9855,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "geopandas".
   static const IconData geopandas = IconData(
-    0xee46,
+    0xee47,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -9855,7 +9864,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "gerrit".
   static const IconData gerrit = IconData(
-    0xee47,
+    0xee48,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -9864,7 +9873,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "getx".
   static const IconData getx = IconData(
-    0xee48,
+    0xee49,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -9873,7 +9882,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "ghost".
   static const IconData ghost = IconData(
-    0xee49,
+    0xee4a,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -9882,7 +9891,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "ghostery".
   static const IconData ghostery = IconData(
-    0xee4a,
+    0xee4b,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -9891,7 +9900,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "ghostfolio".
   static const IconData ghostfolio = IconData(
-    0xee4b,
+    0xee4c,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -9900,7 +9909,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "ghostty".
   static const IconData ghostty = IconData(
-    0xee4c,
+    0xee4d,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -9909,7 +9918,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "gimp".
   static const IconData gimp = IconData(
-    0xee4d,
+    0xee4e,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -9918,7 +9927,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "gin".
   static const IconData gin = IconData(
-    0xee4e,
+    0xee4f,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -9927,7 +9936,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "giphy".
   static const IconData giphy = IconData(
-    0xee4f,
+    0xee50,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -9936,7 +9945,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "git".
   static const IconData git = IconData(
-    0xee50,
+    0xee51,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -9945,7 +9954,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "gitextensions".
   static const IconData gitextensions = IconData(
-    0xee51,
+    0xee52,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -9954,7 +9963,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "gitforwindows".
   static const IconData gitforwindows = IconData(
-    0xee52,
+    0xee53,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -9963,7 +9972,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "gitlfs".
   static const IconData gitlfs = IconData(
-    0xee53,
+    0xee54,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -9972,7 +9981,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "gitbook".
   static const IconData gitbook = IconData(
-    0xee54,
+    0xee55,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -9981,7 +9990,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "gitcode".
   static const IconData gitcode = IconData(
-    0xee55,
+    0xee56,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -9990,7 +9999,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "gitconnected".
   static const IconData gitconnected = IconData(
-    0xee56,
+    0xee57,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -9999,7 +10008,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "gitea".
   static const IconData gitea = IconData(
-    0xee57,
+    0xee58,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -10008,7 +10017,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "gitee".
   static const IconData gitee = IconData(
-    0xee58,
+    0xee59,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -10017,7 +10026,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "github".
   static const IconData github = IconData(
-    0xee59,
+    0xee5a,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -10026,7 +10035,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "githubactions".
   static const IconData githubactions = IconData(
-    0xee5a,
+    0xee5b,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -10035,7 +10044,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "githubcopilot".
   static const IconData githubcopilot = IconData(
-    0xee5b,
+    0xee5c,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -10044,7 +10053,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "githubpages".
   static const IconData githubpages = IconData(
-    0xee5c,
+    0xee5d,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -10053,7 +10062,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "githubsponsors".
   static const IconData githubsponsors = IconData(
-    0xee5d,
+    0xee5e,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -10062,7 +10071,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "gitignoredotio".
   static const IconData gitignoredotio = IconData(
-    0xee5e,
+    0xee5f,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -10071,7 +10080,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "gitkraken".
   static const IconData gitkraken = IconData(
-    0xee5f,
+    0xee60,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -10080,7 +10089,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "gitlab".
   static const IconData gitlab = IconData(
-    0xee60,
+    0xee61,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -10089,7 +10098,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "gitpod".
   static const IconData gitpod = IconData(
-    0xee61,
+    0xee62,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -10098,7 +10107,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "gitter".
   static const IconData gitter = IconData(
-    0xee62,
+    0xee63,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -10107,7 +10116,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "gldotinet".
   static const IconData gldotinet = IconData(
-    0xee63,
+    0xee64,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -10116,7 +10125,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "glance".
   static const IconData glance = IconData(
-    0xee64,
+    0xee65,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -10125,7 +10134,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "glassdoor".
   static const IconData glassdoor = IconData(
-    0xee65,
+    0xee66,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -10134,7 +10143,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "gleam".
   static const IconData gleam = IconData(
-    0xee66,
+    0xee67,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -10143,7 +10152,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "glide".
   static const IconData glide = IconData(
-    0xee67,
+    0xee68,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -10152,7 +10161,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "glitch".
   static const IconData glitch = IconData(
-    0xee68,
+    0xee69,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -10161,7 +10170,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "globus".
   static const IconData globus = IconData(
-    0xee69,
+    0xee6a,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -10170,7 +10179,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "glovo".
   static const IconData glovo = IconData(
-    0xee6a,
+    0xee6b,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -10179,7 +10188,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "gltf".
   static const IconData gltf = IconData(
-    0xee6b,
+    0xee6c,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -10188,7 +10197,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "gmail".
   static const IconData gmail = IconData(
-    0xee6c,
+    0xee6d,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -10197,7 +10206,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "gmx".
   static const IconData gmx = IconData(
-    0xee6d,
+    0xee6e,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -10206,7 +10215,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "gnome".
   static const IconData gnome = IconData(
-    0xee6e,
+    0xee6f,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -10215,7 +10224,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "gnometerminal".
   static const IconData gnometerminal = IconData(
-    0xee6f,
+    0xee70,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -10224,7 +10233,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "gnu".
   static const IconData gnu = IconData(
-    0xee70,
+    0xee71,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -10233,7 +10242,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "gnubash".
   static const IconData gnubash = IconData(
-    0xee71,
+    0xee72,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -10242,7 +10251,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "gnuemacs".
   static const IconData gnuemacs = IconData(
-    0xee72,
+    0xee73,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -10251,7 +10260,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "gnuicecat".
   static const IconData gnuicecat = IconData(
-    0xee73,
+    0xee74,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -10260,7 +10269,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "gnuprivacyguard".
   static const IconData gnuprivacyguard = IconData(
-    0xee74,
+    0xee75,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -10269,7 +10278,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "gnusocial".
   static const IconData gnusocial = IconData(
-    0xee75,
+    0xee76,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -10278,7 +10287,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "go".
   static const IconData go = IconData(
-    0xee76,
+    0xee77,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -10287,7 +10296,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "gocd".
   static const IconData gocd = IconData(
-    0xee77,
+    0xee78,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -10296,7 +10305,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "godaddy".
   static const IconData godaddy = IconData(
-    0xee78,
+    0xee79,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -10305,7 +10314,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "godotengine".
   static const IconData godotengine = IconData(
-    0xee79,
+    0xee7a,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -10314,7 +10323,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "gofundme".
   static const IconData gofundme = IconData(
-    0xee7a,
+    0xee7b,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -10323,7 +10332,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "gogdotcom".
   static const IconData gogdotcom = IconData(
-    0xee7b,
+    0xee7c,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -10332,7 +10341,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "gojek".
   static const IconData gojek = IconData(
-    0xee7c,
+    0xee7d,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -10341,7 +10350,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "goland".
   static const IconData goland = IconData(
-    0xee7d,
+    0xee7e,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -10350,7 +10359,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "goldmansachs".
   static const IconData goldmansachs = IconData(
-    0xee7e,
+    0xee7f,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -10359,7 +10368,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "goodreads".
   static const IconData goodreads = IconData(
-    0xee7f,
+    0xee80,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -10368,7 +10377,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "google".
   static const IconData google = IconData(
-    0xee80,
+    0xee81,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -10377,7 +10386,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "googleadmob".
   static const IconData googleadmob = IconData(
-    0xee81,
+    0xee82,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -10386,7 +10395,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "googleads".
   static const IconData googleads = IconData(
-    0xee82,
+    0xee83,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -10395,7 +10404,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "googleadsense".
   static const IconData googleadsense = IconData(
-    0xee83,
+    0xee84,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -10404,7 +10413,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "googleanalytics".
   static const IconData googleanalytics = IconData(
-    0xee84,
+    0xee85,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -10413,7 +10422,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "googleappsscript".
   static const IconData googleappsscript = IconData(
-    0xee85,
+    0xee86,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -10422,7 +10431,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "googleassistant".
   static const IconData googleassistant = IconData(
-    0xee86,
+    0xee87,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -10431,7 +10440,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "googleauthenticator".
   static const IconData googleauthenticator = IconData(
-    0xee87,
+    0xee88,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -10440,7 +10449,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "googlebigquery".
   static const IconData googlebigquery = IconData(
-    0xee88,
+    0xee89,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -10449,7 +10458,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "googlebigtable".
   static const IconData googlebigtable = IconData(
-    0xee89,
+    0xee8a,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -10458,7 +10467,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "googlecalendar".
   static const IconData googlecalendar = IconData(
-    0xee8a,
+    0xee8b,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -10467,7 +10476,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "googlecampaignmanager360".
   static const IconData googlecampaignmanager360 = IconData(
-    0xee8b,
+    0xee8c,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -10476,7 +10485,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "googlecardboard".
   static const IconData googlecardboard = IconData(
-    0xee8c,
+    0xee8d,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -10485,7 +10494,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "googlecast".
   static const IconData googlecast = IconData(
-    0xee8d,
+    0xee8e,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -10494,7 +10503,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "googlechat".
   static const IconData googlechat = IconData(
-    0xee8e,
+    0xee8f,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -10503,7 +10512,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "googlechrome".
   static const IconData googlechrome = IconData(
-    0xee8f,
+    0xee90,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -10512,7 +10521,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "googlechronicle".
   static const IconData googlechronicle = IconData(
-    0xee90,
+    0xee91,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -10521,7 +10530,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "googleclassroom".
   static const IconData googleclassroom = IconData(
-    0xee91,
+    0xee92,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -10530,7 +10539,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "googlecloud".
   static const IconData googlecloud = IconData(
-    0xee92,
+    0xee93,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -10539,7 +10548,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "googlecloudcomposer".
   static const IconData googlecloudcomposer = IconData(
-    0xee93,
+    0xee94,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -10548,7 +10557,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "googlecloudspanner".
   static const IconData googlecloudspanner = IconData(
-    0xee94,
+    0xee95,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -10557,7 +10566,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "googlecloudstorage".
   static const IconData googlecloudstorage = IconData(
-    0xee95,
+    0xee96,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -10566,7 +10575,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "googlecolab".
   static const IconData googlecolab = IconData(
-    0xee96,
+    0xee97,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -10575,7 +10584,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "googlecontaineroptimizedos".
   static const IconData googlecontaineroptimizedos = IconData(
-    0xee97,
+    0xee98,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -10584,7 +10593,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "googledataflow".
   static const IconData googledataflow = IconData(
-    0xee98,
+    0xee99,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -10593,7 +10602,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "googledataproc".
   static const IconData googledataproc = IconData(
-    0xee99,
+    0xee9a,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -10602,7 +10611,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "googledisplayandvideo360".
   static const IconData googledisplayandvideo360 = IconData(
-    0xee9a,
+    0xee9b,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -10611,7 +10620,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "googledocs".
   static const IconData googledocs = IconData(
-    0xee9b,
+    0xee9c,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -10620,7 +10629,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "googledrive".
   static const IconData googledrive = IconData(
-    0xee9c,
+    0xee9d,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -10629,7 +10638,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "googleearth".
   static const IconData googleearth = IconData(
-    0xee9d,
+    0xee9e,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -10638,7 +10647,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "googleearthengine".
   static const IconData googleearthengine = IconData(
-    0xee9e,
+    0xee9f,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -10647,7 +10656,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "googlefonts".
   static const IconData googlefonts = IconData(
-    0xee9f,
+    0xeea0,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -10656,7 +10665,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "googleforms".
   static const IconData googleforms = IconData(
-    0xeea0,
+    0xeea1,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -10665,7 +10674,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "googlegemini".
   static const IconData googlegemini = IconData(
-    0xeea1,
+    0xeea2,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -10674,7 +10683,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "googlehome".
   static const IconData googlehome = IconData(
-    0xeea2,
+    0xeea3,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -10683,7 +10692,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "googlejules".
   static const IconData googlejules = IconData(
-    0xeea3,
+    0xeea4,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -10692,7 +10701,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "googlekeep".
   static const IconData googlekeep = IconData(
-    0xeea4,
+    0xeea5,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -10701,7 +10710,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "googlelens".
   static const IconData googlelens = IconData(
-    0xeea5,
+    0xeea6,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -10710,7 +10719,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "googlemaps".
   static const IconData googlemaps = IconData(
-    0xeea6,
+    0xeea7,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -10719,7 +10728,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "googlemarketingplatform".
   static const IconData googlemarketingplatform = IconData(
-    0xeea7,
+    0xeea8,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -10728,7 +10737,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "googlemeet".
   static const IconData googlemeet = IconData(
-    0xeea8,
+    0xeea9,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -10737,7 +10746,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "googlemessages".
   static const IconData googlemessages = IconData(
-    0xeea9,
+    0xeeaa,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -10746,7 +10755,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "googlenearby".
   static const IconData googlenearby = IconData(
-    0xeeaa,
+    0xeeab,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -10755,7 +10764,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "googlenews".
   static const IconData googlenews = IconData(
-    0xeeab,
+    0xeeac,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -10764,7 +10773,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "googlepay".
   static const IconData googlepay = IconData(
-    0xeeac,
+    0xeead,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -10773,7 +10782,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "googlephotos".
   static const IconData googlephotos = IconData(
-    0xeead,
+    0xeeae,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -10782,7 +10791,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "googleplay".
   static const IconData googleplay = IconData(
-    0xeeae,
+    0xeeaf,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -10791,7 +10800,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "googlepubsub".
   static const IconData googlepubsub = IconData(
-    0xeeaf,
+    0xeeb0,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -10800,7 +10809,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "googlescholar".
   static const IconData googlescholar = IconData(
-    0xeeb0,
+    0xeeb1,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -10809,7 +10818,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "googlesearchconsole".
   static const IconData googlesearchconsole = IconData(
-    0xeeb1,
+    0xeeb2,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -10818,7 +10827,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "googlesheets".
   static const IconData googlesheets = IconData(
-    0xeeb2,
+    0xeeb3,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -10827,7 +10836,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "googleslides".
   static const IconData googleslides = IconData(
-    0xeeb3,
+    0xeeb4,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -10836,7 +10845,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "googlestreetview".
   static const IconData googlestreetview = IconData(
-    0xeeb4,
+    0xeeb5,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -10845,7 +10854,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "googlesummerofcode".
   static const IconData googlesummerofcode = IconData(
-    0xeeb5,
+    0xeeb6,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -10854,7 +10863,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "googletagmanager".
   static const IconData googletagmanager = IconData(
-    0xeeb6,
+    0xeeb7,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -10863,7 +10872,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "googletasks".
   static const IconData googletasks = IconData(
-    0xeeb7,
+    0xeeb8,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -10872,7 +10881,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "googletranslate".
   static const IconData googletranslate = IconData(
-    0xeeb8,
+    0xeeb9,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -10881,7 +10890,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "googletv".
   static const IconData googletv = IconData(
-    0xeeb9,
+    0xeeba,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -10890,7 +10899,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "gotomeeting".
   static const IconData gotomeeting = IconData(
-    0xeeba,
+    0xeebb,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -10899,7 +10908,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "gplv3".
   static const IconData gplv3 = IconData(
-    0xeebb,
+    0xeebc,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -10908,7 +10917,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "grab".
   static const IconData grab = IconData(
-    0xeebc,
+    0xeebd,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -10917,7 +10926,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "gradio".
   static const IconData gradio = IconData(
-    0xeebd,
+    0xeebe,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -10926,7 +10935,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "gradle".
   static const IconData gradle = IconData(
-    0xeebe,
+    0xeebf,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -10935,7 +10944,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "gradleplaypublisher".
   static const IconData gradleplaypublisher = IconData(
-    0xeebf,
+    0xeec0,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -10944,7 +10953,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "grafana".
   static const IconData grafana = IconData(
-    0xeec0,
+    0xeec1,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -10953,7 +10962,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "grammarly".
   static const IconData grammarly = IconData(
-    0xeec1,
+    0xeec2,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -10962,7 +10971,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "grandfrais".
   static const IconData grandfrais = IconData(
-    0xeec2,
+    0xeec3,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -10971,7 +10980,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "grapheneos".
   static const IconData grapheneos = IconData(
-    0xeec3,
+    0xeec4,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -10980,7 +10989,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "graphite".
   static const IconData graphite = IconData(
-    0xeec4,
+    0xeec5,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -10989,7 +10998,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "graphite_editor".
   static const IconData graphiteEditor = IconData(
-    0xeec5,
+    0xeec6,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -10998,7 +11007,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "graphql".
   static const IconData graphql = IconData(
-    0xeec6,
+    0xeec7,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -11007,7 +11016,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "grav".
   static const IconData grav = IconData(
-    0xeec7,
+    0xeec8,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -11016,7 +11025,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "gravatar".
   static const IconData gravatar = IconData(
-    0xeec8,
+    0xeec9,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -11025,7 +11034,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "graylog".
   static const IconData graylog = IconData(
-    0xeec9,
+    0xeeca,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -11034,7 +11043,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "greasyfork".
   static const IconData greasyfork = IconData(
-    0xeeca,
+    0xeecb,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -11043,7 +11052,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "greatlearning".
   static const IconData greatlearning = IconData(
-    0xeecb,
+    0xeecc,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -11052,7 +11061,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "greenhouse".
   static const IconData greenhouse = IconData(
-    0xeecc,
+    0xeecd,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -11061,7 +11070,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "greensock".
   static const IconData greensock = IconData(
-    0xeecd,
+    0xeece,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -11070,7 +11079,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "greptimedb".
   static const IconData greptimedb = IconData(
-    0xeece,
+    0xeecf,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -11079,7 +11088,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "griddotai".
   static const IconData griddotai = IconData(
-    0xeecf,
+    0xeed0,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -11088,7 +11097,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "gridsome".
   static const IconData gridsome = IconData(
-    0xeed0,
+    0xeed1,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -11097,7 +11106,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "grocy".
   static const IconData grocy = IconData(
-    0xeed1,
+    0xeed2,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -11106,7 +11115,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "groupme".
   static const IconData groupme = IconData(
-    0xeed2,
+    0xeed3,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -11115,7 +11124,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "groupon".
   static const IconData groupon = IconData(
-    0xeed3,
+    0xeed4,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -11124,7 +11133,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "grunt".
   static const IconData grunt = IconData(
-    0xeed4,
+    0xeed5,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -11133,7 +11142,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "gsap".
   static const IconData gsap = IconData(
-    0xeed5,
+    0xeed6,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -11142,7 +11151,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "gsk".
   static const IconData gsk = IconData(
-    0xeed6,
+    0xeed7,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -11151,7 +11160,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "gsma".
   static const IconData gsma = IconData(
-    0xeed7,
+    0xeed8,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -11160,7 +11169,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "gsmarenadotcom".
   static const IconData gsmarenadotcom = IconData(
-    0xeed8,
+    0xeed9,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -11169,7 +11178,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "gstreamer".
   static const IconData gstreamer = IconData(
-    0xeed9,
+    0xeeda,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -11178,7 +11187,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "gtk".
   static const IconData gtk = IconData(
-    0xeeda,
+    0xeedb,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -11187,7 +11196,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "guangzhoumetro".
   static const IconData guangzhoumetro = IconData(
-    0xeedb,
+    0xeedc,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -11196,7 +11205,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "guilded".
   static const IconData guilded = IconData(
-    0xeedc,
+    0xeedd,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -11205,7 +11214,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "guitarpro".
   static const IconData guitarpro = IconData(
-    0xeedd,
+    0xeede,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -11214,7 +11223,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "gulp".
   static const IconData gulp = IconData(
-    0xeede,
+    0xeedf,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -11223,7 +11232,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "gumroad".
   static const IconData gumroad = IconData(
-    0xeedf,
+    0xeee0,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -11232,7 +11241,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "gumtree".
   static const IconData gumtree = IconData(
-    0xeee0,
+    0xeee1,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -11241,7 +11250,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "gunicorn".
   static const IconData gunicorn = IconData(
-    0xeee1,
+    0xeee2,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -11250,7 +11259,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "gurobi".
   static const IconData gurobi = IconData(
-    0xeee2,
+    0xeee3,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -11259,7 +11268,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "gusto".
   static const IconData gusto = IconData(
-    0xeee3,
+    0xeee4,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -11268,7 +11277,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "gutenberg".
   static const IconData gutenberg = IconData(
-    0xeee4,
+    0xeee5,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -11277,7 +11286,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "handm".
   static const IconData handm = IconData(
-    0xeee5,
+    0xeee6,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -11286,7 +11295,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "h2database".
   static const IconData h2database = IconData(
-    0xeee6,
+    0xeee7,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -11295,7 +11304,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "h3".
   static const IconData h3 = IconData(
-    0xeee7,
+    0xeee8,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -11304,7 +11313,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "habr".
   static const IconData habr = IconData(
-    0xeee8,
+    0xeee9,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -11313,7 +11322,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "hackclub".
   static const IconData hackclub = IconData(
-    0xeee9,
+    0xeeea,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -11322,7 +11331,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "hackthebox".
   static const IconData hackthebox = IconData(
-    0xeeea,
+    0xeeeb,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -11331,7 +11340,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "hackaday".
   static const IconData hackaday = IconData(
-    0xeeeb,
+    0xeeec,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -11340,7 +11349,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "hackernoon".
   static const IconData hackernoon = IconData(
-    0xeeec,
+    0xeeed,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -11349,7 +11358,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "hackerearth".
   static const IconData hackerearth = IconData(
-    0xeeed,
+    0xeeee,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -11358,7 +11367,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "hackerone".
   static const IconData hackerone = IconData(
-    0xeeee,
+    0xeeef,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -11367,7 +11376,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "hackerrank".
   static const IconData hackerrank = IconData(
-    0xeeef,
+    0xeef0,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -11376,7 +11385,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "hackmd".
   static const IconData hackmd = IconData(
-    0xeef0,
+    0xeef1,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -11385,7 +11394,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "hackster".
   static const IconData hackster = IconData(
-    0xeef1,
+    0xeef2,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -11394,7 +11403,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "hal".
   static const IconData hal = IconData(
-    0xeef2,
+    0xeef3,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -11403,7 +11412,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "handlebarsdotjs".
   static const IconData handlebarsdotjs = IconData(
-    0xeef3,
+    0xeef4,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -11412,7 +11421,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "handshake".
   static const IconData handshake = IconData(
-    0xeef4,
+    0xeef5,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -11421,7 +11430,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "handshake_protocol".
   static const IconData handshakeProtocol = IconData(
-    0xeef5,
+    0xeef6,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -11430,7 +11439,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "happycow".
   static const IconData happycow = IconData(
-    0xeef6,
+    0xeef7,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -11439,7 +11448,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "harbor".
   static const IconData harbor = IconData(
-    0xeef7,
+    0xeef8,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -11448,7 +11457,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "harmonyos".
   static const IconData harmonyos = IconData(
-    0xeef8,
+    0xeef9,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -11457,7 +11466,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "hashcat".
   static const IconData hashcat = IconData(
-    0xeef9,
+    0xeefa,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -11466,7 +11475,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "hashicorp".
   static const IconData hashicorp = IconData(
-    0xeefa,
+    0xeefb,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -11475,7 +11484,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "hashnode".
   static const IconData hashnode = IconData(
-    0xeefb,
+    0xeefc,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -11484,7 +11493,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "haskell".
   static const IconData haskell = IconData(
-    0xeefc,
+    0xeefd,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -11493,7 +11502,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "hasura".
   static const IconData hasura = IconData(
-    0xeefd,
+    0xeefe,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -11502,7 +11511,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "hatenabookmark".
   static const IconData hatenabookmark = IconData(
-    0xeefe,
+    0xeeff,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -11511,7 +11520,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "haveibeenpwned".
   static const IconData haveibeenpwned = IconData(
-    0xeeff,
+    0xef00,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -11520,7 +11529,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "havells".
   static const IconData havells = IconData(
-    0xef00,
+    0xef01,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -11529,7 +11538,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "haxe".
   static const IconData haxe = IconData(
-    0xef01,
+    0xef02,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -11538,7 +11547,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "haystack".
   static const IconData haystack = IconData(
-    0xef02,
+    0xef03,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -11547,7 +11556,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "hbo".
   static const IconData hbo = IconData(
-    0xef03,
+    0xef04,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -11556,7 +11565,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "hbomax".
   static const IconData hbomax = IconData(
-    0xef04,
+    0xef05,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -11565,7 +11574,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "hcl".
   static const IconData hcl = IconData(
-    0xef05,
+    0xef06,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -11574,7 +11583,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "hdfcbank".
   static const IconData hdfcbank = IconData(
-    0xef06,
+    0xef07,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -11583,7 +11592,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "headlessui".
   static const IconData headlessui = IconData(
-    0xef07,
+    0xef08,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -11592,7 +11601,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "headphonezone".
   static const IconData headphonezone = IconData(
-    0xef08,
+    0xef09,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -11601,7 +11610,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "headspace".
   static const IconData headspace = IconData(
-    0xef09,
+    0xef0a,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -11610,7 +11619,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "hearth".
   static const IconData hearth = IconData(
-    0xef0a,
+    0xef0b,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -11619,7 +11628,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "hearthisdotat".
   static const IconData hearthisdotat = IconData(
-    0xef0b,
+    0xef0c,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -11628,7 +11637,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "hedera".
   static const IconData hedera = IconData(
-    0xef0c,
+    0xef0d,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -11637,7 +11646,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "hedgedoc".
   static const IconData hedgedoc = IconData(
-    0xef0d,
+    0xef0e,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -11646,7 +11655,16 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "helium".
   static const IconData helium = IconData(
-    0xef0e,
+    0xef0f,
+    fontFamily: 'SimpleIcons',
+    fontPackage: 'simple_icons',
+  );
+
+  /// ![Icon](data:image/svg+xml;base64,PHN2ZyByb2xlPSJpbWciIHZpZXdCb3g9IjAgMCAyNCAyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiBoZWlnaHQ9IjI0IiB3aWR0aD0iMjQiIGZpbGw9ImdyYXkiPjx0aXRsZT5IZWxpdW0gQnJvd3NlcjwvdGl0bGU+PHBhdGggZD0iTTE0LjMwODEgMjIuMjk4NCAxMiAyNGwtMi4zMDgxLTEuNzAxNiAxLjA0ODktOC4xMTg5LTYuNTE3NCA0Ljk2NjFMMS41OTM4IDE4bC4zMjEtMi44NDY3TDkuNDgwOCAxMmwtNy41NjYtMy4xNTMzTDEuNTkzOCA2bDIuNjI5Ni0xLjE0NTYgNi41MTc0IDQuOTY2MS0xLjA0OS04LjExOUwxMiAwbDIuMzA4MSAxLjcwMTYtMS4wNDg4IDguMTE4OSA2LjUxNzMtNC45NjYxTDIyLjQwNjIgNmwtLjMyMSAyLjg0NjdMMTQuNTE5MiAxMmw3LjU2NiAzLjE1MzMuMzIxIDIuODQ2Ny0yLjYyOTYgMS4xNDU2LTYuNTE3My00Ljk2NjF6Ii8+PC9zdmc+)
+  ///
+  /// Simple icon named "heliumbrowser".
+  static const IconData heliumbrowser = IconData(
+    0xef10,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -11655,7 +11673,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "helix".
   static const IconData helix = IconData(
-    0xef0f,
+    0xef11,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -11664,7 +11682,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "hellofresh".
   static const IconData hellofresh = IconData(
-    0xef10,
+    0xef12,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -11673,7 +11691,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "hellyhansen".
   static const IconData hellyhansen = IconData(
-    0xef11,
+    0xef13,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -11682,7 +11700,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "helm".
   static const IconData helm = IconData(
-    0xef12,
+    0xef14,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -11691,7 +11709,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "helpscout".
   static const IconData helpscout = IconData(
-    0xef13,
+    0xef15,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -11700,7 +11718,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "helpdesk".
   static const IconData helpdesk = IconData(
-    0xef14,
+    0xef16,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -11709,7 +11727,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "hepsiemlak".
   static const IconData hepsiemlak = IconData(
-    0xef15,
+    0xef17,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -11718,7 +11736,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "here".
   static const IconData here = IconData(
-    0xef16,
+    0xef18,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -11727,7 +11745,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "hermes".
   static const IconData hermes = IconData(
-    0xef17,
+    0xef19,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -11736,7 +11754,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "heroicgameslauncher".
   static const IconData heroicgameslauncher = IconData(
-    0xef18,
+    0xef1a,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -11745,7 +11763,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "heroui".
   static const IconData heroui = IconData(
-    0xef19,
+    0xef1b,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -11754,7 +11772,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "hetzner".
   static const IconData hetzner = IconData(
-    0xef1a,
+    0xef1c,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -11763,7 +11781,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "hevy".
   static const IconData hevy = IconData(
-    0xef1b,
+    0xef1d,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -11772,7 +11790,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "hexlet".
   static const IconData hexlet = IconData(
-    0xef1c,
+    0xef1e,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -11781,7 +11799,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "hexo".
   static const IconData hexo = IconData(
-    0xef1d,
+    0xef1f,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -11790,7 +11808,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "hey".
   static const IconData hey = IconData(
-    0xef1e,
+    0xef20,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -11799,7 +11817,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "hibob".
   static const IconData hibob = IconData(
-    0xef1f,
+    0xef21,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -11808,7 +11826,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "hibernate".
   static const IconData hibernate = IconData(
-    0xef20,
+    0xef22,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -11817,7 +11835,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "hilton".
   static const IconData hilton = IconData(
-    0xef21,
+    0xef23,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -11826,7 +11844,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "hiltonhotelsandresorts".
   static const IconData hiltonhotelsandresorts = IconData(
-    0xef22,
+    0xef24,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -11835,7 +11853,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "hitachi".
   static const IconData hitachi = IconData(
-    0xef23,
+    0xef25,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -11844,7 +11862,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "hive".
   static const IconData hive = IconData(
-    0xef24,
+    0xef26,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -11853,7 +11871,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "hive_blockchain".
   static const IconData hiveBlockchain = IconData(
-    0xef25,
+    0xef27,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -11862,7 +11880,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "hivemq".
   static const IconData hivemq = IconData(
-    0xef26,
+    0xef28,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -11871,7 +11889,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "homarr".
   static const IconData homarr = IconData(
-    0xef27,
+    0xef29,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -11880,7 +11898,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "homeassistant".
   static const IconData homeassistant = IconData(
-    0xef28,
+    0xef2a,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -11889,7 +11907,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "homeassistantcommunitystore".
   static const IconData homeassistantcommunitystore = IconData(
-    0xef29,
+    0xef2b,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -11898,7 +11916,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "homeadvisor".
   static const IconData homeadvisor = IconData(
-    0xef2a,
+    0xef2c,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -11907,7 +11925,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "homebrew".
   static const IconData homebrew = IconData(
-    0xef2b,
+    0xef2d,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -11916,7 +11934,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "homebridge".
   static const IconData homebridge = IconData(
-    0xef2c,
+    0xef2e,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -11925,7 +11943,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "homepage".
   static const IconData homepage = IconData(
-    0xef2d,
+    0xef2f,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -11934,7 +11952,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "homify".
   static const IconData homify = IconData(
-    0xef2e,
+    0xef30,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -11943,7 +11961,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "honda".
   static const IconData honda = IconData(
-    0xef2f,
+    0xef31,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -11952,7 +11970,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "honey".
   static const IconData honey = IconData(
-    0xef30,
+    0xef32,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -11961,7 +11979,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "honeybadger".
   static const IconData honeybadger = IconData(
-    0xef31,
+    0xef33,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -11970,7 +11988,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "honeygain".
   static const IconData honeygain = IconData(
-    0xef32,
+    0xef34,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -11979,7 +11997,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "hono".
   static const IconData hono = IconData(
-    0xef33,
+    0xef35,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -11988,7 +12006,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "honor".
   static const IconData honor = IconData(
-    0xef34,
+    0xef36,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -11997,7 +12015,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "hootsuite".
   static const IconData hootsuite = IconData(
-    0xef35,
+    0xef37,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -12006,7 +12024,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "hoppscotch".
   static const IconData hoppscotch = IconData(
-    0xef36,
+    0xef38,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -12015,7 +12033,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "hostinger".
   static const IconData hostinger = IconData(
-    0xef37,
+    0xef39,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -12024,7 +12042,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "hotelsdotcom".
   static const IconData hotelsdotcom = IconData(
-    0xef38,
+    0xef3a,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -12033,7 +12051,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "hotjar".
   static const IconData hotjar = IconData(
-    0xef39,
+    0xef3b,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -12042,7 +12060,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "hotwire".
   static const IconData hotwire = IconData(
-    0xef3a,
+    0xef3c,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -12051,7 +12069,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "houdini".
   static const IconData houdini = IconData(
-    0xef3b,
+    0xef3d,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -12060,7 +12078,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "houzz".
   static const IconData houzz = IconData(
-    0xef3c,
+    0xef3e,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -12069,7 +12087,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "hp".
   static const IconData hp = IconData(
-    0xef3d,
+    0xef3f,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -12078,7 +12096,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "hsbc".
   static const IconData hsbc = IconData(
-    0xef3e,
+    0xef40,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -12087,7 +12105,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "htc".
   static const IconData htc = IconData(
-    0xef3f,
+    0xef41,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -12096,7 +12114,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "htcvive".
   static const IconData htcvive = IconData(
-    0xef40,
+    0xef42,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -12105,7 +12123,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "htmlacademy".
   static const IconData htmlacademy = IconData(
-    0xef41,
+    0xef43,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -12114,7 +12132,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "html5".
   static const IconData html5 = IconData(
-    0xef42,
+    0xef44,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -12123,7 +12141,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "htmx".
   static const IconData htmx = IconData(
-    0xef43,
+    0xef45,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -12132,7 +12150,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "htop".
   static const IconData htop = IconData(
-    0xef44,
+    0xef46,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -12141,7 +12159,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "httpie".
   static const IconData httpie = IconData(
-    0xef45,
+    0xef47,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -12150,7 +12168,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "huawei".
   static const IconData huawei = IconData(
-    0xef46,
+    0xef48,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -12159,7 +12177,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "hubspot".
   static const IconData hubspot = IconData(
-    0xef47,
+    0xef49,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -12168,7 +12186,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "huggingface".
   static const IconData huggingface = IconData(
-    0xef48,
+    0xef4a,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -12177,7 +12195,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "hugo".
   static const IconData hugo = IconData(
-    0xef49,
+    0xef4b,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -12186,7 +12204,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "humblebundle".
   static const IconData humblebundle = IconData(
-    0xef4a,
+    0xef4c,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -12195,7 +12213,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "humhub".
   static const IconData humhub = IconData(
-    0xef4b,
+    0xef4d,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -12204,7 +12222,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "hungryjacks".
   static const IconData hungryjacks = IconData(
-    0xef4c,
+    0xef4e,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -12213,7 +12231,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "husqvarna".
   static const IconData husqvarna = IconData(
-    0xef4d,
+    0xef4f,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -12222,7 +12240,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "hyper".
   static const IconData hyper = IconData(
-    0xef4e,
+    0xef50,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -12231,7 +12249,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "hyperskill".
   static const IconData hyperskill = IconData(
-    0xef4f,
+    0xef51,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -12240,7 +12258,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "hyperx".
   static const IconData hyperx = IconData(
-    0xef50,
+    0xef52,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -12249,7 +12267,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "hypothesis".
   static const IconData hypothesis = IconData(
-    0xef51,
+    0xef53,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -12258,7 +12276,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "hyprland".
   static const IconData hyprland = IconData(
-    0xef52,
+    0xef54,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -12267,7 +12285,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "hyundai".
   static const IconData hyundai = IconData(
-    0xef53,
+    0xef55,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -12276,7 +12294,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "i18next".
   static const IconData i18next = IconData(
-    0xef54,
+    0xef56,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -12285,7 +12303,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "i3".
   static const IconData i3 = IconData(
-    0xef55,
+    0xef57,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -12294,7 +12312,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "iata".
   static const IconData iata = IconData(
-    0xef56,
+    0xef58,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -12303,7 +12321,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "ibeacon".
   static const IconData ibeacon = IconData(
-    0xef57,
+    0xef59,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -12312,7 +12330,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "iberia".
   static const IconData iberia = IconData(
-    0xef58,
+    0xef5a,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -12321,7 +12339,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "iced".
   static const IconData iced = IconData(
-    0xef59,
+    0xef5b,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -12330,7 +12348,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "iceland".
   static const IconData iceland = IconData(
-    0xef5a,
+    0xef5c,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -12339,7 +12357,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "icicibank".
   static const IconData icicibank = IconData(
-    0xef5b,
+    0xef5d,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -12348,7 +12366,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "icinga".
   static const IconData icinga = IconData(
-    0xef5c,
+    0xef5e,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -12357,7 +12375,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "icloud".
   static const IconData icloud = IconData(
-    0xef5d,
+    0xef5f,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -12366,7 +12384,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "icomoon".
   static const IconData icomoon = IconData(
-    0xef5e,
+    0xef60,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -12375,7 +12393,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "icon".
   static const IconData icon = IconData(
-    0xef5f,
+    0xef61,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -12384,7 +12402,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "iconfinder".
   static const IconData iconfinder = IconData(
-    0xef60,
+    0xef62,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -12393,7 +12411,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "iconify".
   static const IconData iconify = IconData(
-    0xef61,
+    0xef63,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -12402,7 +12420,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "iconjar".
   static const IconData iconjar = IconData(
-    0xef62,
+    0xef64,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -12411,7 +12429,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "icons8".
   static const IconData icons8 = IconData(
-    0xef63,
+    0xef65,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -12420,7 +12438,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "icq".
   static const IconData icq = IconData(
-    0xef64,
+    0xef66,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -12429,7 +12447,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "ieee".
   static const IconData ieee = IconData(
-    0xef65,
+    0xef67,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -12438,7 +12456,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "ifixit".
   static const IconData ifixit = IconData(
-    0xef66,
+    0xef68,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -12447,7 +12465,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "ifood".
   static const IconData ifood = IconData(
-    0xef67,
+    0xef69,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -12456,7 +12474,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "ifttt".
   static const IconData ifttt = IconData(
-    0xef68,
+    0xef6a,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -12465,7 +12483,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "igdb".
   static const IconData igdb = IconData(
-    0xef69,
+    0xef6b,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -12474,7 +12492,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "ign".
   static const IconData ign = IconData(
-    0xef6a,
+    0xef6c,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -12483,7 +12501,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "iheartradio".
   static const IconData iheartradio = IconData(
-    0xef6b,
+    0xef6d,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -12492,7 +12510,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "ikea".
   static const IconData ikea = IconData(
-    0xef6c,
+    0xef6e,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -12501,7 +12519,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "iledefrancemobilites".
   static const IconData iledefrancemobilites = IconData(
-    0xef6d,
+    0xef6f,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -12510,7 +12528,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "ilovepdf".
   static const IconData ilovepdf = IconData(
-    0xef6e,
+    0xef70,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -12519,7 +12537,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "imagetoolbox".
   static const IconData imagetoolbox = IconData(
-    0xef6f,
+    0xef71,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -12528,7 +12546,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "imagedotsc".
   static const IconData imagedotsc = IconData(
-    0xef70,
+    0xef72,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -12537,7 +12555,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "imagej".
   static const IconData imagej = IconData(
-    0xef71,
+    0xef73,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -12546,7 +12564,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "imdb".
   static const IconData imdb = IconData(
-    0xef72,
+    0xef74,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -12555,7 +12573,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "imessage".
   static const IconData imessage = IconData(
-    0xef73,
+    0xef75,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -12564,7 +12582,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "imgur".
   static const IconData imgur = IconData(
-    0xef74,
+    0xef76,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -12573,7 +12591,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "immer".
   static const IconData immer = IconData(
-    0xef75,
+    0xef77,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -12582,7 +12600,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "immersivetranslate".
   static const IconData immersivetranslate = IconData(
-    0xef76,
+    0xef78,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -12591,7 +12609,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "immich".
   static const IconData immich = IconData(
-    0xef77,
+    0xef79,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -12600,7 +12618,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "imou".
   static const IconData imou = IconData(
-    0xef78,
+    0xef7a,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -12609,7 +12627,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "improvmx".
   static const IconData improvmx = IconData(
-    0xef79,
+    0xef7b,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -12618,7 +12636,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "indeed".
   static const IconData indeed = IconData(
-    0xef7a,
+    0xef7c,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -12627,7 +12645,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "indiansuperleague".
   static const IconData indiansuperleague = IconData(
-    0xef7b,
+    0xef7d,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -12636,7 +12654,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "indiehackers".
   static const IconData indiehackers = IconData(
-    0xef7c,
+    0xef7e,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -12645,7 +12663,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "indieweb".
   static const IconData indieweb = IconData(
-    0xef7d,
+    0xef7f,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -12654,7 +12672,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "indigo".
   static const IconData indigo = IconData(
-    0xef7e,
+    0xef80,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -12663,7 +12681,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "inductiveautomation".
   static const IconData inductiveautomation = IconData(
-    0xef7f,
+    0xef81,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -12672,7 +12690,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "inertia".
   static const IconData inertia = IconData(
-    0xef80,
+    0xef82,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -12681,7 +12699,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "infiniti".
   static const IconData infiniti = IconData(
-    0xef81,
+    0xef83,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -12690,7 +12708,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "infinityfree".
   static const IconData infinityfree = IconData(
-    0xef82,
+    0xef84,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -12699,7 +12717,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "influxdb".
   static const IconData influxdb = IconData(
-    0xef83,
+    0xef85,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -12708,7 +12726,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "infomaniak".
   static const IconData infomaniak = IconData(
-    0xef84,
+    0xef86,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -12717,7 +12735,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "infoq".
   static const IconData infoq = IconData(
-    0xef85,
+    0xef87,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -12726,7 +12744,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "infosys".
   static const IconData infosys = IconData(
-    0xef86,
+    0xef88,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -12735,7 +12753,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "infracost".
   static const IconData infracost = IconData(
-    0xef87,
+    0xef89,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -12744,7 +12762,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "infuse".
   static const IconData infuse = IconData(
-    0xef88,
+    0xef8a,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -12753,7 +12771,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "ingress".
   static const IconData ingress = IconData(
-    0xef89,
+    0xef8b,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -12762,7 +12780,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "inkdrop".
   static const IconData inkdrop = IconData(
-    0xef8a,
+    0xef8c,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -12771,7 +12789,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "inkscape".
   static const IconData inkscape = IconData(
-    0xef8b,
+    0xef8d,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -12780,7 +12798,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "inoreader".
   static const IconData inoreader = IconData(
-    0xef8c,
+    0xef8e,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -12789,7 +12807,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "inquirer".
   static const IconData inquirer = IconData(
-    0xef8d,
+    0xef8f,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -12798,7 +12816,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "insomnia".
   static const IconData insomnia = IconData(
-    0xef8e,
+    0xef90,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -12807,7 +12825,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "inspire".
   static const IconData inspire = IconData(
-    0xef8f,
+    0xef91,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -12816,7 +12834,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "insta360".
   static const IconData insta360 = IconData(
-    0xef90,
+    0xef92,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -12825,7 +12843,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "instacart".
   static const IconData instacart = IconData(
-    0xef91,
+    0xef93,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -12834,7 +12852,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "instagram".
   static const IconData instagram = IconData(
-    0xef92,
+    0xef94,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -12843,7 +12861,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "instapaper".
   static const IconData instapaper = IconData(
-    0xef93,
+    0xef95,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -12852,7 +12870,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "instatus".
   static const IconData instatus = IconData(
-    0xef94,
+    0xef96,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -12861,7 +12879,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "instructables".
   static const IconData instructables = IconData(
-    0xef95,
+    0xef97,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -12870,7 +12888,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "instructure".
   static const IconData instructure = IconData(
-    0xef96,
+    0xef98,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -12879,7 +12897,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "intel".
   static const IconData intel = IconData(
-    0xef97,
+    0xef99,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -12888,7 +12906,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "intellijidea".
   static const IconData intellijidea = IconData(
-    0xef98,
+    0xef9a,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -12897,7 +12915,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "interactiondesignfoundation".
   static const IconData interactiondesignfoundation = IconData(
-    0xef99,
+    0xef9b,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -12906,7 +12924,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "interactjs".
   static const IconData interactjs = IconData(
-    0xef9a,
+    0xef9c,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -12915,7 +12933,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "interbase".
   static const IconData interbase = IconData(
-    0xef9b,
+    0xef9d,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -12924,7 +12942,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "intercom".
   static const IconData intercom = IconData(
-    0xef9c,
+    0xef9e,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -12933,7 +12951,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "intermarche".
   static const IconData intermarche = IconData(
-    0xef9d,
+    0xef9f,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -12942,7 +12960,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "internetarchive".
   static const IconData internetarchive = IconData(
-    0xef9e,
+    0xefa0,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -12951,7 +12969,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "internetcomputer".
   static const IconData internetcomputer = IconData(
-    0xef9f,
+    0xefa1,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -12960,7 +12978,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "intigriti".
   static const IconData intigriti = IconData(
-    0xefa0,
+    0xefa2,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -12969,7 +12987,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "intuit".
   static const IconData intuit = IconData(
-    0xefa1,
+    0xefa3,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -12978,7 +12996,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "invidious".
   static const IconData invidious = IconData(
-    0xefa2,
+    0xefa4,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -12987,7 +13005,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "invoiceninja".
   static const IconData invoiceninja = IconData(
-    0xefa3,
+    0xefa5,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -12996,7 +13014,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "iobroker".
   static const IconData iobroker = IconData(
-    0xefa4,
+    0xefa6,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -13005,7 +13023,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "ionic".
   static const IconData ionic = IconData(
-    0xefa5,
+    0xefa7,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -13014,7 +13032,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "ionos".
   static const IconData ionos = IconData(
-    0xefa6,
+    0xefa8,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -13023,7 +13041,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "ios".
   static const IconData ios = IconData(
-    0xefa7,
+    0xefa9,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -13032,7 +13050,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "iota".
   static const IconData iota = IconData(
-    0xefa8,
+    0xefaa,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -13041,7 +13059,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "ipfs".
   static const IconData ipfs = IconData(
-    0xefa9,
+    0xefab,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -13050,7 +13068,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "iris".
   static const IconData iris = IconData(
-    0xefaa,
+    0xefac,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -13059,7 +13077,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "irobot".
   static const IconData irobot = IconData(
-    0xefab,
+    0xefad,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -13068,7 +13086,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "isc2".
   static const IconData isc2 = IconData(
-    0xefac,
+    0xefae,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -13077,7 +13095,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "isro".
   static const IconData isro = IconData(
-    0xefad,
+    0xefaf,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -13086,7 +13104,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "issuu".
   static const IconData issuu = IconData(
-    0xefae,
+    0xefb0,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -13095,7 +13113,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "istio".
   static const IconData istio = IconData(
-    0xefaf,
+    0xefb1,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -13104,7 +13122,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "itchdotio".
   static const IconData itchdotio = IconData(
-    0xefb0,
+    0xefb2,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -13113,7 +13131,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "iterm2".
   static const IconData iterm2 = IconData(
-    0xefb1,
+    0xefb3,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -13122,7 +13140,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "itunes".
   static const IconData itunes = IconData(
-    0xefb2,
+    0xefb4,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -13131,7 +13149,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "itvx".
   static const IconData itvx = IconData(
-    0xefb3,
+    0xefb5,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -13140,7 +13158,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "iveco".
   static const IconData iveco = IconData(
-    0xefb4,
+    0xefb6,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -13149,7 +13167,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "jabber".
   static const IconData jabber = IconData(
-    0xefb5,
+    0xefb7,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -13158,7 +13176,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "jaeger".
   static const IconData jaeger = IconData(
-    0xefb6,
+    0xefb8,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -13167,7 +13185,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "jameson".
   static const IconData jameson = IconData(
-    0xefb7,
+    0xefb9,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -13176,7 +13194,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "jamstack".
   static const IconData jamstack = IconData(
-    0xefb8,
+    0xefba,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -13185,7 +13203,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "japanairlines".
   static const IconData japanairlines = IconData(
-    0xefb9,
+    0xefbb,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -13194,7 +13212,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "jasmine".
   static const IconData jasmine = IconData(
-    0xefba,
+    0xefbc,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -13203,7 +13221,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "javascript".
   static const IconData javascript = IconData(
-    0xefbb,
+    0xefbd,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -13212,7 +13230,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "jbl".
   static const IconData jbl = IconData(
-    0xefbc,
+    0xefbe,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -13221,7 +13239,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "jcb".
   static const IconData jcb = IconData(
-    0xefbd,
+    0xefbf,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -13230,7 +13248,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "jdoodle".
   static const IconData jdoodle = IconData(
-    0xefbe,
+    0xefc0,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -13239,7 +13257,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "jeep".
   static const IconData jeep = IconData(
-    0xefbf,
+    0xefc1,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -13248,7 +13266,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "jekyll".
   static const IconData jekyll = IconData(
-    0xefc0,
+    0xefc2,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -13257,7 +13275,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "jellyfin".
   static const IconData jellyfin = IconData(
-    0xefc1,
+    0xefc3,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -13266,7 +13284,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "jenkins".
   static const IconData jenkins = IconData(
-    0xefc2,
+    0xefc4,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -13275,7 +13293,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "jest".
   static const IconData jest = IconData(
-    0xefc3,
+    0xefc5,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -13284,7 +13302,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "jet".
   static const IconData jet = IconData(
-    0xefc4,
+    0xefc6,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -13293,7 +13311,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "jetblue".
   static const IconData jetblue = IconData(
-    0xefc5,
+    0xefc7,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -13302,7 +13320,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "jetbrains".
   static const IconData jetbrains = IconData(
-    0xefc6,
+    0xefc8,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -13311,7 +13329,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "jetpackcompose".
   static const IconData jetpackcompose = IconData(
-    0xefc7,
+    0xefc9,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -13320,7 +13338,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "jfrog".
   static const IconData jfrog = IconData(
-    0xefc8,
+    0xefca,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -13329,7 +13347,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "jfrogpipelines".
   static const IconData jfrogpipelines = IconData(
-    0xefc9,
+    0xefcb,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -13338,7 +13356,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "jhipster".
   static const IconData jhipster = IconData(
-    0xefca,
+    0xefcc,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -13347,7 +13365,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "jinja".
   static const IconData jinja = IconData(
-    0xefcb,
+    0xefcd,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -13356,7 +13374,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "jio".
   static const IconData jio = IconData(
-    0xefcc,
+    0xefce,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -13365,7 +13383,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "jira".
   static const IconData jira = IconData(
-    0xefcd,
+    0xefcf,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -13374,7 +13392,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "jirasoftware".
   static const IconData jirasoftware = IconData(
-    0xefce,
+    0xefd0,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -13383,7 +13401,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "jitpack".
   static const IconData jitpack = IconData(
-    0xefcf,
+    0xefd1,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -13392,7 +13410,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "jitsi".
   static const IconData jitsi = IconData(
-    0xefd0,
+    0xefd2,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -13401,7 +13419,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "johndeere".
   static const IconData johndeere = IconData(
-    0xefd1,
+    0xefd3,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -13410,7 +13428,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "joomla".
   static const IconData joomla = IconData(
-    0xefd2,
+    0xefd4,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -13419,7 +13437,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "joplin".
   static const IconData joplin = IconData(
-    0xefd3,
+    0xefd5,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -13428,7 +13446,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "jordan".
   static const IconData jordan = IconData(
-    0xefd4,
+    0xefd6,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -13437,7 +13455,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "jouav".
   static const IconData jouav = IconData(
-    0xefd5,
+    0xefd7,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -13446,7 +13464,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "jovian".
   static const IconData jovian = IconData(
-    0xefd6,
+    0xefd8,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -13455,7 +13473,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "jpeg".
   static const IconData jpeg = IconData(
-    0xefd7,
+    0xefd9,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -13464,7 +13482,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "jquery".
   static const IconData jquery = IconData(
-    0xefd8,
+    0xefda,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -13473,7 +13491,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "jrgroup".
   static const IconData jrgroup = IconData(
-    0xefd9,
+    0xefdb,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -13482,7 +13500,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "jsdelivr".
   static const IconData jsdelivr = IconData(
-    0xefda,
+    0xefdc,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -13491,7 +13509,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "jsfiddle".
   static const IconData jsfiddle = IconData(
-    0xefdb,
+    0xefdd,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -13500,7 +13518,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "json".
   static const IconData json = IconData(
-    0xefdc,
+    0xefde,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -13509,7 +13527,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "jsonwebtokens".
   static const IconData jsonwebtokens = IconData(
-    0xefdd,
+    0xefdf,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -13518,7 +13536,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "jsr".
   static const IconData jsr = IconData(
-    0xefde,
+    0xefe0,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -13527,7 +13545,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "jss".
   static const IconData jss = IconData(
-    0xefdf,
+    0xefe1,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -13536,7 +13554,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "juce".
   static const IconData juce = IconData(
-    0xefe0,
+    0xefe2,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -13545,7 +13563,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "juejin".
   static const IconData juejin = IconData(
-    0xefe1,
+    0xefe3,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -13554,7 +13572,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "juke".
   static const IconData juke = IconData(
-    0xefe2,
+    0xefe4,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -13563,7 +13581,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "julia".
   static const IconData julia = IconData(
-    0xefe3,
+    0xefe5,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -13572,7 +13590,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "junipernetworks".
   static const IconData junipernetworks = IconData(
-    0xefe4,
+    0xefe6,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -13581,7 +13599,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "junit5".
   static const IconData junit5 = IconData(
-    0xefe5,
+    0xefe7,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -13590,7 +13608,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "jupyter".
   static const IconData jupyter = IconData(
-    0xefe6,
+    0xefe8,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -13599,7 +13617,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "just".
   static const IconData just = IconData(
-    0xefe7,
+    0xefe9,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -13608,7 +13626,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "justeat".
   static const IconData justeat = IconData(
-    0xefe8,
+    0xefea,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -13617,7 +13635,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "justgiving".
   static const IconData justgiving = IconData(
-    0xefe9,
+    0xefeb,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -13626,7 +13644,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "k3s".
   static const IconData k3s = IconData(
-    0xefea,
+    0xefec,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -13635,7 +13653,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "k6".
   static const IconData k6 = IconData(
-    0xefeb,
+    0xefed,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -13644,7 +13662,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "kaggle".
   static const IconData kaggle = IconData(
-    0xefec,
+    0xefee,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -13653,7 +13671,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "kagi".
   static const IconData kagi = IconData(
-    0xefed,
+    0xefef,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -13662,7 +13680,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "kahoot".
   static const IconData kahoot = IconData(
-    0xefee,
+    0xeff0,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -13671,7 +13689,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "kaios".
   static const IconData kaios = IconData(
-    0xefef,
+    0xeff1,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -13680,7 +13698,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "kakao".
   static const IconData kakao = IconData(
-    0xeff0,
+    0xeff2,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -13689,7 +13707,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "kakaotalk".
   static const IconData kakaotalk = IconData(
-    0xeff1,
+    0xeff3,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -13698,7 +13716,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "kalilinux".
   static const IconData kalilinux = IconData(
-    0xeff2,
+    0xeff4,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -13707,7 +13725,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "kamailio".
   static const IconData kamailio = IconData(
-    0xeff3,
+    0xeff5,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -13716,7 +13734,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "kando".
   static const IconData kando = IconData(
-    0xeff4,
+    0xeff6,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -13725,7 +13743,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "kaniko".
   static const IconData kaniko = IconData(
-    0xeff5,
+    0xeff7,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -13734,7 +13752,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "karakeep".
   static const IconData karakeep = IconData(
-    0xeff6,
+    0xeff8,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -13743,7 +13761,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "karlsruherverkehrsverbund".
   static const IconData karlsruherverkehrsverbund = IconData(
-    0xeff7,
+    0xeff9,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -13752,7 +13770,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "kasasmart".
   static const IconData kasasmart = IconData(
-    0xeff8,
+    0xeffa,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -13761,7 +13779,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "kashflow".
   static const IconData kashflow = IconData(
-    0xeff9,
+    0xeffb,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -13770,7 +13788,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "kaspersky".
   static const IconData kaspersky = IconData(
-    0xeffa,
+    0xeffc,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -13779,7 +13797,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "katana".
   static const IconData katana = IconData(
-    0xeffb,
+    0xeffd,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -13788,7 +13806,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "kaufland".
   static const IconData kaufland = IconData(
-    0xeffc,
+    0xeffe,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -13797,7 +13815,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "kde".
   static const IconData kde = IconData(
-    0xeffd,
+    0xefff,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -13806,7 +13824,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "kdeneon".
   static const IconData kdeneon = IconData(
-    0xeffe,
+    0xf000,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -13815,7 +13833,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "kdeplasma".
   static const IconData kdeplasma = IconData(
-    0xefff,
+    0xf001,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -13824,7 +13842,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "kdenlive".
   static const IconData kdenlive = IconData(
-    0xf000,
+    0xf002,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -13833,7 +13851,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "kedro".
   static const IconData kedro = IconData(
-    0xf001,
+    0xf003,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -13842,7 +13860,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "keenetic".
   static const IconData keenetic = IconData(
-    0xf002,
+    0xf004,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -13851,7 +13869,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "keepachangelog".
   static const IconData keepachangelog = IconData(
-    0xf003,
+    0xf005,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -13860,7 +13878,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "keepassxc".
   static const IconData keepassxc = IconData(
-    0xf004,
+    0xf006,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -13869,7 +13887,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "keeper".
   static const IconData keeper = IconData(
-    0xf005,
+    0xf007,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -13878,7 +13896,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "keeweb".
   static const IconData keeweb = IconData(
-    0xf006,
+    0xf008,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -13887,7 +13905,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "kenmei".
   static const IconData kenmei = IconData(
-    0xf007,
+    0xf009,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -13896,7 +13914,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "kentico".
   static const IconData kentico = IconData(
-    0xf008,
+    0xf00a,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -13905,7 +13923,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "keploy".
   static const IconData keploy = IconData(
-    0xf009,
+    0xf00b,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -13914,7 +13932,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "keras".
   static const IconData keras = IconData(
-    0xf00a,
+    0xf00c,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -13923,7 +13941,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "keybase".
   static const IconData keybase = IconData(
-    0xf00b,
+    0xf00d,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -13932,7 +13950,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "keycdn".
   static const IconData keycdn = IconData(
-    0xf00c,
+    0xf00e,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -13941,7 +13959,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "keycloak".
   static const IconData keycloak = IconData(
-    0xf00d,
+    0xf00f,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -13950,7 +13968,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "keystone".
   static const IconData keystone = IconData(
-    0xf00e,
+    0xf010,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -13959,7 +13977,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "kfc".
   static const IconData kfc = IconData(
-    0xf00f,
+    0xf011,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -13968,7 +13986,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "khanacademy".
   static const IconData khanacademy = IconData(
-    0xf010,
+    0xf012,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -13977,7 +13995,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "khronosgroup".
   static const IconData khronosgroup = IconData(
-    0xf011,
+    0xf013,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -13986,7 +14004,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "kia".
   static const IconData kia = IconData(
-    0xf012,
+    0xf014,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -13995,7 +14013,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "kibana".
   static const IconData kibana = IconData(
-    0xf013,
+    0xf015,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -14004,7 +14022,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "kicad".
   static const IconData kicad = IconData(
-    0xf014,
+    0xf016,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -14013,7 +14031,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "kick".
   static const IconData kick = IconData(
-    0xf015,
+    0xf017,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -14022,7 +14040,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "kickstarter".
   static const IconData kickstarter = IconData(
-    0xf016,
+    0xf018,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -14031,7 +14049,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "kik".
   static const IconData kik = IconData(
-    0xf017,
+    0xf019,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -14040,7 +14058,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "kingstontechnology".
   static const IconData kingstontechnology = IconData(
-    0xf018,
+    0xf01a,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -14049,7 +14067,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "kinopoisk".
   static const IconData kinopoisk = IconData(
-    0xf019,
+    0xf01b,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -14058,7 +14076,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "kinsta".
   static const IconData kinsta = IconData(
-    0xf01a,
+    0xf01c,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -14067,7 +14085,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "kirby".
   static const IconData kirby = IconData(
-    0xf01b,
+    0xf01d,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -14076,7 +14094,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "kit".
   static const IconData kit = IconData(
-    0xf01c,
+    0xf01e,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -14085,7 +14103,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "kitsu".
   static const IconData kitsu = IconData(
-    0xf01d,
+    0xf01f,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -14094,7 +14112,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "kiwix".
   static const IconData kiwix = IconData(
-    0xf01e,
+    0xf020,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -14103,7 +14121,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "klarna".
   static const IconData klarna = IconData(
-    0xf01f,
+    0xf021,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -14112,7 +14130,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "kleinanzeigen".
   static const IconData kleinanzeigen = IconData(
-    0xf020,
+    0xf022,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -14121,7 +14139,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "klm".
   static const IconData klm = IconData(
-    0xf021,
+    0xf023,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -14130,7 +14148,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "klook".
   static const IconData klook = IconData(
-    0xf022,
+    0xf024,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -14139,7 +14157,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "knative".
   static const IconData knative = IconData(
-    0xf023,
+    0xf025,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -14148,7 +14166,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "knexdotjs".
   static const IconData knexdotjs = IconData(
-    0xf024,
+    0xf026,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -14157,7 +14175,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "knime".
   static const IconData knime = IconData(
-    0xf025,
+    0xf027,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -14166,7 +14184,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "knip".
   static const IconData knip = IconData(
-    0xf026,
+    0xf028,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -14175,7 +14193,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "knowledgebase".
   static const IconData knowledgebase = IconData(
-    0xf027,
+    0xf029,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -14184,7 +14202,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "known".
   static const IconData known = IconData(
-    0xf028,
+    0xf02a,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -14193,7 +14211,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "kofi".
   static const IconData kofi = IconData(
-    0xf029,
+    0xf02b,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -14202,7 +14220,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "koa".
   static const IconData koa = IconData(
-    0xf02a,
+    0xf02c,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -14211,7 +14229,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "koc".
   static const IconData koc = IconData(
-    0xf02b,
+    0xf02d,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -14220,7 +14238,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "kodak".
   static const IconData kodak = IconData(
-    0xf02c,
+    0xf02e,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -14229,7 +14247,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "kodi".
   static const IconData kodi = IconData(
-    0xf02d,
+    0xf02f,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -14238,7 +14256,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "kodular".
   static const IconData kodular = IconData(
-    0xf02e,
+    0xf030,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -14247,7 +14265,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "koenigsegg".
   static const IconData koenigsegg = IconData(
-    0xf02f,
+    0xf031,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -14256,7 +14274,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "kofax".
   static const IconData kofax = IconData(
-    0xf030,
+    0xf032,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -14265,7 +14283,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "komoot".
   static const IconData komoot = IconData(
-    0xf031,
+    0xf033,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -14274,7 +14292,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "konami".
   static const IconData konami = IconData(
-    0xf032,
+    0xf034,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -14283,7 +14301,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "kong".
   static const IconData kong = IconData(
-    0xf033,
+    0xf035,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -14292,7 +14310,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "kongregate".
   static const IconData kongregate = IconData(
-    0xf034,
+    0xf036,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -14301,7 +14319,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "konva".
   static const IconData konva = IconData(
-    0xf035,
+    0xf037,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -14310,7 +14328,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "koreader".
   static const IconData koreader = IconData(
-    0xf036,
+    0xf038,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -14319,7 +14337,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "kotlin".
   static const IconData kotlin = IconData(
-    0xf037,
+    0xf039,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -14328,7 +14346,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "koyeb".
   static const IconData koyeb = IconData(
-    0xf038,
+    0xf03a,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -14337,7 +14355,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "kred".
   static const IconData kred = IconData(
-    0xf039,
+    0xf03b,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -14346,7 +14364,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "krita".
   static const IconData krita = IconData(
-    0xf03a,
+    0xf03c,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -14355,7 +14373,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "ktm".
   static const IconData ktm = IconData(
-    0xf03b,
+    0xf03d,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -14364,7 +14382,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "ktor".
   static const IconData ktor = IconData(
-    0xf03c,
+    0xf03e,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -14373,7 +14391,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "kuaishou".
   static const IconData kuaishou = IconData(
-    0xf03d,
+    0xf03f,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -14382,7 +14400,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "kubernetes".
   static const IconData kubernetes = IconData(
-    0xf03e,
+    0xf040,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -14391,7 +14409,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "kubespray".
   static const IconData kubespray = IconData(
-    0xf03f,
+    0xf041,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -14400,7 +14418,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "kubuntu".
   static const IconData kubuntu = IconData(
-    0xf040,
+    0xf042,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -14409,7 +14427,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "kucoin".
   static const IconData kucoin = IconData(
-    0xf041,
+    0xf043,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -14418,7 +14436,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "kueski".
   static const IconData kueski = IconData(
-    0xf042,
+    0xf044,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -14427,7 +14445,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "kuma".
   static const IconData kuma = IconData(
-    0xf043,
+    0xf045,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -14436,7 +14454,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "kununu".
   static const IconData kununu = IconData(
-    0xf044,
+    0xf046,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -14445,7 +14463,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "kuula".
   static const IconData kuula = IconData(
-    0xf045,
+    0xf047,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -14454,7 +14472,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "kx".
   static const IconData kx = IconData(
-    0xf046,
+    0xf048,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -14463,7 +14481,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "kyocera".
   static const IconData kyocera = IconData(
-    0xf047,
+    0xf049,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -14472,7 +14490,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "lequipe".
   static const IconData lequipe = IconData(
-    0xf048,
+    0xf04a,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -14481,7 +14499,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "labex".
   static const IconData labex = IconData(
-    0xf049,
+    0xf04b,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -14490,7 +14508,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "labview".
   static const IconData labview = IconData(
-    0xf04a,
+    0xf04c,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -14499,7 +14517,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "lada".
   static const IconData lada = IconData(
-    0xf04b,
+    0xf04d,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -14508,16 +14526,25 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "lamborghini".
   static const IconData lamborghini = IconData(
-    0xf04c,
+    0xf04e,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
 
-  /// ![Icon](data:image/svg+xml;base64,PHN2ZyByb2xlPSJpbWciIHZpZXdCb3g9IjAgMCAyNCAyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiBoZWlnaHQ9IjI0IiB3aWR0aD0iMjQiIGZpbGw9ImdyYXkiPjx0aXRsZT5MYW5nQ2hhaW48L3RpdGxlPjxwYXRoIGQ9Ik03LjUzIDE1Ljk3NWE3LjUzIDcuNTMgMCAwIDAgMi4yMDYtNS4zMjVBNy41NCA3LjU0IDAgMCAwIDcuNTMgNS4zMjVMMi4yMDUgMEE3LjU0IDcuNTQgMCAwIDAgMCA1LjMyNWE3LjU0IDcuNTQgMCAwIDAgMi4yMDUgNS4zMjV6bTExLjE0NC40OTNhNy41NCA3LjU0IDAgMCAwLTUuMzI1LTIuMjA2IDcuNTQgNy41NCAwIDAgMC01LjMyNSAyLjIwNmw1LjMyNSA1LjMyNWE3LjU0IDcuNTQgMCAwIDAgNS4zMjUgMi4yMDVBNy41NCA3LjU0IDAgMCAwIDI0IDIxLjc5M3pNMi4yMTkgMjEuNzhhNy41NCA3LjU0IDAgMCAwIDUuMzI1IDIuMjA1di03LjUzSC4wMTRhNy41NCA3LjU0IDAgMCAwIDIuMjA1IDUuMzI1TTIwLjczIDguNTk1YTcuNTMgNy41MyAwIDAgMC01LjMyNy0yLjIwNiA3LjUzIDcuNTMgMCAwIDAtNS4zMjUgMi4yMDdsNS4zMjUgNS4zMjV6Ii8+PC9zdmc+)
+  /// ![Icon](data:image/svg+xml;base64,PHN2ZyByb2xlPSJpbWciIHZpZXdCb3g9IjAgMCAyNCAyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiBoZWlnaHQ9IjI0IiB3aWR0aD0iMjQiIGZpbGw9ImdyYXkiPjx0aXRsZT5MYW5nQ2hhaW48L3RpdGxlPjxwYXRoIGQ9Ik0xMy43OTYgMGE2LjkzIDYuOTMgMCAwIDAtNC45MSAyLjAxOUw1LjQ1MSA1LjQ1NWwzLjI3MyAzLjI3IDMuNDMyLTMuNDMyYTIuMjg0IDIuMjg0IDAgMCAxIDMuMjc3IDAgMi4yOCAyLjI4IDAgMCAxIDAgMy4yNzVMMTIgMTIuMDAxbDMuMjczIDMuMjczIDMuNDMzLTMuNDM1YzIuNjkyLTIuNjkyIDIuNjkyLTcuMTI3IDAtOS44MkE2LjkyIDYuOTIgMCAwIDAgMTMuNzk2IDBtLTUuMDcgOC43MjgtMy40MzMgMy40MzRjLTIuNjkyIDIuNjkzLTIuNjkyIDcuMTI2IDAgOS44MTlBNi45MiA2LjkyIDAgMCAwIDEwLjIwMyAyNGE2LjkzIDYuOTMgMCAwIDAgNC45MTEtMi4wMmwzLjQzMi0zLjQzMi0zLjI3MS0zLjI3Mi0zLjQzMyAzLjQzM2EyLjI4NCAyLjI4NCAwIDAgMS0zLjI3NyAwIDIuMjggMi4yOCAwIDAgMSAwLTMuMjc2TDEyIDEyeiIvPjwvc3ZnPg==)
   ///
   /// Simple icon named "langchain".
   static const IconData langchain = IconData(
-    0xf04d,
+    0xf04f,
+    fontFamily: 'SimpleIcons',
+    fontPackage: 'simple_icons',
+  );
+
+  /// ![Icon](data:image/svg+xml;base64,PHN2ZyByb2xlPSJpbWciIHZpZXdCb3g9IjAgMCAyNCAyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiBoZWlnaHQ9IjI0IiB3aWR0aD0iMjQiIGZpbGw9ImdyYXkiPjx0aXRsZT5MYW5nQ2hhaW4gQ29ycG9yYXRlPC90aXRsZT48cGF0aCBkPSJNNy41MyAxNS45NzVhNy41MyA3LjUzIDAgMCAwIDIuMjA2LTUuMzI1QTcuNTQgNy41NCAwIDAgMCA3LjUzIDUuMzI1TDIuMjA1IDBBNy41NCA3LjU0IDAgMCAwIDAgNS4zMjVhNy41NCA3LjU0IDAgMCAwIDIuMjA1IDUuMzI1em0xMS4xNDQuNDkzYTcuNTQgNy41NCAwIDAgMC01LjMyNS0yLjIwNiA3LjU0IDcuNTQgMCAwIDAtNS4zMjUgMi4yMDZsNS4zMjUgNS4zMjVhNy41NCA3LjU0IDAgMCAwIDUuMzI1IDIuMjA1QTcuNTQgNy41NCAwIDAgMCAyNCAyMS43OTN6TTIuMjE5IDIxLjc4YTcuNTQgNy41NCAwIDAgMCA1LjMyNSAyLjIwNXYtNy41M0guMDE0YTcuNTQgNy41NCAwIDAgMCAyLjIwNSA1LjMyNU0yMC43MyA4LjU5NWE3LjUzIDcuNTMgMCAwIDAtNS4zMjctMi4yMDYgNy41MyA3LjUzIDAgMCAwLTUuMzI1IDIuMjA3bDUuMzI1IDUuMzI1eiIvPjwvc3ZnPg==)
+  ///
+  /// Simple icon named "langchaincorporate".
+  static const IconData langchaincorporate = IconData(
+    0xf050,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -14526,16 +14553,16 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "langflow".
   static const IconData langflow = IconData(
-    0xf04e,
+    0xf051,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
 
-  /// ![Icon](data:image/svg+xml;base64,PHN2ZyByb2xlPSJpbWciIHZpZXdCb3g9IjAgMCAyNCAyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiBoZWlnaHQ9IjI0IiB3aWR0aD0iMjQiIGZpbGw9ImdyYXkiPjx0aXRsZT5MYW5nR3JhcGg8L3RpdGxlPjxwYXRoIGQ9Ik02LjA5OSA1Ljg4SDE3LjlDMjEuMjY0IDUuODggMjQgOC42MjUgMjQgMTJzLTIuNzM2IDYuMTItNi4wOTkgNi4xMkg2LjFDMi43MzYgMTguMTIgMCAxNS4zNzUgMCAxMnMyLjczNi02LjEyIDYuMDk5LTYuMTJabTUuNDE5IDkuNDg3Yy4xNDguMTU2LjM2Ny4xNDguNTYxLjEwOGguMDAyYy4wOS0uMDczLS4wMzgtLjE2Ni0uMTYtLjI1NC0uMDc0LS4wNTQtLjE0NS0uMTA1LS4xNjYtLjE1LjA2OC0uMDgzLS4xMzItLjI3LS4yODktLjQxN2ExLjUzOSAxLjUzOSAwIDAgMS0uMTUtLjE1MWMtLjExLS4xMi0uMTU1LS4yNzMtLjItLjQyN2ExLjU3NSAxLjU3NSAwIDAgMC0uMTEtLjI5N2MtLjMwNC0uNzA4LS42NTMtMS40MS0xLjE0My0yLjAxLS4zMTUtLjM5OC0uNjc0LS43NTUtMS4wMzMtMS4xMTItLjIzMi0uMjMtLjQ2My0uNDYtLjY4My0uNzAxLS4yMjYtLjIzNC0uMzYyLS41MjEtLjQ5OS0uODEtLjExNC0uMjQtLjIyOC0uNDgyLS4zOTYtLjY5My0uNTA3LS43NS0yLjEwNy0uOTU1LTIuMzQyLjEwNSAwIC4wMzMtLjAxLjA1NC0uMDM5LjA3NS0uMTMuMDk1LS4yNDUuMjAzLS4zNDIuMzM0LS4yMzguMzMyLS4yNzQuODk1LjAyMiAxLjE5M2wuMDAxLS4wMmMuMDEtLjE1LjAyLS4yOS4xMzktLjM5OS4yMjguMTk4LjU3Ni4yNjguODQxLjEyLjMyLjQ2LjQyMiAxLjAxNS41MjUgMS41NzIuMDg1LjQ2NC4xNy45My4zODIgMS4zNDFsLjAxNC4wMjJjLjEyNC4yMDguMjUuNDE5LjQxLjYuMDU5LjA5LjE3OC4xODcuMjk3LjI4NC4xNTcuMTI4LjMxNC4yNTYuMzI5LjM2NnYuMTQ2Yy0uMDAxLjI5LS4wMDIuNTkuMTg0LjgzLjEwMy4yMDgtLjE1LjQxOC0uMzUyLjM5MmEuOTg5Ljk4OSAwIDAgMS0uMzU0LS4wNDNjLS4xNjUtLjA0LS4zMjktLjA4LS40NjItLjAwMy0uMDM4LjA0LS4wOTEuMDQyLS4xNDUuMDQzLS4wNjQuMDAyLS4xMjkuMDA0LS4xNjcuMDdhLjI5LjI5IDAgMCAxLS4wNDUuMDY2Yy0uMDQyLjA1MS0uMDg3LjEwNy0uMDMzLjE0OWwuMDE1LS4wMTFjLjA4Mi0uMDYzLjE2LS4xMjMuMjctLjA4NS0uMDE0LjA4Mi4wMzkuMTAzLjA5Mi4xMjVsLjAyNy4wMTJhLjM1Ny4zNTcgMCAwIDEtLjAwOC4wNTdjLS4wMDkuMDQ2LS4wMTcuMDkuMDE4LjEzYS42MDUuNjA1IDAgMCAwIC4wNDYtLjA1NmMuMDM3LS4wNDYuMDczLS4wOTQuMTM5LS4xMS4xNDQuMTkyLjI4OS4xMTIuNDcxLjAxMi4yMDYtLjExNC40NTktLjI1My44MS0uMDU2LS4xMzUtLjAwNy0uMjU1LjAxLS4zNDUuMTIxLS4wMjMuMDI1LS4wNDIuMDU0LS4wMDIuMDg3LjIwNy0uMTM1LjI5NC0uMDg2LjM3NS0uMDQuMDYuMDMyLjExNS4wNjMuMjEyLjAyNGwuMDctLjAzN2MuMTU1LS4wODQuMzE0LS4xNy40OTktLjE0LS4xMzkuMDQtLjE4OC4xMjctLjI0Mi4yMjMtLjAyNi4wNDctLjA1NC4wOTctLjA5NC4xNDMtLjAyMS4wMjEtLjAzLjA0Ni0uMDA3LjA4Mi4yOS0uMDI0LjQtLjA5OC41NDgtLjE5Ny4wNy0uMDQ3LjE1LS4xLjI2MS0uMTU3LjEyNC0uMDc2LjI0OC0uMDI4LjM2OC4wMi4xMy4wNS4yNTUuMS4zNzEtLjAxMy4wMzctLjAzNS4wODMtLjAzNS4xMjktLjAzNi4wMTYgMCAuMDMzIDAgLjA1LS4wMDItLjAzNy0uMTk0LS4yNC0uMTkxLS40NDgtLjE4OS0uMjQuMDAzLS40ODMuMDA1LS40NzUtLjI5NS4yMjItLjE1Mi4yMjQtLjQxNS4yMjYtLjY2NSAwLS4wNiAwLS4xMTkuMDA1LS4xNzYuMTYzLjA5Mi4zMzYuMTYzLjUwOC4yMzQuMTYyLjA2Ni4zMjMuMTMzLjQ3NC4yMTUuMTU3LjI1NC40MDQuNTkuNzMyLjU2OC4wMDgtLjAyNi4wMTYtLjA0OC4wMjYtLjA3NC4wMTkuMDAzLjAzOS4wMDguMDU5LjAxNC4wODYuMDIxLjE3OC4wNDUuMjIzLS4wNTd6bTYuNDI5LTIuODg2YTEuMDE0IDEuMDE0IDAgMCAwIDEuNzI5LS43MTUgMS4wMSAxLjAxIDAgMCAwLTEuMDEzLTEuMDFjLS4xMjYgMC0uMjUuMDIzLS4zNjQuMDY4bC0uNTgtLjg0OC0uNDA1LjI3OC41ODMuODUxYTEuMDA5IDEuMDA5IDAgMCAwIC4wNSAxLjM3NnptLTEuODE4LTIuNzQ0YTEuMDE0IDEuMDE0IDAgMCAwIDEuNDItLjYxNSAxLjAwOCAxLjAwOCAwIDAgMC0uODQ1LTEuMjkzIDEuMDE1IDEuMDE1IDAgMCAwLTEuMDk1LjcxMiAxLjAwOCAxLjAwOCAwIDAgMCAuNTIgMS4xOTZ6bTAgNS44NjdhMS4wMTUgMS4wMTUgMCAwIDAgMS40Mi0uNjE1IDEuMDA4IDEuMDA4IDAgMCAwLS44NDUtMS4yOTMgMS4wMTUgMS4wMTUgMCAwIDAtMS4wOTUuNzEyIDEuMDA4IDEuMDA4IDAgMCAwIC41MiAxLjE5NnptLjkzMi0zLjU4NnYtLjUwM2gtMS41NWExLjAwMyAxLjAwMyAwIDAgMC0uMjE4LS40MTJsLjU4My0uODY0LS40MjQtLjI4LS41ODMuODYzYTEuMDE0IDEuMDE0IDAgMCAwLS4zMzMtLjA2Yy0uMjY4IDAtLjUyNS4xMDYtLjcxNC4yOTRhMS4wMDIgMS4wMDIgMCAwIDAgMS4wNDcgMS42NTVsLjU4My44NjQuNDItLjI4MS0uNTc5LS44NjRjLjEwNC0uMTE5LjE3OC0uMjYuMjE3LS40MTJ6Ii8+PC9zdmc+)
+  /// ![Icon](data:image/svg+xml;base64,PHN2ZyByb2xlPSJpbWciIHZpZXdCb3g9IjAgMCAyNCAyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiBoZWlnaHQ9IjI0IiB3aWR0aD0iMjQiIGZpbGw9ImdyYXkiPjx0aXRsZT5MYW5nR3JhcGg8L3RpdGxlPjxwYXRoIGQ9Ik01IDE5SDEwQTUgNSAwIDExNSAxNFpNMTkgMTRBNSA1IDAgMTExNCAxOUgxOVpNMTAgNUE1IDUgMCAxMDUgMTBWNVpNMTkgNVYxMEE1IDUgMCAxMDE0IDVaIi8+PC9zdmc+)
   ///
   /// Simple icon named "langgraph".
   static const IconData langgraph = IconData(
-    0xf04f,
+    0xf052,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -14544,7 +14571,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "languagetool".
   static const IconData languagetool = IconData(
-    0xf050,
+    0xf053,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -14553,7 +14580,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "lapce".
   static const IconData lapce = IconData(
-    0xf051,
+    0xf054,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -14562,7 +14589,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "laragon".
   static const IconData laragon = IconData(
-    0xf052,
+    0xf055,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -14571,7 +14598,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "laravel".
   static const IconData laravel = IconData(
-    0xf053,
+    0xf056,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -14580,7 +14607,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "laravelhorizon".
   static const IconData laravelhorizon = IconData(
-    0xf054,
+    0xf057,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -14589,7 +14616,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "laravelnova".
   static const IconData laravelnova = IconData(
-    0xf055,
+    0xf058,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -14598,7 +14625,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "lastdotfm".
   static const IconData lastdotfm = IconData(
-    0xf056,
+    0xf059,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -14607,7 +14634,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "lastpass".
   static const IconData lastpass = IconData(
-    0xf057,
+    0xf05a,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -14616,7 +14643,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "latex".
   static const IconData latex = IconData(
-    0xf058,
+    0xf05b,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -14625,7 +14652,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "launchpad".
   static const IconData launchpad = IconData(
-    0xf059,
+    0xf05c,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -14634,7 +14661,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "lazarus".
   static const IconData lazarus = IconData(
-    0xf05a,
+    0xf05d,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -14643,7 +14670,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "lazyvim".
   static const IconData lazyvim = IconData(
-    0xf05b,
+    0xf05e,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -14652,7 +14679,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "lbry".
   static const IconData lbry = IconData(
-    0xf05c,
+    0xf05f,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -14661,7 +14688,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "leaderprice".
   static const IconData leaderprice = IconData(
-    0xf05d,
+    0xf060,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -14670,7 +14697,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "leaflet".
   static const IconData leaflet = IconData(
-    0xf05e,
+    0xf061,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -14679,7 +14706,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "leagueoflegends".
   static const IconData leagueoflegends = IconData(
-    0xf05f,
+    0xf062,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -14688,7 +14715,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "leanpub".
   static const IconData leanpub = IconData(
-    0xf060,
+    0xf063,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -14697,7 +14724,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "leetcode".
   static const IconData leetcode = IconData(
-    0xf061,
+    0xf064,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -14706,7 +14733,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "lefthook".
   static const IconData lefthook = IconData(
-    0xf062,
+    0xf065,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -14715,7 +14742,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "legacygames".
   static const IconData legacygames = IconData(
-    0xf063,
+    0xf066,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -14724,7 +14751,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "leica".
   static const IconData leica = IconData(
-    0xf064,
+    0xf067,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -14733,7 +14760,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "lemmy".
   static const IconData lemmy = IconData(
-    0xf065,
+    0xf068,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -14742,7 +14769,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "lemonsqueezy".
   static const IconData lemonsqueezy = IconData(
-    0xf066,
+    0xf069,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -14751,7 +14778,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "lenovo".
   static const IconData lenovo = IconData(
-    0xf067,
+    0xf06a,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -14760,7 +14787,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "lens".
   static const IconData lens = IconData(
-    0xf068,
+    0xf06b,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -14769,7 +14796,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "leptos".
   static const IconData leptos = IconData(
-    0xf069,
+    0xf06c,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -14778,7 +14805,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "lerna".
   static const IconData lerna = IconData(
-    0xf06a,
+    0xf06d,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -14787,7 +14814,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "leroymerlin".
   static const IconData leroymerlin = IconData(
-    0xf06b,
+    0xf06e,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -14796,7 +14823,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "leslibraires".
   static const IconData leslibraires = IconData(
-    0xf06c,
+    0xf06f,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -14805,7 +14832,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "less".
   static const IconData less = IconData(
-    0xf06d,
+    0xf070,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -14814,7 +14841,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "letsencrypt".
   static const IconData letsencrypt = IconData(
-    0xf06e,
+    0xf071,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -14823,7 +14850,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "letterboxd".
   static const IconData letterboxd = IconData(
-    0xf06f,
+    0xf072,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -14832,7 +14859,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "levelsdotfyi".
   static const IconData levelsdotfyi = IconData(
-    0xf070,
+    0xf073,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -14841,7 +14868,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "lg".
   static const IconData lg = IconData(
-    0xf071,
+    0xf074,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -14850,7 +14877,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "lining".
   static const IconData lining = IconData(
-    0xf072,
+    0xf075,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -14859,7 +14886,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "liberadotchat".
   static const IconData liberadotchat = IconData(
-    0xf073,
+    0xf076,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -14868,7 +14895,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "liberapay".
   static const IconData liberapay = IconData(
-    0xf074,
+    0xf077,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -14877,7 +14904,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "librariesdotio".
   static const IconData librariesdotio = IconData(
-    0xf075,
+    0xf078,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -14886,7 +14913,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "librarything".
   static const IconData librarything = IconData(
-    0xf076,
+    0xf079,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -14895,7 +14922,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "libreoffice".
   static const IconData libreoffice = IconData(
-    0xf077,
+    0xf07a,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -14904,7 +14931,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "libreofficebase".
   static const IconData libreofficebase = IconData(
-    0xf078,
+    0xf07b,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -14913,7 +14940,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "libreofficecalc".
   static const IconData libreofficecalc = IconData(
-    0xf079,
+    0xf07c,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -14922,7 +14949,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "libreofficedraw".
   static const IconData libreofficedraw = IconData(
-    0xf07a,
+    0xf07d,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -14931,7 +14958,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "libreofficeimpress".
   static const IconData libreofficeimpress = IconData(
-    0xf07b,
+    0xf07e,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -14940,7 +14967,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "libreofficemath".
   static const IconData libreofficemath = IconData(
-    0xf07c,
+    0xf07f,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -14949,7 +14976,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "libreofficewriter".
   static const IconData libreofficewriter = IconData(
-    0xf07d,
+    0xf080,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -14958,7 +14985,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "libretranslate".
   static const IconData libretranslate = IconData(
-    0xf07e,
+    0xf081,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -14967,7 +14994,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "libretube".
   static const IconData libretube = IconData(
-    0xf07f,
+    0xf082,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -14976,7 +15003,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "librewolf".
   static const IconData librewolf = IconData(
-    0xf080,
+    0xf083,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -14985,7 +15012,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "libuv".
   static const IconData libuv = IconData(
-    0xf081,
+    0xf084,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -14994,7 +15021,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "lichess".
   static const IconData lichess = IconData(
-    0xf082,
+    0xf085,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -15003,7 +15030,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "lidl".
   static const IconData lidl = IconData(
-    0xf083,
+    0xf086,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -15012,7 +15039,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "lifx".
   static const IconData lifx = IconData(
-    0xf084,
+    0xf087,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -15021,7 +15048,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "lightburn".
   static const IconData lightburn = IconData(
-    0xf085,
+    0xf088,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -15030,7 +15057,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "lighthouse".
   static const IconData lighthouse = IconData(
-    0xf086,
+    0xf089,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -15039,7 +15066,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "lightning".
   static const IconData lightning = IconData(
-    0xf087,
+    0xf08a,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -15048,7 +15075,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "limesurvey".
   static const IconData limesurvey = IconData(
-    0xf088,
+    0xf08b,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -15057,7 +15084,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "line".
   static const IconData line = IconData(
-    0xf089,
+    0xf08c,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -15066,7 +15093,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "lineageos".
   static const IconData lineageos = IconData(
-    0xf08a,
+    0xf08d,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -15075,7 +15102,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "linear".
   static const IconData linear = IconData(
-    0xf08b,
+    0xf08e,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -15084,7 +15111,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "linkerd".
   static const IconData linkerd = IconData(
-    0xf08c,
+    0xf08f,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -15093,7 +15120,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "linkfire".
   static const IconData linkfire = IconData(
-    0xf08d,
+    0xf090,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -15102,7 +15129,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "linksys".
   static const IconData linksys = IconData(
-    0xf08e,
+    0xf091,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -15111,7 +15138,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "linktree".
   static const IconData linktree = IconData(
-    0xf08f,
+    0xf092,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -15120,7 +15147,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "linkvertise".
   static const IconData linkvertise = IconData(
-    0xf090,
+    0xf093,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -15129,7 +15156,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "linphone".
   static const IconData linphone = IconData(
-    0xf091,
+    0xf094,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -15138,7 +15165,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "lintcode".
   static const IconData lintcode = IconData(
-    0xf092,
+    0xf095,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -15147,7 +15174,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "linux".
   static const IconData linux = IconData(
-    0xf093,
+    0xf096,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -15156,7 +15183,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "linuxcontainers".
   static const IconData linuxcontainers = IconData(
-    0xf094,
+    0xf097,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -15165,7 +15192,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "linuxfoundation".
   static const IconData linuxfoundation = IconData(
-    0xf095,
+    0xf098,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -15174,7 +15201,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "linuxmint".
   static const IconData linuxmint = IconData(
-    0xf096,
+    0xf099,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -15183,7 +15210,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "linuxprofessionalinstitute".
   static const IconData linuxprofessionalinstitute = IconData(
-    0xf097,
+    0xf09a,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -15192,7 +15219,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "linuxserver".
   static const IconData linuxserver = IconData(
-    0xf098,
+    0xf09b,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -15201,7 +15228,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "lionair".
   static const IconData lionair = IconData(
-    0xf099,
+    0xf09c,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -15210,7 +15237,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "liquibase".
   static const IconData liquibase = IconData(
-    0xf09a,
+    0xf09d,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -15219,7 +15246,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "listenhub".
   static const IconData listenhub = IconData(
-    0xf09b,
+    0xf09e,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -15228,7 +15255,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "listmonk".
   static const IconData listmonk = IconData(
-    0xf09c,
+    0xf09f,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -15237,7 +15264,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "lit".
   static const IconData lit = IconData(
-    0xf09d,
+    0xf0a0,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -15246,7 +15273,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "litecoin".
   static const IconData litecoin = IconData(
-    0xf09e,
+    0xf0a1,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -15255,7 +15282,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "literal".
   static const IconData literal = IconData(
-    0xf09f,
+    0xf0a2,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -15264,7 +15291,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "litiengine".
   static const IconData litiengine = IconData(
-    0xf0a0,
+    0xf0a3,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -15273,7 +15300,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "livechat".
   static const IconData livechat = IconData(
-    0xf0a1,
+    0xf0a4,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -15282,7 +15309,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "livejournal".
   static const IconData livejournal = IconData(
-    0xf0a2,
+    0xf0a5,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -15291,7 +15318,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "livekit".
   static const IconData livekit = IconData(
-    0xf0a3,
+    0xf0a6,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -15300,7 +15327,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "livewire".
   static const IconData livewire = IconData(
-    0xf0a4,
+    0xf0a7,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -15309,7 +15336,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "llvm".
   static const IconData llvm = IconData(
-    0xf0a5,
+    0xf0a8,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -15318,7 +15345,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "lmms".
   static const IconData lmms = IconData(
-    0xf0a6,
+    0xf0a9,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -15327,7 +15354,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "lobsters".
   static const IconData lobsters = IconData(
-    0xf0a7,
+    0xf0aa,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -15336,7 +15363,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "local".
   static const IconData local = IconData(
-    0xf0a8,
+    0xf0ab,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -15345,7 +15372,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "localsend".
   static const IconData localsend = IconData(
-    0xf0a9,
+    0xf0ac,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -15354,7 +15381,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "localxpose".
   static const IconData localxpose = IconData(
-    0xf0aa,
+    0xf0ad,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -15363,7 +15390,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "locust".
   static const IconData locust = IconData(
-    0xf0ab,
+    0xf0ae,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -15372,7 +15399,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "lodash".
   static const IconData lodash = IconData(
-    0xf0ac,
+    0xf0af,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -15381,7 +15408,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "logmein".
   static const IconData logmein = IconData(
-    0xf0ad,
+    0xf0b0,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -15390,7 +15417,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "logseq".
   static const IconData logseq = IconData(
-    0xf0ae,
+    0xf0b1,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -15399,7 +15426,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "logstash".
   static const IconData logstash = IconData(
-    0xf0af,
+    0xf0b2,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -15408,7 +15435,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "longhorn".
   static const IconData longhorn = IconData(
-    0xf0b0,
+    0xf0b3,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -15417,7 +15444,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "looker".
   static const IconData looker = IconData(
-    0xf0b1,
+    0xf0b4,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -15426,7 +15453,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "loom".
   static const IconData loom = IconData(
-    0xf0b2,
+    0xf0b5,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -15435,7 +15462,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "loop".
   static const IconData loop = IconData(
-    0xf0b3,
+    0xf0b6,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -15444,7 +15471,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "loopback".
   static const IconData loopback = IconData(
-    0xf0b4,
+    0xf0b7,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -15453,7 +15480,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "loops".
   static const IconData loops = IconData(
-    0xf0b5,
+    0xf0b8,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -15462,7 +15489,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "lootcrate".
   static const IconData lootcrate = IconData(
-    0xf0b6,
+    0xf0b9,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -15471,7 +15498,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "lospec".
   static const IconData lospec = IconData(
-    0xf0b7,
+    0xf0ba,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -15480,7 +15507,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "lotpolishairlines".
   static const IconData lotpolishairlines = IconData(
-    0xf0b8,
+    0xf0bb,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -15489,7 +15516,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "lottiefiles".
   static const IconData lottiefiles = IconData(
-    0xf0b9,
+    0xf0bc,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -15498,7 +15525,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "ltspice".
   static const IconData ltspice = IconData(
-    0xf0ba,
+    0xf0bd,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -15507,7 +15534,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "lua".
   static const IconData lua = IconData(
-    0xf0bb,
+    0xf0be,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -15516,7 +15543,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "luanti".
   static const IconData luanti = IconData(
-    0xf0bc,
+    0xf0bf,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -15525,7 +15552,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "luau".
   static const IconData luau = IconData(
-    0xf0bd,
+    0xf0c0,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -15534,7 +15561,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "lubuntu".
   static const IconData lubuntu = IconData(
-    0xf0be,
+    0xf0c1,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -15543,7 +15570,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "lucia".
   static const IconData lucia = IconData(
-    0xf0bf,
+    0xf0c2,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -15552,7 +15579,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "lucid".
   static const IconData lucid = IconData(
-    0xf0c0,
+    0xf0c3,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -15561,7 +15588,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "lucide".
   static const IconData lucide = IconData(
-    0xf0c1,
+    0xf0c4,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -15570,7 +15597,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "ludwig".
   static const IconData ludwig = IconData(
-    0xf0c2,
+    0xf0c5,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -15579,7 +15606,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "lufthansa".
   static const IconData lufthansa = IconData(
-    0xf0c3,
+    0xf0c6,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -15588,7 +15615,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "lumen".
   static const IconData lumen = IconData(
-    0xf0c4,
+    0xf0c7,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -15597,7 +15624,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "lunacy".
   static const IconData lunacy = IconData(
-    0xf0c5,
+    0xf0c8,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -15606,7 +15633,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "luogu".
   static const IconData luogu = IconData(
-    0xf0c6,
+    0xf0c9,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -15615,7 +15642,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "lutris".
   static const IconData lutris = IconData(
-    0xf0c7,
+    0xf0ca,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -15624,7 +15651,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "lvgl".
   static const IconData lvgl = IconData(
-    0xf0c8,
+    0xf0cb,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -15633,7 +15660,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "lydia".
   static const IconData lydia = IconData(
-    0xf0c9,
+    0xf0cc,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -15642,7 +15669,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "lyft".
   static const IconData lyft = IconData(
-    0xf0ca,
+    0xf0cd,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -15651,7 +15678,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "maas".
   static const IconData maas = IconData(
-    0xf0cb,
+    0xf0ce,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -15660,7 +15687,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "macos".
   static const IconData macos = IconData(
-    0xf0cc,
+    0xf0cf,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -15669,7 +15696,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "macpaw".
   static const IconData macpaw = IconData(
-    0xf0cd,
+    0xf0d0,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -15678,7 +15705,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "macports".
   static const IconData macports = IconData(
-    0xf0ce,
+    0xf0d1,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -15687,7 +15714,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "macys".
   static const IconData macys = IconData(
-    0xf0cf,
+    0xf0d2,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -15696,7 +15723,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "magasinsu".
   static const IconData magasinsu = IconData(
-    0xf0d0,
+    0xf0d3,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -15705,7 +15732,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "magic".
   static const IconData magic = IconData(
-    0xf0d1,
+    0xf0d4,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -15714,7 +15741,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "magisk".
   static const IconData magisk = IconData(
-    0xf0d2,
+    0xf0d5,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -15723,7 +15750,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "mahindra".
   static const IconData mahindra = IconData(
-    0xf0d3,
+    0xf0d6,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -15732,7 +15759,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "maildotcom".
   static const IconData maildotcom = IconData(
-    0xf0d4,
+    0xf0d7,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -15741,7 +15768,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "maildotru".
   static const IconData maildotru = IconData(
-    0xf0d5,
+    0xf0d8,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -15750,7 +15777,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "mailbox".
   static const IconData mailbox = IconData(
-    0xf0d6,
+    0xf0d9,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -15759,7 +15786,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "mailchimp".
   static const IconData mailchimp = IconData(
-    0xf0d7,
+    0xf0da,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -15768,7 +15795,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "mailgun".
   static const IconData mailgun = IconData(
-    0xf0d8,
+    0xf0db,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -15777,7 +15804,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "mailtrap".
   static const IconData mailtrap = IconData(
-    0xf0d9,
+    0xf0dc,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -15786,7 +15813,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "mainwp".
   static const IconData mainwp = IconData(
-    0xf0da,
+    0xf0dd,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -15795,7 +15822,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "majorleaguehacking".
   static const IconData majorleaguehacking = IconData(
-    0xf0db,
+    0xf0de,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -15804,7 +15831,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "make".
   static const IconData make = IconData(
-    0xf0dc,
+    0xf0df,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -15813,7 +15840,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "makerbot".
   static const IconData makerbot = IconData(
-    0xf0dd,
+    0xf0e0,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -15822,7 +15849,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "malt".
   static const IconData malt = IconData(
-    0xf0de,
+    0xf0e1,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -15831,7 +15858,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "malwarebytes".
   static const IconData malwarebytes = IconData(
-    0xf0df,
+    0xf0e2,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -15840,7 +15867,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "mambaui".
   static const IconData mambaui = IconData(
-    0xf0e0,
+    0xf0e3,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -15849,7 +15876,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "mamp".
   static const IconData mamp = IconData(
-    0xf0e1,
+    0xf0e4,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -15858,7 +15885,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "man".
   static const IconData man = IconData(
-    0xf0e2,
+    0xf0e5,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -15867,7 +15894,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "manageiq".
   static const IconData manageiq = IconData(
-    0xf0e3,
+    0xf0e6,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -15876,7 +15903,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "mangacollec".
   static const IconData mangacollec = IconData(
-    0xf0e4,
+    0xf0e7,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -15885,7 +15912,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "mangaupdates".
   static const IconData mangaupdates = IconData(
-    0xf0e5,
+    0xf0e8,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -15894,7 +15921,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "manjaro".
   static const IconData manjaro = IconData(
-    0xf0e6,
+    0xf0e9,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -15903,7 +15930,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "mantine".
   static const IconData mantine = IconData(
-    0xf0e7,
+    0xf0ea,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -15912,7 +15939,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "mapbox".
   static const IconData mapbox = IconData(
-    0xf0e8,
+    0xf0eb,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -15921,7 +15948,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "mapillary".
   static const IconData mapillary = IconData(
-    0xf0e9,
+    0xf0ec,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -15930,7 +15957,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "maplibre".
   static const IconData maplibre = IconData(
-    0xf0ea,
+    0xf0ed,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -15939,7 +15966,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "maptiler".
   static const IconData maptiler = IconData(
-    0xf0eb,
+    0xf0ee,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -15948,7 +15975,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "mariadb".
   static const IconData mariadb = IconData(
-    0xf0ec,
+    0xf0ef,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -15957,7 +15984,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "mariadbfoundation".
   static const IconData mariadbfoundation = IconData(
-    0xf0ed,
+    0xf0f0,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -15966,7 +15993,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "markdown".
   static const IconData markdown = IconData(
-    0xf0ee,
+    0xf0f1,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -15975,7 +16002,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "marko".
   static const IconData marko = IconData(
-    0xf0ef,
+    0xf0f2,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -15984,7 +16011,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "marriott".
   static const IconData marriott = IconData(
-    0xf0f0,
+    0xf0f3,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -15993,7 +16020,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "marvelapp".
   static const IconData marvelapp = IconData(
-    0xf0f1,
+    0xf0f4,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -16002,7 +16029,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "maserati".
   static const IconData maserati = IconData(
-    0xf0f2,
+    0xf0f5,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -16011,7 +16038,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "mastercard".
   static const IconData mastercard = IconData(
-    0xf0f3,
+    0xf0f6,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -16020,7 +16047,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "mastercomfig".
   static const IconData mastercomfig = IconData(
-    0xf0f4,
+    0xf0f7,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -16029,7 +16056,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "mastodon".
   static const IconData mastodon = IconData(
-    0xf0f5,
+    0xf0f8,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -16038,7 +16065,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "materialdesign".
   static const IconData materialdesign = IconData(
-    0xf0f6,
+    0xf0f9,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -16047,7 +16074,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "materialdesignicons".
   static const IconData materialdesignicons = IconData(
-    0xf0f7,
+    0xf0fa,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -16056,7 +16083,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "materialformkdocs".
   static const IconData materialformkdocs = IconData(
-    0xf0f8,
+    0xf0fb,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -16065,7 +16092,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "matillion".
   static const IconData matillion = IconData(
-    0xf0f9,
+    0xf0fc,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -16074,7 +16101,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "matomo".
   static const IconData matomo = IconData(
-    0xf0fa,
+    0xf0fd,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -16083,7 +16110,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "matrix".
   static const IconData matrix = IconData(
-    0xf0fb,
+    0xf0fe,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -16092,7 +16119,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "matterdotjs".
   static const IconData matterdotjs = IconData(
-    0xf0fc,
+    0xf0ff,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -16101,7 +16128,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "mattermost".
   static const IconData mattermost = IconData(
-    0xf0fd,
+    0xf100,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -16110,7 +16137,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "matternet".
   static const IconData matternet = IconData(
-    0xf0fe,
+    0xf101,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -16119,7 +16146,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "mautic".
   static const IconData mautic = IconData(
-    0xf0ff,
+    0xf102,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -16128,7 +16155,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "max".
   static const IconData max = IconData(
-    0xf100,
+    0xf103,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -16137,7 +16164,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "maxplanckgesellschaft".
   static const IconData maxplanckgesellschaft = IconData(
-    0xf101,
+    0xf104,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -16146,7 +16173,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "maytag".
   static const IconData maytag = IconData(
-    0xf102,
+    0xf105,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -16155,7 +16182,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "mazda".
   static const IconData mazda = IconData(
-    0xf103,
+    0xf106,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -16164,7 +16191,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "maze".
   static const IconData maze = IconData(
-    0xf104,
+    0xf107,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -16173,7 +16200,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "mcafee".
   static const IconData mcafee = IconData(
-    0xf105,
+    0xf108,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -16182,7 +16209,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "mcdonalds".
   static const IconData mcdonalds = IconData(
-    0xf106,
+    0xf109,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -16191,7 +16218,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "mclaren".
   static const IconData mclaren = IconData(
-    0xf107,
+    0xf10a,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -16200,7 +16227,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "mdblist".
   static const IconData mdblist = IconData(
-    0xf108,
+    0xf10b,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -16209,7 +16236,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "mdbook".
   static const IconData mdbook = IconData(
-    0xf109,
+    0xf10c,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -16218,7 +16245,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "mdnwebdocs".
   static const IconData mdnwebdocs = IconData(
-    0xf10a,
+    0xf10d,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -16227,7 +16254,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "mdx".
   static const IconData mdx = IconData(
-    0xf10b,
+    0xf10e,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -16236,7 +16263,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "mealie".
   static const IconData mealie = IconData(
-    0xf10c,
+    0xf10f,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -16245,7 +16272,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "mediafire".
   static const IconData mediafire = IconData(
-    0xf10d,
+    0xf110,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -16254,7 +16281,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "mediamarkt".
   static const IconData mediamarkt = IconData(
-    0xf10e,
+    0xf111,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -16263,7 +16290,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "mediapipe".
   static const IconData mediapipe = IconData(
-    0xf10f,
+    0xf112,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -16272,7 +16299,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "mediatek".
   static const IconData mediatek = IconData(
-    0xf110,
+    0xf113,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -16281,7 +16308,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "medibangpaint".
   static const IconData medibangpaint = IconData(
-    0xf111,
+    0xf114,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -16290,7 +16317,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "medium".
   static const IconData medium = IconData(
-    0xf112,
+    0xf115,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -16299,7 +16326,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "medusa".
   static const IconData medusa = IconData(
-    0xf113,
+    0xf116,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -16308,7 +16335,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "meetup".
   static const IconData meetup = IconData(
-    0xf114,
+    0xf117,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -16317,7 +16344,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "mega".
   static const IconData mega = IconData(
-    0xf115,
+    0xf118,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -16326,7 +16353,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "meilisearch".
   static const IconData meilisearch = IconData(
-    0xf116,
+    0xf119,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -16335,7 +16362,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "meituan".
   static const IconData meituan = IconData(
-    0xf117,
+    0xf11a,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -16344,7 +16371,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "meizu".
   static const IconData meizu = IconData(
-    0xf118,
+    0xf11b,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -16353,7 +16380,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "mendeley".
   static const IconData mendeley = IconData(
-    0xf119,
+    0xf11c,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -16362,7 +16389,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "mentorcruise".
   static const IconData mentorcruise = IconData(
-    0xf11a,
+    0xf11d,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -16371,7 +16398,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "mercadopago".
   static const IconData mercadopago = IconData(
-    0xf11b,
+    0xf11e,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -16380,7 +16407,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "merck".
   static const IconData merck = IconData(
-    0xf11c,
+    0xf11f,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -16389,7 +16416,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "mercurial".
   static const IconData mercurial = IconData(
-    0xf11d,
+    0xf120,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -16398,7 +16425,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "mermaid".
   static const IconData mermaid = IconData(
-    0xf11e,
+    0xf121,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -16407,7 +16434,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "messenger".
   static const IconData messenger = IconData(
-    0xf11f,
+    0xf122,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -16416,7 +16443,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "meta".
   static const IconData meta = IconData(
-    0xf120,
+    0xf123,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -16425,7 +16452,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "metabase".
   static const IconData metabase = IconData(
-    0xf121,
+    0xf124,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -16434,7 +16461,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "metacritic".
   static const IconData metacritic = IconData(
-    0xf122,
+    0xf125,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -16443,7 +16470,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "metafilter".
   static const IconData metafilter = IconData(
-    0xf123,
+    0xf126,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -16452,7 +16479,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "metager".
   static const IconData metager = IconData(
-    0xf124,
+    0xf127,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -16461,7 +16488,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "metasploit".
   static const IconData metasploit = IconData(
-    0xf125,
+    0xf128,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -16470,7 +16497,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "meteor".
   static const IconData meteor = IconData(
-    0xf126,
+    0xf129,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -16479,7 +16506,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "metro".
   static const IconData metro = IconData(
-    0xf127,
+    0xf12a,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -16488,7 +16515,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "metrodelaciudaddemexico".
   static const IconData metrodelaciudaddemexico = IconData(
-    0xf128,
+    0xf12b,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -16497,7 +16524,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "metrodemadrid".
   static const IconData metrodemadrid = IconData(
-    0xf129,
+    0xf12c,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -16506,7 +16533,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "metrodeparis".
   static const IconData metrodeparis = IconData(
-    0xf12a,
+    0xf12d,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -16515,7 +16542,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "mewe".
   static const IconData mewe = IconData(
-    0xf12b,
+    0xf12e,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -16524,7 +16551,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "mezmo".
   static const IconData mezmo = IconData(
-    0xf12c,
+    0xf12f,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -16533,7 +16560,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "mg".
   static const IconData mg = IconData(
-    0xf12d,
+    0xf130,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -16542,7 +16569,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "microeditor".
   static const IconData microeditor = IconData(
-    0xf12e,
+    0xf131,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -16551,7 +16578,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "microbit".
   static const IconData microbit = IconData(
-    0xf12f,
+    0xf132,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -16560,7 +16587,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "microdotblog".
   static const IconData microdotblog = IconData(
-    0xf130,
+    0xf133,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -16569,7 +16596,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "micropython".
   static const IconData micropython = IconData(
-    0xf131,
+    0xf134,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -16578,7 +16605,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "microstation".
   static const IconData microstation = IconData(
-    0xf132,
+    0xf135,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -16587,7 +16614,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "microstrategy".
   static const IconData microstrategy = IconData(
-    0xf133,
+    0xf136,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -16596,7 +16623,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "midi".
   static const IconData midi = IconData(
-    0xf134,
+    0xf137,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -16605,7 +16632,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "migadu".
   static const IconData migadu = IconData(
-    0xf135,
+    0xf138,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -16614,7 +16641,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "mihon".
   static const IconData mihon = IconData(
-    0xf136,
+    0xf139,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -16623,7 +16650,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "mihoyo".
   static const IconData mihoyo = IconData(
-    0xf137,
+    0xf13a,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -16632,7 +16659,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "mikrotik".
   static const IconData mikrotik = IconData(
-    0xf138,
+    0xf13b,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -16641,7 +16668,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "milanote".
   static const IconData milanote = IconData(
-    0xf139,
+    0xf13c,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -16650,7 +16677,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "milvus".
   static const IconData milvus = IconData(
-    0xf13a,
+    0xf13d,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -16659,7 +16686,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "minds".
   static const IconData minds = IconData(
-    0xf13b,
+    0xf13e,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -16668,7 +16695,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "mingww64".
   static const IconData mingww64 = IconData(
-    0xf13c,
+    0xf13f,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -16677,7 +16704,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "mini".
   static const IconData mini = IconData(
-    0xf13d,
+    0xf140,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -16686,7 +16713,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "minimax".
   static const IconData minimax = IconData(
-    0xf13e,
+    0xf141,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -16695,7 +16722,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "minio".
   static const IconData minio = IconData(
-    0xf13f,
+    0xf142,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -16704,7 +16731,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "mintlify".
   static const IconData mintlify = IconData(
-    0xf140,
+    0xf143,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -16713,7 +16740,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "minutemailer".
   static const IconData minutemailer = IconData(
-    0xf141,
+    0xf144,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -16722,7 +16749,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "miraheze".
   static const IconData miraheze = IconData(
-    0xf142,
+    0xf145,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -16731,7 +16758,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "miro".
   static const IconData miro = IconData(
-    0xf143,
+    0xf146,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -16740,7 +16767,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "misskey".
   static const IconData misskey = IconData(
-    0xf144,
+    0xf147,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -16749,7 +16776,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "mistralai".
   static const IconData mistralai = IconData(
-    0xf145,
+    0xf148,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -16758,7 +16785,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "mitsubishi".
   static const IconData mitsubishi = IconData(
-    0xf146,
+    0xf149,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -16767,7 +16794,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "mix".
   static const IconData mix = IconData(
-    0xf147,
+    0xf14a,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -16776,7 +16803,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "mixcloud".
   static const IconData mixcloud = IconData(
-    0xf148,
+    0xf14b,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -16785,7 +16812,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "mixpanel".
   static const IconData mixpanel = IconData(
-    0xf149,
+    0xf14c,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -16794,7 +16821,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "mlb".
   static const IconData mlb = IconData(
-    0xf14a,
+    0xf14d,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -16803,7 +16830,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "mlflow".
   static const IconData mlflow = IconData(
-    0xf14b,
+    0xf14e,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -16812,7 +16839,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "mobx".
   static const IconData mobx = IconData(
-    0xf14c,
+    0xf14f,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -16821,7 +16848,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "mobxstatetree".
   static const IconData mobxstatetree = IconData(
-    0xf14d,
+    0xf150,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -16830,7 +16857,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "mocha".
   static const IconData mocha = IconData(
-    0xf14e,
+    0xf151,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -16839,7 +16866,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "mockserviceworker".
   static const IconData mockserviceworker = IconData(
-    0xf14f,
+    0xf152,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -16848,7 +16875,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "modal".
   static const IconData modal = IconData(
-    0xf150,
+    0xf153,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -16857,7 +16884,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "modelcontextprotocol".
   static const IconData modelcontextprotocol = IconData(
-    0xf151,
+    0xf154,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -16866,7 +16893,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "modelscope".
   static const IconData modelscope = IconData(
-    0xf152,
+    0xf155,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -16875,7 +16902,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "modin".
   static const IconData modin = IconData(
-    0xf153,
+    0xf156,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -16884,7 +16911,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "modrinth".
   static const IconData modrinth = IconData(
-    0xf154,
+    0xf157,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -16893,7 +16920,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "modx".
   static const IconData modx = IconData(
-    0xf155,
+    0xf158,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -16902,7 +16929,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "mojeek".
   static const IconData mojeek = IconData(
-    0xf156,
+    0xf159,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -16911,7 +16938,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "moleculer".
   static const IconData moleculer = IconData(
-    0xf157,
+    0xf15a,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -16920,7 +16947,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "momenteo".
   static const IconData momenteo = IconData(
-    0xf158,
+    0xf15b,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -16929,7 +16956,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "monero".
   static const IconData monero = IconData(
-    0xf159,
+    0xf15c,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -16938,7 +16965,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "moneygram".
   static const IconData moneygram = IconData(
-    0xf15a,
+    0xf15d,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -16947,7 +16974,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "mongodb".
   static const IconData mongodb = IconData(
-    0xf15b,
+    0xf15e,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -16956,7 +16983,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "mongoose".
   static const IconData mongoose = IconData(
-    0xf15c,
+    0xf15f,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -16965,7 +16992,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "mongoosedotws".
   static const IconData mongoosedotws = IconData(
-    0xf15d,
+    0xf160,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -16974,7 +17001,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "monica".
   static const IconData monica = IconData(
-    0xf15e,
+    0xf161,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -16983,7 +17010,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "monkeytie".
   static const IconData monkeytie = IconData(
-    0xf15f,
+    0xf162,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -16992,7 +17019,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "monkeytype".
   static const IconData monkeytype = IconData(
-    0xf160,
+    0xf163,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -17001,7 +17028,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "monogame".
   static const IconData monogame = IconData(
-    0xf161,
+    0xf164,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -17010,7 +17037,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "monoprix".
   static const IconData monoprix = IconData(
-    0xf162,
+    0xf165,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -17019,7 +17046,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "monster".
   static const IconData monster = IconData(
-    0xf163,
+    0xf166,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -17028,7 +17055,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "monzo".
   static const IconData monzo = IconData(
-    0xf164,
+    0xf167,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -17037,7 +17064,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "moo".
   static const IconData moo = IconData(
-    0xf165,
+    0xf168,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -17046,7 +17073,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "moodle".
   static const IconData moodle = IconData(
-    0xf166,
+    0xf169,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -17055,7 +17082,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "moonrepo".
   static const IconData moonrepo = IconData(
-    0xf167,
+    0xf16a,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -17064,7 +17091,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "moonshotai".
   static const IconData moonshotai = IconData(
-    0xf168,
+    0xf16b,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -17073,7 +17100,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "moq".
   static const IconData moq = IconData(
-    0xf169,
+    0xf16c,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -17082,7 +17109,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "moqups".
   static const IconData moqups = IconData(
-    0xf16a,
+    0xf16d,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -17091,7 +17118,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "morrisons".
   static const IconData morrisons = IconData(
-    0xf16b,
+    0xf16e,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -17100,7 +17127,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "moscowmetro".
   static const IconData moscowmetro = IconData(
-    0xf16c,
+    0xf16f,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -17109,7 +17136,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "motorola".
   static const IconData motorola = IconData(
-    0xf16d,
+    0xf170,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -17118,7 +17145,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "movistar".
   static const IconData movistar = IconData(
-    0xf16e,
+    0xf171,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -17127,7 +17154,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "mozilla".
   static const IconData mozilla = IconData(
-    0xf16f,
+    0xf172,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -17136,7 +17163,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "mpv".
   static const IconData mpv = IconData(
-    0xf170,
+    0xf173,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -17145,7 +17172,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "mqtt".
   static const IconData mqtt = IconData(
-    0xf171,
+    0xf174,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -17154,7 +17181,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "msi".
   static const IconData msi = IconData(
-    0xf172,
+    0xf175,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -17163,7 +17190,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "msibusiness".
   static const IconData msibusiness = IconData(
-    0xf173,
+    0xf176,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -17172,7 +17199,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "mta".
   static const IconData mta = IconData(
-    0xf174,
+    0xf177,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -17181,7 +17208,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "mtr".
   static const IconData mtr = IconData(
-    0xf175,
+    0xf178,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -17190,7 +17217,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "mubi".
   static const IconData mubi = IconData(
-    0xf176,
+    0xf179,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -17199,7 +17226,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "mui".
   static const IconData mui = IconData(
-    0xf177,
+    0xf17a,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -17208,7 +17235,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "muller".
   static const IconData muller = IconData(
-    0xf178,
+    0xf17b,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -17217,7 +17244,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "mullvad".
   static const IconData mullvad = IconData(
-    0xf179,
+    0xf17c,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -17226,7 +17253,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "multisim".
   static const IconData multisim = IconData(
-    0xf17a,
+    0xf17d,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -17235,7 +17262,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "mumble".
   static const IconData mumble = IconData(
-    0xf17b,
+    0xf17e,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -17244,7 +17271,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "muo".
   static const IconData muo = IconData(
-    0xf17c,
+    0xf17f,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -17253,7 +17280,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "mural".
   static const IconData mural = IconData(
-    0xf17d,
+    0xf180,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -17262,7 +17289,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "musicbrainz".
   static const IconData musicbrainz = IconData(
-    0xf17e,
+    0xf181,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -17271,7 +17298,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "mxlinux".
   static const IconData mxlinux = IconData(
-    0xf17f,
+    0xf182,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -17280,7 +17307,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "myanimelist".
   static const IconData myanimelist = IconData(
-    0xf180,
+    0xf183,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -17289,7 +17316,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "myget".
   static const IconData myget = IconData(
-    0xf181,
+    0xf184,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -17298,7 +17325,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "myob".
   static const IconData myob = IconData(
-    0xf182,
+    0xf185,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -17307,7 +17334,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "myshows".
   static const IconData myshows = IconData(
-    0xf183,
+    0xf186,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -17316,7 +17343,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "myspace".
   static const IconData myspace = IconData(
-    0xf184,
+    0xf187,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -17325,7 +17352,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "mysql".
   static const IconData mysql = IconData(
-    0xf185,
+    0xf188,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -17334,7 +17361,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "n26".
   static const IconData n26 = IconData(
-    0xf186,
+    0xf189,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -17343,7 +17370,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "n8n".
   static const IconData n8n = IconData(
-    0xf187,
+    0xf18a,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -17352,7 +17379,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "namebase".
   static const IconData namebase = IconData(
-    0xf188,
+    0xf18b,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -17361,7 +17388,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "namecheap".
   static const IconData namecheap = IconData(
-    0xf189,
+    0xf18c,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -17370,7 +17397,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "namemc".
   static const IconData namemc = IconData(
-    0xf18a,
+    0xf18d,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -17379,7 +17406,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "namesilo".
   static const IconData namesilo = IconData(
-    0xf18b,
+    0xf18e,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -17388,7 +17415,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "namuwiki".
   static const IconData namuwiki = IconData(
-    0xf18c,
+    0xf18f,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -17397,7 +17424,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "nano".
   static const IconData nano = IconData(
-    0xf18d,
+    0xf190,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -17406,7 +17433,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "nanostores".
   static const IconData nanostores = IconData(
-    0xf18e,
+    0xf191,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -17415,7 +17442,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "napster".
   static const IconData napster = IconData(
-    0xf18f,
+    0xf192,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -17424,7 +17451,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "nasa".
   static const IconData nasa = IconData(
-    0xf190,
+    0xf193,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -17433,7 +17460,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "nationalgrid".
   static const IconData nationalgrid = IconData(
-    0xf191,
+    0xf194,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -17442,7 +17469,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "nationalrail".
   static const IconData nationalrail = IconData(
-    0xf192,
+    0xf195,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -17451,7 +17478,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "nativescript".
   static const IconData nativescript = IconData(
-    0xf193,
+    0xf196,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -17460,7 +17487,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "natsdotio".
   static const IconData natsdotio = IconData(
-    0xf194,
+    0xf197,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -17469,7 +17496,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "naver".
   static const IconData naver = IconData(
-    0xf195,
+    0xf198,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -17478,7 +17505,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "nba".
   static const IconData nba = IconData(
-    0xf196,
+    0xf199,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -17487,7 +17514,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "nbb".
   static const IconData nbb = IconData(
-    0xf197,
+    0xf19a,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -17496,7 +17523,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "nbc".
   static const IconData nbc = IconData(
-    0xf198,
+    0xf19b,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -17505,7 +17532,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "ndi".
   static const IconData ndi = IconData(
-    0xf199,
+    0xf19c,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -17514,7 +17541,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "ndr".
   static const IconData ndr = IconData(
-    0xf19a,
+    0xf19d,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -17523,7 +17550,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "near".
   static const IconData near = IconData(
-    0xf19b,
+    0xf19e,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -17532,7 +17559,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "nebula".
   static const IconData nebula = IconData(
-    0xf19c,
+    0xf19f,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -17541,7 +17568,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "nec".
   static const IconData nec = IconData(
-    0xf19d,
+    0xf1a0,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -17550,7 +17577,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "nederlandsespoorwegen".
   static const IconData nederlandsespoorwegen = IconData(
-    0xf19e,
+    0xf1a1,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -17559,7 +17586,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "neo4j".
   static const IconData neo4j = IconData(
-    0xf19f,
+    0xf1a2,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -17568,7 +17595,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "neon".
   static const IconData neon = IconData(
-    0xf1a0,
+    0xf1a3,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -17577,7 +17604,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "neovim".
   static const IconData neovim = IconData(
-    0xf1a1,
+    0xf1a4,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -17586,7 +17613,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "neptune".
   static const IconData neptune = IconData(
-    0xf1a2,
+    0xf1a5,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -17595,7 +17622,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "nestjs".
   static const IconData nestjs = IconData(
-    0xf1a3,
+    0xf1a6,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -17604,7 +17631,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "netapp".
   static const IconData netapp = IconData(
-    0xf1a4,
+    0xf1a7,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -17613,7 +17640,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "netbsd".
   static const IconData netbsd = IconData(
-    0xf1a5,
+    0xf1a8,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -17622,7 +17649,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "netcup".
   static const IconData netcup = IconData(
-    0xf1a6,
+    0xf1a9,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -17631,7 +17658,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "netdata".
   static const IconData netdata = IconData(
-    0xf1a7,
+    0xf1aa,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -17640,7 +17667,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "neteasecloudmusic".
   static const IconData neteasecloudmusic = IconData(
-    0xf1a8,
+    0xf1ab,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -17649,7 +17676,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "netflix".
   static const IconData netflix = IconData(
-    0xf1a9,
+    0xf1ac,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -17658,7 +17685,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "netgear".
   static const IconData netgear = IconData(
-    0xf1aa,
+    0xf1ad,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -17667,7 +17694,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "netim".
   static const IconData netim = IconData(
-    0xf1ab,
+    0xf1ae,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -17676,7 +17703,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "netlify".
   static const IconData netlify = IconData(
-    0xf1ac,
+    0xf1af,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -17685,7 +17712,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "nette".
   static const IconData nette = IconData(
-    0xf1ad,
+    0xf1b0,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -17694,7 +17721,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "netto".
   static const IconData netto = IconData(
-    0xf1ae,
+    0xf1b1,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -17703,7 +17730,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "neutralinojs".
   static const IconData neutralinojs = IconData(
-    0xf1af,
+    0xf1b2,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -17712,7 +17739,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "newbalance".
   static const IconData newbalance = IconData(
-    0xf1b0,
+    0xf1b3,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -17721,7 +17748,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "newjapanprowrestling".
   static const IconData newjapanprowrestling = IconData(
-    0xf1b1,
+    0xf1b4,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -17730,7 +17757,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "newrelic".
   static const IconData newrelic = IconData(
-    0xf1b2,
+    0xf1b5,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -17739,7 +17766,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "newyorktimes".
   static const IconData newyorktimes = IconData(
-    0xf1b3,
+    0xf1b6,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -17748,7 +17775,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "newegg".
   static const IconData newegg = IconData(
-    0xf1b4,
+    0xf1b7,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -17757,7 +17784,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "newgrounds".
   static const IconData newgrounds = IconData(
-    0xf1b5,
+    0xf1b8,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -17766,7 +17793,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "newpipe".
   static const IconData newpipe = IconData(
-    0xf1b6,
+    0xf1b9,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -17775,7 +17802,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "nexon".
   static const IconData nexon = IconData(
-    0xf1b7,
+    0xf1ba,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -17784,7 +17811,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "nextdotjs".
   static const IconData nextdotjs = IconData(
-    0xf1b8,
+    0xf1bb,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -17793,7 +17820,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "nextbike".
   static const IconData nextbike = IconData(
-    0xf1b9,
+    0xf1bc,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -17802,7 +17829,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "nextbilliondotai".
   static const IconData nextbilliondotai = IconData(
-    0xf1ba,
+    0xf1bd,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -17811,7 +17838,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "nextcloud".
   static const IconData nextcloud = IconData(
-    0xf1bb,
+    0xf1be,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -17820,7 +17847,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "nextdns".
   static const IconData nextdns = IconData(
-    0xf1bc,
+    0xf1bf,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -17829,7 +17856,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "nextdoor".
   static const IconData nextdoor = IconData(
-    0xf1bd,
+    0xf1c0,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -17838,7 +17865,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "nextflow".
   static const IconData nextflow = IconData(
-    0xf1be,
+    0xf1c1,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -17847,7 +17874,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "nextra".
   static const IconData nextra = IconData(
-    0xf1bf,
+    0xf1c2,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -17856,7 +17883,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "nfcore".
   static const IconData nfcore = IconData(
-    0xf1c0,
+    0xf1c3,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -17865,7 +17892,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "nfc".
   static const IconData nfc = IconData(
-    0xf1c1,
+    0xf1c4,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -17874,7 +17901,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "nginx".
   static const IconData nginx = IconData(
-    0xf1c2,
+    0xf1c5,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -17883,7 +17910,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "nginxproxymanager".
   static const IconData nginxproxymanager = IconData(
-    0xf1c3,
+    0xf1c6,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -17892,7 +17919,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "ngrok".
   static const IconData ngrok = IconData(
-    0xf1c4,
+    0xf1c7,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -17901,7 +17928,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "ngrx".
   static const IconData ngrx = IconData(
-    0xf1c5,
+    0xf1c8,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -17910,7 +17937,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "nhl".
   static const IconData nhl = IconData(
-    0xf1c6,
+    0xf1c9,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -17919,7 +17946,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "nhost".
   static const IconData nhost = IconData(
-    0xf1c7,
+    0xf1ca,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -17928,7 +17955,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "nicehash".
   static const IconData nicehash = IconData(
-    0xf1c8,
+    0xf1cb,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -17937,7 +17964,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "niconico".
   static const IconData niconico = IconData(
-    0xf1c9,
+    0xf1cc,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -17946,7 +17973,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "nike".
   static const IconData nike = IconData(
-    0xf1ca,
+    0xf1cd,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -17955,7 +17982,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "nikon".
   static const IconData nikon = IconData(
-    0xf1cb,
+    0xf1ce,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -17964,7 +17991,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "nim".
   static const IconData nim = IconData(
-    0xf1cc,
+    0xf1cf,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -17973,7 +18000,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "niri".
   static const IconData niri = IconData(
-    0xf1cd,
+    0xf1d0,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -17982,7 +18009,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "nissan".
   static const IconData nissan = IconData(
-    0xf1ce,
+    0xf1d1,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -17991,7 +18018,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "nixos".
   static const IconData nixos = IconData(
-    0xf1cf,
+    0xf1d2,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -18000,7 +18027,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "nobaralinux".
   static const IconData nobaralinux = IconData(
-    0xf1d0,
+    0xf1d3,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -18009,7 +18036,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "nodered".
   static const IconData nodered = IconData(
-    0xf1d1,
+    0xf1d4,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -18018,7 +18045,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "nodedotjs".
   static const IconData nodedotjs = IconData(
-    0xf1d2,
+    0xf1d5,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -18027,7 +18054,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "nodebb".
   static const IconData nodebb = IconData(
-    0xf1d3,
+    0xf1d6,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -18036,7 +18063,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "nodegui".
   static const IconData nodegui = IconData(
-    0xf1d4,
+    0xf1d7,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -18045,7 +18072,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "nodemon".
   static const IconData nodemon = IconData(
-    0xf1d5,
+    0xf1d8,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -18054,7 +18081,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "nokia".
   static const IconData nokia = IconData(
-    0xf1d6,
+    0xf1d9,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -18063,7 +18090,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "nomad".
   static const IconData nomad = IconData(
-    0xf1d7,
+    0xf1da,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -18072,7 +18099,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "norco".
   static const IconData norco = IconData(
-    0xf1d8,
+    0xf1db,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -18081,7 +18108,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "nordicsemiconductor".
   static const IconData nordicsemiconductor = IconData(
-    0xf1d9,
+    0xf1dc,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -18090,7 +18117,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "nordvpn".
   static const IconData nordvpn = IconData(
-    0xf1da,
+    0xf1dd,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -18099,7 +18126,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "normalizedotcss".
   static const IconData normalizedotcss = IconData(
-    0xf1db,
+    0xf1de,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -18108,7 +18135,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "norton".
   static const IconData norton = IconData(
-    0xf1dc,
+    0xf1df,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -18117,7 +18144,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "norwegian".
   static const IconData norwegian = IconData(
-    0xf1dd,
+    0xf1e0,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -18126,7 +18153,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "note".
   static const IconData note = IconData(
-    0xf1de,
+    0xf1e1,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -18135,7 +18162,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "notebooklm".
   static const IconData notebooklm = IconData(
-    0xf1df,
+    0xf1e2,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -18144,7 +18171,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "notepadplusplus".
   static const IconData notepadplusplus = IconData(
-    0xf1e0,
+    0xf1e3,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -18153,7 +18180,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "notion".
   static const IconData notion = IconData(
-    0xf1e1,
+    0xf1e4,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -18162,7 +18189,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "notist".
   static const IconData notist = IconData(
-    0xf1e2,
+    0xf1e5,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -18171,7 +18198,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "nounproject".
   static const IconData nounproject = IconData(
-    0xf1e3,
+    0xf1e6,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -18180,7 +18207,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "novu".
   static const IconData novu = IconData(
-    0xf1e4,
+    0xf1e7,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -18189,7 +18216,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "now".
   static const IconData now = IconData(
-    0xf1e5,
+    0xf1e8,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -18198,7 +18225,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "npm".
   static const IconData npm = IconData(
-    0xf1e6,
+    0xf1e9,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -18207,7 +18234,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "nrwl".
   static const IconData nrwl = IconData(
-    0xf1e7,
+    0xf1ea,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -18216,7 +18243,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "nsis".
   static const IconData nsis = IconData(
-    0xf1e8,
+    0xf1eb,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -18225,7 +18252,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "ntfy".
   static const IconData ntfy = IconData(
-    0xf1e9,
+    0xf1ec,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -18234,7 +18261,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "nubank".
   static const IconData nubank = IconData(
-    0xf1ea,
+    0xf1ed,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -18243,7 +18270,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "nucleo".
   static const IconData nucleo = IconData(
-    0xf1eb,
+    0xf1ee,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -18252,7 +18279,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "nuget".
   static const IconData nuget = IconData(
-    0xf1ec,
+    0xf1ef,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -18261,7 +18288,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "nuke".
   static const IconData nuke = IconData(
-    0xf1ed,
+    0xf1f0,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -18270,7 +18297,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "numba".
   static const IconData numba = IconData(
-    0xf1ee,
+    0xf1f1,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -18279,7 +18306,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "numpy".
   static const IconData numpy = IconData(
-    0xf1ef,
+    0xf1f2,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -18288,7 +18315,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "nunjucks".
   static const IconData nunjucks = IconData(
-    0xf1f0,
+    0xf1f3,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -18297,7 +18324,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "nushell".
   static const IconData nushell = IconData(
-    0xf1f1,
+    0xf1f4,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -18306,7 +18333,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "nutanix".
   static const IconData nutanix = IconData(
-    0xf1f2,
+    0xf1f5,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -18315,7 +18342,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "nuxt".
   static const IconData nuxt = IconData(
-    0xf1f3,
+    0xf1f6,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -18324,7 +18351,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "nvidia".
   static const IconData nvidia = IconData(
-    0xf1f4,
+    0xf1f7,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -18333,7 +18360,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "nvm".
   static const IconData nvm = IconData(
-    0xf1f5,
+    0xf1f8,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -18342,7 +18369,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "nx".
   static const IconData nx = IconData(
-    0xf1f6,
+    0xf1f9,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -18351,7 +18378,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "nxp".
   static const IconData nxp = IconData(
-    0xf1f7,
+    0xf1fa,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -18360,7 +18387,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "nzxt".
   static const IconData nzxt = IconData(
-    0xf1f8,
+    0xf1fb,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -18369,7 +18396,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "oreilly".
   static const IconData oreilly = IconData(
-    0xf1f9,
+    0xf1fc,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -18378,7 +18405,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "o2".
   static const IconData o2 = IconData(
-    0xf1fa,
+    0xf1fd,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -18387,7 +18414,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "obb".
   static const IconData obb = IconData(
-    0xf1fb,
+    0xf1fe,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -18396,7 +18423,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "obsstudio".
   static const IconData obsstudio = IconData(
-    0xf1fc,
+    0xf1ff,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -18405,7 +18432,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "observable".
   static const IconData observable = IconData(
-    0xf1fd,
+    0xf200,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -18414,7 +18441,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "obsidian".
   static const IconData obsidian = IconData(
-    0xf1fe,
+    0xf201,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -18423,7 +18450,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "obtainium".
   static const IconData obtainium = IconData(
-    0xf1ff,
+    0xf202,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -18432,7 +18459,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "ocaml".
   static const IconData ocaml = IconData(
-    0xf200,
+    0xf203,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -18441,7 +18468,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "oclc".
   static const IconData oclc = IconData(
-    0xf201,
+    0xf204,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -18450,7 +18477,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "oclif".
   static const IconData oclif = IconData(
-    0xf202,
+    0xf205,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -18459,7 +18486,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "octanerender".
   static const IconData octanerender = IconData(
-    0xf203,
+    0xf206,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -18468,7 +18495,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "octave".
   static const IconData octave = IconData(
-    0xf204,
+    0xf207,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -18477,7 +18504,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "octobercms".
   static const IconData octobercms = IconData(
-    0xf205,
+    0xf208,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -18486,7 +18513,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "octoprint".
   static const IconData octoprint = IconData(
-    0xf206,
+    0xf209,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -18495,7 +18522,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "octopusdeploy".
   static const IconData octopusdeploy = IconData(
-    0xf207,
+    0xf20a,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -18504,7 +18531,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "oculus".
   static const IconData oculus = IconData(
-    0xf208,
+    0xf20b,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -18513,7 +18540,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "odido".
   static const IconData odido = IconData(
-    0xf209,
+    0xf20c,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -18522,7 +18549,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "odin".
   static const IconData odin = IconData(
-    0xf20a,
+    0xf20d,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -18531,7 +18558,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "odnoklassniki".
   static const IconData odnoklassniki = IconData(
-    0xf20b,
+    0xf20e,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -18540,7 +18567,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "odoo".
   static const IconData odoo = IconData(
-    0xf20c,
+    0xf20f,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -18549,7 +18576,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "odysee".
   static const IconData odysee = IconData(
-    0xf20d,
+    0xf210,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -18558,7 +18585,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "ohdear".
   static const IconData ohdear = IconData(
-    0xf20e,
+    0xf211,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -18567,7 +18594,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "okcupid".
   static const IconData okcupid = IconData(
-    0xf20f,
+    0xf212,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -18576,7 +18603,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "okta".
   static const IconData okta = IconData(
-    0xf210,
+    0xf213,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -18585,7 +18612,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "okx".
   static const IconData okx = IconData(
-    0xf211,
+    0xf214,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -18594,7 +18621,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "ollama".
   static const IconData ollama = IconData(
-    0xf212,
+    0xf215,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -18603,7 +18630,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "omadacloud".
   static const IconData omadacloud = IconData(
-    0xf213,
+    0xf216,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -18612,7 +18639,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "omarchy".
   static const IconData omarchy = IconData(
-    0xf214,
+    0xf217,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -18621,7 +18648,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "oneplus".
   static const IconData oneplus = IconData(
-    0xf215,
+    0xf218,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -18630,7 +18657,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "onestream".
   static const IconData onestream = IconData(
-    0xf216,
+    0xf219,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -18639,7 +18666,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "onlyfans".
   static const IconData onlyfans = IconData(
-    0xf217,
+    0xf21a,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -18648,7 +18675,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "onlyoffice".
   static const IconData onlyoffice = IconData(
-    0xf218,
+    0xf21b,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -18657,7 +18684,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "onnx".
   static const IconData onnx = IconData(
-    0xf219,
+    0xf21c,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -18666,7 +18693,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "onstar".
   static const IconData onstar = IconData(
-    0xf21a,
+    0xf21d,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -18675,7 +18702,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "opel".
   static const IconData opel = IconData(
-    0xf21b,
+    0xf21e,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -18684,7 +18711,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "openaccess".
   static const IconData openaccess = IconData(
-    0xf21c,
+    0xf21f,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -18693,7 +18720,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "openbadges".
   static const IconData openbadges = IconData(
-    0xf21d,
+    0xf220,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -18702,7 +18729,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "openbugbounty".
   static const IconData openbugbounty = IconData(
-    0xf21e,
+    0xf221,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -18711,7 +18738,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "opencollective".
   static const IconData opencollective = IconData(
-    0xf21f,
+    0xf222,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -18720,7 +18747,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "opencontainersinitiative".
   static const IconData opencontainersinitiative = IconData(
-    0xf220,
+    0xf223,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -18729,7 +18756,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "opensourcehardware".
   static const IconData opensourcehardware = IconData(
-    0xf221,
+    0xf224,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -18738,7 +18765,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "opensourceinitiative".
   static const IconData opensourceinitiative = IconData(
-    0xf222,
+    0xf225,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -18747,7 +18774,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "open3d".
   static const IconData open3d = IconData(
-    0xf223,
+    0xf226,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -18756,7 +18783,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "openaigym".
   static const IconData openaigym = IconData(
-    0xf224,
+    0xf227,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -18765,7 +18792,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "openapiinitiative".
   static const IconData openapiinitiative = IconData(
-    0xf225,
+    0xf228,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -18774,7 +18801,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "openbao".
   static const IconData openbao = IconData(
-    0xf226,
+    0xf229,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -18783,7 +18810,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "openbsd".
   static const IconData openbsd = IconData(
-    0xf227,
+    0xf22a,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -18792,7 +18819,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "opencage".
   static const IconData opencage = IconData(
-    0xf228,
+    0xf22b,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -18801,7 +18828,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "opencritic".
   static const IconData opencritic = IconData(
-    0xf229,
+    0xf22c,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -18810,7 +18837,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "opencv".
   static const IconData opencv = IconData(
-    0xf22a,
+    0xf22d,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -18819,7 +18846,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "openfaas".
   static const IconData openfaas = IconData(
-    0xf22b,
+    0xf22e,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -18828,7 +18855,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "opengl".
   static const IconData opengl = IconData(
-    0xf22c,
+    0xf22f,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -18837,7 +18864,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "openhab".
   static const IconData openhab = IconData(
-    0xf22d,
+    0xf230,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -18846,7 +18873,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "openid".
   static const IconData openid = IconData(
-    0xf22e,
+    0xf231,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -18855,7 +18882,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "openjdk".
   static const IconData openjdk = IconData(
-    0xf22f,
+    0xf232,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -18864,7 +18891,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "openjsfoundation".
   static const IconData openjsfoundation = IconData(
-    0xf230,
+    0xf233,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -18873,7 +18900,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "openlayers".
   static const IconData openlayers = IconData(
-    0xf231,
+    0xf234,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -18882,7 +18909,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "openmediavault".
   static const IconData openmediavault = IconData(
-    0xf232,
+    0xf235,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -18891,7 +18918,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "openmined".
   static const IconData openmined = IconData(
-    0xf233,
+    0xf236,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -18900,7 +18927,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "opennebula".
   static const IconData opennebula = IconData(
-    0xf234,
+    0xf237,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -18909,7 +18936,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "openproject".
   static const IconData openproject = IconData(
-    0xf235,
+    0xf238,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -18918,7 +18945,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "openrouter".
   static const IconData openrouter = IconData(
-    0xf236,
+    0xf239,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -18927,7 +18954,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "openscad".
   static const IconData openscad = IconData(
-    0xf237,
+    0xf23a,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -18936,7 +18963,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "opensea".
   static const IconData opensea = IconData(
-    0xf238,
+    0xf23b,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -18945,7 +18972,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "opensearch".
   static const IconData opensearch = IconData(
-    0xf239,
+    0xf23c,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -18954,7 +18981,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "openssl".
   static const IconData openssl = IconData(
-    0xf23a,
+    0xf23d,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -18963,7 +18990,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "openstack".
   static const IconData openstack = IconData(
-    0xf23b,
+    0xf23e,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -18972,7 +18999,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "openstreetmap".
   static const IconData openstreetmap = IconData(
-    0xf23c,
+    0xf23f,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -18981,7 +19008,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "opensuse".
   static const IconData opensuse = IconData(
-    0xf23d,
+    0xf240,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -18990,7 +19017,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "opentelemetry".
   static const IconData opentelemetry = IconData(
-    0xf23e,
+    0xf241,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -18999,7 +19026,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "opentext".
   static const IconData opentext = IconData(
-    0xf23f,
+    0xf242,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -19008,7 +19035,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "opentofu".
   static const IconData opentofu = IconData(
-    0xf240,
+    0xf243,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -19017,7 +19044,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "openverse".
   static const IconData openverse = IconData(
-    0xf241,
+    0xf244,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -19026,7 +19053,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "openvpn".
   static const IconData openvpn = IconData(
-    0xf242,
+    0xf245,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -19035,7 +19062,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "openwrt".
   static const IconData openwrt = IconData(
-    0xf243,
+    0xf246,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -19044,7 +19071,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "openzeppelin".
   static const IconData openzeppelin = IconData(
-    0xf244,
+    0xf247,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -19053,7 +19080,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "openzfs".
   static const IconData openzfs = IconData(
-    0xf245,
+    0xf248,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -19062,7 +19089,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "opera".
   static const IconData opera = IconData(
-    0xf246,
+    0xf249,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -19071,7 +19098,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "operagx".
   static const IconData operagx = IconData(
-    0xf247,
+    0xf24a,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -19080,7 +19107,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "opnsense".
   static const IconData opnsense = IconData(
-    0xf248,
+    0xf24b,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -19089,7 +19116,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "oppo".
   static const IconData oppo = IconData(
-    0xf249,
+    0xf24c,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -19098,7 +19125,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "opsgenie".
   static const IconData opsgenie = IconData(
-    0xf24a,
+    0xf24d,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -19107,7 +19134,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "opslevel".
   static const IconData opslevel = IconData(
-    0xf24b,
+    0xf24e,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -19116,7 +19143,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "optimism".
   static const IconData optimism = IconData(
-    0xf24c,
+    0xf24f,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -19125,7 +19152,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "optuna".
   static const IconData optuna = IconData(
-    0xf24d,
+    0xf250,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -19134,7 +19161,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "orange".
   static const IconData orange = IconData(
-    0xf24e,
+    0xf251,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -19143,7 +19170,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "orchardcore".
   static const IconData orchardcore = IconData(
-    0xf24f,
+    0xf252,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -19152,7 +19179,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "orcid".
   static const IconData orcid = IconData(
-    0xf250,
+    0xf253,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -19161,7 +19188,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "org".
   static const IconData org = IconData(
-    0xf251,
+    0xf254,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -19170,7 +19197,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "organicmaps".
   static const IconData organicmaps = IconData(
-    0xf252,
+    0xf255,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -19179,7 +19206,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "origin".
   static const IconData origin = IconData(
-    0xf253,
+    0xf256,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -19188,7 +19215,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "ory".
   static const IconData ory = IconData(
-    0xf254,
+    0xf257,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -19197,7 +19224,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "osano".
   static const IconData osano = IconData(
-    0xf255,
+    0xf258,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -19206,7 +19233,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "osf".
   static const IconData osf = IconData(
-    0xf256,
+    0xf259,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -19215,7 +19242,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "osgeo".
   static const IconData osgeo = IconData(
-    0xf257,
+    0xf25a,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -19224,7 +19251,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "oshkosh".
   static const IconData oshkosh = IconData(
-    0xf258,
+    0xf25b,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -19233,7 +19260,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "osmand".
   static const IconData osmand = IconData(
-    0xf259,
+    0xf25c,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -19242,7 +19269,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "osmc".
   static const IconData osmc = IconData(
-    0xf25a,
+    0xf25d,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -19251,7 +19278,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "osu".
   static const IconData osu = IconData(
-    0xf25b,
+    0xf25e,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -19260,7 +19287,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "otto".
   static const IconData otto = IconData(
-    0xf25c,
+    0xf25f,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -19269,7 +19296,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "outline".
   static const IconData outline = IconData(
-    0xf25d,
+    0xf260,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -19278,7 +19305,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "overcast".
   static const IconData overcast = IconData(
-    0xf25e,
+    0xf261,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -19287,7 +19314,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "overleaf".
   static const IconData overleaf = IconData(
-    0xf25f,
+    0xf262,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -19296,7 +19323,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "ovh".
   static const IconData ovh = IconData(
-    0xf260,
+    0xf263,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -19305,7 +19332,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "owasp".
   static const IconData owasp = IconData(
-    0xf261,
+    0xf264,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -19314,7 +19341,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "dependencycheck".
   static const IconData dependencycheck = IconData(
-    0xf262,
+    0xf265,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -19323,7 +19350,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "owncloud".
   static const IconData owncloud = IconData(
-    0xf263,
+    0xf266,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -19332,7 +19359,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "oxc".
   static const IconData oxc = IconData(
-    0xf264,
+    0xf267,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -19341,7 +19368,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "oxygen".
   static const IconData oxygen = IconData(
-    0xf265,
+    0xf268,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -19350,7 +19377,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "oyo".
   static const IconData oyo = IconData(
-    0xf266,
+    0xf269,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -19359,7 +19386,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "p5dotjs".
   static const IconData p5dotjs = IconData(
-    0xf267,
+    0xf26a,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -19368,7 +19395,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "packagist".
   static const IconData packagist = IconData(
-    0xf268,
+    0xf26b,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -19377,7 +19404,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "packer".
   static const IconData packer = IconData(
-    0xf269,
+    0xf26c,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -19386,7 +19413,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "packt".
   static const IconData packt = IconData(
-    0xf26a,
+    0xf26d,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -19395,7 +19422,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "paddle".
   static const IconData paddle = IconData(
-    0xf26b,
+    0xf26e,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -19404,7 +19431,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "paddlepaddle".
   static const IconData paddlepaddle = IconData(
-    0xf26c,
+    0xf26f,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -19413,7 +19440,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "paddypower".
   static const IconData paddypower = IconData(
-    0xf26d,
+    0xf270,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -19422,7 +19449,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "padlet".
   static const IconData padlet = IconData(
-    0xf26e,
+    0xf271,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -19431,7 +19458,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "pagekit".
   static const IconData pagekit = IconData(
-    0xf26f,
+    0xf272,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -19440,7 +19467,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "pagerduty".
   static const IconData pagerduty = IconData(
-    0xf270,
+    0xf273,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -19449,7 +19476,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "pagespeedinsights".
   static const IconData pagespeedinsights = IconData(
-    0xf271,
+    0xf274,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -19458,7 +19485,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "pagseguro".
   static const IconData pagseguro = IconData(
-    0xf272,
+    0xf275,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -19467,7 +19494,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "palantir".
   static const IconData palantir = IconData(
-    0xf273,
+    0xf276,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -19476,7 +19503,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "paloaltonetworks".
   static const IconData paloaltonetworks = IconData(
-    0xf274,
+    0xf277,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -19485,7 +19512,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "paloaltosoftware".
   static const IconData paloaltosoftware = IconData(
-    0xf275,
+    0xf278,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -19494,7 +19521,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "panasonic".
   static const IconData panasonic = IconData(
-    0xf276,
+    0xf279,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -19503,7 +19530,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "pandas".
   static const IconData pandas = IconData(
-    0xf277,
+    0xf27a,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -19512,7 +19539,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "pandoc".
   static const IconData pandoc = IconData(
-    0xf278,
+    0xf27b,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -19521,7 +19548,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "pandora".
   static const IconData pandora = IconData(
-    0xf279,
+    0xf27c,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -19530,7 +19557,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "pangolin".
   static const IconData pangolin = IconData(
-    0xf27a,
+    0xf27d,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -19539,7 +19566,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "pantheon".
   static const IconData pantheon = IconData(
-    0xf27b,
+    0xf27e,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -19548,7 +19575,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "paperlessngx".
   static const IconData paperlessngx = IconData(
-    0xf27c,
+    0xf27f,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -19557,7 +19584,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "paperswithcode".
   static const IconData paperswithcode = IconData(
-    0xf27d,
+    0xf280,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -19566,7 +19593,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "paperspace".
   static const IconData paperspace = IconData(
-    0xf27e,
+    0xf281,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -19575,7 +19602,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "paradoxinteractive".
   static const IconData paradoxinteractive = IconData(
-    0xf27f,
+    0xf282,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -19584,7 +19611,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "paramountplus".
   static const IconData paramountplus = IconData(
-    0xf280,
+    0xf283,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -19593,7 +19620,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "paritysubstrate".
   static const IconData paritysubstrate = IconData(
-    0xf281,
+    0xf284,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -19602,7 +19629,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "parrotsecurity".
   static const IconData parrotsecurity = IconData(
-    0xf282,
+    0xf285,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -19611,7 +19638,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "parsedotly".
   static const IconData parsedotly = IconData(
-    0xf283,
+    0xf286,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -19620,7 +19647,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "passbolt".
   static const IconData passbolt = IconData(
-    0xf284,
+    0xf287,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -19629,7 +19656,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "passport".
   static const IconData passport = IconData(
-    0xf285,
+    0xf288,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -19638,7 +19665,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "pastebin".
   static const IconData pastebin = IconData(
-    0xf286,
+    0xf289,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -19647,7 +19674,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "patreon".
   static const IconData patreon = IconData(
-    0xf287,
+    0xf28a,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -19656,7 +19683,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "payback".
   static const IconData payback = IconData(
-    0xf288,
+    0xf28b,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -19665,7 +19692,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "paychex".
   static const IconData paychex = IconData(
-    0xf289,
+    0xf28c,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -19674,7 +19701,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "payhip".
   static const IconData payhip = IconData(
-    0xf28a,
+    0xf28d,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -19683,7 +19710,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "payloadcms".
   static const IconData payloadcms = IconData(
-    0xf28b,
+    0xf28e,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -19692,7 +19719,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "payoneer".
   static const IconData payoneer = IconData(
-    0xf28c,
+    0xf28f,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -19701,7 +19728,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "paypal".
   static const IconData paypal = IconData(
-    0xf28d,
+    0xf290,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -19710,7 +19737,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "paysafe".
   static const IconData paysafe = IconData(
-    0xf28e,
+    0xf291,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -19719,7 +19746,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "paytm".
   static const IconData paytm = IconData(
-    0xf28f,
+    0xf292,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -19728,7 +19755,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "pcgamingwiki".
   static const IconData pcgamingwiki = IconData(
-    0xf290,
+    0xf293,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -19737,7 +19764,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "pdm".
   static const IconData pdm = IconData(
-    0xf291,
+    0xf294,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -19746,7 +19773,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "pdq".
   static const IconData pdq = IconData(
-    0xf292,
+    0xf295,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -19755,7 +19782,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "peakdesign".
   static const IconData peakdesign = IconData(
-    0xf293,
+    0xf296,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -19764,7 +19791,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "pearson".
   static const IconData pearson = IconData(
-    0xf294,
+    0xf297,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -19773,7 +19800,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "peerlist".
   static const IconData peerlist = IconData(
-    0xf295,
+    0xf298,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -19782,7 +19809,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "peertube".
   static const IconData peertube = IconData(
-    0xf296,
+    0xf299,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -19791,7 +19818,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "pegasusairlines".
   static const IconData pegasusairlines = IconData(
-    0xf297,
+    0xf29a,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -19800,7 +19827,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "pelican".
   static const IconData pelican = IconData(
-    0xf298,
+    0xf29b,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -19809,7 +19836,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "peloton".
   static const IconData peloton = IconData(
-    0xf299,
+    0xf29c,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -19818,7 +19845,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "penny".
   static const IconData penny = IconData(
-    0xf29a,
+    0xf29d,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -19827,7 +19854,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "penpot".
   static const IconData penpot = IconData(
-    0xf29b,
+    0xf29e,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -19836,7 +19863,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "percy".
   static const IconData percy = IconData(
-    0xf29c,
+    0xf29f,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -19845,7 +19872,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "perforce".
   static const IconData perforce = IconData(
-    0xf29d,
+    0xf2a0,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -19854,7 +19881,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "perl".
   static const IconData perl = IconData(
-    0xf29e,
+    0xf2a1,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -19863,7 +19890,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "perplexity".
   static const IconData perplexity = IconData(
-    0xf29f,
+    0xf2a2,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -19872,7 +19899,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "persistent".
   static const IconData persistent = IconData(
-    0xf2a0,
+    0xf2a3,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -19881,7 +19908,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "personio".
   static const IconData personio = IconData(
-    0xf2a1,
+    0xf2a4,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -19890,7 +19917,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "petsathome".
   static const IconData petsathome = IconData(
-    0xf2a2,
+    0xf2a5,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -19899,7 +19926,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "peugeot".
   static const IconData peugeot = IconData(
-    0xf2a3,
+    0xf2a6,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -19908,7 +19935,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "pexels".
   static const IconData pexels = IconData(
-    0xf2a4,
+    0xf2a7,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -19917,7 +19944,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "pfsense".
   static const IconData pfsense = IconData(
-    0xf2a5,
+    0xf2a8,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -19926,7 +19953,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "phabricator".
   static const IconData phabricator = IconData(
-    0xf2a6,
+    0xf2a9,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -19935,7 +19962,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "philipshue".
   static const IconData philipshue = IconData(
-    0xf2a7,
+    0xf2aa,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -19944,7 +19971,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "phoenixframework".
   static const IconData phoenixframework = IconData(
-    0xf2a8,
+    0xf2ab,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -19953,7 +19980,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "phonepe".
   static const IconData phonepe = IconData(
-    0xf2a9,
+    0xf2ac,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -19962,7 +19989,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "phosphoricons".
   static const IconData phosphoricons = IconData(
-    0xf2aa,
+    0xf2ad,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -19971,7 +19998,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "photobucket".
   static const IconData photobucket = IconData(
-    0xf2ab,
+    0xf2ae,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -19980,7 +20007,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "photocrowd".
   static const IconData photocrowd = IconData(
-    0xf2ac,
+    0xf2af,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -19989,7 +20016,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "photon".
   static const IconData photon = IconData(
-    0xf2ad,
+    0xf2b0,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -19998,7 +20025,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "photopea".
   static const IconData photopea = IconData(
-    0xf2ae,
+    0xf2b1,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -20007,7 +20034,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "php".
   static const IconData php = IconData(
-    0xf2af,
+    0xf2b2,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -20016,7 +20043,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "phpbb".
   static const IconData phpbb = IconData(
-    0xf2b0,
+    0xf2b3,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -20025,7 +20052,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "phpmyadmin".
   static const IconData phpmyadmin = IconData(
-    0xf2b1,
+    0xf2b4,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -20034,7 +20061,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "phpstorm".
   static const IconData phpstorm = IconData(
-    0xf2b2,
+    0xf2b5,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -20043,7 +20070,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "pinetwork".
   static const IconData pinetwork = IconData(
-    0xf2b3,
+    0xf2b6,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -20052,7 +20079,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "pihole".
   static const IconData pihole = IconData(
-    0xf2b4,
+    0xf2b7,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -20061,7 +20088,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "piaggiogroup".
   static const IconData piaggiogroup = IconData(
-    0xf2b5,
+    0xf2b8,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -20070,7 +20097,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "piapro".
   static const IconData piapro = IconData(
-    0xf2b6,
+    0xf2b9,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -20079,7 +20106,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "picardsurgeles".
   static const IconData picardsurgeles = IconData(
-    0xf2b7,
+    0xf2ba,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -20088,7 +20115,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "picartodottv".
   static const IconData picartodottv = IconData(
-    0xf2b8,
+    0xf2bb,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -20097,7 +20124,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "picnic".
   static const IconData picnic = IconData(
-    0xf2b9,
+    0xf2bc,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -20106,7 +20133,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "picpay".
   static const IconData picpay = IconData(
-    0xf2ba,
+    0xf2bd,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -20115,7 +20142,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "picrew".
   static const IconData picrew = IconData(
-    0xf2bb,
+    0xf2be,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -20124,7 +20151,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "picsart".
   static const IconData picsart = IconData(
-    0xf2bc,
+    0xf2bf,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -20133,7 +20160,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "picxy".
   static const IconData picxy = IconData(
-    0xf2bd,
+    0xf2c0,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -20142,7 +20169,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "pimcore".
   static const IconData pimcore = IconData(
-    0xf2be,
+    0xf2c1,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -20151,7 +20178,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "pinboard".
   static const IconData pinboard = IconData(
-    0xf2bf,
+    0xf2c2,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -20160,7 +20187,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "pinescript".
   static const IconData pinescript = IconData(
-    0xf2c0,
+    0xf2c3,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -20169,7 +20196,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "pingdom".
   static const IconData pingdom = IconData(
-    0xf2c1,
+    0xf2c4,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -20178,7 +20205,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "pinia".
   static const IconData pinia = IconData(
-    0xf2c2,
+    0xf2c5,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -20187,7 +20214,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "pino".
   static const IconData pino = IconData(
-    0xf2c3,
+    0xf2c6,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -20196,7 +20223,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "pinterest".
   static const IconData pinterest = IconData(
-    0xf2c4,
+    0xf2c7,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -20205,7 +20232,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "pioneerdj".
   static const IconData pioneerdj = IconData(
-    0xf2c5,
+    0xf2c8,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -20214,7 +20241,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "pipecat".
   static const IconData pipecat = IconData(
-    0xf2c6,
+    0xf2c9,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -20223,7 +20250,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "piped".
   static const IconData piped = IconData(
-    0xf2c7,
+    0xf2ca,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -20232,7 +20259,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "pipx".
   static const IconData pipx = IconData(
-    0xf2c8,
+    0xf2cb,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -20241,7 +20268,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "pivotaltracker".
   static const IconData pivotaltracker = IconData(
-    0xf2c9,
+    0xf2cc,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -20250,7 +20277,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "piwigo".
   static const IconData piwigo = IconData(
-    0xf2ca,
+    0xf2cd,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -20259,7 +20286,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "pix".
   static const IconData pix = IconData(
-    0xf2cb,
+    0xf2ce,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -20268,7 +20295,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "pixabay".
   static const IconData pixabay = IconData(
-    0xf2cc,
+    0xf2cf,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -20277,7 +20304,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "pixelfed".
   static const IconData pixelfed = IconData(
-    0xf2cd,
+    0xf2d0,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -20286,7 +20313,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "pixiv".
   static const IconData pixiv = IconData(
-    0xf2ce,
+    0xf2d1,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -20295,7 +20322,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "pixlr".
   static const IconData pixlr = IconData(
-    0xf2cf,
+    0xf2d2,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -20304,7 +20331,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "pkgsrc".
   static const IconData pkgsrc = IconData(
-    0xf2d0,
+    0xf2d3,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -20313,7 +20340,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "plane".
   static const IconData plane = IconData(
-    0xf2d1,
+    0xf2d4,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -20322,7 +20349,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "planet".
   static const IconData planet = IconData(
-    0xf2d2,
+    0xf2d5,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -20331,7 +20358,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "planetscale".
   static const IconData planetscale = IconData(
-    0xf2d3,
+    0xf2d6,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -20340,7 +20367,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "plangrid".
   static const IconData plangrid = IconData(
-    0xf2d4,
+    0xf2d7,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -20349,7 +20376,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "platformdotsh".
   static const IconData platformdotsh = IconData(
-    0xf2d5,
+    0xf2d8,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -20358,7 +20385,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "platformio".
   static const IconData platformio = IconData(
-    0xf2d6,
+    0xf2d9,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -20367,7 +20394,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "platzi".
   static const IconData platzi = IconData(
-    0xf2d7,
+    0xf2da,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -20376,7 +20403,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "plausibleanalytics".
   static const IconData plausibleanalytics = IconData(
-    0xf2d8,
+    0xf2db,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -20385,7 +20412,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "playcanvas".
   static const IconData playcanvas = IconData(
-    0xf2d9,
+    0xf2dc,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -20394,7 +20421,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "playerfm".
   static const IconData playerfm = IconData(
-    0xf2da,
+    0xf2dd,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -20403,7 +20430,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "playerdotme".
   static const IconData playerdotme = IconData(
-    0xf2db,
+    0xf2de,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -20412,7 +20439,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "playstation".
   static const IconData playstation = IconData(
-    0xf2dc,
+    0xf2df,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -20421,7 +20448,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "playstation2".
   static const IconData playstation2 = IconData(
-    0xf2dd,
+    0xf2e0,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -20430,7 +20457,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "playstation3".
   static const IconData playstation3 = IconData(
-    0xf2de,
+    0xf2e1,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -20439,7 +20466,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "playstation4".
   static const IconData playstation4 = IconData(
-    0xf2df,
+    0xf2e2,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -20448,7 +20475,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "playstation5".
   static const IconData playstation5 = IconData(
-    0xf2e0,
+    0xf2e3,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -20457,7 +20484,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "playstationportable".
   static const IconData playstationportable = IconData(
-    0xf2e1,
+    0xf2e4,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -20466,7 +20493,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "playstationvita".
   static const IconData playstationvita = IconData(
-    0xf2e2,
+    0xf2e5,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -20475,7 +20502,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "pleroma".
   static const IconData pleroma = IconData(
-    0xf2e3,
+    0xf2e6,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -20484,7 +20511,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "plesk".
   static const IconData plesk = IconData(
-    0xf2e4,
+    0xf2e7,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -20493,7 +20520,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "plex".
   static const IconData plex = IconData(
-    0xf2e5,
+    0xf2e8,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -20502,7 +20529,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "plotly".
   static const IconData plotly = IconData(
-    0xf2e6,
+    0xf2e9,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -20511,7 +20538,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "plume".
   static const IconData plume = IconData(
-    0xf2e7,
+    0xf2ea,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -20520,7 +20547,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "pluralsight".
   static const IconData pluralsight = IconData(
-    0xf2e8,
+    0xf2eb,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -20529,7 +20556,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "plurk".
   static const IconData plurk = IconData(
-    0xf2e9,
+    0xf2ec,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -20538,7 +20565,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "pm2".
   static const IconData pm2 = IconData(
-    0xf2ea,
+    0xf2ed,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -20547,7 +20574,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "pnpm".
   static const IconData pnpm = IconData(
-    0xf2eb,
+    0xf2ee,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -20556,7 +20583,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "pocketcasts".
   static const IconData pocketcasts = IconData(
-    0xf2ec,
+    0xf2ef,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -20565,7 +20592,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "pocketbase".
   static const IconData pocketbase = IconData(
-    0xf2ed,
+    0xf2f0,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -20574,7 +20601,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "podcastaddict".
   static const IconData podcastaddict = IconData(
-    0xf2ee,
+    0xf2f1,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -20583,7 +20610,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "podcastindex".
   static const IconData podcastindex = IconData(
-    0xf2ef,
+    0xf2f2,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -20592,7 +20619,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "podman".
   static const IconData podman = IconData(
-    0xf2f0,
+    0xf2f3,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -20601,7 +20628,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "poe".
   static const IconData poe = IconData(
-    0xf2f1,
+    0xf2f4,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -20610,7 +20637,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "poetry".
   static const IconData poetry = IconData(
-    0xf2f2,
+    0xf2f5,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -20619,7 +20646,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "polars".
   static const IconData polars = IconData(
-    0xf2f3,
+    0xf2f6,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -20628,7 +20655,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "polestar".
   static const IconData polestar = IconData(
-    0xf2f4,
+    0xf2f7,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -20637,7 +20664,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "polkadot".
   static const IconData polkadot = IconData(
-    0xf2f5,
+    0xf2f8,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -20646,7 +20673,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "poly".
   static const IconData poly = IconData(
-    0xf2f6,
+    0xf2f9,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -20655,7 +20682,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "polygon".
   static const IconData polygon = IconData(
-    0xf2f7,
+    0xf2fa,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -20664,7 +20691,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "polymerproject".
   static const IconData polymerproject = IconData(
-    0xf2f8,
+    0xf2fb,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -20673,7 +20700,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "polywork".
   static const IconData polywork = IconData(
-    0xf2f9,
+    0xf2fc,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -20682,7 +20709,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "pomerium".
   static const IconData pomerium = IconData(
-    0xf2fa,
+    0xf2fd,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -20691,7 +20718,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "pond5".
   static const IconData pond5 = IconData(
-    0xf2fb,
+    0xf2fe,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -20700,7 +20727,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "popos".
   static const IconData popos = IconData(
-    0xf2fc,
+    0xf2ff,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -20709,7 +20736,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "porkbun".
   static const IconData porkbun = IconData(
-    0xf2fd,
+    0xf300,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -20718,7 +20745,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "porsche".
   static const IconData porsche = IconData(
-    0xf2fe,
+    0xf301,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -20727,7 +20754,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "portableappsdotcom".
   static const IconData portableappsdotcom = IconData(
-    0xf2ff,
+    0xf302,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -20736,7 +20763,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "portainer".
   static const IconData portainer = IconData(
-    0xf300,
+    0xf303,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -20745,7 +20772,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "portswigger".
   static const IconData portswigger = IconData(
-    0xf301,
+    0xf304,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -20754,7 +20781,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "posit".
   static const IconData posit = IconData(
-    0xf302,
+    0xf305,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -20763,7 +20790,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "postcss".
   static const IconData postcss = IconData(
-    0xf303,
+    0xf306,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -20772,7 +20799,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "postgresql".
   static const IconData postgresql = IconData(
-    0xf304,
+    0xf307,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -20781,7 +20808,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "posthog".
   static const IconData posthog = IconData(
-    0xf305,
+    0xf308,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -20790,7 +20817,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "postiz".
   static const IconData postiz = IconData(
-    0xf306,
+    0xf309,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -20799,7 +20826,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "postman".
   static const IconData postman = IconData(
-    0xf307,
+    0xf30a,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -20808,7 +20835,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "postmates".
   static const IconData postmates = IconData(
-    0xf308,
+    0xf30b,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -20817,7 +20844,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "powers".
   static const IconData powers = IconData(
-    0xf309,
+    0xf30c,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -20826,7 +20853,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "prdotco".
   static const IconData prdotco = IconData(
-    0xf30a,
+    0xf30d,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -20835,7 +20862,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "precommit".
   static const IconData precommit = IconData(
-    0xf30b,
+    0xf30e,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -20844,7 +20871,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "preact".
   static const IconData preact = IconData(
-    0xf30c,
+    0xf30f,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -20853,7 +20880,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "prefect".
   static const IconData prefect = IconData(
-    0xf30d,
+    0xf310,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -20862,7 +20889,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "prek".
   static const IconData prek = IconData(
-    0xf30e,
+    0xf311,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -20871,7 +20898,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "premid".
   static const IconData premid = IconData(
-    0xf30f,
+    0xf312,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -20880,7 +20907,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "premierleague".
   static const IconData premierleague = IconData(
-    0xf310,
+    0xf313,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -20889,7 +20916,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "prepbytes".
   static const IconData prepbytes = IconData(
-    0xf311,
+    0xf314,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -20898,7 +20925,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "prestashop".
   static const IconData prestashop = IconData(
-    0xf312,
+    0xf315,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -20907,7 +20934,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "presto".
   static const IconData presto = IconData(
-    0xf313,
+    0xf316,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -20916,7 +20943,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "prettier".
   static const IconData prettier = IconData(
-    0xf314,
+    0xf317,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -20925,7 +20952,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "pretzel".
   static const IconData pretzel = IconData(
-    0xf315,
+    0xf318,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -20934,7 +20961,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "prevention".
   static const IconData prevention = IconData(
-    0xf316,
+    0xf319,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -20943,7 +20970,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "prezi".
   static const IconData prezi = IconData(
-    0xf317,
+    0xf31a,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -20952,7 +20979,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "primefaces".
   static const IconData primefaces = IconData(
-    0xf318,
+    0xf31b,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -20961,7 +20988,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "primeng".
   static const IconData primeng = IconData(
-    0xf319,
+    0xf31c,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -20970,7 +20997,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "primereact".
   static const IconData primereact = IconData(
-    0xf31a,
+    0xf31d,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -20979,7 +21006,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "primevue".
   static const IconData primevue = IconData(
-    0xf31b,
+    0xf31e,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -20988,7 +21015,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "printables".
   static const IconData printables = IconData(
-    0xf31c,
+    0xf31f,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -20997,7 +21024,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "prisma".
   static const IconData prisma = IconData(
-    0xf31d,
+    0xf320,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -21006,7 +21033,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "prismic".
   static const IconData prismic = IconData(
-    0xf31e,
+    0xf321,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -21015,7 +21042,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "privatedivision".
   static const IconData privatedivision = IconData(
-    0xf31f,
+    0xf322,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -21024,7 +21051,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "privateinternetaccess".
   static const IconData privateinternetaccess = IconData(
-    0xf320,
+    0xf323,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -21033,7 +21060,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "protools".
   static const IconData protools = IconData(
-    0xf321,
+    0xf324,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -21042,7 +21069,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "probot".
   static const IconData probot = IconData(
-    0xf322,
+    0xf325,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -21051,7 +21078,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "processingfoundation".
   static const IconData processingfoundation = IconData(
-    0xf323,
+    0xf326,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -21060,7 +21087,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "processon".
   static const IconData processon = IconData(
-    0xf324,
+    0xf327,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -21069,7 +21096,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "processwire".
   static const IconData processwire = IconData(
-    0xf325,
+    0xf328,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -21078,7 +21105,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "producthunt".
   static const IconData producthunt = IconData(
-    0xf326,
+    0xf329,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -21087,7 +21114,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "progate".
   static const IconData progate = IconData(
-    0xf327,
+    0xf32a,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -21096,7 +21123,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "progress".
   static const IconData progress = IconData(
-    0xf328,
+    0xf32b,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -21105,7 +21132,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "prometheus".
   static const IconData prometheus = IconData(
-    0xf329,
+    0xf32c,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -21114,7 +21141,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "pronounsdotpage".
   static const IconData pronounsdotpage = IconData(
-    0xf32a,
+    0xf32d,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -21123,7 +21150,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "prosemirror".
   static const IconData prosemirror = IconData(
-    0xf32b,
+    0xf32e,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -21132,7 +21159,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "prosieben".
   static const IconData prosieben = IconData(
-    0xf32c,
+    0xf32f,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -21141,7 +21168,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "proteus".
   static const IconData proteus = IconData(
-    0xf32d,
+    0xf330,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -21150,7 +21177,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "protodotio".
   static const IconData protodotio = IconData(
-    0xf32e,
+    0xf331,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -21159,7 +21186,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "protocolsdotio".
   static const IconData protocolsdotio = IconData(
-    0xf32f,
+    0xf332,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -21168,7 +21195,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "proton".
   static const IconData proton = IconData(
-    0xf330,
+    0xf333,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -21177,7 +21204,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "protoncalendar".
   static const IconData protoncalendar = IconData(
-    0xf331,
+    0xf334,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -21186,7 +21213,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "protondrive".
   static const IconData protondrive = IconData(
-    0xf332,
+    0xf335,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -21195,7 +21222,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "protonmail".
   static const IconData protonmail = IconData(
-    0xf333,
+    0xf336,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -21204,7 +21231,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "protonvpn".
   static const IconData protonvpn = IconData(
-    0xf334,
+    0xf337,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -21213,7 +21240,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "protondb".
   static const IconData protondb = IconData(
-    0xf335,
+    0xf338,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -21222,7 +21249,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "protractor".
   static const IconData protractor = IconData(
-    0xf336,
+    0xf339,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -21231,7 +21258,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "proxmox".
   static const IconData proxmox = IconData(
-    0xf337,
+    0xf33a,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -21240,7 +21267,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "pterodactyl".
   static const IconData pterodactyl = IconData(
-    0xf338,
+    0xf33b,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -21249,7 +21276,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "pubg".
   static const IconData pubg = IconData(
-    0xf339,
+    0xf33c,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -21258,7 +21285,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "publons".
   static const IconData publons = IconData(
-    0xf33a,
+    0xf33d,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -21267,7 +21294,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "pubmed".
   static const IconData pubmed = IconData(
-    0xf33b,
+    0xf33e,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -21276,7 +21303,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "pug".
   static const IconData pug = IconData(
-    0xf33c,
+    0xf33f,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -21285,7 +21312,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "pulumi".
   static const IconData pulumi = IconData(
-    0xf33d,
+    0xf340,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -21294,7 +21321,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "puma".
   static const IconData puma = IconData(
-    0xf33e,
+    0xf341,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -21303,7 +21330,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "puppet".
   static const IconData puppet = IconData(
-    0xf33f,
+    0xf342,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -21312,7 +21339,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "puppeteer".
   static const IconData puppeteer = IconData(
-    0xf340,
+    0xf343,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -21321,7 +21348,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "purescript".
   static const IconData purescript = IconData(
-    0xf341,
+    0xf344,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -21330,7 +21357,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "purgecss".
   static const IconData purgecss = IconData(
-    0xf342,
+    0xf345,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -21339,7 +21366,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "purism".
   static const IconData purism = IconData(
-    0xf343,
+    0xf346,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -21348,7 +21375,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "pushbullet".
   static const IconData pushbullet = IconData(
-    0xf344,
+    0xf347,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -21357,7 +21384,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "pusher".
   static const IconData pusher = IconData(
-    0xf345,
+    0xf348,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -21366,7 +21393,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "pwa".
   static const IconData pwa = IconData(
-    0xf346,
+    0xf349,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -21375,7 +21402,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "pycharm".
   static const IconData pycharm = IconData(
-    0xf347,
+    0xf34a,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -21384,7 +21411,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "pycqa".
   static const IconData pycqa = IconData(
-    0xf348,
+    0xf34b,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -21393,7 +21420,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "pydantic".
   static const IconData pydantic = IconData(
-    0xf349,
+    0xf34c,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -21402,7 +21429,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "pyg".
   static const IconData pyg = IconData(
-    0xf34a,
+    0xf34d,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -21411,7 +21438,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "pypi".
   static const IconData pypi = IconData(
-    0xf34b,
+    0xf34e,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -21420,7 +21447,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "pypy".
   static const IconData pypy = IconData(
-    0xf34c,
+    0xf34f,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -21429,7 +21456,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "pyscaffold".
   static const IconData pyscaffold = IconData(
-    0xf34d,
+    0xf350,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -21438,7 +21465,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "pysyft".
   static const IconData pysyft = IconData(
-    0xf34e,
+    0xf351,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -21447,7 +21474,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "pytest".
   static const IconData pytest = IconData(
-    0xf34f,
+    0xf352,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -21456,7 +21483,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "python".
   static const IconData python = IconData(
-    0xf350,
+    0xf353,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -21465,7 +21492,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "pythonanywhere".
   static const IconData pythonanywhere = IconData(
-    0xf351,
+    0xf354,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -21474,7 +21501,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "pytorch".
   static const IconData pytorch = IconData(
-    0xf352,
+    0xf355,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -21483,7 +21510,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "pyup".
   static const IconData pyup = IconData(
-    0xf353,
+    0xf356,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -21492,7 +21519,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "qantas".
   static const IconData qantas = IconData(
-    0xf354,
+    0xf357,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -21501,7 +21528,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "qase".
   static const IconData qase = IconData(
-    0xf355,
+    0xf358,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -21510,7 +21537,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "qatarairways".
   static const IconData qatarairways = IconData(
-    0xf356,
+    0xf359,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -21519,7 +21546,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "qbittorrent".
   static const IconData qbittorrent = IconData(
-    0xf357,
+    0xf35a,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -21528,7 +21555,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "qdrant".
   static const IconData qdrant = IconData(
-    0xf358,
+    0xf35b,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -21537,7 +21564,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "qemu".
   static const IconData qemu = IconData(
-    0xf359,
+    0xf35c,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -21546,7 +21573,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "qgis".
   static const IconData qgis = IconData(
-    0xf35a,
+    0xf35d,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -21555,7 +21582,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "qi".
   static const IconData qi = IconData(
-    0xf35b,
+    0xf35e,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -21564,7 +21591,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "qiita".
   static const IconData qiita = IconData(
-    0xf35c,
+    0xf35f,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -21573,7 +21600,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "qiskit".
   static const IconData qiskit = IconData(
-    0xf35d,
+    0xf360,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -21582,7 +21609,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "qiwi".
   static const IconData qiwi = IconData(
-    0xf35e,
+    0xf361,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -21591,7 +21618,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "qlik".
   static const IconData qlik = IconData(
-    0xf35f,
+    0xf362,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -21600,7 +21627,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "qlty".
   static const IconData qlty = IconData(
-    0xf360,
+    0xf363,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -21609,7 +21636,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "qmk".
   static const IconData qmk = IconData(
-    0xf361,
+    0xf364,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -21618,7 +21645,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "qnap".
   static const IconData qnap = IconData(
-    0xf362,
+    0xf365,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -21627,7 +21654,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "qodo".
   static const IconData qodo = IconData(
-    0xf363,
+    0xf366,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -21636,7 +21663,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "qq".
   static const IconData qq = IconData(
-    0xf364,
+    0xf367,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -21645,7 +21672,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "qt".
   static const IconData qt = IconData(
-    0xf365,
+    0xf368,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -21654,7 +21681,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "quad9".
   static const IconData quad9 = IconData(
-    0xf366,
+    0xf369,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -21663,7 +21690,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "qualcomm".
   static const IconData qualcomm = IconData(
-    0xf367,
+    0xf36a,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -21672,7 +21699,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "qualtrics".
   static const IconData qualtrics = IconData(
-    0xf368,
+    0xf36b,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -21681,7 +21708,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "qualys".
   static const IconData qualys = IconData(
-    0xf369,
+    0xf36c,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -21690,7 +21717,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "quantcast".
   static const IconData quantcast = IconData(
-    0xf36a,
+    0xf36d,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -21699,7 +21726,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "quantconnect".
   static const IconData quantconnect = IconData(
-    0xf36b,
+    0xf36e,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -21708,7 +21735,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "quarkus".
   static const IconData quarkus = IconData(
-    0xf36c,
+    0xf36f,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -21717,7 +21744,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "quarto".
   static const IconData quarto = IconData(
-    0xf36d,
+    0xf370,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -21726,7 +21753,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "quasar".
   static const IconData quasar = IconData(
-    0xf36e,
+    0xf371,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -21735,7 +21762,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "qubesos".
   static const IconData qubesos = IconData(
-    0xf36f,
+    0xf372,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -21744,7 +21771,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "quest".
   static const IconData quest = IconData(
-    0xf370,
+    0xf373,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -21753,7 +21780,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "quickbooks".
   static const IconData quickbooks = IconData(
-    0xf371,
+    0xf374,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -21762,7 +21789,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "quicklook".
   static const IconData quicklook = IconData(
-    0xf372,
+    0xf375,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -21771,7 +21798,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "quicktime".
   static const IconData quicktime = IconData(
-    0xf373,
+    0xf376,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -21780,7 +21807,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "quicktype".
   static const IconData quicktype = IconData(
-    0xf374,
+    0xf377,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -21789,7 +21816,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "quizlet".
   static const IconData quizlet = IconData(
-    0xf375,
+    0xf378,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -21798,7 +21825,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "quora".
   static const IconData quora = IconData(
-    0xf376,
+    0xf379,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -21807,7 +21834,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "qwant".
   static const IconData qwant = IconData(
-    0xf377,
+    0xf37a,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -21816,7 +21843,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "qwen".
   static const IconData qwen = IconData(
-    0xf378,
+    0xf37b,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -21825,7 +21852,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "qwik".
   static const IconData qwik = IconData(
-    0xf379,
+    0xf37c,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -21834,7 +21861,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "qwiklabs".
   static const IconData qwiklabs = IconData(
-    0xf37a,
+    0xf37d,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -21843,7 +21870,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "qzone".
   static const IconData qzone = IconData(
-    0xf37b,
+    0xf37e,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -21852,7 +21879,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "r".
   static const IconData r = IconData(
-    0xf37c,
+    0xf37f,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -21861,7 +21888,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "r3".
   static const IconData r3 = IconData(
-    0xf37d,
+    0xf380,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -21870,7 +21897,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "rabbitmq".
   static const IconData rabbitmq = IconData(
-    0xf37e,
+    0xf381,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -21879,7 +21906,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "racket".
   static const IconData racket = IconData(
-    0xf37f,
+    0xf382,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -21888,7 +21915,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "radstudio".
   static const IconData radstudio = IconData(
-    0xf380,
+    0xf383,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -21897,7 +21924,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "radar".
   static const IconData radar = IconData(
-    0xf381,
+    0xf384,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -21906,7 +21933,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "radarr".
   static const IconData radarr = IconData(
-    0xf382,
+    0xf385,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -21915,7 +21942,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "radiofrance".
   static const IconData radiofrance = IconData(
-    0xf383,
+    0xf386,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -21924,7 +21951,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "radixui".
   static const IconData radixui = IconData(
-    0xf384,
+    0xf387,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -21933,7 +21960,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "railway".
   static const IconData railway = IconData(
-    0xf385,
+    0xf388,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -21942,7 +21969,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "rainmeter".
   static const IconData rainmeter = IconData(
-    0xf386,
+    0xf389,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -21951,7 +21978,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "rainyun".
   static const IconData rainyun = IconData(
-    0xf387,
+    0xf38a,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -21960,7 +21987,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "rakuten".
   static const IconData rakuten = IconData(
-    0xf388,
+    0xf38b,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -21969,7 +21996,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "rakutenkobo".
   static const IconData rakutenkobo = IconData(
-    0xf389,
+    0xf38c,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -21978,7 +22005,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "ram".
   static const IconData ram = IconData(
-    0xf38a,
+    0xf38d,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -21987,7 +22014,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "rancher".
   static const IconData rancher = IconData(
-    0xf38b,
+    0xf38e,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -21996,7 +22023,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "rapid".
   static const IconData rapid = IconData(
-    0xf38c,
+    0xf38f,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -22005,7 +22032,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "rarible".
   static const IconData rarible = IconData(
-    0xf38d,
+    0xf390,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -22014,7 +22041,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "rasa".
   static const IconData rasa = IconData(
-    0xf38e,
+    0xf391,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -22023,7 +22050,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "raspberrypi".
   static const IconData raspberrypi = IconData(
-    0xf38f,
+    0xf392,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -22032,7 +22059,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "ratatui".
   static const IconData ratatui = IconData(
-    0xf390,
+    0xf393,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -22041,7 +22068,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "ravelry".
   static const IconData ravelry = IconData(
-    0xf391,
+    0xf394,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -22050,7 +22077,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "ray".
   static const IconData ray = IconData(
-    0xf392,
+    0xf395,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -22059,7 +22086,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "raycast".
   static const IconData raycast = IconData(
-    0xf393,
+    0xf396,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -22068,7 +22095,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "raylib".
   static const IconData raylib = IconData(
-    0xf394,
+    0xf397,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -22077,7 +22104,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "razer".
   static const IconData razer = IconData(
-    0xf395,
+    0xf398,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -22086,7 +22113,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "razorpay".
   static const IconData razorpay = IconData(
-    0xf396,
+    0xf399,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -22095,7 +22122,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "rclone".
   static const IconData rclone = IconData(
-    0xf397,
+    0xf39a,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -22104,7 +22131,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "react".
   static const IconData react = IconData(
-    0xf398,
+    0xf39b,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -22113,7 +22140,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "reactbootstrap".
   static const IconData reactbootstrap = IconData(
-    0xf399,
+    0xf39c,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -22122,7 +22149,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "reacthookform".
   static const IconData reacthookform = IconData(
-    0xf39a,
+    0xf39d,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -22131,7 +22158,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "reactquery".
   static const IconData reactquery = IconData(
-    0xf39b,
+    0xf39e,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -22140,7 +22167,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "reactrouter".
   static const IconData reactrouter = IconData(
-    0xf39c,
+    0xf39f,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -22149,7 +22176,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "reacttable".
   static const IconData reacttable = IconData(
-    0xf39d,
+    0xf3a0,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -22158,7 +22185,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "reactiveresume".
   static const IconData reactiveresume = IconData(
-    0xf39e,
+    0xf3a1,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -22167,7 +22194,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "reactivex".
   static const IconData reactivex = IconData(
-    0xf39f,
+    0xf3a2,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -22176,7 +22203,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "reactos".
   static const IconData reactos = IconData(
-    0xf3a0,
+    0xf3a3,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -22185,7 +22212,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "readthedocs".
   static const IconData readthedocs = IconData(
-    0xf3a1,
+    0xf3a4,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -22194,7 +22221,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "readdotcv".
   static const IconData readdotcv = IconData(
-    0xf3a2,
+    0xf3a5,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -22203,7 +22230,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "readme".
   static const IconData readme = IconData(
-    0xf3a3,
+    0xf3a6,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -22212,7 +22239,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "reason".
   static const IconData reason = IconData(
-    0xf3a4,
+    0xf3a7,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -22221,7 +22248,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "reasonstudios".
   static const IconData reasonstudios = IconData(
-    0xf3a5,
+    0xf3a8,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -22230,7 +22257,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "recoil".
   static const IconData recoil = IconData(
-    0xf3a6,
+    0xf3a9,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -22239,7 +22266,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "red".
   static const IconData red = IconData(
-    0xf3a7,
+    0xf3aa,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -22248,7 +22275,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "redbull".
   static const IconData redbull = IconData(
-    0xf3a8,
+    0xf3ab,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -22257,7 +22284,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "redcandlegames".
   static const IconData redcandlegames = IconData(
-    0xf3a9,
+    0xf3ac,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -22266,7 +22293,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "redhat".
   static const IconData redhat = IconData(
-    0xf3aa,
+    0xf3ad,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -22275,7 +22302,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "redhatopenshift".
   static const IconData redhatopenshift = IconData(
-    0xf3ab,
+    0xf3ae,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -22284,7 +22311,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "redash".
   static const IconData redash = IconData(
-    0xf3ac,
+    0xf3af,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -22293,7 +22320,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "redbubble".
   static const IconData redbubble = IconData(
-    0xf3ad,
+    0xf3b0,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -22302,7 +22329,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "reddit".
   static const IconData reddit = IconData(
-    0xf3ae,
+    0xf3b1,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -22311,7 +22338,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "redis".
   static const IconData redis = IconData(
-    0xf3af,
+    0xf3b2,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -22320,7 +22347,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "redmine".
   static const IconData redmine = IconData(
-    0xf3b0,
+    0xf3b3,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -22329,7 +22356,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "redox".
   static const IconData redox = IconData(
-    0xf3b1,
+    0xf3b4,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -22338,7 +22365,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "redragon".
   static const IconData redragon = IconData(
-    0xf3b2,
+    0xf3b5,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -22347,7 +22374,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "redsys".
   static const IconData redsys = IconData(
-    0xf3b3,
+    0xf3b6,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -22356,7 +22383,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "redux".
   static const IconData redux = IconData(
-    0xf3b4,
+    0xf3b7,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -22365,7 +22392,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "reduxsaga".
   static const IconData reduxsaga = IconData(
-    0xf3b5,
+    0xf3b8,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -22374,7 +22401,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "redwoodjs".
   static const IconData redwoodjs = IconData(
-    0xf3b6,
+    0xf3b9,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -22383,7 +22410,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "reebok".
   static const IconData reebok = IconData(
-    0xf3b7,
+    0xf3ba,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -22392,7 +22419,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "refine".
   static const IconData refine = IconData(
-    0xf3b8,
+    0xf3bb,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -22401,7 +22428,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "refinedgithub".
   static const IconData refinedgithub = IconData(
-    0xf3b9,
+    0xf3bc,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -22410,7 +22437,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "reflex".
   static const IconData reflex = IconData(
-    0xf3ba,
+    0xf3bd,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -22419,7 +22446,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "rekaui".
   static const IconData rekaui = IconData(
-    0xf3bb,
+    0xf3be,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -22428,7 +22455,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "relay".
   static const IconData relay = IconData(
-    0xf3bc,
+    0xf3bf,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -22437,7 +22464,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "relianceindustrieslimited".
   static const IconData relianceindustrieslimited = IconData(
-    0xf3bd,
+    0xf3c0,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -22446,7 +22473,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "remark".
   static const IconData remark = IconData(
-    0xf3be,
+    0xf3c1,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -22455,7 +22482,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "remedyentertainment".
   static const IconData remedyentertainment = IconData(
-    0xf3bf,
+    0xf3c2,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -22464,7 +22491,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "remix".
   static const IconData remix = IconData(
-    0xf3c0,
+    0xf3c3,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -22473,7 +22500,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "removedotbg".
   static const IconData removedotbg = IconData(
-    0xf3c1,
+    0xf3c4,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -22482,7 +22509,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "renpy".
   static const IconData renpy = IconData(
-    0xf3c2,
+    0xf3c5,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -22491,7 +22518,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "renault".
   static const IconData renault = IconData(
-    0xf3c3,
+    0xf3c6,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -22500,7 +22527,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "render".
   static const IconData render = IconData(
-    0xf3c4,
+    0xf3c7,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -22509,7 +22536,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "renovate".
   static const IconData renovate = IconData(
-    0xf3c5,
+    0xf3c8,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -22518,7 +22545,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "renren".
   static const IconData renren = IconData(
-    0xf3c6,
+    0xf3c9,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -22527,7 +22554,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "replicate".
   static const IconData replicate = IconData(
-    0xf3c7,
+    0xf3ca,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -22536,7 +22563,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "replit".
   static const IconData replit = IconData(
-    0xf3c8,
+    0xf3cb,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -22545,7 +22572,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "republicofgamers".
   static const IconData republicofgamers = IconData(
-    0xf3c9,
+    0xf3cc,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -22554,7 +22581,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "rescript".
   static const IconData rescript = IconData(
-    0xf3ca,
+    0xf3cd,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -22563,7 +22590,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "rescuetime".
   static const IconData rescuetime = IconData(
-    0xf3cb,
+    0xf3ce,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -22572,7 +22599,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "researchgate".
   static const IconData researchgate = IconData(
-    0xf3cc,
+    0xf3cf,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -22581,7 +22608,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "resend".
   static const IconData resend = IconData(
-    0xf3cd,
+    0xf3d0,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -22590,7 +22617,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "resharper".
   static const IconData resharper = IconData(
-    0xf3ce,
+    0xf3d1,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -22599,7 +22626,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "resurrectionremixos".
   static const IconData resurrectionremixos = IconData(
-    0xf3cf,
+    0xf3d2,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -22608,7 +22635,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "retool".
   static const IconData retool = IconData(
-    0xf3d0,
+    0xf3d3,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -22617,7 +22644,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "retroachievements".
   static const IconData retroachievements = IconData(
-    0xf3d1,
+    0xf3d4,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -22626,7 +22653,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "retroarch".
   static const IconData retroarch = IconData(
-    0xf3d2,
+    0xf3d5,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -22635,7 +22662,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "retropie".
   static const IconData retropie = IconData(
-    0xf3d3,
+    0xf3d6,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -22644,7 +22671,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "revanced".
   static const IconData revanced = IconData(
-    0xf3d4,
+    0xf3d7,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -22653,7 +22680,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "revealdotjs".
   static const IconData revealdotjs = IconData(
-    0xf3d5,
+    0xf3d8,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -22662,7 +22689,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "revenuecat".
   static const IconData revenuecat = IconData(
-    0xf3d6,
+    0xf3d9,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -22671,7 +22698,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "reverbnation".
   static const IconData reverbnation = IconData(
-    0xf3d7,
+    0xf3da,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -22680,7 +22707,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "revoltdotchat".
   static const IconData revoltdotchat = IconData(
-    0xf3d8,
+    0xf3db,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -22689,7 +22716,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "revolut".
   static const IconData revolut = IconData(
-    0xf3d9,
+    0xf3dc,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -22698,7 +22725,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "rewe".
   static const IconData rewe = IconData(
-    0xf3da,
+    0xf3dd,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -22707,7 +22734,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "rezgo".
   static const IconData rezgo = IconData(
-    0xf3db,
+    0xf3de,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -22716,7 +22743,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "rhinoceros".
   static const IconData rhinoceros = IconData(
-    0xf3dc,
+    0xf3df,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -22725,7 +22752,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "rich".
   static const IconData rich = IconData(
-    0xf3dd,
+    0xf3e0,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -22734,7 +22761,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "rider".
   static const IconData rider = IconData(
-    0xf3de,
+    0xf3e1,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -22743,7 +22770,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "rimacautomobili".
   static const IconData rimacautomobili = IconData(
-    0xf3df,
+    0xf3e2,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -22752,7 +22779,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "rime".
   static const IconData rime = IconData(
-    0xf3e0,
+    0xf3e3,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -22761,7 +22788,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "ring".
   static const IconData ring = IconData(
-    0xf3e1,
+    0xf3e4,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -22770,7 +22797,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "riotgames".
   static const IconData riotgames = IconData(
-    0xf3e2,
+    0xf3e5,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -22779,7 +22806,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "ripple".
   static const IconData ripple = IconData(
-    0xf3e3,
+    0xf3e6,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -22788,7 +22815,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "riscv".
   static const IconData riscv = IconData(
-    0xf3e4,
+    0xf3e7,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -22797,7 +22824,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "riseup".
   static const IconData riseup = IconData(
-    0xf3e5,
+    0xf3e8,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -22806,7 +22833,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "ritzcarlton".
   static const IconData ritzcarlton = IconData(
-    0xf3e6,
+    0xf3e9,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -22815,7 +22842,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "rive".
   static const IconData rive = IconData(
-    0xf3e7,
+    0xf3ea,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -22824,7 +22851,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "roadmapdotsh".
   static const IconData roadmapdotsh = IconData(
-    0xf3e8,
+    0xf3eb,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -22833,7 +22860,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "roamresearch".
   static const IconData roamresearch = IconData(
-    0xf3e9,
+    0xf3ec,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -22842,7 +22869,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "robinhood".
   static const IconData robinhood = IconData(
-    0xf3ea,
+    0xf3ed,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -22851,7 +22878,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "roblox".
   static const IconData roblox = IconData(
-    0xf3eb,
+    0xf3ee,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -22860,7 +22887,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "robloxstudio".
   static const IconData robloxstudio = IconData(
-    0xf3ec,
+    0xf3ef,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -22869,7 +22896,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "roboflow".
   static const IconData roboflow = IconData(
-    0xf3ed,
+    0xf3f0,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -22878,7 +22905,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "robotframework".
   static const IconData robotframework = IconData(
-    0xf3ee,
+    0xf3f1,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -22887,7 +22914,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "rocket".
   static const IconData rocket = IconData(
-    0xf3ef,
+    0xf3f2,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -22896,7 +22923,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "rocketdotchat".
   static const IconData rocketdotchat = IconData(
-    0xf3f0,
+    0xf3f3,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -22905,7 +22932,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "rocksdb".
   static const IconData rocksdb = IconData(
-    0xf3f1,
+    0xf3f4,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -22914,7 +22941,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "rockstargames".
   static const IconData rockstargames = IconData(
-    0xf3f2,
+    0xf3f5,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -22923,7 +22950,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "rockwellautomation".
   static const IconData rockwellautomation = IconData(
-    0xf3f3,
+    0xf3f6,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -22932,7 +22959,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "rockylinux".
   static const IconData rockylinux = IconData(
-    0xf3f4,
+    0xf3f7,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -22941,7 +22968,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "roku".
   static const IconData roku = IconData(
-    0xf3f5,
+    0xf3f8,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -22950,7 +22977,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "roll20".
   static const IconData roll20 = IconData(
-    0xf3f6,
+    0xf3f9,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -22959,7 +22986,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "rollbar".
   static const IconData rollbar = IconData(
-    0xf3f7,
+    0xf3fa,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -22968,7 +22995,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "rolldown".
   static const IconData rolldown = IconData(
-    0xf3f8,
+    0xf3fb,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -22977,7 +23004,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "rollsroyce".
   static const IconData rollsroyce = IconData(
-    0xf3f9,
+    0xf3fc,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -22986,7 +23013,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "rollupdotjs".
   static const IconData rollupdotjs = IconData(
-    0xf3fa,
+    0xf3fd,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -22995,7 +23022,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "rook".
   static const IconData rook = IconData(
-    0xf3fb,
+    0xf3fe,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -23004,7 +23031,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "roon".
   static const IconData roon = IconData(
-    0xf3fc,
+    0xf3ff,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -23013,7 +23040,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "root".
   static const IconData root = IconData(
-    0xf3fd,
+    0xf400,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -23022,7 +23049,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "rootme".
   static const IconData rootme = IconData(
-    0xf3fe,
+    0xf401,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -23031,7 +23058,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "roots".
   static const IconData roots = IconData(
-    0xf3ff,
+    0xf402,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -23040,7 +23067,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "rootsbedrock".
   static const IconData rootsbedrock = IconData(
-    0xf400,
+    0xf403,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -23049,7 +23076,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "rootssage".
   static const IconData rootssage = IconData(
-    0xf401,
+    0xf404,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -23058,7 +23085,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "ros".
   static const IconData ros = IconData(
-    0xf402,
+    0xf405,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -23067,7 +23094,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "rossmann".
   static const IconData rossmann = IconData(
-    0xf403,
+    0xf406,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -23076,7 +23103,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "rotaryinternational".
   static const IconData rotaryinternational = IconData(
-    0xf404,
+    0xf407,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -23085,7 +23112,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "rottentomatoes".
   static const IconData rottentomatoes = IconData(
-    0xf405,
+    0xf408,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -23094,7 +23121,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "roundcube".
   static const IconData roundcube = IconData(
-    0xf406,
+    0xf409,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -23103,7 +23130,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "rsocket".
   static const IconData rsocket = IconData(
-    0xf407,
+    0xf40a,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -23112,7 +23139,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "rss".
   static const IconData rss = IconData(
-    0xf408,
+    0xf40b,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -23121,7 +23148,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "rstudioide".
   static const IconData rstudioide = IconData(
-    0xf409,
+    0xf40c,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -23130,7 +23157,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "rte".
   static const IconData rte = IconData(
-    0xf40a,
+    0xf40d,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -23139,7 +23166,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "rtl".
   static const IconData rtl = IconData(
-    0xf40b,
+    0xf40e,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -23148,7 +23175,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "rtlzwei".
   static const IconData rtlzwei = IconData(
-    0xf40c,
+    0xf40f,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -23157,7 +23184,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "rtm".
   static const IconData rtm = IconData(
-    0xf40d,
+    0xf410,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -23166,7 +23193,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "rubocop".
   static const IconData rubocop = IconData(
-    0xf40e,
+    0xf411,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -23175,7 +23202,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "ruby".
   static const IconData ruby = IconData(
-    0xf40f,
+    0xf412,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -23184,7 +23211,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "rubyonrails".
   static const IconData rubyonrails = IconData(
-    0xf410,
+    0xf413,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -23193,7 +23220,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "rubysinatra".
   static const IconData rubysinatra = IconData(
-    0xf411,
+    0xf414,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -23202,7 +23229,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "rubygems".
   static const IconData rubygems = IconData(
-    0xf412,
+    0xf415,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -23211,7 +23238,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "rubymine".
   static const IconData rubymine = IconData(
-    0xf413,
+    0xf416,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -23220,7 +23247,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "ruff".
   static const IconData ruff = IconData(
-    0xf414,
+    0xf417,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -23229,7 +23256,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "rumahweb".
   static const IconData rumahweb = IconData(
-    0xf415,
+    0xf418,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -23238,7 +23265,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "rumble".
   static const IconData rumble = IconData(
-    0xf416,
+    0xf419,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -23247,7 +23274,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "rundeck".
   static const IconData rundeck = IconData(
-    0xf417,
+    0xf41a,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -23256,7 +23283,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "runkeeper".
   static const IconData runkeeper = IconData(
-    0xf418,
+    0xf41b,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -23265,7 +23292,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "runkit".
   static const IconData runkit = IconData(
-    0xf419,
+    0xf41c,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -23274,7 +23301,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "runrundotit".
   static const IconData runrundotit = IconData(
-    0xf41a,
+    0xf41d,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -23283,7 +23310,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "rust".
   static const IconData rust = IconData(
-    0xf41b,
+    0xf41e,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -23292,7 +23319,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "rustdesk".
   static const IconData rustdesk = IconData(
-    0xf41c,
+    0xf41f,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -23301,7 +23328,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "rustfs".
   static const IconData rustfs = IconData(
-    0xf41d,
+    0xf420,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -23310,7 +23337,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "rxdb".
   static const IconData rxdb = IconData(
-    0xf41e,
+    0xf421,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -23319,7 +23346,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "ryanair".
   static const IconData ryanair = IconData(
-    0xf41f,
+    0xf422,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -23328,7 +23355,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "rye".
   static const IconData rye = IconData(
-    0xf420,
+    0xf423,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -23337,7 +23364,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "s7airlines".
   static const IconData s7airlines = IconData(
-    0xf421,
+    0xf424,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -23346,7 +23373,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "sabanci".
   static const IconData sabanci = IconData(
-    0xf422,
+    0xf425,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -23355,7 +23382,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "safari".
   static const IconData safari = IconData(
-    0xf423,
+    0xf426,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -23364,7 +23391,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "sage".
   static const IconData sage = IconData(
-    0xf424,
+    0xf427,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -23373,7 +23400,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "sagemath".
   static const IconData sagemath = IconData(
-    0xf425,
+    0xf428,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -23382,7 +23409,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "sahibinden".
   static const IconData sahibinden = IconData(
-    0xf426,
+    0xf429,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -23391,7 +23418,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "sailfishos".
   static const IconData sailfishos = IconData(
-    0xf427,
+    0xf42a,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -23400,7 +23427,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "sailsdotjs".
   static const IconData sailsdotjs = IconData(
-    0xf428,
+    0xf42b,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -23409,7 +23436,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "salla".
   static const IconData salla = IconData(
-    0xf429,
+    0xf42c,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -23418,7 +23445,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "saltproject".
   static const IconData saltproject = IconData(
-    0xf42a,
+    0xf42d,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -23427,7 +23454,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "samsclub".
   static const IconData samsclub = IconData(
-    0xf42b,
+    0xf42e,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -23436,7 +23463,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "samsung".
   static const IconData samsung = IconData(
-    0xf42c,
+    0xf42f,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -23445,7 +23472,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "samsungpay".
   static const IconData samsungpay = IconData(
-    0xf42d,
+    0xf430,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -23454,7 +23481,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "sanfranciscomunicipalrailway".
   static const IconData sanfranciscomunicipalrailway = IconData(
-    0xf42e,
+    0xf431,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -23463,7 +23490,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "sanic".
   static const IconData sanic = IconData(
-    0xf42f,
+    0xf432,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -23472,7 +23499,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "sanity".
   static const IconData sanity = IconData(
-    0xf430,
+    0xf433,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -23481,7 +23508,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "saopaulometro".
   static const IconData saopaulometro = IconData(
-    0xf431,
+    0xf434,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -23490,7 +23517,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "sap".
   static const IconData sap = IconData(
-    0xf432,
+    0xf435,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -23499,7 +23526,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "sartorius".
   static const IconData sartorius = IconData(
-    0xf433,
+    0xf436,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -23508,7 +23535,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "sass".
   static const IconData sass = IconData(
-    0xf434,
+    0xf437,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -23517,7 +23544,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "sat1".
   static const IconData sat1 = IconData(
-    0xf435,
+    0xf438,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -23526,7 +23553,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "satellite".
   static const IconData satellite = IconData(
-    0xf436,
+    0xf439,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -23535,7 +23562,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "saturn".
   static const IconData saturn = IconData(
-    0xf437,
+    0xf43a,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -23544,7 +23571,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "saucelabs".
   static const IconData saucelabs = IconData(
-    0xf438,
+    0xf43b,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -23553,7 +23580,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "saudia".
   static const IconData saudia = IconData(
-    0xf439,
+    0xf43c,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -23562,7 +23589,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "scala".
   static const IconData scala = IconData(
-    0xf43a,
+    0xf43d,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -23571,7 +23598,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "scalar".
   static const IconData scalar = IconData(
-    0xf43b,
+    0xf43e,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -23580,7 +23607,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "scaleway".
   static const IconData scaleway = IconData(
-    0xf43c,
+    0xf43f,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -23589,7 +23616,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "scan".
   static const IconData scan = IconData(
-    0xf43d,
+    0xf440,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -23598,7 +23625,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "scania".
   static const IconData scania = IconData(
-    0xf43e,
+    0xf441,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -23607,7 +23634,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "schneiderelectric".
   static const IconData schneiderelectric = IconData(
-    0xf43f,
+    0xf442,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -23616,7 +23643,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "scikitlearn".
   static const IconData scikitlearn = IconData(
-    0xf440,
+    0xf443,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -23625,7 +23652,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "scilab".
   static const IconData scilab = IconData(
-    0xf441,
+    0xf444,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -23634,7 +23661,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "scipy".
   static const IconData scipy = IconData(
-    0xf442,
+    0xf445,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -23643,7 +23670,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "scopus".
   static const IconData scopus = IconData(
-    0xf443,
+    0xf446,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -23652,7 +23679,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "scpfoundation".
   static const IconData scpfoundation = IconData(
-    0xf444,
+    0xf447,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -23661,7 +23688,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "scrapbox".
   static const IconData scrapbox = IconData(
-    0xf445,
+    0xf448,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -23670,7 +23697,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "scrapy".
   static const IconData scrapy = IconData(
-    0xf446,
+    0xf449,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -23679,7 +23706,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "scratch".
   static const IconData scratch = IconData(
-    0xf447,
+    0xf44a,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -23688,7 +23715,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "screencastify".
   static const IconData screencastify = IconData(
-    0xf448,
+    0xf44b,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -23697,7 +23724,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "scrimba".
   static const IconData scrimba = IconData(
-    0xf449,
+    0xf44c,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -23706,7 +23733,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "scrollreveal".
   static const IconData scrollreveal = IconData(
-    0xf44a,
+    0xf44d,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -23715,7 +23742,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "scrumalliance".
   static const IconData scrumalliance = IconData(
-    0xf44b,
+    0xf44e,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -23724,7 +23751,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "scrutinizerci".
   static const IconData scrutinizerci = IconData(
-    0xf44c,
+    0xf44f,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -23733,7 +23760,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "scylladb".
   static const IconData scylladb = IconData(
-    0xf44d,
+    0xf450,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -23742,7 +23769,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "seafile".
   static const IconData seafile = IconData(
-    0xf44e,
+    0xf451,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -23751,7 +23778,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "seagate".
   static const IconData seagate = IconData(
-    0xf44f,
+    0xf452,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -23760,7 +23787,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "searxng".
   static const IconData searxng = IconData(
-    0xf450,
+    0xf453,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -23769,7 +23796,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "seat".
   static const IconData seat = IconData(
-    0xf451,
+    0xf454,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -23778,7 +23805,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "seatgeek".
   static const IconData seatgeek = IconData(
-    0xf452,
+    0xf455,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -23787,7 +23814,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "securityscorecard".
   static const IconData securityscorecard = IconData(
-    0xf453,
+    0xf456,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -23796,7 +23823,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "sefaria".
   static const IconData sefaria = IconData(
-    0xf454,
+    0xf457,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -23805,7 +23832,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "sega".
   static const IconData sega = IconData(
-    0xf455,
+    0xf458,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -23814,7 +23841,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "selenium".
   static const IconData selenium = IconData(
-    0xf456,
+    0xf459,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -23823,7 +23850,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "sellfy".
   static const IconData sellfy = IconData(
-    0xf457,
+    0xf45a,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -23832,7 +23859,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "semanticscholar".
   static const IconData semanticscholar = IconData(
-    0xf458,
+    0xf45b,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -23841,7 +23868,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "semanticui".
   static const IconData semanticui = IconData(
-    0xf459,
+    0xf45c,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -23850,7 +23877,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "semanticuireact".
   static const IconData semanticuireact = IconData(
-    0xf45a,
+    0xf45d,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -23859,7 +23886,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "semanticweb".
   static const IconData semanticweb = IconData(
-    0xf45b,
+    0xf45e,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -23868,7 +23895,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "semanticrelease".
   static const IconData semanticrelease = IconData(
-    0xf45c,
+    0xf45f,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -23877,7 +23904,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "semaphoreci".
   static const IconData semaphoreci = IconData(
-    0xf45d,
+    0xf460,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -23886,7 +23913,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "semrush".
   static const IconData semrush = IconData(
-    0xf45e,
+    0xf461,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -23895,7 +23922,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "semver".
   static const IconData semver = IconData(
-    0xf45f,
+    0xf462,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -23904,7 +23931,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "sencha".
   static const IconData sencha = IconData(
-    0xf460,
+    0xf463,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -23913,7 +23940,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "sennheiser".
   static const IconData sennheiser = IconData(
-    0xf461,
+    0xf464,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -23922,7 +23949,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "sensu".
   static const IconData sensu = IconData(
-    0xf462,
+    0xf465,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -23931,7 +23958,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "sentry".
   static const IconData sentry = IconData(
-    0xf463,
+    0xf466,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -23940,7 +23967,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "sepa".
   static const IconData sepa = IconData(
-    0xf464,
+    0xf467,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -23949,7 +23976,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "sequelize".
   static const IconData sequelize = IconData(
-    0xf465,
+    0xf468,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -23958,7 +23985,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "servbay".
   static const IconData servbay = IconData(
-    0xf466,
+    0xf469,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -23967,7 +23994,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "serverfault".
   static const IconData serverfault = IconData(
-    0xf467,
+    0xf46a,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -23976,7 +24003,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "serverless".
   static const IconData serverless = IconData(
-    0xf468,
+    0xf46b,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -23985,7 +24012,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "session".
   static const IconData session = IconData(
-    0xf469,
+    0xf46c,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -23994,7 +24021,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "sessionize".
   static const IconData sessionize = IconData(
-    0xf46a,
+    0xf46d,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -24003,7 +24030,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "setapp".
   static const IconData setapp = IconData(
-    0xf46b,
+    0xf46e,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -24012,7 +24039,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "setuptools".
   static const IconData setuptools = IconData(
-    0xf46c,
+    0xf46f,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -24021,7 +24048,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "sfml".
   static const IconData sfml = IconData(
-    0xf46d,
+    0xf470,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -24030,7 +24057,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "shadcnui".
   static const IconData shadcnui = IconData(
-    0xf46e,
+    0xf471,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -24039,7 +24066,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "shadow".
   static const IconData shadow = IconData(
-    0xf46f,
+    0xf472,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -24048,7 +24075,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "shanghaimetro".
   static const IconData shanghaimetro = IconData(
-    0xf470,
+    0xf473,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -24057,7 +24084,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "sharex".
   static const IconData sharex = IconData(
-    0xf471,
+    0xf474,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -24066,7 +24093,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "sharp".
   static const IconData sharp = IconData(
-    0xf472,
+    0xf475,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -24075,7 +24102,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "shazam".
   static const IconData shazam = IconData(
-    0xf473,
+    0xf476,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -24084,7 +24111,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "shell".
   static const IconData shell = IconData(
-    0xf474,
+    0xf477,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -24093,7 +24120,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "shelly".
   static const IconData shelly = IconData(
-    0xf475,
+    0xf478,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -24102,7 +24129,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "shenzhenmetro".
   static const IconData shenzhenmetro = IconData(
-    0xf476,
+    0xf479,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -24111,7 +24138,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "shieldsdotio".
   static const IconData shieldsdotio = IconData(
-    0xf477,
+    0xf47a,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -24120,7 +24147,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "shikimori".
   static const IconData shikimori = IconData(
-    0xf478,
+    0xf47b,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -24129,7 +24156,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "shopee".
   static const IconData shopee = IconData(
-    0xf479,
+    0xf47c,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -24138,7 +24165,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "shopify".
   static const IconData shopify = IconData(
-    0xf47a,
+    0xf47d,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -24147,7 +24174,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "shopware".
   static const IconData shopware = IconData(
-    0xf47b,
+    0xf47e,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -24156,7 +24183,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "shortcut".
   static const IconData shortcut = IconData(
-    0xf47c,
+    0xf47f,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -24165,7 +24192,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "showpad".
   static const IconData showpad = IconData(
-    0xf47d,
+    0xf480,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -24174,7 +24201,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "showtime".
   static const IconData showtime = IconData(
-    0xf47e,
+    0xf481,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -24183,7 +24210,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "showwcase".
   static const IconData showwcase = IconData(
-    0xf47f,
+    0xf482,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -24192,7 +24219,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "sidekiq".
   static const IconData sidekiq = IconData(
-    0xf480,
+    0xf483,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -24201,7 +24228,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "sidequest".
   static const IconData sidequest = IconData(
-    0xf481,
+    0xf484,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -24210,7 +24237,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "siemens".
   static const IconData siemens = IconData(
-    0xf482,
+    0xf485,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -24219,7 +24246,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "sifive".
   static const IconData sifive = IconData(
-    0xf483,
+    0xf486,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -24228,7 +24255,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "signal".
   static const IconData signal = IconData(
-    0xf484,
+    0xf487,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -24237,7 +24264,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "silverairways".
   static const IconData silverairways = IconData(
-    0xf485,
+    0xf488,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -24246,7 +24273,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "similarweb".
   static const IconData similarweb = IconData(
-    0xf486,
+    0xf489,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -24255,7 +24282,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "simkl".
   static const IconData simkl = IconData(
-    0xf487,
+    0xf48a,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -24264,7 +24291,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "simpleanalytics".
   static const IconData simpleanalytics = IconData(
-    0xf488,
+    0xf48b,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -24273,7 +24300,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "simpleicons".
   static const IconData simpleicons = IconData(
-    0xf489,
+    0xf48c,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -24282,7 +24309,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "simplelocalize".
   static const IconData simplelocalize = IconData(
-    0xf48a,
+    0xf48d,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -24291,7 +24318,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "simplelogin".
   static const IconData simplelogin = IconData(
-    0xf48b,
+    0xf48e,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -24300,7 +24327,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "simplenote".
   static const IconData simplenote = IconData(
-    0xf48c,
+    0xf48f,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -24309,7 +24336,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "simplex".
   static const IconData simplex = IconData(
-    0xf48d,
+    0xf490,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -24318,7 +24345,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "sinaweibo".
   static const IconData sinaweibo = IconData(
-    0xf48e,
+    0xf491,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -24327,7 +24354,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "singaporeairlines".
   static const IconData singaporeairlines = IconData(
-    0xf48f,
+    0xf492,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -24336,7 +24363,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "singlestore".
   static const IconData singlestore = IconData(
-    0xf490,
+    0xf493,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -24345,7 +24372,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "sitecore".
   static const IconData sitecore = IconData(
-    0xf491,
+    0xf494,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -24354,7 +24381,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "sitepoint".
   static const IconData sitepoint = IconData(
-    0xf492,
+    0xf495,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -24363,7 +24390,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "siyuan".
   static const IconData siyuan = IconData(
-    0xf493,
+    0xf496,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -24372,7 +24399,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "skaffold".
   static const IconData skaffold = IconData(
-    0xf494,
+    0xf497,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -24381,7 +24408,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "skeleton".
   static const IconData skeleton = IconData(
-    0xf495,
+    0xf498,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -24390,7 +24417,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "sketch".
   static const IconData sketch = IconData(
-    0xf496,
+    0xf499,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -24399,7 +24426,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "sketchfab".
   static const IconData sketchfab = IconData(
-    0xf497,
+    0xf49a,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -24408,7 +24435,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "sketchup".
   static const IconData sketchup = IconData(
-    0xf498,
+    0xf49b,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -24417,7 +24444,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "skillshare".
   static const IconData skillshare = IconData(
-    0xf499,
+    0xf49c,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -24426,7 +24453,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "skoda".
   static const IconData skoda = IconData(
-    0xf49a,
+    0xf49d,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -24435,7 +24462,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "sky".
   static const IconData sky = IconData(
-    0xf49b,
+    0xf49e,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -24444,7 +24471,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "skypack".
   static const IconData skypack = IconData(
-    0xf49c,
+    0xf49f,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -24453,7 +24480,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "slackware".
   static const IconData slackware = IconData(
-    0xf49d,
+    0xf4a0,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -24462,7 +24489,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "slashdot".
   static const IconData slashdot = IconData(
-    0xf49e,
+    0xf4a1,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -24471,7 +24498,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "slickpic".
   static const IconData slickpic = IconData(
-    0xf49f,
+    0xf4a2,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -24480,7 +24507,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "slides".
   static const IconData slides = IconData(
-    0xf4a0,
+    0xf4a3,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -24489,7 +24516,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "slideshare".
   static const IconData slideshare = IconData(
-    0xf4a1,
+    0xf4a4,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -24498,7 +24525,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "slint".
   static const IconData slint = IconData(
-    0xf4a2,
+    0xf4a5,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -24507,7 +24534,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "smart".
   static const IconData smart = IconData(
-    0xf4a3,
+    0xf4a6,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -24516,7 +24543,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "smartthings".
   static const IconData smartthings = IconData(
-    0xf4a4,
+    0xf4a7,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -24525,7 +24552,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "smashingmagazine".
   static const IconData smashingmagazine = IconData(
-    0xf4a5,
+    0xf4a8,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -24534,7 +24561,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "smoothcomp".
   static const IconData smoothcomp = IconData(
-    0xf4a6,
+    0xf4a9,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -24543,7 +24570,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "smrt".
   static const IconData smrt = IconData(
-    0xf4a7,
+    0xf4aa,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -24552,7 +24579,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "smugmug".
   static const IconData smugmug = IconData(
-    0xf4a8,
+    0xf4ab,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -24561,7 +24588,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "snapchat".
   static const IconData snapchat = IconData(
-    0xf4a9,
+    0xf4ac,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -24570,7 +24597,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "snapcraft".
   static const IconData snapcraft = IconData(
-    0xf4aa,
+    0xf4ad,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -24579,7 +24606,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "snapdragon".
   static const IconData snapdragon = IconData(
-    0xf4ab,
+    0xf4ae,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -24588,7 +24615,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "sncf".
   static const IconData sncf = IconData(
-    0xf4ac,
+    0xf4af,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -24597,7 +24624,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "snort".
   static const IconData snort = IconData(
-    0xf4ad,
+    0xf4b0,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -24606,7 +24633,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "snowflake".
   static const IconData snowflake = IconData(
-    0xf4ae,
+    0xf4b1,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -24615,7 +24642,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "snowpack".
   static const IconData snowpack = IconData(
-    0xf4af,
+    0xf4b2,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -24624,7 +24651,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "snyk".
   static const IconData snyk = IconData(
-    0xf4b0,
+    0xf4b3,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -24633,7 +24660,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "socialblade".
   static const IconData socialblade = IconData(
-    0xf4b1,
+    0xf4b4,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -24642,7 +24669,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "society6".
   static const IconData society6 = IconData(
-    0xf4b2,
+    0xf4b5,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -24651,7 +24678,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "socket".
   static const IconData socket = IconData(
-    0xf4b3,
+    0xf4b6,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -24660,7 +24687,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "socketdotio".
   static const IconData socketdotio = IconData(
-    0xf4b4,
+    0xf4b7,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -24669,7 +24696,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "softcatala".
   static const IconData softcatala = IconData(
-    0xf4b5,
+    0xf4b8,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -24678,7 +24705,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "softpedia".
   static const IconData softpedia = IconData(
-    0xf4b6,
+    0xf4b9,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -24687,7 +24714,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "sogou".
   static const IconData sogou = IconData(
-    0xf4b7,
+    0xf4ba,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -24696,7 +24723,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "solana".
   static const IconData solana = IconData(
-    0xf4b8,
+    0xf4bb,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -24705,7 +24732,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "solid".
   static const IconData solid = IconData(
-    0xf4b9,
+    0xf4bc,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -24714,7 +24741,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "solidity".
   static const IconData solidity = IconData(
-    0xf4ba,
+    0xf4bd,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -24723,7 +24750,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "sololearn".
   static const IconData sololearn = IconData(
-    0xf4bb,
+    0xf4be,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -24732,7 +24759,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "solus".
   static const IconData solus = IconData(
-    0xf4bc,
+    0xf4bf,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -24741,7 +24768,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "solveddotac".
   static const IconData solveddotac = IconData(
-    0xf4bd,
+    0xf4c0,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -24750,7 +24777,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "sonar".
   static const IconData sonar = IconData(
-    0xf4be,
+    0xf4c1,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -24759,7 +24786,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "sonarqubecloud".
   static const IconData sonarqubecloud = IconData(
-    0xf4bf,
+    0xf4c2,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -24768,7 +24795,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "sonarqubeforide".
   static const IconData sonarqubeforide = IconData(
-    0xf4c0,
+    0xf4c3,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -24777,7 +24804,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "sonarqubeserver".
   static const IconData sonarqubeserver = IconData(
-    0xf4c1,
+    0xf4c4,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -24786,7 +24813,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "sonarr".
   static const IconData sonarr = IconData(
-    0xf4c2,
+    0xf4c5,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -24795,7 +24822,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "sonatype".
   static const IconData sonatype = IconData(
-    0xf4c3,
+    0xf4c6,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -24804,7 +24831,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "songkick".
   static const IconData songkick = IconData(
-    0xf4c4,
+    0xf4c7,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -24813,7 +24840,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "songoda".
   static const IconData songoda = IconData(
-    0xf4c5,
+    0xf4c8,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -24822,7 +24849,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "sonicwall".
   static const IconData sonicwall = IconData(
-    0xf4c6,
+    0xf4c9,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -24831,7 +24858,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "sonos".
   static const IconData sonos = IconData(
-    0xf4c7,
+    0xf4ca,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -24840,7 +24867,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "sony".
   static const IconData sony = IconData(
-    0xf4c8,
+    0xf4cb,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -24849,7 +24876,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "soriana".
   static const IconData soriana = IconData(
-    0xf4c9,
+    0xf4cc,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -24858,7 +24885,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "soundcharts".
   static const IconData soundcharts = IconData(
-    0xf4ca,
+    0xf4cd,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -24867,7 +24894,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "soundcloud".
   static const IconData soundcloud = IconData(
-    0xf4cb,
+    0xf4ce,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -24876,7 +24903,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "sourceengine".
   static const IconData sourceengine = IconData(
-    0xf4cc,
+    0xf4cf,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -24885,7 +24912,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "sourceforge".
   static const IconData sourceforge = IconData(
-    0xf4cd,
+    0xf4d0,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -24894,7 +24921,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "sourcehut".
   static const IconData sourcehut = IconData(
-    0xf4ce,
+    0xf4d1,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -24903,7 +24930,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "sourcetree".
   static const IconData sourcetree = IconData(
-    0xf4cf,
+    0xf4d2,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -24912,7 +24939,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "southwestairlines".
   static const IconData southwestairlines = IconData(
-    0xf4d0,
+    0xf4d3,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -24921,7 +24948,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "spacemacs".
   static const IconData spacemacs = IconData(
-    0xf4d1,
+    0xf4d4,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -24930,7 +24957,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "spaceship".
   static const IconData spaceship = IconData(
-    0xf4d2,
+    0xf4d5,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -24939,7 +24966,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "spacex".
   static const IconData spacex = IconData(
-    0xf4d3,
+    0xf4d6,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -24948,7 +24975,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "spacy".
   static const IconData spacy = IconData(
-    0xf4d4,
+    0xf4d7,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -24957,7 +24984,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "sparkar".
   static const IconData sparkar = IconData(
-    0xf4d5,
+    0xf4d8,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -24966,7 +24993,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "sparkasse".
   static const IconData sparkasse = IconData(
-    0xf4d6,
+    0xf4d9,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -24975,7 +25002,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "sparkfun".
   static const IconData sparkfun = IconData(
-    0xf4d7,
+    0xf4da,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -24984,7 +25011,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "sparkpost".
   static const IconData sparkpost = IconData(
-    0xf4d8,
+    0xf4db,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -24993,7 +25020,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "spdx".
   static const IconData spdx = IconData(
-    0xf4d9,
+    0xf4dc,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -25002,7 +25029,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "speakerdeck".
   static const IconData speakerdeck = IconData(
-    0xf4da,
+    0xf4dd,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -25011,7 +25038,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "spectrum".
   static const IconData spectrum = IconData(
-    0xf4db,
+    0xf4de,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -25020,7 +25047,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "speedtest".
   static const IconData speedtest = IconData(
-    0xf4dc,
+    0xf4df,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -25029,7 +25056,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "speedypage".
   static const IconData speedypage = IconData(
-    0xf4dd,
+    0xf4e0,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -25038,7 +25065,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "spoj".
   static const IconData spoj = IconData(
-    0xf4de,
+    0xf4e1,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -25047,7 +25074,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "sphinx".
   static const IconData sphinx = IconData(
-    0xf4df,
+    0xf4e2,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -25056,7 +25083,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "spidermonkey".
   static const IconData spidermonkey = IconData(
-    0xf4e0,
+    0xf4e3,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -25065,7 +25092,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "spigotmc".
   static const IconData spigotmc = IconData(
-    0xf4e1,
+    0xf4e4,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -25074,7 +25101,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "spine".
   static const IconData spine = IconData(
-    0xf4e2,
+    0xf4e5,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -25083,7 +25110,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "spinnaker".
   static const IconData spinnaker = IconData(
-    0xf4e3,
+    0xf4e6,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -25092,7 +25119,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "splunk".
   static const IconData splunk = IconData(
-    0xf4e4,
+    0xf4e7,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -25101,7 +25128,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "spond".
   static const IconData spond = IconData(
-    0xf4e5,
+    0xf4e8,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -25110,7 +25137,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "spotify".
   static const IconData spotify = IconData(
-    0xf4e6,
+    0xf4e9,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -25119,7 +25146,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "spotlight".
   static const IconData spotlight = IconData(
-    0xf4e7,
+    0xf4ea,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -25128,7 +25155,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "spreadshirt".
   static const IconData spreadshirt = IconData(
-    0xf4e8,
+    0xf4eb,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -25137,7 +25164,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "spreaker".
   static const IconData spreaker = IconData(
-    0xf4e9,
+    0xf4ec,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -25146,7 +25173,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "spring".
   static const IconData spring = IconData(
-    0xf4ea,
+    0xf4ed,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -25155,7 +25182,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "spring_creators".
   static const IconData springCreators = IconData(
-    0xf4eb,
+    0xf4ee,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -25164,7 +25191,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "springboot".
   static const IconData springboot = IconData(
-    0xf4ec,
+    0xf4ef,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -25173,7 +25200,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "springsecurity".
   static const IconData springsecurity = IconData(
-    0xf4ed,
+    0xf4f0,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -25182,7 +25209,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "spyderide".
   static const IconData spyderide = IconData(
-    0xf4ee,
+    0xf4f1,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -25191,7 +25218,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "sqlalchemy".
   static const IconData sqlalchemy = IconData(
-    0xf4ef,
+    0xf4f2,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -25200,7 +25227,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "sqlite".
   static const IconData sqlite = IconData(
-    0xf4f0,
+    0xf4f3,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -25209,7 +25236,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "square".
   static const IconData square = IconData(
-    0xf4f1,
+    0xf4f4,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -25218,7 +25245,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "squareenix".
   static const IconData squareenix = IconData(
-    0xf4f2,
+    0xf4f5,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -25227,7 +25254,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "squarespace".
   static const IconData squarespace = IconData(
-    0xf4f3,
+    0xf4f6,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -25236,7 +25263,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "srgssr".
   static const IconData srgssr = IconData(
-    0xf4f4,
+    0xf4f7,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -25245,7 +25272,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "ssrn".
   static const IconData ssrn = IconData(
-    0xf4f5,
+    0xf4f8,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -25254,7 +25281,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "sst".
   static const IconData sst = IconData(
-    0xf4f6,
+    0xf4f9,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -25263,7 +25290,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "stackexchange".
   static const IconData stackexchange = IconData(
-    0xf4f7,
+    0xf4fa,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -25272,7 +25299,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "stackoverflow".
   static const IconData stackoverflow = IconData(
-    0xf4f8,
+    0xf4fb,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -25281,7 +25308,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "stackbit".
   static const IconData stackbit = IconData(
-    0xf4f9,
+    0xf4fc,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -25290,7 +25317,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "stackblitz".
   static const IconData stackblitz = IconData(
-    0xf4fa,
+    0xf4fd,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -25299,7 +25326,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "stackedit".
   static const IconData stackedit = IconData(
-    0xf4fb,
+    0xf4fe,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -25308,7 +25335,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "stackhawk".
   static const IconData stackhawk = IconData(
-    0xf4fc,
+    0xf4ff,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -25317,7 +25344,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "stackshare".
   static const IconData stackshare = IconData(
-    0xf4fd,
+    0xf500,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -25326,7 +25353,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "stadia".
   static const IconData stadia = IconData(
-    0xf4fe,
+    0xf501,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -25335,7 +25362,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "staffbase".
   static const IconData staffbase = IconData(
-    0xf4ff,
+    0xf502,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -25344,7 +25371,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "stagetimer".
   static const IconData stagetimer = IconData(
-    0xf500,
+    0xf503,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -25353,7 +25380,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "standardresume".
   static const IconData standardresume = IconData(
-    0xf501,
+    0xf504,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -25362,7 +25389,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "standardjs".
   static const IconData standardjs = IconData(
-    0xf502,
+    0xf505,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -25371,7 +25398,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "startrek".
   static const IconData startrek = IconData(
-    0xf503,
+    0xf506,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -25380,7 +25407,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "starbucks".
   static const IconData starbucks = IconData(
-    0xf504,
+    0xf507,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -25389,7 +25416,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "stardock".
   static const IconData stardock = IconData(
-    0xf505,
+    0xf508,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -25398,7 +25425,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "starlingbank".
   static const IconData starlingbank = IconData(
-    0xf506,
+    0xf509,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -25407,7 +25434,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "starship".
   static const IconData starship = IconData(
-    0xf507,
+    0xf50a,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -25416,7 +25443,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "startdotgg".
   static const IconData startdotgg = IconData(
-    0xf508,
+    0xf50b,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -25425,7 +25452,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "startpage".
   static const IconData startpage = IconData(
-    0xf509,
+    0xf50c,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -25434,7 +25461,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "starz".
   static const IconData starz = IconData(
-    0xf50a,
+    0xf50d,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -25443,7 +25470,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "statamic".
   static const IconData statamic = IconData(
-    0xf50b,
+    0xf50e,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -25452,7 +25479,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "statista".
   static const IconData statista = IconData(
-    0xf50c,
+    0xf50f,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -25461,7 +25488,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "statuspage".
   static const IconData statuspage = IconData(
-    0xf50d,
+    0xf510,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -25470,7 +25497,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "statuspal".
   static const IconData statuspal = IconData(
-    0xf50e,
+    0xf511,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -25479,7 +25506,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "steam".
   static const IconData steam = IconData(
-    0xf50f,
+    0xf512,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -25488,7 +25515,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "steamdeck".
   static const IconData steamdeck = IconData(
-    0xf510,
+    0xf513,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -25497,7 +25524,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "steamdb".
   static const IconData steamdb = IconData(
-    0xf511,
+    0xf514,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -25506,7 +25533,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "steamworks".
   static const IconData steamworks = IconData(
-    0xf512,
+    0xf515,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -25515,7 +25542,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "steelseries".
   static const IconData steelseries = IconData(
-    0xf513,
+    0xf516,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -25524,7 +25551,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "steem".
   static const IconData steem = IconData(
-    0xf514,
+    0xf517,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -25533,7 +25560,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "steemit".
   static const IconData steemit = IconData(
-    0xf515,
+    0xf518,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -25542,7 +25569,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "steinberg".
   static const IconData steinberg = IconData(
-    0xf516,
+    0xf519,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -25551,7 +25578,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "stellar".
   static const IconData stellar = IconData(
-    0xf517,
+    0xf51a,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -25560,7 +25587,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "stencil".
   static const IconData stencil = IconData(
-    0xf518,
+    0xf51b,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -25569,7 +25596,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "stencyl".
   static const IconData stencyl = IconData(
-    0xf519,
+    0xf51c,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -25578,7 +25605,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "stimulus".
   static const IconData stimulus = IconData(
-    0xf51a,
+    0xf51d,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -25587,7 +25614,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "stmicroelectronics".
   static const IconData stmicroelectronics = IconData(
-    0xf51b,
+    0xf51e,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -25596,7 +25623,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "stockx".
   static const IconData stockx = IconData(
-    0xf51c,
+    0xf51f,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -25605,7 +25632,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "stopstalk".
   static const IconData stopstalk = IconData(
-    0xf51d,
+    0xf520,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -25614,7 +25641,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "storyblok".
   static const IconData storyblok = IconData(
-    0xf51e,
+    0xf521,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -25623,7 +25650,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "storybook".
   static const IconData storybook = IconData(
-    0xf51f,
+    0xf522,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -25632,7 +25659,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "strapi".
   static const IconData strapi = IconData(
-    0xf520,
+    0xf523,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -25641,7 +25668,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "strava".
   static const IconData strava = IconData(
-    0xf521,
+    0xf524,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -25650,7 +25677,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "streamlabs".
   static const IconData streamlabs = IconData(
-    0xf522,
+    0xf525,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -25659,7 +25686,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "streamlit".
   static const IconData streamlit = IconData(
-    0xf523,
+    0xf526,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -25668,7 +25695,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "streamrunners".
   static const IconData streamrunners = IconData(
-    0xf524,
+    0xf527,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -25677,7 +25704,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "stremio".
   static const IconData stremio = IconData(
-    0xf525,
+    0xf528,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -25686,7 +25713,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "stripe".
   static const IconData stripe = IconData(
-    0xf526,
+    0xf529,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -25695,7 +25722,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "strongswan".
   static const IconData strongswan = IconData(
-    0xf527,
+    0xf52a,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -25704,7 +25731,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "stryker".
   static const IconData stryker = IconData(
-    0xf528,
+    0xf52b,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -25713,7 +25740,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "stubhub".
   static const IconData stubhub = IconData(
-    0xf529,
+    0xf52c,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -25722,7 +25749,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "studio3t".
   static const IconData studio3t = IconData(
-    0xf52a,
+    0xf52d,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -25731,7 +25758,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "styledcomponents".
   static const IconData styledcomponents = IconData(
-    0xf52b,
+    0xf52e,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -25740,7 +25767,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "stylelint".
   static const IconData stylelint = IconData(
-    0xf52c,
+    0xf52f,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -25749,7 +25776,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "styleshare".
   static const IconData styleshare = IconData(
-    0xf52d,
+    0xf530,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -25758,7 +25785,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "stylus".
   static const IconData stylus = IconData(
-    0xf52e,
+    0xf531,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -25767,7 +25794,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "subaru".
   static const IconData subaru = IconData(
-    0xf52f,
+    0xf532,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -25776,7 +25803,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "sublimetext".
   static const IconData sublimetext = IconData(
-    0xf530,
+    0xf533,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -25785,7 +25812,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "substack".
   static const IconData substack = IconData(
-    0xf531,
+    0xf534,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -25794,7 +25821,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "subtitleedit".
   static const IconData subtitleedit = IconData(
-    0xf532,
+    0xf535,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -25803,7 +25830,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "subversion".
   static const IconData subversion = IconData(
-    0xf533,
+    0xf536,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -25812,7 +25839,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "suckless".
   static const IconData suckless = IconData(
-    0xf534,
+    0xf537,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -25821,7 +25848,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "sui".
   static const IconData sui = IconData(
-    0xf535,
+    0xf538,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -25830,7 +25857,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "suitest".
   static const IconData suitest = IconData(
-    0xf536,
+    0xf539,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -25839,7 +25866,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "sumologic".
   static const IconData sumologic = IconData(
-    0xf537,
+    0xf53a,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -25848,7 +25875,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "suno".
   static const IconData suno = IconData(
-    0xf538,
+    0xf53b,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -25857,7 +25884,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "sunrise".
   static const IconData sunrise = IconData(
-    0xf539,
+    0xf53c,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -25866,7 +25893,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "supabase".
   static const IconData supabase = IconData(
-    0xf53a,
+    0xf53d,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -25875,7 +25902,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "superuser".
   static const IconData superuser = IconData(
-    0xf53b,
+    0xf53e,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -25884,7 +25911,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "supercell".
   static const IconData supercell = IconData(
-    0xf53c,
+    0xf53f,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -25893,7 +25920,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "supercrease".
   static const IconData supercrease = IconData(
-    0xf53d,
+    0xf540,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -25902,7 +25929,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "supermicro".
   static const IconData supermicro = IconData(
-    0xf53e,
+    0xf541,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -25911,7 +25938,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "surfshark".
   static const IconData surfshark = IconData(
-    0xf53f,
+    0xf542,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -25920,7 +25947,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "surrealdb".
   static const IconData surrealdb = IconData(
-    0xf540,
+    0xf543,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -25929,7 +25956,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "surveymonkey".
   static const IconData surveymonkey = IconData(
-    0xf541,
+    0xf544,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -25938,7 +25965,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "suse".
   static const IconData suse = IconData(
-    0xf542,
+    0xf545,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -25947,7 +25974,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "suzuki".
   static const IconData suzuki = IconData(
-    0xf543,
+    0xf546,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -25956,7 +25983,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "svelte".
   static const IconData svelte = IconData(
-    0xf544,
+    0xf547,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -25965,7 +25992,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "svg".
   static const IconData svg = IconData(
-    0xf545,
+    0xf548,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -25974,7 +26001,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "svgdotjs".
   static const IconData svgdotjs = IconData(
-    0xf546,
+    0xf549,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -25983,7 +26010,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "svgo".
   static const IconData svgo = IconData(
-    0xf547,
+    0xf54a,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -25992,7 +26019,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "svgtrace".
   static const IconData svgtrace = IconData(
-    0xf548,
+    0xf54b,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -26001,7 +26028,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "swagger".
   static const IconData swagger = IconData(
-    0xf549,
+    0xf54c,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -26010,7 +26037,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "swarm".
   static const IconData swarm = IconData(
-    0xf54a,
+    0xf54d,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -26019,7 +26046,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "sway".
   static const IconData sway = IconData(
-    0xf54b,
+    0xf54e,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -26028,7 +26055,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "swc".
   static const IconData swc = IconData(
-    0xf54c,
+    0xf54f,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -26037,7 +26064,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "swift".
   static const IconData swift = IconData(
-    0xf54d,
+    0xf550,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -26046,7 +26073,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "swiggy".
   static const IconData swiggy = IconData(
-    0xf54e,
+    0xf551,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -26055,7 +26082,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "swiper".
   static const IconData swiper = IconData(
-    0xf54f,
+    0xf552,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -26064,7 +26091,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "swisscows".
   static const IconData swisscows = IconData(
-    0xf550,
+    0xf553,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -26073,7 +26100,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "swr".
   static const IconData swr = IconData(
-    0xf551,
+    0xf554,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -26082,7 +26109,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "symantec".
   static const IconData symantec = IconData(
-    0xf552,
+    0xf555,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -26091,7 +26118,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "symbolab".
   static const IconData symbolab = IconData(
-    0xf553,
+    0xf556,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -26100,7 +26127,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "symfony".
   static const IconData symfony = IconData(
-    0xf554,
+    0xf557,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -26109,7 +26136,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "symphony".
   static const IconData symphony = IconData(
-    0xf555,
+    0xf558,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -26118,7 +26145,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "sympy".
   static const IconData sympy = IconData(
-    0xf556,
+    0xf559,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -26127,7 +26154,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "syncthing".
   static const IconData syncthing = IconData(
-    0xf557,
+    0xf55a,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -26136,7 +26163,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "synology".
   static const IconData synology = IconData(
-    0xf558,
+    0xf55b,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -26145,7 +26172,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "system76".
   static const IconData system76 = IconData(
-    0xf559,
+    0xf55c,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -26154,7 +26181,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "tabelog".
   static const IconData tabelog = IconData(
-    0xf55a,
+    0xf55d,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -26163,7 +26190,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "tablecheck".
   static const IconData tablecheck = IconData(
-    0xf55b,
+    0xf55e,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -26172,7 +26199,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "tacobell".
   static const IconData tacobell = IconData(
-    0xf55c,
+    0xf55f,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -26181,7 +26208,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "tado".
   static const IconData tado = IconData(
-    0xf55d,
+    0xf560,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -26190,7 +26217,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "taichigraphics".
   static const IconData taichigraphics = IconData(
-    0xf55e,
+    0xf561,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -26199,7 +26226,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "taichilang".
   static const IconData taichilang = IconData(
-    0xf55f,
+    0xf562,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -26208,7 +26235,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "tails".
   static const IconData tails = IconData(
-    0xf560,
+    0xf563,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -26217,7 +26244,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "tailscale".
   static const IconData tailscale = IconData(
-    0xf561,
+    0xf564,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -26226,7 +26253,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "tailwindcss".
   static const IconData tailwindcss = IconData(
-    0xf562,
+    0xf565,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -26235,7 +26262,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "taipy".
   static const IconData taipy = IconData(
-    0xf563,
+    0xf566,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -26244,7 +26271,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "taketwointeractivesoftware".
   static const IconData taketwointeractivesoftware = IconData(
-    0xf564,
+    0xf567,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -26253,7 +26280,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "talend".
   static const IconData talend = IconData(
-    0xf565,
+    0xf568,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -26262,7 +26289,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "talenthouse".
   static const IconData talenthouse = IconData(
-    0xf566,
+    0xf569,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -26271,7 +26298,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "talos".
   static const IconData talos = IconData(
-    0xf567,
+    0xf56a,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -26280,7 +26307,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "tamiya".
   static const IconData tamiya = IconData(
-    0xf568,
+    0xf56b,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -26289,7 +26316,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "tampermonkey".
   static const IconData tampermonkey = IconData(
-    0xf569,
+    0xf56c,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -26298,7 +26325,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "tanstack".
   static const IconData tanstack = IconData(
-    0xf56a,
+    0xf56d,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -26307,7 +26334,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "taobao".
   static const IconData taobao = IconData(
-    0xf56b,
+    0xf56e,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -26316,7 +26343,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "tapas".
   static const IconData tapas = IconData(
-    0xf56c,
+    0xf56f,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -26325,7 +26352,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "target".
   static const IconData target = IconData(
-    0xf56d,
+    0xf570,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -26334,7 +26361,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "tarom".
   static const IconData tarom = IconData(
-    0xf56e,
+    0xf571,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -26343,7 +26370,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "tarteaucitron".
   static const IconData tarteaucitron = IconData(
-    0xf56f,
+    0xf572,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -26352,7 +26379,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "task".
   static const IconData task = IconData(
-    0xf570,
+    0xf573,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -26361,7 +26388,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "tasmota".
   static const IconData tasmota = IconData(
-    0xf571,
+    0xf574,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -26370,7 +26397,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "tata".
   static const IconData tata = IconData(
-    0xf572,
+    0xf575,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -26379,7 +26406,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "tcs".
   static const IconData tcs = IconData(
-    0xf573,
+    0xf576,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -26388,7 +26415,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "tauri".
   static const IconData tauri = IconData(
-    0xf574,
+    0xf577,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -26397,7 +26424,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "taxbuzz".
   static const IconData taxbuzz = IconData(
-    0xf575,
+    0xf578,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -26406,7 +26433,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "teal".
   static const IconData teal = IconData(
-    0xf576,
+    0xf579,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -26415,7 +26442,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "teamcity".
   static const IconData teamcity = IconData(
-    0xf577,
+    0xf57a,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -26424,7 +26451,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "teamspeak".
   static const IconData teamspeak = IconData(
-    0xf578,
+    0xf57b,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -26433,7 +26460,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "teamviewer".
   static const IconData teamviewer = IconData(
-    0xf579,
+    0xf57c,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -26442,7 +26469,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "techcrunch".
   static const IconData techcrunch = IconData(
-    0xf57a,
+    0xf57d,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -26451,7 +26478,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "ted".
   static const IconData ted = IconData(
-    0xf57b,
+    0xf57e,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -26460,7 +26487,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "teepublic".
   static const IconData teepublic = IconData(
-    0xf57c,
+    0xf57f,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -26469,7 +26496,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "teespring".
   static const IconData teespring = IconData(
-    0xf57d,
+    0xf580,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -26478,7 +26505,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "tekton".
   static const IconData tekton = IconData(
-    0xf57e,
+    0xf581,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -26487,7 +26514,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "tele5".
   static const IconData tele5 = IconData(
-    0xf57f,
+    0xf582,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -26496,7 +26523,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "telequebec".
   static const IconData telequebec = IconData(
-    0xf580,
+    0xf583,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -26505,7 +26532,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "telefonica".
   static const IconData telefonica = IconData(
-    0xf581,
+    0xf584,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -26514,7 +26541,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "telegram".
   static const IconData telegram = IconData(
-    0xf582,
+    0xf585,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -26523,7 +26550,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "telegraph".
   static const IconData telegraph = IconData(
-    0xf583,
+    0xf586,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -26532,7 +26559,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "telenor".
   static const IconData telenor = IconData(
-    0xf584,
+    0xf587,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -26541,7 +26568,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "temporal".
   static const IconData temporal = IconData(
-    0xf585,
+    0xf588,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -26550,7 +26577,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "tensorflow".
   static const IconData tensorflow = IconData(
-    0xf586,
+    0xf589,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -26559,7 +26586,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "teradata".
   static const IconData teradata = IconData(
-    0xf587,
+    0xf58a,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -26568,7 +26595,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "teratail".
   static const IconData teratail = IconData(
-    0xf588,
+    0xf58b,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -26577,7 +26604,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "termius".
   static const IconData termius = IconData(
-    0xf589,
+    0xf58c,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -26586,7 +26613,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "terraform".
   static const IconData terraform = IconData(
-    0xf58a,
+    0xf58d,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -26595,7 +26622,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "tesco".
   static const IconData tesco = IconData(
-    0xf58b,
+    0xf58e,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -26604,7 +26631,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "tesla".
   static const IconData tesla = IconData(
-    0xf58c,
+    0xf58f,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -26613,7 +26640,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "testcafe".
   static const IconData testcafe = IconData(
-    0xf58d,
+    0xf590,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -26622,7 +26649,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "testin".
   static const IconData testin = IconData(
-    0xf58e,
+    0xf591,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -26631,7 +26658,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "testinglibrary".
   static const IconData testinglibrary = IconData(
-    0xf58f,
+    0xf592,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -26640,7 +26667,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "testrail".
   static const IconData testrail = IconData(
-    0xf590,
+    0xf593,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -26649,7 +26676,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "tether".
   static const IconData tether = IconData(
-    0xf591,
+    0xf594,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -26658,7 +26685,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "textpattern".
   static const IconData textpattern = IconData(
-    0xf592,
+    0xf595,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -26667,7 +26694,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "textual".
   static const IconData textual = IconData(
-    0xf593,
+    0xf596,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -26676,7 +26703,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "tga".
   static const IconData tga = IconData(
-    0xf594,
+    0xf597,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -26685,7 +26712,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "thangs".
   static const IconData thangs = IconData(
-    0xf595,
+    0xf598,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -26694,7 +26721,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "thanos".
   static const IconData thanos = IconData(
-    0xf596,
+    0xf599,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -26703,7 +26730,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "thealgorithms".
   static const IconData thealgorithms = IconData(
-    0xf597,
+    0xf59a,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -26712,7 +26739,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "theboringcompany".
   static const IconData theboringcompany = IconData(
-    0xf598,
+    0xf59b,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -26721,7 +26748,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "theconversation".
   static const IconData theconversation = IconData(
-    0xf599,
+    0xf59c,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -26730,7 +26757,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "thefinals".
   static const IconData thefinals = IconData(
-    0xf59a,
+    0xf59d,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -26739,7 +26766,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "theguardian".
   static const IconData theguardian = IconData(
-    0xf59b,
+    0xf59e,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -26748,7 +26775,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "theirishtimes".
   static const IconData theirishtimes = IconData(
-    0xf59c,
+    0xf59f,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -26757,7 +26784,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "themighty".
   static const IconData themighty = IconData(
-    0xf59d,
+    0xf5a0,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -26766,7 +26793,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "themodelsresource".
   static const IconData themodelsresource = IconData(
-    0xf59e,
+    0xf5a1,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -26775,7 +26802,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "themoviedatabase".
   static const IconData themoviedatabase = IconData(
-    0xf59f,
+    0xf5a2,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -26784,7 +26811,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "thenorthface".
   static const IconData thenorthface = IconData(
-    0xf5a0,
+    0xf5a3,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -26793,7 +26820,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "theodinproject".
   static const IconData theodinproject = IconData(
-    0xf5a1,
+    0xf5a4,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -26802,7 +26829,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "theplanetarysociety".
   static const IconData theplanetarysociety = IconData(
-    0xf5a2,
+    0xf5a5,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -26811,7 +26838,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "theregister".
   static const IconData theregister = IconData(
-    0xf5a3,
+    0xf5a6,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -26820,7 +26847,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "thesoundsresource".
   static const IconData thesoundsresource = IconData(
-    0xf5a4,
+    0xf5a7,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -26829,7 +26856,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "thespritersresource".
   static const IconData thespritersresource = IconData(
-    0xf5a5,
+    0xf5a8,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -26838,7 +26865,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "thestorygraph".
   static const IconData thestorygraph = IconData(
-    0xf5a6,
+    0xf5a9,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -26847,7 +26874,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "thewashingtonpost".
   static const IconData thewashingtonpost = IconData(
-    0xf5a7,
+    0xf5aa,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -26856,7 +26883,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "theweatherchannel".
   static const IconData theweatherchannel = IconData(
-    0xf5a8,
+    0xf5ab,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -26865,7 +26892,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "thingiverse".
   static const IconData thingiverse = IconData(
-    0xf5a9,
+    0xf5ac,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -26874,7 +26901,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "things".
   static const IconData things = IconData(
-    0xf5aa,
+    0xf5ad,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -26883,7 +26910,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "thinkpad".
   static const IconData thinkpad = IconData(
-    0xf5ab,
+    0xf5ae,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -26892,7 +26919,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "thirdweb".
   static const IconData thirdweb = IconData(
-    0xf5ac,
+    0xf5af,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -26901,7 +26928,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "threadless".
   static const IconData threadless = IconData(
-    0xf5ad,
+    0xf5b0,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -26910,7 +26937,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "threads".
   static const IconData threads = IconData(
-    0xf5ae,
+    0xf5b1,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -26919,7 +26946,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "threedotjs".
   static const IconData threedotjs = IconData(
-    0xf5af,
+    0xf5b2,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -26928,7 +26955,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "threema".
   static const IconData threema = IconData(
-    0xf5b0,
+    0xf5b3,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -26937,7 +26964,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "thumbtack".
   static const IconData thumbtack = IconData(
-    0xf5b1,
+    0xf5b4,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -26946,7 +26973,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "thunderbird".
   static const IconData thunderbird = IconData(
-    0xf5b2,
+    0xf5b5,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -26955,7 +26982,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "thunderstore".
   static const IconData thunderstore = IconData(
-    0xf5b3,
+    0xf5b6,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -26964,7 +26991,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "thurgauerkantonalbank".
   static const IconData thurgauerkantonalbank = IconData(
-    0xf5b4,
+    0xf5b7,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -26973,7 +27000,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "thymeleaf".
   static const IconData thymeleaf = IconData(
-    0xf5b5,
+    0xf5b8,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -26982,7 +27009,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "ticketmaster".
   static const IconData ticketmaster = IconData(
-    0xf5b6,
+    0xf5b9,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -26991,7 +27018,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "ticktick".
   static const IconData ticktick = IconData(
-    0xf5b7,
+    0xf5ba,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -27000,7 +27027,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "tidal".
   static const IconData tidal = IconData(
-    0xf5b8,
+    0xf5bb,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -27009,7 +27036,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "tidb".
   static const IconData tidb = IconData(
-    0xf5b9,
+    0xf5bc,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -27018,7 +27045,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "tiddlywiki".
   static const IconData tiddlywiki = IconData(
-    0xf5ba,
+    0xf5bd,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -27027,7 +27054,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "tide".
   static const IconData tide = IconData(
-    0xf5bb,
+    0xf5be,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -27036,7 +27063,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "tidyverse".
   static const IconData tidyverse = IconData(
-    0xf5bc,
+    0xf5bf,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -27045,7 +27072,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "tietoevry".
   static const IconData tietoevry = IconData(
-    0xf5bd,
+    0xf5c0,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -27054,7 +27081,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "tiktok".
   static const IconData tiktok = IconData(
-    0xf5be,
+    0xf5c1,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -27063,7 +27090,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "tildapublishing".
   static const IconData tildapublishing = IconData(
-    0xf5bf,
+    0xf5c2,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -27072,7 +27099,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "tile".
   static const IconData tile = IconData(
-    0xf5c0,
+    0xf5c3,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -27081,7 +27108,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "timescale".
   static const IconData timescale = IconData(
-    0xf5c1,
+    0xf5c4,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -27090,7 +27117,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "tina".
   static const IconData tina = IconData(
-    0xf5c2,
+    0xf5c5,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -27099,7 +27126,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "tinder".
   static const IconData tinder = IconData(
-    0xf5c3,
+    0xf5c6,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -27108,7 +27135,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "tindie".
   static const IconData tindie = IconData(
-    0xf5c4,
+    0xf5c7,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -27117,7 +27144,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "tinkercad".
   static const IconData tinkercad = IconData(
-    0xf5c5,
+    0xf5c8,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -27126,7 +27153,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "tinygrad".
   static const IconData tinygrad = IconData(
-    0xf5c6,
+    0xf5c9,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -27135,7 +27162,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "tinyletter".
   static const IconData tinyletter = IconData(
-    0xf5c7,
+    0xf5ca,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -27144,7 +27171,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "tistory".
   static const IconData tistory = IconData(
-    0xf5c8,
+    0xf5cb,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -27153,7 +27180,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "tldraw".
   static const IconData tldraw = IconData(
-    0xf5c9,
+    0xf5cc,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -27162,7 +27189,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "tmux".
   static const IconData tmux = IconData(
-    0xf5ca,
+    0xf5cd,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -27171,7 +27198,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "todoist".
   static const IconData todoist = IconData(
-    0xf5cb,
+    0xf5ce,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -27180,7 +27207,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "toggl".
   static const IconData toggl = IconData(
-    0xf5cc,
+    0xf5cf,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -27189,7 +27216,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "toggltrack".
   static const IconData toggltrack = IconData(
-    0xf5cd,
+    0xf5d0,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -27198,7 +27225,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "tokio".
   static const IconData tokio = IconData(
-    0xf5ce,
+    0xf5d1,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -27207,7 +27234,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "tokyometro".
   static const IconData tokyometro = IconData(
-    0xf5cf,
+    0xf5d2,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -27216,7 +27243,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "toll".
   static const IconData toll = IconData(
-    0xf5d0,
+    0xf5d3,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -27225,7 +27252,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "toml".
   static const IconData toml = IconData(
-    0xf5d1,
+    0xf5d4,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -27234,7 +27261,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "tomorrowland".
   static const IconData tomorrowland = IconData(
-    0xf5d2,
+    0xf5d5,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -27243,7 +27270,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "tomtom".
   static const IconData tomtom = IconData(
-    0xf5d3,
+    0xf5d6,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -27252,7 +27279,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "ton".
   static const IconData ton = IconData(
-    0xf5d4,
+    0xf5d7,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -27261,7 +27288,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "topdotgg".
   static const IconData topdotgg = IconData(
-    0xf5d5,
+    0xf5d8,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -27270,7 +27297,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "topcoder".
   static const IconData topcoder = IconData(
-    0xf5d6,
+    0xf5d9,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -27279,7 +27306,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "toptal".
   static const IconData toptal = IconData(
-    0xf5d7,
+    0xf5da,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -27288,7 +27315,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "torbrowser".
   static const IconData torbrowser = IconData(
-    0xf5d8,
+    0xf5db,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -27297,7 +27324,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "torproject".
   static const IconData torproject = IconData(
-    0xf5d9,
+    0xf5dc,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -27306,7 +27333,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "torizon".
   static const IconData torizon = IconData(
-    0xf5da,
+    0xf5dd,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -27315,7 +27342,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "toshiba".
   static const IconData toshiba = IconData(
-    0xf5db,
+    0xf5de,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -27324,7 +27351,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "totvs".
   static const IconData totvs = IconData(
-    0xf5dc,
+    0xf5df,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -27333,7 +27360,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "tourbox".
   static const IconData tourbox = IconData(
-    0xf5dd,
+    0xf5e0,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -27342,7 +27369,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "tower".
   static const IconData tower = IconData(
-    0xf5de,
+    0xf5e1,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -27351,7 +27378,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "toyota".
   static const IconData toyota = IconData(
-    0xf5df,
+    0xf5e2,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -27360,7 +27387,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "tplink".
   static const IconData tplink = IconData(
-    0xf5e0,
+    0xf5e3,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -27369,7 +27396,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "tqdm".
   static const IconData tqdm = IconData(
-    0xf5e1,
+    0xf5e4,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -27378,7 +27405,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "traccar".
   static const IconData traccar = IconData(
-    0xf5e2,
+    0xf5e5,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -27387,7 +27414,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "tradingview".
   static const IconData tradingview = IconData(
-    0xf5e3,
+    0xf5e6,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -27396,7 +27423,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "traefikmesh".
   static const IconData traefikmesh = IconData(
-    0xf5e4,
+    0xf5e7,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -27405,7 +27432,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "traefikproxy".
   static const IconData traefikproxy = IconData(
-    0xf5e5,
+    0xf5e8,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -27414,7 +27441,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "trailforks".
   static const IconData trailforks = IconData(
-    0xf5e6,
+    0xf5e9,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -27423,7 +27450,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "trainerroad".
   static const IconData trainerroad = IconData(
-    0xf5e7,
+    0xf5ea,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -27432,7 +27459,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "trakt".
   static const IconData trakt = IconData(
-    0xf5e8,
+    0xf5eb,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -27441,7 +27468,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "transifex".
   static const IconData transifex = IconData(
-    0xf5e9,
+    0xf5ec,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -27450,7 +27477,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "transmission".
   static const IconData transmission = IconData(
-    0xf5ea,
+    0xf5ed,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -27459,7 +27486,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "transportforireland".
   static const IconData transportforireland = IconData(
-    0xf5eb,
+    0xf5ee,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -27468,7 +27495,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "transportforlondon".
   static const IconData transportforlondon = IconData(
-    0xf5ec,
+    0xf5ef,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -27477,7 +27504,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "travisci".
   static const IconData travisci = IconData(
-    0xf5ed,
+    0xf5f0,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -27486,7 +27513,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "treehouse".
   static const IconData treehouse = IconData(
-    0xf5ee,
+    0xf5f1,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -27495,7 +27522,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "trello".
   static const IconData trello = IconData(
-    0xf5ef,
+    0xf5f2,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -27504,7 +27531,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "trendmicro".
   static const IconData trendmicro = IconData(
-    0xf5f0,
+    0xf5f3,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -27513,7 +27540,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "tresorit".
   static const IconData tresorit = IconData(
-    0xf5f1,
+    0xf5f4,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -27522,7 +27549,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "treyarch".
   static const IconData treyarch = IconData(
-    0xf5f2,
+    0xf5f5,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -27531,7 +27558,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "trezor".
   static const IconData trezor = IconData(
-    0xf5f3,
+    0xf5f6,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -27540,7 +27567,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "tricentis".
   static const IconData tricentis = IconData(
-    0xf5f4,
+    0xf5f7,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -27549,7 +27576,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "trilium".
   static const IconData trilium = IconData(
-    0xf5f5,
+    0xf5f8,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -27558,7 +27585,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "triller".
   static const IconData triller = IconData(
-    0xf5f6,
+    0xf5f9,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -27567,7 +27594,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "trillertv".
   static const IconData trillertv = IconData(
-    0xf5f7,
+    0xf5fa,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -27576,7 +27603,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "trimble".
   static const IconData trimble = IconData(
-    0xf5f8,
+    0xf5fb,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -27585,7 +27612,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "trino".
   static const IconData trino = IconData(
-    0xf5f9,
+    0xf5fc,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -27594,7 +27621,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "tripdotcom".
   static const IconData tripdotcom = IconData(
-    0xf5fa,
+    0xf5fd,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -27603,7 +27630,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "tripadvisor".
   static const IconData tripadvisor = IconData(
-    0xf5fb,
+    0xf5fe,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -27612,7 +27639,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "trivago".
   static const IconData trivago = IconData(
-    0xf5fc,
+    0xf5ff,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -27621,7 +27648,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "trivy".
   static const IconData trivy = IconData(
-    0xf5fd,
+    0xf600,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -27630,7 +27657,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "trmnl".
   static const IconData trmnl = IconData(
-    0xf5fe,
+    0xf601,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -27639,7 +27666,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "trove".
   static const IconData trove = IconData(
-    0xf5ff,
+    0xf602,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -27648,7 +27675,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "trpc".
   static const IconData trpc = IconData(
-    0xf600,
+    0xf603,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -27657,7 +27684,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "truenas".
   static const IconData truenas = IconData(
-    0xf601,
+    0xf604,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -27666,7 +27693,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "trueup".
   static const IconData trueup = IconData(
-    0xf602,
+    0xf605,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -27675,7 +27702,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "trulia".
   static const IconData trulia = IconData(
-    0xf603,
+    0xf606,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -27684,7 +27711,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "trustedshops".
   static const IconData trustedshops = IconData(
-    0xf604,
+    0xf607,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -27693,7 +27720,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "trustpilot".
   static const IconData trustpilot = IconData(
-    0xf605,
+    0xf608,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -27702,7 +27729,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "tryitonline".
   static const IconData tryitonline = IconData(
-    0xf606,
+    0xf609,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -27711,7 +27738,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "tryhackme".
   static const IconData tryhackme = IconData(
-    0xf607,
+    0xf60a,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -27720,7 +27747,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "tsnode".
   static const IconData tsnode = IconData(
-    0xf608,
+    0xf60b,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -27729,7 +27756,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "tubi".
   static const IconData tubi = IconData(
-    0xf609,
+    0xf60c,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -27738,7 +27765,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "tui".
   static const IconData tui = IconData(
-    0xf60a,
+    0xf60d,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -27747,7 +27774,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "tumblr".
   static const IconData tumblr = IconData(
-    0xf60b,
+    0xf60e,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -27756,7 +27783,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "turbo".
   static const IconData turbo = IconData(
-    0xf60c,
+    0xf60f,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -27765,7 +27792,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "turborepo".
   static const IconData turborepo = IconData(
-    0xf60d,
+    0xf610,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -27774,7 +27801,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "turbosquid".
   static const IconData turbosquid = IconData(
-    0xf60e,
+    0xf611,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -27783,7 +27810,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "turkishairlines".
   static const IconData turkishairlines = IconData(
-    0xf60f,
+    0xf612,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -27792,7 +27819,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "turso".
   static const IconData turso = IconData(
-    0xf610,
+    0xf613,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -27801,7 +27828,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "tuta".
   static const IconData tuta = IconData(
-    0xf611,
+    0xf614,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -27810,7 +27837,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "tuxedocomputers".
   static const IconData tuxedocomputers = IconData(
-    0xf612,
+    0xf615,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -27819,7 +27846,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "tvtime".
   static const IconData tvtime = IconData(
-    0xf613,
+    0xf616,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -27828,7 +27855,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "tv4play".
   static const IconData tv4play = IconData(
-    0xf614,
+    0xf617,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -27837,7 +27864,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "twenty".
   static const IconData twenty = IconData(
-    0xf615,
+    0xf618,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -27846,7 +27873,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "twinkly".
   static const IconData twinkly = IconData(
-    0xf616,
+    0xf619,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -27855,7 +27882,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "twinmotion".
   static const IconData twinmotion = IconData(
-    0xf617,
+    0xf61a,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -27864,7 +27891,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "twitch".
   static const IconData twitch = IconData(
-    0xf618,
+    0xf61b,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -27873,7 +27900,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "ty".
   static const IconData ty = IconData(
-    0xf619,
+    0xf61c,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -27882,7 +27909,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "typeform".
   static const IconData typeform = IconData(
-    0xf61a,
+    0xf61d,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -27891,7 +27918,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "typeorm".
   static const IconData typeorm = IconData(
-    0xf61b,
+    0xf61e,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -27900,7 +27927,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "typer".
   static const IconData typer = IconData(
-    0xf61c,
+    0xf61f,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -27909,7 +27936,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "typescript".
   static const IconData typescript = IconData(
-    0xf61d,
+    0xf620,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -27918,7 +27945,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "typo3".
   static const IconData typo3 = IconData(
-    0xf61e,
+    0xf621,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -27927,7 +27954,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "typst".
   static const IconData typst = IconData(
-    0xf61f,
+    0xf622,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -27936,7 +27963,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "udotsdotnews".
   static const IconData udotsdotnews = IconData(
-    0xf620,
+    0xf623,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -27945,7 +27972,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "uber".
   static const IconData uber = IconData(
-    0xf621,
+    0xf624,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -27954,7 +27981,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "ubereats".
   static const IconData ubereats = IconData(
-    0xf622,
+    0xf625,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -27963,7 +27990,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "ubiquiti".
   static const IconData ubiquiti = IconData(
-    0xf623,
+    0xf626,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -27972,7 +27999,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "ubisoft".
   static const IconData ubisoft = IconData(
-    0xf624,
+    0xf627,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -27981,7 +28008,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "ublockorigin".
   static const IconData ublockorigin = IconData(
-    0xf625,
+    0xf628,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -27990,7 +28017,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "ubuntu".
   static const IconData ubuntu = IconData(
-    0xf626,
+    0xf629,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -27999,7 +28026,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "ubuntumate".
   static const IconData ubuntumate = IconData(
-    0xf627,
+    0xf62a,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -28008,7 +28035,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "udacity".
   static const IconData udacity = IconData(
-    0xf628,
+    0xf62b,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -28017,7 +28044,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "udemy".
   static const IconData udemy = IconData(
-    0xf629,
+    0xf62c,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -28026,7 +28053,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "ufc".
   static const IconData ufc = IconData(
-    0xf62a,
+    0xf62d,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -28035,7 +28062,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "uikit".
   static const IconData uikit = IconData(
-    0xf62b,
+    0xf62e,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -28044,7 +28071,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "uipath".
   static const IconData uipath = IconData(
-    0xf62c,
+    0xf62f,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -28053,7 +28080,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "ukca".
   static const IconData ukca = IconData(
-    0xf62d,
+    0xf630,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -28062,7 +28089,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "ultralytics".
   static const IconData ultralytics = IconData(
-    0xf62e,
+    0xf631,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -28071,7 +28098,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "ulule".
   static const IconData ulule = IconData(
-    0xf62f,
+    0xf632,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -28080,7 +28107,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "umami".
   static const IconData umami = IconData(
-    0xf630,
+    0xf633,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -28089,7 +28116,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "umbraco".
   static const IconData umbraco = IconData(
-    0xf631,
+    0xf634,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -28098,7 +28125,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "umbrel".
   static const IconData umbrel = IconData(
-    0xf632,
+    0xf635,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -28107,7 +28134,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "uml".
   static const IconData uml = IconData(
-    0xf633,
+    0xf636,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -28116,7 +28143,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "unacademy".
   static const IconData unacademy = IconData(
-    0xf634,
+    0xf637,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -28125,7 +28152,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "underarmour".
   static const IconData underarmour = IconData(
-    0xf635,
+    0xf638,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -28134,7 +28161,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "underscoredotjs".
   static const IconData underscoredotjs = IconData(
-    0xf636,
+    0xf639,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -28143,7 +28170,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "undertale".
   static const IconData undertale = IconData(
-    0xf637,
+    0xf63a,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -28152,7 +28179,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "unicode".
   static const IconData unicode = IconData(
-    0xf638,
+    0xf63b,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -28161,7 +28188,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "unilever".
   static const IconData unilever = IconData(
-    0xf639,
+    0xf63c,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -28170,7 +28197,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "uniqlo".
   static const IconData uniqlo = IconData(
-    0xf63a,
+    0xf63d,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -28179,7 +28206,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "uniqlo_ja".
   static const IconData uniqloJa = IconData(
-    0xf63b,
+    0xf63e,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -28188,7 +28215,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "unitedairlines".
   static const IconData unitedairlines = IconData(
-    0xf63c,
+    0xf63f,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -28197,7 +28224,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "unitednations".
   static const IconData unitednations = IconData(
-    0xf63d,
+    0xf640,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -28206,7 +28233,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "unity".
   static const IconData unity = IconData(
-    0xf63e,
+    0xf641,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -28215,7 +28242,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "unjs".
   static const IconData unjs = IconData(
-    0xf63f,
+    0xf642,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -28224,7 +28251,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "unlicense".
   static const IconData unlicense = IconData(
-    0xf640,
+    0xf643,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -28233,7 +28260,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "unocss".
   static const IconData unocss = IconData(
-    0xf641,
+    0xf644,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -28242,7 +28269,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "unpkg".
   static const IconData unpkg = IconData(
-    0xf642,
+    0xf645,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -28251,7 +28278,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "unraid".
   static const IconData unraid = IconData(
-    0xf643,
+    0xf646,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -28260,7 +28287,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "unrealengine".
   static const IconData unrealengine = IconData(
-    0xf644,
+    0xf647,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -28269,7 +28296,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "unsplash".
   static const IconData unsplash = IconData(
-    0xf645,
+    0xf648,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -28278,7 +28305,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "unstop".
   static const IconData unstop = IconData(
-    0xf646,
+    0xf649,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -28287,7 +28314,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "untappd".
   static const IconData untappd = IconData(
-    0xf647,
+    0xf64a,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -28296,7 +28323,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "upcloud".
   static const IconData upcloud = IconData(
-    0xf648,
+    0xf64b,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -28305,7 +28332,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "uphold".
   static const IconData uphold = IconData(
-    0xf649,
+    0xf64c,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -28314,7 +28341,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "uplabs".
   static const IconData uplabs = IconData(
-    0xf64a,
+    0xf64d,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -28323,7 +28350,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "upptime".
   static const IconData upptime = IconData(
-    0xf64b,
+    0xf64e,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -28332,7 +28359,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "ups".
   static const IconData ups = IconData(
-    0xf64c,
+    0xf64f,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -28341,7 +28368,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "upstash".
   static const IconData upstash = IconData(
-    0xf64d,
+    0xf650,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -28350,7 +28377,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "uptimekuma".
   static const IconData uptimekuma = IconData(
-    0xf64e,
+    0xf651,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -28359,7 +28386,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "upwork".
   static const IconData upwork = IconData(
-    0xf64f,
+    0xf652,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -28368,7 +28395,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "uservoice".
   static const IconData uservoice = IconData(
-    0xf650,
+    0xf653,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -28377,7 +28404,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "usps".
   static const IconData usps = IconData(
-    0xf651,
+    0xf654,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -28386,7 +28413,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "utorrent".
   static const IconData utorrent = IconData(
-    0xf652,
+    0xf655,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -28395,7 +28422,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "uv".
   static const IconData uv = IconData(
-    0xf653,
+    0xf656,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -28404,7 +28431,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "v".
   static const IconData v = IconData(
-    0xf654,
+    0xf657,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -28413,7 +28440,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "v0".
   static const IconData v0 = IconData(
-    0xf655,
+    0xf658,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -28422,7 +28449,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "v2ex".
   static const IconData v2ex = IconData(
-    0xf656,
+    0xf659,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -28431,7 +28458,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "v8".
   static const IconData v8 = IconData(
-    0xf657,
+    0xf65a,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -28440,7 +28467,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "vaadin".
   static const IconData vaadin = IconData(
-    0xf658,
+    0xf65b,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -28449,7 +28476,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "vagrant".
   static const IconData vagrant = IconData(
-    0xf659,
+    0xf65c,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -28458,7 +28485,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "vala".
   static const IconData vala = IconData(
-    0xf65a,
+    0xf65d,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -28467,7 +28494,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "valorant".
   static const IconData valorant = IconData(
-    0xf65b,
+    0xf65e,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -28476,7 +28503,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "valve".
   static const IconData valve = IconData(
-    0xf65c,
+    0xf65f,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -28485,7 +28512,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "vanillaextract".
   static const IconData vanillaextract = IconData(
-    0xf65d,
+    0xf660,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -28494,7 +28521,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "vapor".
   static const IconData vapor = IconData(
-    0xf65e,
+    0xf661,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -28503,7 +28530,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "vault".
   static const IconData vault = IconData(
-    0xf65f,
+    0xf662,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -28512,7 +28539,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "vaultwarden".
   static const IconData vaultwarden = IconData(
-    0xf660,
+    0xf663,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -28521,7 +28548,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "vauxhall".
   static const IconData vauxhall = IconData(
-    0xf661,
+    0xf664,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -28530,7 +28557,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "vbulletin".
   static const IconData vbulletin = IconData(
-    0xf662,
+    0xf665,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -28539,7 +28566,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "vectary".
   static const IconData vectary = IconData(
-    0xf663,
+    0xf666,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -28548,7 +28575,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "vectorlogozone".
   static const IconData vectorlogozone = IconData(
-    0xf664,
+    0xf667,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -28557,7 +28584,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "vectorworks".
   static const IconData vectorworks = IconData(
-    0xf665,
+    0xf668,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -28566,7 +28593,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "veeam".
   static const IconData veeam = IconData(
-    0xf666,
+    0xf669,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -28575,7 +28602,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "veed".
   static const IconData veed = IconData(
-    0xf667,
+    0xf66a,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -28584,7 +28611,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "veepee".
   static const IconData veepee = IconData(
-    0xf668,
+    0xf66b,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -28593,7 +28620,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "vega".
   static const IconData vega = IconData(
-    0xf669,
+    0xf66c,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -28602,7 +28629,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "vegas".
   static const IconData vegas = IconData(
-    0xf66a,
+    0xf66d,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -28611,7 +28638,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "velocity".
   static const IconData velocity = IconData(
-    0xf66b,
+    0xf66e,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -28620,7 +28647,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "velog".
   static const IconData velog = IconData(
-    0xf66c,
+    0xf66f,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -28629,7 +28656,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "vencord".
   static const IconData vencord = IconData(
-    0xf66d,
+    0xf670,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -28638,7 +28665,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "venmo".
   static const IconData venmo = IconData(
-    0xf66e,
+    0xf671,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -28647,7 +28674,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "vercel".
   static const IconData vercel = IconData(
-    0xf66f,
+    0xf672,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -28656,7 +28683,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "verdaccio".
   static const IconData verdaccio = IconData(
-    0xf670,
+    0xf673,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -28665,7 +28692,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "veritas".
   static const IconData veritas = IconData(
-    0xf671,
+    0xf674,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -28674,7 +28701,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "verizon".
   static const IconData verizon = IconData(
-    0xf672,
+    0xf675,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -28683,7 +28710,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "vespa".
   static const IconData vespa = IconData(
-    0xf673,
+    0xf676,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -28692,7 +28719,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "vestel".
   static const IconData vestel = IconData(
-    0xf674,
+    0xf677,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -28701,7 +28728,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "vexxhost".
   static const IconData vexxhost = IconData(
-    0xf675,
+    0xf678,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -28710,7 +28737,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "vfairs".
   static const IconData vfairs = IconData(
-    0xf676,
+    0xf679,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -28719,7 +28746,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "viadeo".
   static const IconData viadeo = IconData(
-    0xf677,
+    0xf67a,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -28728,7 +28755,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "viaplay".
   static const IconData viaplay = IconData(
-    0xf678,
+    0xf67b,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -28737,7 +28764,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "viber".
   static const IconData viber = IconData(
-    0xf679,
+    0xf67c,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -28746,7 +28773,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "viblo".
   static const IconData viblo = IconData(
-    0xf67a,
+    0xf67d,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -28755,7 +28782,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "victoriametrics".
   static const IconData victoriametrics = IconData(
-    0xf67b,
+    0xf67e,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -28764,7 +28791,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "victronenergy".
   static const IconData victronenergy = IconData(
-    0xf67c,
+    0xf67f,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -28773,7 +28800,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "vikunja".
   static const IconData vikunja = IconData(
-    0xf67d,
+    0xf680,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -28782,7 +28809,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "vim".
   static const IconData vim = IconData(
-    0xf67e,
+    0xf681,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -28791,7 +28818,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "vimeo".
   static const IconData vimeo = IconData(
-    0xf67f,
+    0xf682,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -28800,7 +28827,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "vimeolivestream".
   static const IconData vimeolivestream = IconData(
-    0xf680,
+    0xf683,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -28809,7 +28836,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "vinted".
   static const IconData vinted = IconData(
-    0xf681,
+    0xf684,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -28818,7 +28845,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "virgin".
   static const IconData virgin = IconData(
-    0xf682,
+    0xf685,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -28827,7 +28854,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "virginatlantic".
   static const IconData virginatlantic = IconData(
-    0xf683,
+    0xf686,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -28836,7 +28863,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "virginmedia".
   static const IconData virginmedia = IconData(
-    0xf684,
+    0xf687,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -28845,7 +28872,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "virtualbox".
   static const IconData virtualbox = IconData(
-    0xf685,
+    0xf688,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -28854,7 +28881,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "virustotal".
   static const IconData virustotal = IconData(
-    0xf686,
+    0xf689,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -28863,7 +28890,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "visa".
   static const IconData visa = IconData(
-    0xf687,
+    0xf68a,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -28872,7 +28899,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "visualparadigm".
   static const IconData visualparadigm = IconData(
-    0xf688,
+    0xf68b,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -28881,7 +28908,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "visx".
   static const IconData visx = IconData(
-    0xf689,
+    0xf68c,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -28890,7 +28917,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "vite".
   static const IconData vite = IconData(
-    0xf68a,
+    0xf68d,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -28899,7 +28926,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "vitepress".
   static const IconData vitepress = IconData(
-    0xf68b,
+    0xf68e,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -28908,7 +28935,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "vitess".
   static const IconData vitess = IconData(
-    0xf68c,
+    0xf68f,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -28917,7 +28944,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "vitest".
   static const IconData vitest = IconData(
-    0xf68d,
+    0xf690,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -28926,7 +28953,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "vivawallet".
   static const IconData vivawallet = IconData(
-    0xf68e,
+    0xf691,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -28935,7 +28962,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "vivaldi".
   static const IconData vivaldi = IconData(
-    0xf68f,
+    0xf692,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -28944,7 +28971,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "vivino".
   static const IconData vivino = IconData(
-    0xf690,
+    0xf693,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -28953,7 +28980,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "vivint".
   static const IconData vivint = IconData(
-    0xf691,
+    0xf694,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -28962,7 +28989,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "vivo".
   static const IconData vivo = IconData(
-    0xf692,
+    0xf695,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -28971,7 +28998,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "vk".
   static const IconData vk = IconData(
-    0xf693,
+    0xf696,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -28980,7 +29007,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "vlcmediaplayer".
   static const IconData vlcmediaplayer = IconData(
-    0xf694,
+    0xf697,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -28989,7 +29016,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "vllm".
   static const IconData vllm = IconData(
-    0xf695,
+    0xf698,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -28998,7 +29025,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "vmware".
   static const IconData vmware = IconData(
-    0xf696,
+    0xf699,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -29007,7 +29034,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "vodafone".
   static const IconData vodafone = IconData(
-    0xf697,
+    0xf69a,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -29016,7 +29043,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "voelkner".
   static const IconData voelkner = IconData(
-    0xf698,
+    0xf69b,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -29025,7 +29052,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "voidlinux".
   static const IconData voidlinux = IconData(
-    0xf699,
+    0xf69c,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -29034,7 +29061,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "voipdotms".
   static const IconData voipdotms = IconData(
-    0xf69a,
+    0xf69d,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -29043,7 +29070,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "volkswagen".
   static const IconData volkswagen = IconData(
-    0xf69b,
+    0xf69e,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -29052,7 +29079,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "volvo".
   static const IconData volvo = IconData(
-    0xf69c,
+    0xf69f,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -29061,7 +29088,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "vonage".
   static const IconData vonage = IconData(
-    0xf69d,
+    0xf6a0,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -29070,7 +29097,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "vorondesign".
   static const IconData vorondesign = IconData(
-    0xf69e,
+    0xf6a1,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -29079,7 +29106,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "vowpalwabbit".
   static const IconData vowpalwabbit = IconData(
-    0xf69f,
+    0xf6a2,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -29088,7 +29115,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "vox".
   static const IconData vox = IconData(
-    0xf6a0,
+    0xf6a3,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -29097,7 +29124,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "vrchat".
   static const IconData vrchat = IconData(
-    0xf6a1,
+    0xf6a4,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -29106,7 +29133,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "vsco".
   static const IconData vsco = IconData(
-    0xf6a2,
+    0xf6a5,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -29115,7 +29142,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "vscodium".
   static const IconData vscodium = IconData(
-    0xf6a3,
+    0xf6a6,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -29124,7 +29151,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "vtex".
   static const IconData vtex = IconData(
-    0xf6a4,
+    0xf6a7,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -29133,7 +29160,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "vuedotjs".
   static const IconData vuedotjs = IconData(
-    0xf6a5,
+    0xf6a8,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -29142,7 +29169,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "vuetify".
   static const IconData vuetify = IconData(
-    0xf6a6,
+    0xf6a9,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -29151,7 +29178,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "vueuse".
   static const IconData vueuse = IconData(
-    0xf6a7,
+    0xf6aa,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -29160,7 +29187,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "vulkan".
   static const IconData vulkan = IconData(
-    0xf6a8,
+    0xf6ab,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -29169,7 +29196,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "vultr".
   static const IconData vultr = IconData(
-    0xf6a9,
+    0xf6ac,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -29178,7 +29205,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "vyond".
   static const IconData vyond = IconData(
-    0xf6aa,
+    0xf6ad,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -29187,7 +29214,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "w3schools".
   static const IconData w3schools = IconData(
-    0xf6ab,
+    0xf6ae,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -29196,7 +29223,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "wacom".
   static const IconData wacom = IconData(
-    0xf6ac,
+    0xf6af,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -29205,7 +29232,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "wagmi".
   static const IconData wagmi = IconData(
-    0xf6ad,
+    0xf6b0,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -29214,7 +29241,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "wagtail".
   static const IconData wagtail = IconData(
-    0xf6ae,
+    0xf6b1,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -29223,7 +29250,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "wails".
   static const IconData wails = IconData(
-    0xf6af,
+    0xf6b2,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -29232,7 +29259,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "wakatime".
   static const IconData wakatime = IconData(
-    0xf6b0,
+    0xf6b3,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -29241,7 +29268,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "walkman".
   static const IconData walkman = IconData(
-    0xf6b1,
+    0xf6b4,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -29250,7 +29277,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "wallabag".
   static const IconData wallabag = IconData(
-    0xf6b2,
+    0xf6b5,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -29259,7 +29286,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "walletconnect".
   static const IconData walletconnect = IconData(
-    0xf6b3,
+    0xf6b6,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -29268,7 +29295,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "wantedly".
   static const IconData wantedly = IconData(
-    0xf6b4,
+    0xf6b7,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -29277,7 +29304,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "wappalyzer".
   static const IconData wappalyzer = IconData(
-    0xf6b5,
+    0xf6b8,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -29286,7 +29313,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "warp".
   static const IconData warp = IconData(
-    0xf6b6,
+    0xf6b9,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -29295,7 +29322,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "wasabi".
   static const IconData wasabi = IconData(
-    0xf6b7,
+    0xf6ba,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -29304,7 +29331,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "wasmcloud".
   static const IconData wasmcloud = IconData(
-    0xf6b8,
+    0xf6bb,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -29313,7 +29340,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "wasmer".
   static const IconData wasmer = IconData(
-    0xf6b9,
+    0xf6bc,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -29322,7 +29349,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "watchtower".
   static const IconData watchtower = IconData(
-    0xf6ba,
+    0xf6bd,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -29331,7 +29358,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "wattpad".
   static const IconData wattpad = IconData(
-    0xf6bb,
+    0xf6be,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -29340,7 +29367,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "wayland".
   static const IconData wayland = IconData(
-    0xf6bc,
+    0xf6bf,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -29349,7 +29376,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "waze".
   static const IconData waze = IconData(
-    0xf6bd,
+    0xf6c0,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -29358,7 +29385,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "wazirx".
   static const IconData wazirx = IconData(
-    0xf6be,
+    0xf6c1,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -29367,7 +29394,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "wearos".
   static const IconData wearos = IconData(
-    0xf6bf,
+    0xf6c2,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -29376,7 +29403,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "weasyl".
   static const IconData weasyl = IconData(
-    0xf6c0,
+    0xf6c3,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -29385,7 +29412,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "webawesome".
   static const IconData webawesome = IconData(
-    0xf6c1,
+    0xf6c4,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -29394,7 +29421,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "webdotde".
   static const IconData webdotde = IconData(
-    0xf6c2,
+    0xf6c5,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -29403,7 +29430,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "web3dotjs".
   static const IconData web3dotjs = IconData(
-    0xf6c3,
+    0xf6c6,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -29412,7 +29439,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "webassembly".
   static const IconData webassembly = IconData(
-    0xf6c4,
+    0xf6c7,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -29421,7 +29448,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "webauthn".
   static const IconData webauthn = IconData(
-    0xf6c5,
+    0xf6c8,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -29430,7 +29457,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "webcomponentsdotorg".
   static const IconData webcomponentsdotorg = IconData(
-    0xf6c6,
+    0xf6c9,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -29439,7 +29466,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "webdriverio".
   static const IconData webdriverio = IconData(
-    0xf6c7,
+    0xf6ca,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -29448,7 +29475,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "webex".
   static const IconData webex = IconData(
-    0xf6c8,
+    0xf6cb,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -29457,7 +29484,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "webflow".
   static const IconData webflow = IconData(
-    0xf6c9,
+    0xf6cc,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -29466,7 +29493,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "webgl".
   static const IconData webgl = IconData(
-    0xf6ca,
+    0xf6cd,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -29475,7 +29502,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "webgpu".
   static const IconData webgpu = IconData(
-    0xf6cb,
+    0xf6ce,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -29484,7 +29511,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "weblate".
   static const IconData weblate = IconData(
-    0xf6cc,
+    0xf6cf,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -29493,7 +29520,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "webmin".
   static const IconData webmin = IconData(
-    0xf6cd,
+    0xf6d0,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -29502,7 +29529,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "webmoney".
   static const IconData webmoney = IconData(
-    0xf6ce,
+    0xf6d1,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -29511,7 +29538,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "webpack".
   static const IconData webpack = IconData(
-    0xf6cf,
+    0xf6d2,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -29520,7 +29547,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "webrtc".
   static const IconData webrtc = IconData(
-    0xf6d0,
+    0xf6d3,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -29529,7 +29556,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "webstorm".
   static const IconData webstorm = IconData(
-    0xf6d1,
+    0xf6d4,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -29538,7 +29565,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "webtoon".
   static const IconData webtoon = IconData(
-    0xf6d2,
+    0xf6d5,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -29547,7 +29574,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "webtrees".
   static const IconData webtrees = IconData(
-    0xf6d3,
+    0xf6d6,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -29556,7 +29583,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "wechat".
   static const IconData wechat = IconData(
-    0xf6d4,
+    0xf6d7,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -29565,7 +29592,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "wegame".
   static const IconData wegame = IconData(
-    0xf6d5,
+    0xf6d8,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -29574,7 +29601,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "weightsandbiases".
   static const IconData weightsandbiases = IconData(
-    0xf6d6,
+    0xf6d9,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -29583,7 +29610,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "welcometothejungle".
   static const IconData welcometothejungle = IconData(
-    0xf6d7,
+    0xf6da,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -29592,7 +29619,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "wellfound".
   static const IconData wellfound = IconData(
-    0xf6d8,
+    0xf6db,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -29601,7 +29628,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "wellsfargo".
   static const IconData wellsfargo = IconData(
-    0xf6d9,
+    0xf6dc,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -29610,7 +29637,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "wemo".
   static const IconData wemo = IconData(
-    0xf6da,
+    0xf6dd,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -29619,7 +29646,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "weread".
   static const IconData weread = IconData(
-    0xf6db,
+    0xf6de,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -29628,7 +29655,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "westernunion".
   static const IconData westernunion = IconData(
-    0xf6dc,
+    0xf6df,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -29637,7 +29664,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "wetransfer".
   static const IconData wetransfer = IconData(
-    0xf6dd,
+    0xf6e0,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -29646,7 +29673,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "wezterm".
   static const IconData wezterm = IconData(
-    0xf6de,
+    0xf6e1,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -29655,7 +29682,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "wgpu".
   static const IconData wgpu = IconData(
-    0xf6df,
+    0xf6e2,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -29664,7 +29691,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "what3words".
   static const IconData what3words = IconData(
-    0xf6e0,
+    0xf6e3,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -29673,7 +29700,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "whatsapp".
   static const IconData whatsapp = IconData(
-    0xf6e1,
+    0xf6e4,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -29682,7 +29709,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "wheniwork".
   static const IconData wheniwork = IconData(
-    0xf6e2,
+    0xf6e5,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -29691,7 +29718,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "wikidotgg".
   static const IconData wikidotgg = IconData(
-    0xf6e3,
+    0xf6e6,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -29700,7 +29727,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "wikidotjs".
   static const IconData wikidotjs = IconData(
-    0xf6e4,
+    0xf6e7,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -29709,7 +29736,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "wikibooks".
   static const IconData wikibooks = IconData(
-    0xf6e5,
+    0xf6e8,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -29718,7 +29745,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "wikidata".
   static const IconData wikidata = IconData(
-    0xf6e6,
+    0xf6e9,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -29727,7 +29754,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "wikimediacommons".
   static const IconData wikimediacommons = IconData(
-    0xf6e7,
+    0xf6ea,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -29736,7 +29763,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "wikimediafoundation".
   static const IconData wikimediafoundation = IconData(
-    0xf6e8,
+    0xf6eb,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -29745,7 +29772,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "wikipedia".
   static const IconData wikipedia = IconData(
-    0xf6e9,
+    0xf6ec,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -29754,7 +29781,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "wikiquote".
   static const IconData wikiquote = IconData(
-    0xf6ea,
+    0xf6ed,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -29763,7 +29790,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "wikisource".
   static const IconData wikisource = IconData(
-    0xf6eb,
+    0xf6ee,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -29772,7 +29799,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "wikiversity".
   static const IconData wikiversity = IconData(
-    0xf6ec,
+    0xf6ef,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -29781,7 +29808,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "wikivoyage".
   static const IconData wikivoyage = IconData(
-    0xf6ed,
+    0xf6f0,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -29790,7 +29817,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "winamp".
   static const IconData winamp = IconData(
-    0xf6ee,
+    0xf6f1,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -29799,7 +29826,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "windsurf".
   static const IconData windsurf = IconData(
-    0xf6ef,
+    0xf6f2,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -29808,7 +29835,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "wine".
   static const IconData wine = IconData(
-    0xf6f0,
+    0xf6f3,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -29817,7 +29844,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "wipro".
   static const IconData wipro = IconData(
-    0xf6f1,
+    0xf6f4,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -29826,7 +29853,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "wire".
   static const IconData wire = IconData(
-    0xf6f2,
+    0xf6f5,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -29835,7 +29862,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "wireguard".
   static const IconData wireguard = IconData(
-    0xf6f3,
+    0xf6f6,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -29844,7 +29871,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "wireshark".
   static const IconData wireshark = IconData(
-    0xf6f4,
+    0xf6f7,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -29853,7 +29880,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "wise".
   static const IconData wise = IconData(
-    0xf6f5,
+    0xf6f8,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -29862,7 +29889,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "wish".
   static const IconData wish = IconData(
-    0xf6f6,
+    0xf6f9,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -29871,7 +29898,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "wistia".
   static const IconData wistia = IconData(
-    0xf6f7,
+    0xf6fa,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -29880,7 +29907,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "wix".
   static const IconData wix = IconData(
-    0xf6f8,
+    0xf6fb,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -29889,7 +29916,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "wizzair".
   static const IconData wizzair = IconData(
-    0xf6f9,
+    0xf6fc,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -29898,7 +29925,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "wolfram".
   static const IconData wolfram = IconData(
-    0xf6fa,
+    0xf6fd,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -29907,7 +29934,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "wolframlanguage".
   static const IconData wolframlanguage = IconData(
-    0xf6fb,
+    0xf6fe,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -29916,7 +29943,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "wolframmathematica".
   static const IconData wolframmathematica = IconData(
-    0xf6fc,
+    0xf6ff,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -29925,7 +29952,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "wondershare".
   static const IconData wondershare = IconData(
-    0xf6fd,
+    0xf700,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -29934,7 +29961,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "wondersharefilmora".
   static const IconData wondersharefilmora = IconData(
-    0xf6fe,
+    0xf701,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -29943,7 +29970,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "woo".
   static const IconData woo = IconData(
-    0xf6ff,
+    0xf702,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -29952,7 +29979,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "woocommerce".
   static const IconData woocommerce = IconData(
-    0xf700,
+    0xf703,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -29961,7 +29988,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "wordpress".
   static const IconData wordpress = IconData(
-    0xf701,
+    0xf704,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -29970,7 +29997,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "workplace".
   static const IconData workplace = IconData(
-    0xf702,
+    0xf705,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -29979,7 +30006,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "worldhealthorganization".
   static const IconData worldhealthorganization = IconData(
-    0xf703,
+    0xf706,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -29988,7 +30015,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "wpengine".
   static const IconData wpengine = IconData(
-    0xf704,
+    0xf707,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -29997,7 +30024,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "wprocket".
   static const IconData wprocket = IconData(
-    0xf705,
+    0xf708,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -30006,7 +30033,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "wpexplorer".
   static const IconData wpexplorer = IconData(
-    0xf706,
+    0xf709,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -30015,7 +30042,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "writedotas".
   static const IconData writedotas = IconData(
-    0xf707,
+    0xf70a,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -30024,7 +30051,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "wwe".
   static const IconData wwe = IconData(
-    0xf708,
+    0xf70b,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -30033,7 +30060,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "wwise".
   static const IconData wwise = IconData(
-    0xf709,
+    0xf70c,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -30042,7 +30069,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "wxt".
   static const IconData wxt = IconData(
-    0xf70a,
+    0xf70d,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -30051,7 +30078,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "wykop".
   static const IconData wykop = IconData(
-    0xf70b,
+    0xf70e,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -30060,7 +30087,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "wyze".
   static const IconData wyze = IconData(
-    0xf70c,
+    0xf70f,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -30069,7 +30096,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "x".
   static const IconData x = IconData(
-    0xf70d,
+    0xf710,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -30078,7 +30105,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "xdotorg".
   static const IconData xdotorg = IconData(
-    0xf70e,
+    0xf711,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -30087,7 +30114,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "xampp".
   static const IconData xampp = IconData(
-    0xf70f,
+    0xf712,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -30096,7 +30123,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "xcode".
   static const IconData xcode = IconData(
-    0xf710,
+    0xf713,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -30105,7 +30132,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "xdadevelopers".
   static const IconData xdadevelopers = IconData(
-    0xf711,
+    0xf714,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -30114,7 +30141,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "xendit".
   static const IconData xendit = IconData(
-    0xf712,
+    0xf715,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -30123,7 +30150,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "xero".
   static const IconData xero = IconData(
-    0xf713,
+    0xf716,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -30132,7 +30159,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "xfce".
   static const IconData xfce = IconData(
-    0xf714,
+    0xf717,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -30141,7 +30168,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "xiaohongshu".
   static const IconData xiaohongshu = IconData(
-    0xf715,
+    0xf718,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -30150,7 +30177,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "xiaomi".
   static const IconData xiaomi = IconData(
-    0xf716,
+    0xf719,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -30159,7 +30186,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "xing".
   static const IconData xing = IconData(
-    0xf717,
+    0xf71a,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -30168,7 +30195,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "xml".
   static const IconData xml = IconData(
-    0xf718,
+    0xf71b,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -30177,7 +30204,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "xmpp".
   static const IconData xmpp = IconData(
-    0xf719,
+    0xf71c,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -30186,7 +30213,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "xo".
   static const IconData xo = IconData(
-    0xf71a,
+    0xf71d,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -30195,7 +30222,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "xrp".
   static const IconData xrp = IconData(
-    0xf71b,
+    0xf71e,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -30204,7 +30231,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "xsplit".
   static const IconData xsplit = IconData(
-    0xf71c,
+    0xf71f,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -30213,7 +30240,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "xstate".
   static const IconData xstate = IconData(
-    0xf71d,
+    0xf720,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -30222,7 +30249,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "xubuntu".
   static const IconData xubuntu = IconData(
-    0xf71e,
+    0xf721,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -30231,7 +30258,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "xyflow".
   static const IconData xyflow = IconData(
-    0xf71f,
+    0xf722,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -30240,7 +30267,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "ycombinator".
   static const IconData ycombinator = IconData(
-    0xf720,
+    0xf723,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -30249,7 +30276,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "yaak".
   static const IconData yaak = IconData(
-    0xf721,
+    0xf724,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -30258,7 +30285,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "yabai".
   static const IconData yabai = IconData(
-    0xf722,
+    0xf725,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -30267,7 +30294,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "yale".
   static const IconData yale = IconData(
-    0xf723,
+    0xf726,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -30276,7 +30303,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "yamahacorporation".
   static const IconData yamahacorporation = IconData(
-    0xf724,
+    0xf727,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -30285,7 +30312,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "yamahamotorcorporation".
   static const IconData yamahamotorcorporation = IconData(
-    0xf725,
+    0xf728,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -30294,7 +30321,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "yaml".
   static const IconData yaml = IconData(
-    0xf726,
+    0xf729,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -30303,7 +30330,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "yandexcloud".
   static const IconData yandexcloud = IconData(
-    0xf727,
+    0xf72a,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -30312,7 +30339,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "yarn".
   static const IconData yarn = IconData(
-    0xf728,
+    0xf72b,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -30321,7 +30348,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "yelp".
   static const IconData yelp = IconData(
-    0xf729,
+    0xf72c,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -30330,7 +30357,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "yeti".
   static const IconData yeti = IconData(
-    0xf72a,
+    0xf72d,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -30339,7 +30366,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "yew".
   static const IconData yew = IconData(
-    0xf72b,
+    0xf72e,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -30348,7 +30375,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "yii".
   static const IconData yii = IconData(
-    0xf72c,
+    0xf72f,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -30357,7 +30384,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "yoast".
   static const IconData yoast = IconData(
-    0xf72d,
+    0xf730,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -30366,7 +30393,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "yolo".
   static const IconData yolo = IconData(
-    0xf72e,
+    0xf731,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -30375,7 +30402,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "youhodler".
   static const IconData youhodler = IconData(
-    0xf72f,
+    0xf732,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -30384,7 +30411,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "youtube".
   static const IconData youtube = IconData(
-    0xf730,
+    0xf733,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -30393,7 +30420,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "youtubegaming".
   static const IconData youtubegaming = IconData(
-    0xf731,
+    0xf734,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -30402,7 +30429,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "youtubekids".
   static const IconData youtubekids = IconData(
-    0xf732,
+    0xf735,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -30411,7 +30438,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "youtubemusic".
   static const IconData youtubemusic = IconData(
-    0xf733,
+    0xf736,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -30420,7 +30447,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "youtubeshorts".
   static const IconData youtubeshorts = IconData(
-    0xf734,
+    0xf737,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -30429,7 +30456,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "youtubestudio".
   static const IconData youtubestudio = IconData(
-    0xf735,
+    0xf738,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -30438,7 +30465,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "youtubetv".
   static const IconData youtubetv = IconData(
-    0xf736,
+    0xf739,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -30447,7 +30474,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "yr".
   static const IconData yr = IconData(
-    0xf737,
+    0xf73a,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -30456,7 +30483,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "yubico".
   static const IconData yubico = IconData(
-    0xf738,
+    0xf73b,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -30465,7 +30492,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "yunohost".
   static const IconData yunohost = IconData(
-    0xf739,
+    0xf73c,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -30474,7 +30501,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "zabka".
   static const IconData zabka = IconData(
-    0xf73a,
+    0xf73d,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -30483,7 +30510,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "zaim".
   static const IconData zaim = IconData(
-    0xf73b,
+    0xf73e,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -30492,7 +30519,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "zalando".
   static const IconData zalando = IconData(
-    0xf73c,
+    0xf73f,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -30501,7 +30528,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "zalo".
   static const IconData zalo = IconData(
-    0xf73d,
+    0xf740,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -30510,7 +30537,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "zap".
   static const IconData zap = IconData(
-    0xf73e,
+    0xf741,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -30519,7 +30546,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "zapier".
   static const IconData zapier = IconData(
-    0xf73f,
+    0xf742,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -30528,7 +30555,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "zara".
   static const IconData zara = IconData(
-    0xf740,
+    0xf743,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -30537,7 +30564,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "zazzle".
   static const IconData zazzle = IconData(
-    0xf741,
+    0xf744,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -30546,7 +30573,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "zcash".
   static const IconData zcash = IconData(
-    0xf742,
+    0xf745,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -30555,7 +30582,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "zcool".
   static const IconData zcool = IconData(
-    0xf743,
+    0xf746,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -30564,7 +30591,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "zdf".
   static const IconData zdf = IconData(
-    0xf744,
+    0xf747,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -30573,7 +30600,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "zebpay".
   static const IconData zebpay = IconData(
-    0xf745,
+    0xf748,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -30582,7 +30609,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "zebratechnologies".
   static const IconData zebratechnologies = IconData(
-    0xf746,
+    0xf749,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -30591,7 +30618,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "zedindustries".
   static const IconData zedindustries = IconData(
-    0xf747,
+    0xf74a,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -30600,7 +30627,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "zelle".
   static const IconData zelle = IconData(
-    0xf748,
+    0xf74b,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -30609,7 +30636,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "zenbrowser".
   static const IconData zenbrowser = IconData(
-    0xf749,
+    0xf74c,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -30618,7 +30645,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "zend".
   static const IconData zend = IconData(
-    0xf74a,
+    0xf74d,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -30627,7 +30654,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "zendesk".
   static const IconData zendesk = IconData(
-    0xf74b,
+    0xf74e,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -30636,7 +30663,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "zenn".
   static const IconData zenn = IconData(
-    0xf74c,
+    0xf74f,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -30645,7 +30672,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "zenodo".
   static const IconData zenodo = IconData(
-    0xf74d,
+    0xf750,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -30654,7 +30681,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "zensar".
   static const IconData zensar = IconData(
-    0xf74e,
+    0xf751,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -30663,7 +30690,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "zerodha".
   static const IconData zerodha = IconData(
-    0xf74f,
+    0xf752,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -30672,7 +30699,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "zerotier".
   static const IconData zerotier = IconData(
-    0xf750,
+    0xf753,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -30681,7 +30708,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "zettlr".
   static const IconData zettlr = IconData(
-    0xf751,
+    0xf754,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -30690,7 +30717,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "zhihu".
   static const IconData zhihu = IconData(
-    0xf752,
+    0xf755,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -30699,7 +30726,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "zig".
   static const IconData zig = IconData(
-    0xf753,
+    0xf756,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -30708,7 +30735,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "zigbee".
   static const IconData zigbee = IconData(
-    0xf754,
+    0xf757,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -30717,7 +30744,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "zigbee2mqtt".
   static const IconData zigbee2mqtt = IconData(
-    0xf755,
+    0xf758,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -30726,7 +30753,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "ziggo".
   static const IconData ziggo = IconData(
-    0xf756,
+    0xf759,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -30735,7 +30762,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "zilch".
   static const IconData zilch = IconData(
-    0xf757,
+    0xf75a,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -30744,7 +30771,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "zillow".
   static const IconData zillow = IconData(
-    0xf758,
+    0xf75b,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -30753,7 +30780,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "zincsearch".
   static const IconData zincsearch = IconData(
-    0xf759,
+    0xf75c,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -30762,7 +30789,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "zingat".
   static const IconData zingat = IconData(
-    0xf75a,
+    0xf75d,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -30771,7 +30798,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "zod".
   static const IconData zod = IconData(
-    0xf75b,
+    0xf75e,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -30780,7 +30807,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "zoho".
   static const IconData zoho = IconData(
-    0xf75c,
+    0xf75f,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -30789,7 +30816,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "zoiper".
   static const IconData zoiper = IconData(
-    0xf75d,
+    0xf760,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -30798,7 +30825,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "zola".
   static const IconData zola = IconData(
-    0xf75e,
+    0xf761,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -30807,7 +30834,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "zomato".
   static const IconData zomato = IconData(
-    0xf75f,
+    0xf762,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -30816,7 +30843,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "zoom".
   static const IconData zoom = IconData(
-    0xf760,
+    0xf763,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -30825,7 +30852,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "zorin".
   static const IconData zorin = IconData(
-    0xf761,
+    0xf764,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -30834,7 +30861,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "zotero".
   static const IconData zotero = IconData(
-    0xf762,
+    0xf765,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -30843,7 +30870,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "zsh".
   static const IconData zsh = IconData(
-    0xf763,
+    0xf766,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -30852,7 +30879,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "zulip".
   static const IconData zulip = IconData(
-    0xf764,
+    0xf767,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -30861,7 +30888,7 @@ abstract final class SimpleIcons {
   ///
   /// Simple icon named "zyte".
   static const IconData zyte = IconData(
-    0xf765,
+    0xf768,
     fontFamily: 'SimpleIcons',
     fontPackage: 'simple_icons',
   );
@@ -31383,6 +31410,7 @@ abstract final class SimpleIcons {
     cilium,
     cinema4d,
     cinnamon,
+    cinny,
     circle,
     circleci,
     circuitverse,
@@ -32166,6 +32194,7 @@ abstract final class SimpleIcons {
     hedera,
     hedgedoc,
     helium,
+    heliumbrowser,
     helix,
     hellofresh,
     hellyhansen,
@@ -32485,6 +32514,7 @@ abstract final class SimpleIcons {
     lada,
     lamborghini,
     langchain,
+    langchaincorporate,
     langflow,
     langgraph,
     languagetool,
