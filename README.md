@@ -10,6 +10,8 @@ A collection of icon sets for your Flutter apps.
 
 > [!IMPORTANT]
 > Compatible with the [breaking change][breaking-change]: `IconData` class marked as `final`.
+>
+> Fully supports Flutter `3.44`.
 
 ## Overview
 
