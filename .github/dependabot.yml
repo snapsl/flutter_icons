@@ -9,11 +9,15 @@ updates:
     directory: "/"
     schedule:
       interval: "weekly"
+    cooldown:
+      default-days: 1
   - package-ecosystem: "npm"
     directories:
       - "/vendors/**/"
     schedule:
       interval: "daily"
+    cooldown:
+      default-days: 1
     groups:
       ant-design-icons:
         patterns:
@@ -46,11 +50,17 @@ updates:
     directory: "/"
     schedule:
       interval: "weekly"
+    cooldown:
+      default-days: 1
   - package-ecosystem: "pip"
     directory: "/"
     schedule:
       interval: "weekly"
+    cooldown:
+      default-days: 1
   - package-ecosystem: "pub"
     directory: "/"
     schedule:
       interval: "weekly"
+    cooldown:
+      default-days: 1
