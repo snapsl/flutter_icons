@@ -15,7 +15,7 @@ permissions:
 jobs:
   changes:
     runs-on: ubuntu-latest
-    if: github.event_name == 'workflow_dispatch' || github.actor == 'dependabot[bot]'
+    if: github.event_name == 'workflow_dispatch' || github.actor == 'snapsl-ci[bot]'
     outputs:
       matrix: ${{ steps.set-matrix.outputs.matrix }}
     steps:
