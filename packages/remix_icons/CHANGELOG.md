@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.4.1](https://github.com/snapsl/flutter_icons/compare/remix_icons-v0.4.0...remix_icons-v0.4.1) (2026-05-18)
+
+
+### Bug Fixes
+
+* ignore `non_const_argument_for_const_parameter` in tests ([#272](https://github.com/snapsl/flutter_icons/issues/272)) ([5cfd38a](https://github.com/snapsl/flutter_icons/commit/5cfd38a68b8953ba3ce0116c95da544f9222dcd6))
+
 ## [0.4.0](https://github.com/snapsl/flutter_icons/compare/remix_icons-v0.3.1...remix_icons-v0.4.0) (2026-04-04)
 
 

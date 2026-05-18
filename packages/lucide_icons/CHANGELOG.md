@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.15.1](https://github.com/snapsl/flutter_icons/compare/lucide_icons-v0.15.0...lucide_icons-v0.15.1) (2026-05-18)
+
+
+### Bug Fixes
+
+* ignore `non_const_argument_for_const_parameter` in tests ([#272](https://github.com/snapsl/flutter_icons/issues/272)) ([5cfd38a](https://github.com/snapsl/flutter_icons/commit/5cfd38a68b8953ba3ce0116c95da544f9222dcd6))
+
 ## [0.15.0](https://github.com/snapsl/flutter_icons/compare/lucide_icons-v0.14.0...lucide_icons-v0.15.0) (2026-04-30)
 
 
