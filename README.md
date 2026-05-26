@@ -1,5 +1,6 @@
 [![Test packages][test-packages-badge]][test-packages-link]
 [![Website][website-badge]][website-link]
+[![Check Links][links-badge]][links-link]
 [![codecov][codecov-badge]][codecov-link]
 [![GitHub License][license-badge]][license-link]
 [![style: very good analysis][style-badge]][style-link]
@@ -78,6 +79,8 @@ Please refer to the respective `LICENSE` files within each package directory for
 [website-badge]: https://img.shields.io/github/actions/workflow/status/snapsl/flutter_icons/github-page.yml?label=website
 [website-link]: https://github.com/snapsl/flutter_icons/actions/workflows/github-page.yml
 [codecov-badge]: https://codecov.io/gh/snapsl/flutter_icons/graph/badge.svg
+[links-badge]: https://img.shields.io/github/actions/workflow/status/snapsl/flutter_icons/links.yml?label=links
+[links-link]: https://github.com/snapsl/flutter_icons/actions/workflows/links.yml
 [codecov-link]: https://codecov.io/gh/snapsl/flutter_icons
 [license-badge]: https://img.shields.io/github/license/snapsl/flutter_icons
 [license-link]: LICENSE
