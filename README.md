@@ -19,15 +19,15 @@ This project contains a collection of icon sets for Flutter. The icons are gener
 
 | Icon Set | pub.dev | GitHub Release |
 | --- | --- | --- |
-| [Ant Design Icons][ant-design-site] | [![pub package][pub-badge]][ant-design-pub] | [![GitHub Release][ant-design-release]][releases-link] |
-| [Bootstrap Icons][bootstrap-site] | [![pub package][pub-badge]][bootstrap-pub] | [![GitHub Release][bootstrap-release]][releases-link] |
-| [Hero Icons][hero-site] | [![pub package][pub-badge]][hero-pub] | [![GitHub Release][hero-release]][releases-link] |
-| [Ionic Icons][ionic-site] | [![pub package][pub-badge]][ionic-pub] | [![GitHub Release][ionic-release]][releases-link] |
-| [Lucide Icons][lucide-site] | [![pub package][pub-badge]][lucide-pub] | [![GitHub Release][lucide-release]][releases-link] |
-| [Radix Icons][radix-site] | [![pub package][pub-badge]][radix-pub] | [![GitHub Release][radix-release]][releases-link] |
-| [Remix Icons][remix-site] | [![pub package][pub-badge]][remix-pub] | [![GitHub Release][remix-release]][releases-link] |
-| [Simple Icons][simple-site] | [![pub package][pub-badge]][simple-pub] | [![GitHub Release][simple-release]][releases-link] |
-| [Tabler Icons][tabler-site] | [![pub package][pub-badge]][tabler-pub] | [![GitHub Release][tabler-release]][releases-link] |
+| [Ant Design Icons][ant-design-site] | [![pub package][pub-badge]][ant-design-pub] | [![GitHub Release][ant-design-release]][ant-design-releases-link] |
+| [Bootstrap Icons][bootstrap-site] | [![pub package][pub-badge]][bootstrap-pub] | [![GitHub Release][bootstrap-release]][bootstrap-releases-link] |
+| [Hero Icons][hero-site] | [![pub package][pub-badge]][hero-pub] | [![GitHub Release][hero-release]][hero-releases-link] |
+| [Ionic Icons][ionic-site] | [![pub package][pub-badge]][ionic-pub] | [![GitHub Release][ionic-release]][ionic-releases-link] |
+| [Lucide Icons][lucide-site] | [![pub package][pub-badge]][lucide-pub] | [![GitHub Release][lucide-release]][lucide-releases-link] |
+| [Radix Icons][radix-site] | [![pub package][pub-badge]][radix-pub] | [![GitHub Release][radix-release]][radix-releases-link] |
+| [Remix Icons][remix-site] | [![pub package][pub-badge]][remix-pub] | [![GitHub Release][remix-release]][remix-releases-link] |
+| [Simple Icons][simple-site] | [![pub package][pub-badge]][simple-pub] | [![GitHub Release][simple-release]][simple-releases-link] |
+| [Tabler Icons][tabler-site] | [![pub package][pub-badge]][tabler-pub] | [![GitHub Release][tabler-release]][tabler-releases-link] |
 
 ## Demo
 
@@ -111,7 +111,15 @@ Please refer to the respective `LICENSE` files within each package directory for
 [remix-release]: https://img.shields.io/github/v/release/snapsl/flutter_icons?filter=remix*
 [simple-release]: https://img.shields.io/github/v/release/snapsl/flutter_icons?filter=simple*
 [tabler-release]: https://img.shields.io/github/v/release/snapsl/flutter_icons?filter=tabler*
-[releases-link]: https://github.com/snapsl/flutter_icons/releases
+[ant-design-releases-link]: https://github.com/snapsl/flutter_icons/releases?q="ant_design_icons"
+[bootstrap-releases-link]: https://github.com/snapsl/flutter_icons/releases?q="bootstrap_icons"
+[hero-releases-link]: https://github.com/snapsl/flutter_icons/releases?q="hero_icons"
+[ionic-releases-link]: https://github.com/snapsl/flutter_icons/releases?q="ionic_icons"
+[lucide-releases-link]: https://github.com/snapsl/flutter_icons/releases?q="lucide_icons"
+[radix-releases-link]: https://github.com/snapsl/flutter_icons/releases?q="radix_icons"
+[remix-releases-link]: https://github.com/snapsl/flutter_icons/releases?q="remix_icons"
+[simple-releases-link]: https://github.com/snapsl/flutter_icons/releases?q="simple_icons"
+[tabler-releases-link]: https://github.com/snapsl/flutter_icons/releases?q="tabler_icons"
 [demo-link]: https://snapsl.github.io/flutter_icons/
 [phosphor-pub-badge]: https://img.shields.io/pub/v/phosphor_flutter.svg
 [phosphor-pub-link]: https://pub.dev/packages/phosphor_flutter
