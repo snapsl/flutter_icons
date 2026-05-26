@@ -1,0 +1,50 @@
+name: Links
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 0 * * 0"
+
+permissions:
+  issues: write
+  contents: read
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  linkChecker:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v6
+
+      - name: Link Checker
+        id: lychee
+        uses: lycheeverse/lychee-action@v2
+        with:
+          fail: false
+
+      - name: Create or Update Issue
+        if: steps.lychee.outputs.exit_code != 0
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          ISSUE_TITLE: "Link Checker Report"
+          REPORT_FILE: "./lychee/out.md"
+        run: |
+          EXISTING_ISSUE=$(gh issue list \
+            --search "$ISSUE_TITLE in:title state:open" \
+            --json number \
+            --jq '.[0].number')
+
+          if [ -n "$EXISTING_ISSUE" ]; then
+            echo "Updating existing issue #$EXISTING_ISSUE..."
+            gh issue edit "$EXISTING_ISSUE" --body-file "$REPORT_FILE"
+          else
+            echo "Creating a new issue..."
+            gh issue create \
+              --title "$ISSUE_TITLE" \
+              --body-file "$REPORT_FILE" \
+              --label "report,automated issue"
+          fi
