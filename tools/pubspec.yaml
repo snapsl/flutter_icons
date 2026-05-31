@@ -1,7 +1,6 @@
 name: tools
-description: Generate icons cli
+description: "Generate icons cli"
 publish_to: none
-version: 1.0.0
 
 environment:
   sdk: ^3.10.4

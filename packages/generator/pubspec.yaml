@@ -1,7 +1,6 @@
 name: generator
 description: "Icon generator"
 publish_to: none
-version: 0.0.1
 
 environment:
   sdk: ^3.10.4
