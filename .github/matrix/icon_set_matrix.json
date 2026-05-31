@@ -53,7 +53,7 @@
     "package_name": "hero_icons",
     "vendor_name": "heroicons",
     "svg_to_font": true,
-    "url": "https://heroicons.com/",
+    "url": "https://heroicons.com",
     "brand": "Heroicons",
     "class_name": "HeroIcons",
     "output_path": "lib/src/icon_data.dart",

@@ -123,7 +123,7 @@ Please refer to the respective `LICENSE` files within each package directory for
 [remix-releases-link]: https://github.com/snapsl/flutter_icons/releases?q="remix_icons"
 [simple-releases-link]: https://github.com/snapsl/flutter_icons/releases?q="simple_icons"
 [tabler-releases-link]: https://github.com/snapsl/flutter_icons/releases?q="tabler_icons"
-[demo-link]: https://snapsl.github.io/flutter_icons/
+[demo-link]: https://snapsl.github.io/flutter_icons
 [phosphor-pub-badge]: https://img.shields.io/pub/v/phosphor_flutter.svg
 [phosphor-pub-link]: https://pub.dev/packages/phosphor_flutter
 [hugeicons-pub-badge]: https://img.shields.io/pub/v/hugeicons.svg

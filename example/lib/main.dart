@@ -55,7 +55,7 @@ class ExamplePage extends StatelessWidget {
   static const _iconSets = [
     _SliverIconSet(
       title: 'Ant Design Icons',
-      uri: 'https://ant.design/components/icon/',
+      uri: 'https://ant.design/components/icon',
       iconList: [
         AntDesignIcons.antDesign_outlined,
         AntDesignIcons.file_filled,
@@ -75,7 +75,7 @@ class ExamplePage extends StatelessWidget {
     ),
     _SliverIconSet(
       title: 'Hero Icons',
-      uri: 'https://heroicons.com/',
+      uri: 'https://heroicons.com',
       iconList: [
         HeroIcons.shieldCheck_outline,
         HeroIcons.map,
@@ -95,7 +95,7 @@ class ExamplePage extends StatelessWidget {
     ),
     _SliverIconSet(
       title: 'Lucide Icons',
-      uri: 'https://lucide.dev/icons/',
+      uri: 'https://lucide.dev/icons',
       iconList: [
         LucideIcons.album,
         LucideIcons.ban,
@@ -115,7 +115,7 @@ class ExamplePage extends StatelessWidget {
     ),
     _SliverIconSet(
       title: 'Remix Icons',
-      uri: 'https://remixicon.com/',
+      uri: 'https://remixicon.com',
       iconList: [
         RemixIcons.remixFill,
         RemixIcons.accountPinBoxFill,
