@@ -105,7 +105,7 @@ class ExamplePage extends StatelessWidget {
     ),
     _SliverIconSet(
       title: 'Radix Icons',
-      uri: 'https://www.radix-ui.com/icons',
+      uri: 'https://radix-ui.com/icons',
       iconList: [
         RadixIcons.crumpledPaper,
         RadixIcons.lockClosed,

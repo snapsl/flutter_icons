@@ -124,7 +124,7 @@
       "tag": "@radix-ui/react-icons@",
       "svg_path": "packages/radix-icons/icons"
     },
-    "url": "https://icons.radix-ui.com/icons",
+    "url": "https://radix-ui.com/icons",
     "brand": "Radix",
     "class_name": "RadixIcons",
     "output_path": "lib/src/icon_data.dart",

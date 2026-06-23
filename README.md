@@ -91,7 +91,7 @@ Please refer to the respective `LICENSE` files within each package directory for
 [hero-site]: https://heroicons.com
 [ionic-site]: https://ionic.io/ionicons
 [lucide-site]: https://lucide.dev/icons
-[radix-site]: https://www.radix-ui.com/icons
+[radix-site]: https://radix-ui.com/icons
 [remix-site]: https://remixicon.com
 [simple-site]: https://simpleicons.org
 [tabler-site]: https://tabler.io/icons
