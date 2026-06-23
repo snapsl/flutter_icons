@@ -1,7 +1,7 @@
 name: simple_icons
 description: "Simple icons package"
 publish_to: none
-version: 0.19.0
+version: 0.20.0
 repository: https://github.com/snapsl/flutter_icons
 issue_tracker: https://github.com/snapsl/flutter_icons/issues
 
