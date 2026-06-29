@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.3.0](https://github.com/snapsl/flutter_icons/compare/ant_design_icons-v0.2.1...ant_design_icons-v0.3.0) (2026-06-29)
+
+
+### Features
+
+* **ant_design_icons:** bump version to 4.5.0 ([#305](https://github.com/snapsl/flutter_icons/issues/305)) ([d02cd6a](https://github.com/snapsl/flutter_icons/commit/d02cd6af5c8a77d4c25b13fad27be2248f92e431))
+
 ## [0.2.1](https://github.com/snapsl/flutter_icons/compare/ant_design_icons-v0.2.0...ant_design_icons-v0.2.1) (2026-05-18)
 
 
