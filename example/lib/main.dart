@@ -206,6 +206,12 @@ class _SliverIconSet extends StatelessWidget {
   Widget build(BuildContext context) {
     final colorScheme = Theme.of(context).colorScheme;
 
+    final colors = [
+      colorScheme.primary,
+      colorScheme.secondary,
+      colorScheme.tertiary,
+    ];
+
     return SliverMainAxisGroup(
       slivers: [
         const SliverToBoxAdapter(child: Divider(color: Colors.transparent)),
@@ -230,17 +236,14 @@ class _SliverIconSet extends StatelessWidget {
             maxCrossAxisExtent: 250,
           ),
           itemCount: iconList.length,
-          itemBuilder: (context, index) => Card.filled(
-            child: Icon(
-              iconList[index],
-              color: switch (index % 4) {
-                0 => colorScheme.primary,
-                1 => colorScheme.secondary,
-                2 => colorScheme.tertiary,
-                _ => null,
-              },
-            ),
-          ),
+          itemBuilder: (context, index) {
+            return Card.filled(
+              child: Icon(
+                iconList[index],
+                color: colors[index % colors.length],
+              ),
+            );
+          },
         ),
       ],
     );
