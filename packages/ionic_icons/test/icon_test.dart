@@ -1,5 +1,3 @@
-// ignore_for_file: non_const_argument_for_const_parameter
-
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:ionic_icons/ionic_icons.dart';
@@ -35,14 +33,7 @@ void main() {
     });
 
     testWidgets('Golden test', (tester) async {
-      await tester.pumpWidget(
-        MaterialApp(
-          home: Icon(
-            size: 240,
-            IconData(icon.codePoint, fontFamily: icon.fontFamily),
-          ),
-        ),
-      );
+      await tester.pumpWidget(const MaterialApp(home: TestIcon(icon)));
 
       await expectLater(
         find.byType(Icon),

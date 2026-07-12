@@ -1,5 +1,3 @@
-// ignore_for_file: non_const_argument_for_const_parameter
-
 import 'package:ant_design_icons/ant_design_icons.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
@@ -46,17 +44,7 @@ void main() async {
   group('Golden tests', () {
     for (final icon in icons) {
       testWidgets('Golden test ${icon.fontFamily}', (tester) async {
-        await tester.pumpWidget(
-          MaterialApp(
-            home: Icon(
-              size: 240,
-              IconData(
-                icon.codePoint,
-                fontFamily: icon.fontFamily,
-              ),
-            ),
-          ),
-        );
+        await tester.pumpWidget(MaterialApp(home: TestIcon(icon)));
 
         await expectLater(
           find.byType(Icon),
