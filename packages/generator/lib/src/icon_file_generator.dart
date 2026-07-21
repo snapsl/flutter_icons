@@ -2,6 +2,7 @@ import 'dart:convert';
 import 'dart:io';
 
 import 'package:generator/src/utils.dart';
+import 'package:meta/meta.dart';
 import 'package:recase/recase.dart';
 import 'package:xml/xml.dart';
 
@@ -93,6 +94,14 @@ static const List<IconData> values = [${_iconNames.join(', ')}];
     _buffer.writeln('}');
   }
 
+  /// Parses variable name into a valid Dart camelCase identifier.
+  @visibleForTesting
+  String parseName(String iconName) {
+    final iconNameValidated = _validateVariableName(iconName);
+
+    return ReCase(iconNameValidated).camelCase;
+  }
+
   /// Write file
   ///
   /// writes generated content to [file].
@@ -105,7 +114,43 @@ static const List<IconData> values = [${_iconNames.join(', ')}];
 
     if (!file.existsSync()) return '';
 
-    final document = XmlDocument.parse(file.readAsStringSync());
+    return _encodeSVG(file.readAsStringSync());
+  }
+
+  void _createIconDataString(
+    Map<String, String> iconsData,
+    String fontFamily,
+    String fontPackage,
+    String iconSvgPath,
+    String suffix,
+    String brand,
+  ) {
+    iconsData.forEach((iconName, iconUnicode) {
+      final parsedNamed = parseName(iconName);
+
+      final name = suffix.isEmpty ? parsedNamed : '${parsedNamed}_$suffix';
+
+      final iconEncoded = _createEncodedIcon('$iconSvgPath/$iconName.svg');
+
+      if (iconEncoded.isEmpty) {
+        stderr.writeln('$iconName.svg not found');
+
+        return;
+      }
+
+      _iconNames.add(name);
+
+      _buffer.writeln('''
+/// $iconEncoded
+///
+/// $brand icon named "$iconName".
+static const IconData $name = IconData($iconUnicode, fontFamily: '$fontFamily', fontPackage: '$fontPackage');
+''');
+    });
+  }
+
+  String _encodeSVG(String svgContent) {
+    final document = XmlDocument.parse(svgContent);
 
     document.rootElement
       ..setAttribute('height', '24')
@@ -136,72 +181,33 @@ static const List<IconData> values = [${_iconNames.join(', ')}];
     return '![Icon](data:image/svg+xml;base64,$base64Encoded)';
   }
 
-  void _createIconDataString(
-    Map<String, String> iconsData,
-    String fontFamily,
-    String fontPackage,
-    String iconSvgPath,
-    String suffix,
-    String brand,
-  ) {
-    iconsData.forEach((iconName, iconUnicode) {
-      final parsedNamed = _parseName(iconName);
-      final name = suffix.isEmpty ? parsedNamed : '${parsedNamed}_$suffix';
-
-      final iconEncoded = _createEncodedIcon('$iconSvgPath/$iconName.svg');
-
-      if (iconEncoded.isEmpty) {
-        stderr.writeln('$iconName.svg not found');
-
-        return;
-      }
-
-      _iconNames.add(name);
-
-      _buffer.writeln('''
-/// $iconEncoded
-///
-/// $brand icon named "$iconName".
-static const IconData $name = IconData($iconUnicode, fontFamily: '$fontFamily', fontPackage: '$fontPackage');
-''');
-    });
-  }
-
-  String _parseName(String iconName) {
-    final iconNameValidated = _validateVariableName(iconName);
-
-    return ReCase(iconNameValidated).camelCase;
-  }
-
   /// read the icon data from the [file]
   Map<String, String> _readIcons(File file) {
     final content = file.readAsStringSync();
     final document = XmlDocument.parse(content);
 
-    final icons = _xmlToIcons(document);
-
-    return icons;
+    return _xmlToIcons(document);
   }
 
-  String _validateVariableName(String name) {
-    var sanName = name;
+  String _validateVariableName(String iconName) {
+    var name = iconName;
 
     // name is a symbol
     if (symbolMap.containsKey(name)) {
-      sanName = '${symbolMap[name]!}_symbol';
+      name = '${symbolMap[name]!}_symbol';
     }
 
     // adds 'icon' suffix to dart keywords
-    if (dartKeywords.contains(sanName)) {
-      sanName = '${sanName}_icon';
+    if (dartKeywords.contains(name)) {
+      name = '${name}_icon';
     }
 
     // adds 'n' before variables that start with a number
-    if (sanName.startsWith(RegExp(r'\d'))) {
-      sanName = 'n$sanName';
+    if (name.startsWith(RegExp(r'\d'))) {
+      name = 'n$name';
     }
 
-    return sanName;
+    return name;
   }
 
   Map<String, String> _xmlToIcons(XmlDocument document) {
