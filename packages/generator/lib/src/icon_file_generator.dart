@@ -94,6 +94,41 @@ static const List<IconData> values = [${_iconNames.join(', ')}];
     _buffer.writeln('}');
   }
 
+  /// Encodes the SVG content to a base64 string
+  /// and returns a markdown image link.
+  @visibleForTesting
+  String encodeSVG(String svgContent) {
+    final document = XmlDocument.parse(svgContent);
+
+    document.rootElement
+      ..setAttribute('height', '24')
+      ..setAttribute('width', '24')
+      ..setAttribute('xmlns', 'http://www.w3.org/2000/svg');
+
+    const color = 'gray';
+
+    var foundElement = false;
+
+    for (final node in document.findAllElements('*')) {
+      if (node.getAttribute('stroke') == 'currentColor') {
+        node.setAttribute('stroke', color);
+        foundElement = true;
+      }
+
+      if (node.getAttribute('fill') == 'currentColor') {
+        node.setAttribute('fill', color);
+        foundElement = true;
+      }
+    }
+
+    // fallback (just fill the icon)
+    if (!foundElement) document.rootElement.setAttribute('fill', color);
+
+    final base64Encoded = base64Encode(utf8.encode(document.toXmlString()));
+
+    return '![Icon](data:image/svg+xml;base64,$base64Encoded)';
+  }
+
   /// Parses variable name into a valid Dart camelCase identifier.
   @visibleForTesting
   String parseName(String iconName) {
@@ -114,7 +149,7 @@ static const List<IconData> values = [${_iconNames.join(', ')}];
 
     if (!file.existsSync()) return '';
 
-    return _encodeSVG(file.readAsStringSync());
+    return encodeSVG(file.readAsStringSync());
   }
 
   void _createIconDataString(
@@ -147,38 +182,6 @@ static const List<IconData> values = [${_iconNames.join(', ')}];
 static const IconData $name = IconData($iconUnicode, fontFamily: '$fontFamily', fontPackage: '$fontPackage');
 ''');
     });
-  }
-
-  String _encodeSVG(String svgContent) {
-    final document = XmlDocument.parse(svgContent);
-
-    document.rootElement
-      ..setAttribute('height', '24')
-      ..setAttribute('width', '24')
-      ..setAttribute('xmlns', 'http://www.w3.org/2000/svg');
-
-    const color = 'gray';
-
-    var foundElement = false;
-
-    for (final node in document.findAllElements('*')) {
-      if (node.getAttribute('stroke') == 'currentColor') {
-        node.setAttribute('stroke', color);
-        foundElement = true;
-      }
-
-      if (node.getAttribute('fill') == 'currentColor') {
-        node.setAttribute('fill', color);
-        foundElement = true;
-      }
-    }
-
-    // fallback (just fill the icon)
-    if (!foundElement) document.rootElement.setAttribute('fill', color);
-
-    final base64Encoded = base64Encode(utf8.encode(document.toXmlString()));
-
-    return '![Icon](data:image/svg+xml;base64,$base64Encoded)';
   }
 
   /// read the icon data from the [file]
