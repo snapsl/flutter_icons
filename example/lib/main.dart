@@ -210,6 +210,7 @@ class _SliverIconSet extends StatelessWidget {
       colorScheme.primary,
       colorScheme.secondary,
       colorScheme.tertiary,
+      null,
     ];
 
     return SliverMainAxisGroup(
