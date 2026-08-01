@@ -16,135 +16,38 @@ void main() {
   runApp(const ExampleApp());
 }
 
-const _title = 'Flutter Icons Example';
+const appTitle = 'Flutter Icons Example';
+
+final random = math.Random();
 
 class ExampleApp extends StatelessWidget {
-  static final Color _seedColor =
-      Colors.primaries[math.Random().nextInt(Colors.primaries.length)];
+  static final seedColor =
+      Colors.primaries[random.nextInt(Colors.primaries.length)];
 
   const ExampleApp({super.key});
 
   @override
   Widget build(BuildContext context) {
-    final theme = ThemeData(
-      colorScheme: .fromSeed(
-        seedColor: _seedColor,
-        brightness: .light,
-        dynamicSchemeVariant: .expressive,
-      ),
-    );
-
-    final darkTheme = ThemeData(
-      colorScheme: .fromSeed(
-        seedColor: _seedColor,
-        brightness: .dark,
-        dynamicSchemeVariant: .expressive,
-      ),
-    );
-
     return MaterialApp(
-      title: _title,
-      theme: theme,
-      darkTheme: darkTheme,
+      title: appTitle,
+      theme: buildTheme(.light),
+      darkTheme: buildTheme(.dark),
       home: const ExamplePage(),
+    );
+  }
+
+  static ThemeData buildTheme(Brightness brightness) {
+    return ThemeData(
+      colorScheme: .fromSeed(
+        seedColor: seedColor,
+        brightness: brightness,
+        dynamicSchemeVariant: .expressive,
+      ),
     );
   }
 }
 
 class ExamplePage extends StatelessWidget {
-  static const _iconSets = [
-    _SliverIconSet(
-      title: 'Ant Design Icons',
-      uri: 'https://ant.design/components/icon',
-      iconList: [
-        AntDesignIcons.antDesign_outlined,
-        AntDesignIcons.file_filled,
-        AntDesignIcons.camera_outlined,
-        AntDesignIcons.bug_filled,
-      ],
-    ),
-    _SliverIconSet(
-      title: 'Bootstrap Icons',
-      uri: 'https://icons.getbootstrap.com',
-      iconList: [
-        BootstrapIcons.bootstrap,
-        BootstrapIcons.activity,
-        BootstrapIcons.dashCircleFill,
-        BootstrapIcons.magic,
-      ],
-    ),
-    _SliverIconSet(
-      title: 'Hero Icons',
-      uri: 'https://heroicons.com',
-      iconList: [
-        HeroIcons.shieldCheck_outline,
-        HeroIcons.map,
-        HeroIcons.heart_outline,
-        HeroIcons.adjustmentsHorizontal,
-      ],
-    ),
-    _SliverIconSet(
-      title: 'Ionic Icons',
-      uri: 'https://ionic.io/ionicons',
-      iconList: [
-        IonicIcons.logoIonic,
-        IonicIcons.home,
-        IonicIcons.camera,
-        IonicIcons.airplane,
-      ],
-    ),
-    _SliverIconSet(
-      title: 'Lucide Icons',
-      uri: 'https://lucide.dev/icons',
-      iconList: [
-        LucideIcons.album,
-        LucideIcons.ban,
-        LucideIcons.diamond,
-        LucideIcons.menuSquare,
-      ],
-    ),
-    _SliverIconSet(
-      title: 'Radix Icons',
-      uri: 'https://radix-ui.com/icons',
-      iconList: [
-        RadixIcons.crumpledPaper,
-        RadixIcons.lockClosed,
-        RadixIcons.aspectRatio,
-        RadixIcons.copy,
-      ],
-    ),
-    _SliverIconSet(
-      title: 'Remix Icons',
-      uri: 'https://remixicon.com',
-      iconList: [
-        RemixIcons.remixFill,
-        RemixIcons.accountPinBoxFill,
-        RemixIcons.tentLine,
-        RemixIcons.chat3Fill,
-      ],
-    ),
-    _SliverIconSet(
-      title: 'Simple Icons',
-      uri: 'https://simpleicons.org',
-      iconList: [
-        SimpleIcons.simpleicons,
-        SimpleIcons.cesium,
-        SimpleIcons.flutter,
-        SimpleIcons.homeassistant,
-      ],
-    ),
-    _SliverIconSet(
-      title: 'Tabler Icons',
-      uri: 'https://tabler.io/icons',
-      iconList: [
-        TablerIcons.brandTabler,
-        TablerIcons.mail_filled,
-        TablerIcons.album,
-        TablerIcons.sun_filled,
-      ],
-    ),
-  ];
-
   const ExamplePage({super.key});
 
   @override
@@ -154,7 +57,7 @@ class ExamplePage extends StatelessWidget {
         child: ConstrainedBox(
           constraints: const BoxConstraints(maxWidth: 840),
           child: Card.outlined(
-            clipBehavior: Clip.hardEdge,
+            clipBehavior: .hardEdge,
             child: ScrollConfiguration(
               behavior: ScrollConfiguration.of(
                 context,
@@ -165,20 +68,24 @@ class ExamplePage extends StatelessWidget {
                     actions: [
                       Link(
                         uri: .parse('https://github.com/snapsl/flutter_icons'),
-                        builder: (context, followLink) => IconButton(
-                          tooltip: 'Open in GitHub',
-                          onPressed: followLink,
-                          icon: const Icon(SimpleIcons.github, size: 28),
-                        ),
+                        builder: (context, followLink) {
+                          return IconButton(
+                            tooltip: 'Open in GitHub',
+                            onPressed: followLink,
+                            icon: const Icon(SimpleIcons.github, size: 30),
+                          );
+                        },
                       ),
                     ],
                     expandedHeight: 120,
                     flexibleSpace: const FlexibleSpaceBar(
-                      title: Text(_title),
+                      title: Text(appTitle),
                       centerTitle: true,
                     ),
                   ),
-                  ..._iconSets,
+                  ...IconSet.values.map(
+                    (iconSet) => SliverIconSet(iconSet: iconSet),
+                  ),
                 ],
               ),
             ),
@@ -189,22 +96,123 @@ class ExamplePage extends StatelessWidget {
   }
 }
 
-class _SliverIconSet extends StatelessWidget {
+enum IconSet {
+  antDesign(
+    title: 'Ant Design Icons',
+    uri: 'https://ant.design/components/icon',
+    icon: AntDesignIcons.antDesign_outlined,
+    items: AntDesignIcons.values,
+  ),
+  bootstrap(
+    title: 'Bootstrap Icons',
+    uri: 'https://icons.getbootstrap.com',
+    icon: BootstrapIcons.bootstrap,
+    items: BootstrapIcons.values,
+  ),
+  hero(
+    title: 'Hero Icons',
+    uri: 'https://heroicons.com',
+    icon: SimpleIcons.tailwindcss,
+    items: HeroIcons.values,
+  ),
+  ionic(
+    title: 'Ionic Icons',
+    uri: 'https://ionic.io/ionicons',
+    icon: IonicIcons.logoIonic,
+    items: IonicIcons.values,
+  ),
+  lucide(
+    title: 'Lucide Icons',
+    uri: 'https://lucide.dev/icons',
+    icon: SimpleIcons.lucide,
+    items: LucideIcons.values,
+  ),
+  radix(
+    title: 'Radix Icons',
+    uri: 'https://radix-ui.com/icons',
+    icon: SimpleIcons.radixui,
+    items: RadixIcons.values,
+  ),
+  remix(
+    title: 'Remix Icons',
+    uri: 'https://remixicon.com',
+    icon: RemixIcons.remixiconFill,
+    items: RemixIcons.values,
+  ),
+  simple(
+    title: 'Simple Icons',
+    uri: 'https://simpleicons.org',
+    icon: SimpleIcons.simpleicons,
+    items: SimpleIcons.values,
+  ),
+  tabler(
+    title: 'Tabler Icons',
+    uri: 'https://tabler.io/icons',
+    icon: TablerIcons.brandTabler,
+    items: TablerIcons.values,
+  );
+
   final String title;
 
   final String uri;
 
-  final List<IconData> iconList;
+  final IconData icon;
 
-  const _SliverIconSet({
+  final List<IconData> items;
+
+  const IconSet({
     required this.title,
     required this.uri,
-    required this.iconList,
+    required this.icon,
+    required this.items,
   });
+}
+
+class SliverIconSet extends StatelessWidget {
+  final IconSet iconSet;
+
+  const SliverIconSet({super.key, required this.iconSet});
 
   @override
   Widget build(BuildContext context) {
+    final icons = createRandomIcons(context);
+
+    return SliverMainAxisGroup(
+      slivers: [
+        const SliverToBoxAdapter(child: Divider(color: Colors.transparent)),
+        PinnedHeaderSliver(
+          child: ListTile(
+            leading: IconButton(onPressed: null, icon: Icon(iconSet.icon)),
+            trailing: Link(
+              uri: .parse(iconSet.uri),
+              builder: (context, followLink) {
+                return ElevatedButton.icon(
+                  onPressed: followLink,
+                  label: Text(iconSet.title),
+                  icon: const Icon(Icons.launch),
+                  iconAlignment: .end,
+                );
+              },
+            ),
+          ),
+        ),
+        SliverGrid.builder(
+          gridDelegate: const SliverGridDelegateWithMaxCrossAxisExtent(
+            maxCrossAxisExtent: 250,
+          ),
+          itemCount: icons.length,
+          itemBuilder: (context, index) {
+            return Card.filled(child: icons[index]);
+          },
+        ),
+      ],
+    );
+  }
+
+  List<Widget> createRandomIcons(BuildContext context) {
     final colorScheme = Theme.of(context).colorScheme;
+
+    final shuffledIcons = [...iconSet.items]..shuffle(random);
 
     final colors = [
       colorScheme.primary,
@@ -213,40 +221,14 @@ class _SliverIconSet extends StatelessWidget {
       null,
     ];
 
-    return SliverMainAxisGroup(
-      slivers: [
-        const SliverToBoxAdapter(child: Divider(color: Colors.transparent)),
-        PinnedHeaderSliver(
-          child: ListTile(
-            title: Align(
-              alignment: .centerLeft,
-              child: Link(
-                uri: .parse(uri),
-                builder: (context, followLink) => ElevatedButton.icon(
-                  onPressed: followLink,
-                  label: Text(title),
-                  icon: Icon(Icons.launch, size: 16),
-                  iconAlignment: .end,
-                ),
-              ),
-            ),
-          ),
-        ),
-        SliverGrid.builder(
-          gridDelegate: const SliverGridDelegateWithMaxCrossAxisExtent(
-            maxCrossAxisExtent: 250,
-          ),
-          itemCount: iconList.length,
-          itemBuilder: (context, index) {
-            return Card.filled(
-              child: Icon(
-                iconList[index],
-                color: colors[index % colors.length],
-              ),
-            );
-          },
-        ),
-      ],
+    return List.generate(
+      colors.length,
+      (index) => Icon(
+        shuffledIcons.elementAtOrNull(index),
+        size: 30,
+        color: colors[index],
+      ),
+      growable: false,
     );
   }
 }
