@@ -53,40 +53,43 @@ class ExamplePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: Center(
-        child: ConstrainedBox(
-          constraints: const BoxConstraints(maxWidth: 840),
-          child: Card.outlined(
-            clipBehavior: .hardEdge,
-            child: ScrollConfiguration(
-              behavior: ScrollConfiguration.of(
-                context,
-              ).copyWith(scrollbars: false),
-              child: CustomScrollView(
-                slivers: [
-                  SliverAppBar(
-                    actions: [
-                      Link(
-                        uri: .parse('https://github.com/snapsl/flutter_icons'),
-                        builder: (context, followLink) {
-                          return IconButton(
-                            tooltip: 'Open in GitHub',
-                            onPressed: followLink,
-                            icon: const Icon(SimpleIcons.github, size: 30),
-                          );
-                        },
+      body: SafeArea(
+        child: Center(
+          child: ConstrainedBox(
+            constraints: const BoxConstraints(maxWidth: 840),
+            child: Card.outlined(
+              clipBehavior: .hardEdge,
+              child: ScrollConfiguration(
+                behavior: ScrollConfiguration.of(
+                  context,
+                ).copyWith(scrollbars: false),
+                child: CustomScrollView(
+                  slivers: [
+                    SliverAppBar.large(
+                      actions: [
+                        Link(
+                          uri: .parse(
+                            'https://github.com/snapsl/flutter_icons',
+                          ),
+                          builder: (context, followLink) {
+                            return IconButton(
+                              tooltip: 'Open in GitHub',
+                              onPressed: followLink,
+                              icon: const Icon(SimpleIcons.github),
+                            );
+                          },
+                        ),
+                      ],
+                      flexibleSpace: const FlexibleSpaceBar(
+                        title: Text(appTitle),
+                        centerTitle: true,
                       ),
-                    ],
-                    expandedHeight: 120,
-                    flexibleSpace: const FlexibleSpaceBar(
-                      title: Text(appTitle),
-                      centerTitle: true,
                     ),
-                  ),
-                  ...IconSet.values.map(
-                    (iconSet) => SliverIconSet(iconSet: iconSet),
-                  ),
-                ],
+                    ...IconSet.values.map(
+                      (iconSet) => SliverIconSet(iconSet: iconSet),
+                    ),
+                  ],
+                ),
               ),
             ),
           ),
@@ -223,11 +226,8 @@ class SliverIconSet extends StatelessWidget {
 
     return List.generate(
       colors.length,
-      (index) => Icon(
-        shuffledIcons.elementAtOrNull(index),
-        size: 30,
-        color: colors[index],
-      ),
+      (index) =>
+          Icon(shuffledIcons.elementAtOrNull(index), color: colors[index]),
       growable: false,
     );
   }

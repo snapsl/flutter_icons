@@ -7,7 +7,7 @@ void main() {
     await tester.pumpWidget(const ExampleApp());
 
     expect(find.text('Flutter Icons Example'), findsOneWidget);
-    expect(find.byTooltip(RegExp('Open in GitHub')), findsOneWidget);
+    expect(find.byTooltip('Open in GitHub'), findsOneWidget);
     expect(find.byIcon(AntDesignIcons.antDesign_outlined), findsAtLeast(1));
   });
 }
