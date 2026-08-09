@@ -73,8 +73,8 @@ class ExamplePage extends StatelessWidget {
                           ),
                           builder: (context, followLink) {
                             return IconButton(
-                              tooltip: 'Open in GitHub',
                               onPressed: followLink,
+                              tooltip: 'Open in GitHub',
                               icon: const Icon(SimpleIcons.github),
                             );
                           },
@@ -185,14 +185,17 @@ class SliverIconSet extends StatelessWidget {
         const SliverToBoxAdapter(child: Divider(color: Colors.transparent)),
         PinnedHeaderSliver(
           child: ListTile(
-            leading: IconButton(onPressed: null, icon: Icon(iconSet.icon)),
+            leading: IconButton.outlined(
+              onPressed: null,
+              icon: Icon(iconSet.icon),
+            ),
             trailing: Link(
               uri: .parse(iconSet.uri),
               builder: (context, followLink) {
                 return ElevatedButton.icon(
                   onPressed: followLink,
-                  label: Text(iconSet.title),
                   icon: const Icon(Icons.launch),
+                  label: Text(iconSet.title),
                   iconAlignment: .end,
                 );
               },
