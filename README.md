@@ -19,16 +19,16 @@ A collection of icon sets for your Flutter apps.
 This project contains a collection of icon sets for Flutter. The icons are generated from popular open-source icon libraries.
 
 | Icon Set | pub.dev | GitHub Release |
-| --- | --- | --- |
-| [Ant Design Icons][ant-design-site] | [![pub package][pub-badge]][ant-design-pub] | [![GitHub Release][ant-design-release]][ant-design-releases-link] |
-| [Bootstrap Icons][bootstrap-site] | [![pub package][pub-badge]][bootstrap-pub] | [![GitHub Release][bootstrap-release]][bootstrap-releases-link] |
-| [Hero Icons][hero-site] | [![pub package][pub-badge]][hero-pub] | [![GitHub Release][hero-release]][hero-releases-link] |
-| [Ionic Icons][ionic-site] | [![pub package][pub-badge]][ionic-pub] | [![GitHub Release][ionic-release]][ionic-releases-link] |
-| [Lucide Icons][lucide-site] | [![pub package][pub-badge]][lucide-pub] | [![GitHub Release][lucide-release]][lucide-releases-link] |
-| [Radix Icons][radix-site] | [![pub package][pub-badge]][radix-pub] | [![GitHub Release][radix-release]][radix-releases-link] |
-| [Remix Icons][remix-site] | [![pub package][pub-badge]][remix-pub] | [![GitHub Release][remix-release]][remix-releases-link] |
-| [Simple Icons][simple-site] | [![pub package][pub-badge]][simple-pub] | [![GitHub Release][simple-release]][simple-releases-link] |
-| [Tabler Icons][tabler-site] | [![pub package][pub-badge]][tabler-pub] | [![GitHub Release][tabler-release]][tabler-releases-link] |
+| :--- | :--- | :--- |
+| [Ant Design Icons][ant-design-site] | [![pub package][pub-unpublished-badge]][ant-design-pub] | [![GitHub Release][ant-design-release]][ant-design-releases-link] |
+| [Bootstrap Icons][bootstrap-site] | [![pub package][pub-unpublished-badge]][bootstrap-pub] | [![GitHub Release][bootstrap-release]][bootstrap-releases-link] |
+| [Hero Icons<br>*(heroicons)*][hero-site] | [![pub package][pub-unpublished-badge]][hero-pub] | [![GitHub Release][hero-release]][hero-releases-link] |
+| [Ionic Icons<br>*(ionicons)*][ionic-site] | [![pub package][pub-unpublished-badge]][ionic-pub] | [![GitHub Release][ionic-release]][ionic-releases-link] |
+| [Lucide Icons][lucide-site] | [![pub package][pub-unpublished-badge]][lucide-pub] | [![GitHub Release][lucide-release]][lucide-releases-link] |
+| [Radix Icons][radix-site] | [![pub package][pub-unpublished-badge]][radix-pub] | [![GitHub Release][radix-release]][radix-releases-link] |
+| [Remix Icons][remix-site] | [![pub package][pub-unpublished-badge]][remix-pub] | [![GitHub Release][remix-release]][remix-releases-link] |
+| [Simple Icons][simple-site] | [![pub package][pub-unpublished-badge]][simple-pub] | [![GitHub Release][simple-release]][simple-releases-link] |
+| [Tabler Icons][tabler-site] | [![pub package][pub-unpublished-badge]][tabler-pub] | [![GitHub Release][tabler-release]][tabler-releases-link] |
 
 ## Demo
 
@@ -54,11 +54,12 @@ dependencies:
 Here are some popular existing icon sets available for Flutter:
 
 | Icon Set | Version |
-| --- | --- |
-| Phosphor Icons | [![pub package][phosphor-pub-badge]][phosphor-pub-link] |
-| Hugeicons | [![pub package][hugeicons-pub-badge]][hugeicons-pub-link] |
+| :--- | :--- |
 | Fluent UI System Icons | [![pub package][fluentui-pub-badge]][fluentui-pub-link] |
 | Font Awesome Flutter | [![pub package][font-awesome-pub-badge]][font-awesome-pub-link] |
+| Hugeicons | [![pub package][hugeicons-pub-badge]][hugeicons-pub-link] |
+| Iconoir | [![pub package][iconoir-pub-badge]][iconoir-pub-link] |
+| Phosphor Icons | [![pub package][phosphor-pub-badge]][phosphor-pub-link] |
 
 ## License
 
@@ -78,9 +79,9 @@ Please refer to the respective `LICENSE` files within each package directory for
 [test-packages-link]: https://github.com/snapsl/flutter_icons/actions/workflows/test-packages.yml
 [website-badge]: https://img.shields.io/github/actions/workflow/status/snapsl/flutter_icons/github-page.yml?label=website
 [website-link]: https://github.com/snapsl/flutter_icons/actions/workflows/github-page.yml
-[codecov-badge]: https://codecov.io/gh/snapsl/flutter_icons/graph/badge.svg
 [links-badge]: https://img.shields.io/github/actions/workflow/status/snapsl/flutter_icons/links.yml?label=links
 [links-link]: https://github.com/snapsl/flutter_icons/actions/workflows/links.yml
+[codecov-badge]: https://codecov.io/gh/snapsl/flutter_icons/graph/badge.svg
 [codecov-link]: https://codecov.io/gh/snapsl/flutter_icons
 [license-badge]: https://img.shields.io/github/license/snapsl/flutter_icons
 [license-link]: LICENSE
@@ -95,7 +96,7 @@ Please refer to the respective `LICENSE` files within each package directory for
 [remix-site]: https://remixicon.com
 [simple-site]: https://simpleicons.org
 [tabler-site]: https://tabler.io/icons
-[pub-badge]: https://img.shields.io/badge/version-placeholder-silver
+[pub-unpublished-badge]: https://img.shields.io/badge/pub-unpublished-inactive
 [ant-design-pub]: https://pub.dev/packages/flutter_icons/ant_design_icons
 [bootstrap-pub]: https://pub.dev/packages/flutter_icons/bootstrap_icons
 [hero-pub]: https://pub.dev/packages/flutter_icons/heroicons
@@ -124,12 +125,14 @@ Please refer to the respective `LICENSE` files within each package directory for
 [simple-releases-link]: https://github.com/snapsl/flutter_icons/releases?q="simple_icons"
 [tabler-releases-link]: https://github.com/snapsl/flutter_icons/releases?q="tabler_icons"
 [demo-link]: https://snapsl.github.io/flutter_icons
-[phosphor-pub-badge]: https://img.shields.io/pub/v/phosphor_flutter.svg
-[phosphor-pub-link]: https://pub.dev/packages/phosphor_flutter
-[hugeicons-pub-badge]: https://img.shields.io/pub/v/hugeicons.svg
-[hugeicons-pub-link]: https://pub.dev/packages/hugeicons
 [fluentui-pub-badge]: https://img.shields.io/pub/v/fluentui_system_icons.svg
 [fluentui-pub-link]: https://pub.dev/packages/fluentui_system_icons
 [font-awesome-pub-badge]: https://img.shields.io/pub/v/font_awesome_flutter.svg
 [font-awesome-pub-link]: https://pub.dev/packages/font_awesome_flutter
+[hugeicons-pub-badge]: https://img.shields.io/pub/v/hugeicons.svg
+[hugeicons-pub-link]: https://pub.dev/packages/hugeicons
+[iconoir-pub-badge]: https://img.shields.io/pub/v/iconoir_flutter.svg
+[iconoir-pub-link]: https://pub.dev/packages/iconoir_flutter
+[phosphor-pub-badge]: https://img.shields.io/pub/v/phosphor_flutter.svg
+[phosphor-pub-link]: https://pub.dev/packages/phosphor_flutter
 [breaking-change]: https://docs.flutter.dev/release/breaking-changes/icondata-class-marked-final
