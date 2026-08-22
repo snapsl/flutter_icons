@@ -27,4 +27,4 @@ flutter:
   fonts:
     - family: SimpleIcons
       fonts:
-        - asset: fonts/simpleicons.ttf
+        - asset: fonts/SimpleIcons.ttf
