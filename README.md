@@ -25,6 +25,7 @@ This project contains a collection of icon sets for Flutter. The icons are gener
 | [Hero Icons<br>*(heroicons)*][hero-site] | [![pub package][pub-unpublished-badge]][hero-pub] | [![GitHub Release][hero-release]][hero-releases-link] |
 | [Ionic Icons<br>*(ionicons)*][ionic-site] | [![pub package][pub-unpublished-badge]][ionic-pub] | [![GitHub Release][ionic-release]][ionic-releases-link] |
 | [Lucide Icons][lucide-site] | [![pub package][pub-unpublished-badge]][lucide-pub] | [![GitHub Release][lucide-release]][lucide-releases-link] |
+| [Primer Icons<br>*(octicons)*][primer-site] | [![pub package][pub-unpublished-badge]][primer-pub] | [![GitHub Release][primer-release]][primer-releases-link] |
 | [Radix Icons][radix-site] | [![pub package][pub-unpublished-badge]][radix-pub] | [![GitHub Release][radix-release]][radix-releases-link] |
 | [Remix Icons][remix-site] | [![pub package][pub-unpublished-badge]][remix-pub] | [![GitHub Release][remix-release]][remix-releases-link] |
 | [Simple Icons][simple-site] | [![pub package][pub-unpublished-badge]][simple-pub] | [![GitHub Release][simple-release]][simple-releases-link] |
@@ -92,6 +93,7 @@ Please refer to the respective `LICENSE` files within each package directory for
 [hero-site]: https://heroicons.com
 [ionic-site]: https://ionic.io/ionicons
 [lucide-site]: https://lucide.dev/icons
+[primer-site]: https://primer.style/octicons
 [radix-site]: https://radix-ui.com/icons
 [remix-site]: https://remixicon.com
 [simple-site]: https://simpleicons.org
@@ -102,6 +104,7 @@ Please refer to the respective `LICENSE` files within each package directory for
 [hero-pub]: https://pub.dev/packages/flutter_icons/heroicons
 [ionic-pub]: https://pub.dev/packages/flutter_icons/ionic_icons
 [lucide-pub]: https://pub.dev/packages/flutter_icons/lucide_icons
+[primer-pub]: https://pub.dev/packages/flutter_icons/primer_icons
 [radix-pub]: https://pub.dev/packages/flutter_icons/radix_icons
 [remix-pub]: https://pub.dev/packages/flutter_icons/remix_icons
 [simple-pub]: https://pub.dev/packages/flutter_icons/simple_icons
@@ -111,6 +114,7 @@ Please refer to the respective `LICENSE` files within each package directory for
 [hero-release]: https://img.shields.io/github/v/release/snapsl/flutter_icons?filter=hero*
 [ionic-release]: https://img.shields.io/github/v/release/snapsl/flutter_icons?filter=ionic*
 [lucide-release]: https://img.shields.io/github/v/release/snapsl/flutter_icons?filter=lucide*
+[primer-release]: https://img.shields.io/github/v/release/snapsl/flutter_icons?filter=primer*
 [radix-release]: https://img.shields.io/github/v/release/snapsl/flutter_icons?filter=radix*
 [remix-release]: https://img.shields.io/github/v/release/snapsl/flutter_icons?filter=remix*
 [simple-release]: https://img.shields.io/github/v/release/snapsl/flutter_icons?filter=simple*
@@ -120,6 +124,7 @@ Please refer to the respective `LICENSE` files within each package directory for
 [hero-releases-link]: https://github.com/snapsl/flutter_icons/releases?q="hero_icons"
 [ionic-releases-link]: https://github.com/snapsl/flutter_icons/releases?q="ionic_icons"
 [lucide-releases-link]: https://github.com/snapsl/flutter_icons/releases?q="lucide_icons"
+[primer-releases-link]: https://github.com/snapsl/flutter_icons/releases?q="primer_icons"
 [radix-releases-link]: https://github.com/snapsl/flutter_icons/releases?q="radix_icons"
 [remix-releases-link]: https://github.com/snapsl/flutter_icons/releases?q="remix_icons"
 [simple-releases-link]: https://github.com/snapsl/flutter_icons/releases?q="simple_icons"

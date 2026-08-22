@@ -113,6 +113,27 @@
     ]
   },
   {
+    "id": "primer",
+    "package_path": "packages",
+    "vendor_path": "vendors",
+    "package_name": "primer_icons",
+    "vendor_name": "@primer/octicons",
+    "svg_to_font": true,
+    "url": "https://primer.style/octicons",
+    "brand": "Primer",
+    "class_name": "PrimerIcons",
+    "output_path": "lib/src/icon_data.dart",
+    "fonts": [
+      {
+        "file": "primer.ttf",
+        "svg_path": "node_modules/@primer/octicons/build/svg",
+        "svg_pattern": "*-24.svg",
+        "font_path": "node_modules/@primer/octicons/fonts",
+        "font_family": "PrimerIcons"
+      }
+    ]
+  },
+  {
     "id": "radix",
     "package_path": "packages",
     "vendor_path": "vendors",
