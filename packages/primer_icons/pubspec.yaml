@@ -23,8 +23,8 @@ dev_dependencies:
     sdk: flutter
   test_utils:
 
-flutter:  
+flutter:
   fonts:
-    - family: SimpleIcons
+    - family: OctIcons
       fonts:
-        - asset: fonts/SimpleIcons.ttf
+        - asset: fonts/octicons.ttf

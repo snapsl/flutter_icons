@@ -125,19 +125,15 @@ jobs:
         if: matrix.svg_to_font == true
         env:
           FONTS_JSON: ${{ toJSON(matrix.fonts) }}
-          FILTER_PATTERN: ${{ matrix.svg_pattern || '*.svg' }}
         run: |
           echo "$FONTS_JSON" | jq -c '.[]' | while read -r font_item; do
-            SRC_PATH="${{ matrix.vendor_path }}/${{ matrix.package_name }}/$(echo "$font_item" | jq -r '.svg_path')"
+            SVG_PATH="${{ matrix.vendor_path }}/${{ matrix.package_name }}/$(echo "$font_item" | jq -r '.svg_path')"
             FONT_FILE=$(echo "$font_item" | jq -r '.file')
             FONT_PATH="${{ matrix.vendor_path }}/${{ matrix.package_name }}/$(echo "$font_item" | jq -r '.font_path')"
 
-            SVG_FILTERED_PATH=$(mktemp -d)
             SVG_FIXED_PATH=$(mktemp -d)
 
-            find "$SRC_PATH" -type f -name "$FILTER_PATTERN" -exec cp -t "$SVG_FILTERED_PATH/" {} +
-
-            npx oslllo-svg-fixer --source "$SVG_FILTERED_PATH" --destination "$SVG_FIXED_PATH" --show-progress false
+            npx oslllo-svg-fixer --source "$SVG_PATH" --destination "$SVG_FIXED_PATH" --show-progress false
             npx svgtofont --sources "$SVG_FIXED_PATH" --output "$FONT_PATH" --fontName "${FONT_FILE%.ttf}"
           done
 
