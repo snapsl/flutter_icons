@@ -6,6 +6,7 @@ import 'package:flutter/material.dart';
 import 'package:hero_icons/hero_icons.dart';
 import 'package:ionic_icons/ionic_icons.dart';
 import 'package:lucide_icons/lucide_icons.dart';
+import 'package:primer_icons/primer_icons.dart';
 import 'package:radix_icons/radix_icons.dart';
 import 'package:remix_icons/remix_icons.dart';
 import 'package:simple_icons/simple_icons.dart';
@@ -75,7 +76,7 @@ class ExamplePage extends StatelessWidget {
                             return IconButton(
                               onPressed: followLink,
                               tooltip: 'Open in GitHub',
-                              icon: const Icon(SimpleIcons.github),
+                              icon: const Icon(OctIcons.markGithub24),
                             );
                           },
                         ),
@@ -129,6 +130,12 @@ enum IconSet {
     uri: 'https://lucide.dev/icons',
     icon: SimpleIcons.lucide,
     items: LucideIcons.values,
+  ),
+  primer(
+    title: 'Primer Icons',
+    uri: 'https://primer.style/octicons',
+    icon: OctIcons.markGithub24,
+    items: OctIcons.values,
   ),
   radix(
     title: 'Radix Icons',
