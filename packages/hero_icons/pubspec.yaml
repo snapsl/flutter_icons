@@ -25,6 +25,12 @@ dev_dependencies:
 
 flutter:
   fonts:
+    - family: HeroMicroIcons
+      fonts:
+        - asset: fonts/micro.ttf
+    - family: HeroMiniIcons
+      fonts:
+        - asset: fonts/mini.ttf
     - family: HeroOutlineIcons
       fonts:
         - asset: fonts/outline.ttf
