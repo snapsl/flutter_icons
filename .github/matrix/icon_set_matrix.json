@@ -59,17 +59,31 @@
     "output_path": "lib/src/icon_data.dart",
     "fonts": [
       {
-        "file": "outline.ttf",
-        "svg_path": "node_modules/heroicons/24/outline",
+        "file": "micro.ttf",
+        "svg_path": "node_modules/heroicons/16/solid",
         "font_path": "node_modules/heroicons/fonts",
-        "font_family": "HeroOutlineIcons",
-        "suffix": "outline"
+        "font_family": "HeroMicroIcons",
+        "suffix": "micro"
+      },
+      {
+        "file": "mini.ttf",
+        "svg_path": "node_modules/heroicons/20/solid",
+        "font_path": "node_modules/heroicons/fonts",
+        "font_family": "HeroMiniIcons",
+        "suffix": "mini"
       },
       {
         "file": "solid.ttf",
         "svg_path": "node_modules/heroicons/24/solid",
         "font_path": "node_modules/heroicons/fonts",
         "font_family": "HeroSolidIcons"
+      },
+      {
+        "file": "outline.ttf",
+        "svg_path": "node_modules/heroicons/24/outline",
+        "font_path": "node_modules/heroicons/fonts",
+        "font_family": "HeroOutlineIcons",
+        "suffix": "outline"
       }
     ]
   },
