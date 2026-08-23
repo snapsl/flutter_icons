@@ -4,16 +4,18 @@ import 'package:hero_icons/hero_icons.dart';
 import 'package:test_utils/test_utils.dart';
 
 void main() async {
-  const icons = [HeroIcons.heart_outline, HeroIcons.heart];
+  const iconMap = {
+    'fonts/mini.ttf': HeroIcons.heart_mini,
+    'fonts/micro.ttf': HeroIcons.heart_micro,
+    'fonts/outline.ttf': HeroIcons.heart_outline,
+    'fonts/solid.ttf': HeroIcons.heart,
+  };
 
   TestWidgetsFlutterBinding.ensureInitialized();
 
   setUpAll(() async {
     await loadFonts(
-      iconMap: {
-        'fonts/outline.ttf': icons[0],
-        'fonts/solid.ttf': icons[1],
-      },
+      iconMap: iconMap,
       packageName: 'hero_icons',
     );
 
@@ -23,7 +25,7 @@ void main() async {
   });
 
   group('Golden tests', () {
-    for (final icon in icons) {
+    for (final icon in iconMap.values) {
       testWidgets('Widget test ${icon.fontFamily}', (tester) async {
         await tester.pumpWidget(MaterialApp(home: Icon(icon)));
 
@@ -39,7 +41,7 @@ void main() async {
   });
 
   group('Golden test', () {
-    for (final icon in icons) {
+    for (final icon in iconMap.values) {
       testWidgets('Golden test ${icon.fontFamily}', (tester) async {
         await tester.pumpWidget(MaterialApp(home: TestIcon(icon)));
 
