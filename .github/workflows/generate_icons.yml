@@ -32,6 +32,7 @@ jobs:
             hero: vendors/hero_icons/**
             ionic: vendors/ionic_icons/**
             lucide: vendors/lucide_icons/**
+            primer: vendors/primer_icons/**
             radix: vendors/radix_icons/**
             remix: vendors/remix_icons/**
             simple: vendors/simple_icons/**

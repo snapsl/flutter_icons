@@ -34,6 +34,9 @@ updates:
       lucide-icons:
         patterns:
           - "lucide*"
+      primer-icons:
+        patterns:
+          - "@primer*"
       radix-icons:
         patterns:
           - "@radix*"
