@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.4.0](https://github.com/snapsl/flutter_icons/compare/hero_icons-v0.3.0...hero_icons-v0.4.0) (2026-08-23)
+
+
+### Features
+
+* **hero_icons:** add micro and mini icon variants ([#387](https://github.com/snapsl/flutter_icons/issues/387)) ([cc80ad0](https://github.com/snapsl/flutter_icons/commit/cc80ad09bfd97fce291ab31cf40a5f3483b9a7b0))
+
 ## [0.3.0](https://github.com/snapsl/flutter_icons/compare/hero_icons-v0.2.1...hero_icons-v0.3.0) (2026-07-13)
 
 
