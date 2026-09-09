@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.36.0](https://github.com/snapsl/flutter_icons/compare/lucide_icons-v0.35.0...lucide_icons-v0.36.0) (2026-09-09)
+
+
+### Features
+
+* **lucide_icons:** bump version to 1.42.0 ([#419](https://github.com/snapsl/flutter_icons/issues/419)) ([0e7c7b2](https://github.com/snapsl/flutter_icons/commit/0e7c7b28bc5fbfe6ee024f01955c7e7c64236d31))
+
 ## [0.35.0](https://github.com/snapsl/flutter_icons/compare/lucide_icons-v0.34.0...lucide_icons-v0.35.0) (2026-09-07)
 
 
