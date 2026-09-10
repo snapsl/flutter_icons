@@ -707,11 +707,38 @@ abstract final class OctIcons {
     fontPackage: 'primer_icons',
   );
 
+  /// ![Icon](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDE2IDE2IiBmaWxsPSJncmF5Ij48cGF0aCBkPSJNMTIuMjggNC41NDZhNS41IDUuNSAwIDAgMC05LjI3OCA1Ljc0OWwuMDU4LjEyNGEuNzUuNzUgMCAwIDEgLjA1NC40ODhsLS41ODcgMi41NjYgMi41NjYtLjU4N2EuNzUuNzUgMCAwIDEgLjQ4OC4wNTRsLjEyNC4wNThhNiA2IDAgMCAwIC41MzUuMjEzLjc1Ljc1IDAgMCAxLS40OCAxLjQyMSA3IDcgMCAwIDEtLjU4Mi0uMjI2bC0zLjQ4MS43OTVhLjc1Ljc1IDAgMCAxLS44OTgtLjg5OGwuNzk1LTMuNDgxYTcgNyAwIDAgMSAxMS44NTQtNy4yMTguNzUuNzUgMCAwIDEtMS4xNjcuOTQyIi8+PHBhdGggZD0iTTEyIDZhMyAzIDAgMCAxIDMgM3YxLjE2OGMuNTkxLjI4MSAxIC44ODQgMSAxLjU4MnYyLjVBMS43NSAxLjc1IDAgMCAxIDE0LjI1IDE2aC00LjVBMS43NSAxLjc1IDAgMCAxIDggMTQuMjV2LTIuNWMwLS42OTguNDA5LTEuMzAxIDEtMS41ODJWOWEzIDMgMCAwIDEgMy0zbTAgMS41QTEuNSAxLjUgMCAwIDAgMTAuNSA5djFoM1Y5QTEuNSAxLjUgMCAwIDAgMTIgNy41Ii8+PC9zdmc+)
+  ///
+  /// Primer icon named "chat-locked-16".
+  static const IconData chatLocked16 = IconData(
+    0xea4f,
+    fontFamily: 'OctIcons',
+    fontPackage: 'primer_icons',
+  );
+
+  /// ![Icon](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDE2IDE2IiBmaWxsPSJncmF5Ij48cGF0aCBkPSJtMS41OTQgMTAuODIyLS43OTUgMy40ODFhLjc1Ljc1IDAgMCAwIC44OTguODk4bDMuNDgxLS43OTVhNyA3IDAgMSAwLTMuNTg0LTMuNTg0bTEuNTIuMDg1YS43NS43NSAwIDAgMC0uMDU0LS40ODhsLS4wNTgtLjEyNGE1LjUgNS41IDAgMSAxIDIuNzAzIDIuNzAzbC0uMTI0LS4wNThhLjc1Ljc1IDAgMCAwLS40ODgtLjA1NGwtMi41NjYuNTg3Wk02LjkyIDYuMDg1aC4wMDFhLjc0OS43NDkgMCAxIDEtMS4zNDItLjY3Yy4xNjktLjMzOS40MzYtLjcwMS44NDktLjk3N0M2Ljg0NSA0LjE2IDcuMzY5IDQgOCA0YTIuNzYgMi43NiAwIDAgMSAxLjYzNy41MjVjLjUwMy4zNzcuODYzLjk2NS44NjMgMS43MjUgMCAuNDQ4LS4xMTUuODMtLjMyOSAxLjE1LS4yMDUuMzA3LS40Ny41MTMtLjY5Mi42NjItLjEwOS4wNzItLjIyLjEzOC0uMzEzLjE5NWwtLjAwNi4wMDRhNiA2IDAgMCAwLS4yNi4xNiAxIDEgMCAwIDAtLjI3Ni4yNDUuNzUuNzUgMCAwIDEtMS4yNDgtLjgzMmMuMTg0LS4yNjQuNDItLjQ4OS42OTItLjY2MXEuMTU0LS4xLjMxMy0uMTk1bC4wMDctLjAwNGMuMS0uMDYxLjE4Mi0uMTEuMjU4LS4xNjFhMSAxIDAgMCAwIC4yNzctLjI0NUM4Ljk2IDYuNTE0IDkgNi40MjcgOSA2LjI1YS42MS42MSAwIDAgMC0uMjYyLS41MjVBMS4yNyAxLjI3IDAgMCAwIDggNS41Yy0uMzY5IDAtLjU5NS4wOS0uNzQuMTg3YTEgMSAwIDAgMC0uMzQuMzk4TTkgMTFhMSAxIDAgMSAxLTIgMCAxIDEgMCAwIDEgMiAwIi8+PC9zdmc+)
+  ///
+  /// Primer icon named "chat-question-16".
+  static const IconData chatQuestion16 = IconData(
+    0xec0c,
+    fontFamily: 'OctIcons',
+    fontPackage: 'primer_icons',
+  );
+
+  /// ![Icon](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJncmF5Ij48cGF0aCBkPSJNMi4wMDIgMTYuNTg2Ljc5NiAyMi4zMTVhLjc1Ljc1IDAgMCAwIC44ODkuODg5bDUuNzI5LTEuMjA2YTExIDExIDAgMSAwLTUuNDEyLTUuNDEybTEuNTE5LjA2MmEuNzUuNzUgMCAwIDAtLjA1Ni0uNDc2bC0uMDk5LS4yMDlhOS41IDkuNSAwIDEgMSA0LjY3MSA0LjY3MWwtLjIwOS0uMDk5YS43NS43NSAwIDAgMC0uNDc2LS4wNTZsLTQuODUxIDEuMDJabTcuNDQ5LTguMzgzYTEuNDUgMS40NSAwIDAgMC0uNDg3LjU3Ljc1Ljc1IDAgMCAxLTEuMzQxLS42N2MuMi0uNDAyLjUxMy0uODI2Ljk5Ny0xLjE0OEMxMC42MjcgNi42OSAxMS4yNDQgNi41IDEyIDYuNWMuNjU4IDAgMS4zNjkuMTk1IDEuOTM0LjYxOWEyLjQ1IDIuNDUgMCAwIDEgMS4wMDQgMi4wMDZjMCAxLjAzMy0uNTEzIDEuNzItMS4wMjcgMi4yMTUtLjE5LjE4My0uMzk5LjM1OC0uNTc5LjUwOGwtLjE0Ny4xMjNhNCA0IDAgMCAwLS40MzUuNDA5djEuMzdhLjc1Ljc1IDAgMSAxLTEuNSAwdi0xLjQ3M2MwLS4yMzcuMDY3LS41MDQuMjQ3LS43MzYuMjItLjI4LjQ4Ni0uNTE3LjcxOC0uNzE0bC4xODMtLjE1My4wMDEtLjAwMWMuMTcyLS4xNDMuMzI0LS4yNy40Ny0uNDEyLjM2OC0uMzU1LjU2OS0uNjc2LjU2OS0xLjEzNmEuOTUuOTUgMCAwIDAtLjQwNC0uODA2QzEyLjc2NiA4LjExOCAxMi4zODQgOCAxMiA4Yy0uNDk0IDAtLjgxNC4xMjEtMS4wMy4yNjVNMTMgMTdhMSAxIDAgMSAxLTIgMCAxIDEgMCAwIDEgMiAwIi8+PC9zdmc+)
+  ///
+  /// Primer icon named "chat-question-24".
+  static const IconData chatQuestion24 = IconData(
+    0xec0d,
+    fontFamily: 'OctIcons',
+    fontPackage: 'primer_icons',
+  );
+
   /// ![Icon](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDE2IDE2IiBmaWxsPSJncmF5Ij48cGF0aCBkPSJNMTMuNzggNC4yMmEuNzUuNzUgMCAwIDEgMCAxLjA2bC03LjI1IDcuMjVhLjc1Ljc1IDAgMCAxLTEuMDYgMEwyLjIyIDkuMjhhLjc1MS43NTEgMCAwIDEgLjAxOC0xLjA0Mi43NTEuNzUxIDAgMCAxIDEuMDQyLS4wMThMNiAxMC45NGw2LjcyLTYuNzJhLjc1Ljc1IDAgMCAxIDEuMDYgMFoiLz48L3N2Zz4=)
   ///
   /// Primer icon named "check-16".
   static const IconData check16 = IconData(
-    0xea4f,
+    0xea52,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -720,7 +747,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "check-24".
   static const IconData check24 = IconData(
-    0xea50,
+    0xea53,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -729,7 +756,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "check-circle-16".
   static const IconData checkCircle16 = IconData(
-    0xea51,
+    0xea54,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -738,7 +765,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "check-circle-24".
   static const IconData checkCircle24 = IconData(
-    0xeb68,
+    0xeb6b,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -747,7 +774,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "check-circle-fill-12".
   static const IconData checkCircleFill12 = IconData(
-    0xea53,
+    0xea56,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -756,7 +783,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "check-circle-fill-16".
   static const IconData checkCircleFill16 = IconData(
-    0xea54,
+    0xea57,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -765,7 +792,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "check-circle-fill-24".
   static const IconData checkCircleFill24 = IconData(
-    0xea55,
+    0xea58,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -774,7 +801,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "checkbox-16".
   static const IconData checkbox16 = IconData(
-    0xea56,
+    0xea59,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -783,7 +810,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "checkbox-24".
   static const IconData checkbox24 = IconData(
-    0xea57,
+    0xea5a,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -792,7 +819,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "checkbox-fill-16".
   static const IconData checkboxFill16 = IconData(
-    0xea58,
+    0xea5b,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -801,7 +828,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "checkbox-fill-24".
   static const IconData checkboxFill24 = IconData(
-    0xea59,
+    0xea5c,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -810,7 +837,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "checklist-16".
   static const IconData checklist16 = IconData(
-    0xea5a,
+    0xea5d,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -819,7 +846,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "checklist-24".
   static const IconData checklist24 = IconData(
-    0xea5b,
+    0xea5e,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -828,7 +855,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "chevron-down-12".
   static const IconData chevronDown12 = IconData(
-    0xea5c,
+    0xea5f,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -837,7 +864,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "chevron-down-16".
   static const IconData chevronDown16 = IconData(
-    0xea5d,
+    0xea60,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -846,7 +873,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "chevron-down-24".
   static const IconData chevronDown24 = IconData(
-    0xea5e,
+    0xea61,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -855,7 +882,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "chevron-left-12".
   static const IconData chevronLeft12 = IconData(
-    0xea5f,
+    0xea62,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -864,7 +891,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "chevron-left-16".
   static const IconData chevronLeft16 = IconData(
-    0xea60,
+    0xea63,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -873,7 +900,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "chevron-left-24".
   static const IconData chevronLeft24 = IconData(
-    0xea61,
+    0xea64,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -882,7 +909,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "chevron-right-12".
   static const IconData chevronRight12 = IconData(
-    0xea62,
+    0xea65,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -891,7 +918,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "chevron-right-16".
   static const IconData chevronRight16 = IconData(
-    0xea63,
+    0xea66,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -900,7 +927,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "chevron-right-24".
   static const IconData chevronRight24 = IconData(
-    0xea64,
+    0xea67,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -909,7 +936,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "chevron-up-12".
   static const IconData chevronUp12 = IconData(
-    0xea65,
+    0xea68,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -918,7 +945,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "chevron-up-16".
   static const IconData chevronUp16 = IconData(
-    0xea66,
+    0xea69,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -927,7 +954,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "chevron-up-24".
   static const IconData chevronUp24 = IconData(
-    0xea67,
+    0xea6a,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -936,7 +963,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "circle-16".
   static const IconData circle16 = IconData(
-    0xea68,
+    0xea6b,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -945,7 +972,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "circle-24".
   static const IconData circle24 = IconData(
-    0xea69,
+    0xea6c,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -954,7 +981,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "circle-slash-16".
   static const IconData circleSlash16 = IconData(
-    0xea6a,
+    0xea6d,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -963,7 +990,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "circle-slash-24".
   static const IconData circleSlash24 = IconData(
-    0xea6b,
+    0xea6e,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -972,7 +999,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "clock-16".
   static const IconData clock16 = IconData(
-    0xea6c,
+    0xea6f,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -981,7 +1008,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "clock-24".
   static const IconData clock24 = IconData(
-    0xea6d,
+    0xea70,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -990,7 +1017,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "clock-fill-16".
   static const IconData clockFill16 = IconData(
-    0xea6e,
+    0xea71,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -999,7 +1026,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "clock-fill-24".
   static const IconData clockFill24 = IconData(
-    0xea6f,
+    0xea72,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -1008,7 +1035,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "cloud-16".
   static const IconData cloud16 = IconData(
-    0xea70,
+    0xea73,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -1017,7 +1044,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "cloud-24".
   static const IconData cloud24 = IconData(
-    0xea71,
+    0xea74,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -1026,7 +1053,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "cloud-offline-16".
   static const IconData cloudOffline16 = IconData(
-    0xea72,
+    0xea75,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -1035,7 +1062,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "cloud-offline-24".
   static const IconData cloudOffline24 = IconData(
-    0xea73,
+    0xea76,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -1044,7 +1071,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "code-16".
   static const IconData code16 = IconData(
-    0xea74,
+    0xea77,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -1053,7 +1080,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "code-24".
   static const IconData code24 = IconData(
-    0xea75,
+    0xea78,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -1062,7 +1089,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "code-of-conduct-16".
   static const IconData codeOfConduct16 = IconData(
-    0xea76,
+    0xea79,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -1071,7 +1098,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "code-of-conduct-24".
   static const IconData codeOfConduct24 = IconData(
-    0xea77,
+    0xea7a,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -1080,7 +1107,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "code-review-16".
   static const IconData codeReview16 = IconData(
-    0xea78,
+    0xea7b,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -1089,7 +1116,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "code-review-24".
   static const IconData codeReview24 = IconData(
-    0xea79,
+    0xea7c,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -1098,7 +1125,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "code-square-16".
   static const IconData codeSquare16 = IconData(
-    0xea7a,
+    0xea7d,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -1107,7 +1134,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "code-square-24".
   static const IconData codeSquare24 = IconData(
-    0xea7b,
+    0xea7e,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -1116,7 +1143,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "codescan-16".
   static const IconData codescan16 = IconData(
-    0xea7c,
+    0xea7f,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -1125,7 +1152,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "codescan-24".
   static const IconData codescan24 = IconData(
-    0xea7d,
+    0xea80,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -1134,7 +1161,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "codescan-checkmark-16".
   static const IconData codescanCheckmark16 = IconData(
-    0xea7e,
+    0xea81,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -1143,7 +1170,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "codescan-checkmark-24".
   static const IconData codescanCheckmark24 = IconData(
-    0xea7f,
+    0xea82,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -1152,7 +1179,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "codespaces-16".
   static const IconData codespaces16 = IconData(
-    0xea80,
+    0xea83,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -1161,7 +1188,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "codespaces-24".
   static const IconData codespaces24 = IconData(
-    0xea81,
+    0xea84,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -1170,7 +1197,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "columns-16".
   static const IconData columns16 = IconData(
-    0xea82,
+    0xea85,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -1179,7 +1206,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "columns-24".
   static const IconData columns24 = IconData(
-    0xea83,
+    0xea86,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -1188,7 +1215,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "command-palette-16".
   static const IconData commandPalette16 = IconData(
-    0xea84,
+    0xea87,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -1197,7 +1224,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "command-palette-24".
   static const IconData commandPalette24 = IconData(
-    0xea85,
+    0xea88,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -1206,7 +1233,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "comment-16".
   static const IconData comment16 = IconData(
-    0xea86,
+    0xea89,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -1215,7 +1242,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "comment-24".
   static const IconData comment24 = IconData(
-    0xea87,
+    0xea8a,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -1224,7 +1251,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "comment-ai-16".
   static const IconData commentAi16 = IconData(
-    0xea88,
+    0xea8b,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -1233,7 +1260,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "comment-ai-24".
   static const IconData commentAi24 = IconData(
-    0xea89,
+    0xea8c,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -1242,7 +1269,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "comment-discussion-16".
   static const IconData commentDiscussion16 = IconData(
-    0xea8a,
+    0xea8d,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -1251,7 +1278,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "comment-discussion-24".
   static const IconData commentDiscussion24 = IconData(
-    0xea8b,
+    0xea8e,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -1260,7 +1287,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "comment-locked-16".
   static const IconData commentLocked16 = IconData(
-    0xea8c,
+    0xea8f,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -1269,7 +1296,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "compose-16".
   static const IconData compose16 = IconData(
-    0xea8d,
+    0xea90,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -1278,7 +1305,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "compose-24".
   static const IconData compose24 = IconData(
-    0xea8e,
+    0xea91,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -1287,7 +1314,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "container-16".
   static const IconData container16 = IconData(
-    0xea8f,
+    0xea92,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -1296,7 +1323,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "container-24".
   static const IconData container24 = IconData(
-    0xea90,
+    0xea93,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -1305,7 +1332,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "copilot-16".
   static const IconData copilot16 = IconData(
-    0xea91,
+    0xea94,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -1314,7 +1341,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "copilot-24".
   static const IconData copilot24 = IconData(
-    0xea92,
+    0xea95,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -1323,7 +1350,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "copilot-48".
   static const IconData copilot48 = IconData(
-    0xea93,
+    0xea96,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -1332,7 +1359,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "copilot-96".
   static const IconData copilot96 = IconData(
-    0xea94,
+    0xea97,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -1341,7 +1368,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "copilot-error-16".
   static const IconData copilotError16 = IconData(
-    0xea95,
+    0xea98,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -1350,7 +1377,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "copilot-warning-16".
   static const IconData copilotWarning16 = IconData(
-    0xea96,
+    0xea99,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -1359,7 +1386,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "copy-16".
   static const IconData copy16 = IconData(
-    0xea97,
+    0xea9a,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -1368,7 +1395,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "copy-24".
   static const IconData copy24 = IconData(
-    0xea98,
+    0xea9b,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -1377,7 +1404,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "cpu-16".
   static const IconData cpu16 = IconData(
-    0xea99,
+    0xea9c,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -1386,7 +1413,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "cpu-24".
   static const IconData cpu24 = IconData(
-    0xea9a,
+    0xea9d,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -1395,7 +1422,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "credit-card-16".
   static const IconData creditCard16 = IconData(
-    0xea9b,
+    0xea9e,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -1404,7 +1431,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "credit-card-24".
   static const IconData creditCard24 = IconData(
-    0xea9c,
+    0xea9f,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -1413,7 +1440,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "cross-reference-16".
   static const IconData crossReference16 = IconData(
-    0xea9d,
+    0xeaa0,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -1422,7 +1449,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "cross-reference-24".
   static const IconData crossReference24 = IconData(
-    0xea9e,
+    0xeaa1,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -1431,7 +1458,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "crosshairs-16".
   static const IconData crosshairs16 = IconData(
-    0xea9f,
+    0xeaa2,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -1440,7 +1467,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "crosshairs-24".
   static const IconData crosshairs24 = IconData(
-    0xeaa0,
+    0xeaa3,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -1449,7 +1476,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "dash-16".
   static const IconData dash16 = IconData(
-    0xeaa1,
+    0xeaa4,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -1458,7 +1485,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "dash-24".
   static const IconData dash24 = IconData(
-    0xeaa2,
+    0xeaa5,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -1467,7 +1494,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "database-16".
   static const IconData database16 = IconData(
-    0xeaa3,
+    0xeaa6,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -1476,7 +1503,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "database-24".
   static const IconData database24 = IconData(
-    0xeaa4,
+    0xeaa7,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -1485,7 +1512,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "dependabot-16".
   static const IconData dependabot16 = IconData(
-    0xeaa5,
+    0xeaa8,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -1494,7 +1521,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "dependabot-24".
   static const IconData dependabot24 = IconData(
-    0xeaa6,
+    0xeaa9,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -1503,7 +1530,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "desktop-download-16".
   static const IconData desktopDownload16 = IconData(
-    0xeaa7,
+    0xeaaa,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -1512,7 +1539,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "desktop-download-24".
   static const IconData desktopDownload24 = IconData(
-    0xeaa8,
+    0xeaab,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -1521,7 +1548,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "device-camera-16".
   static const IconData deviceCamera16 = IconData(
-    0xeaa9,
+    0xeaac,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -1530,7 +1557,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "device-camera-24".
   static const IconData deviceCamera24 = IconData(
-    0xeaaa,
+    0xeaad,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -1539,7 +1566,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "device-camera-video-16".
   static const IconData deviceCameraVideo16 = IconData(
-    0xeaab,
+    0xeaae,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -1548,7 +1575,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "device-camera-video-24".
   static const IconData deviceCameraVideo24 = IconData(
-    0xeaac,
+    0xeaaf,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -1557,7 +1584,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "device-desktop-16".
   static const IconData deviceDesktop16 = IconData(
-    0xeaad,
+    0xeab0,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -1566,7 +1593,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "device-desktop-24".
   static const IconData deviceDesktop24 = IconData(
-    0xeaae,
+    0xeab1,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -1575,7 +1602,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "device-mobile-16".
   static const IconData deviceMobile16 = IconData(
-    0xeaaf,
+    0xeab2,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -1584,7 +1611,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "device-mobile-24".
   static const IconData deviceMobile24 = IconData(
-    0xeab0,
+    0xeab3,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -1593,7 +1620,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "devices-16".
   static const IconData devices16 = IconData(
-    0xeab1,
+    0xeab4,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -1602,7 +1629,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "devices-24".
   static const IconData devices24 = IconData(
-    0xeab2,
+    0xeab5,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -1611,7 +1638,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "diamond-16".
   static const IconData diamond16 = IconData(
-    0xeab3,
+    0xeab6,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -1620,7 +1647,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "diamond-24".
   static const IconData diamond24 = IconData(
-    0xeab4,
+    0xeab7,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -1629,7 +1656,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "dice-16".
   static const IconData dice16 = IconData(
-    0xeab5,
+    0xeab8,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -1638,7 +1665,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "dice-24".
   static const IconData dice24 = IconData(
-    0xeab6,
+    0xeab9,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -1647,7 +1674,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "diff-16".
   static const IconData diff16 = IconData(
-    0xeab7,
+    0xeaba,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -1656,7 +1683,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "diff-24".
   static const IconData diff24 = IconData(
-    0xeab8,
+    0xeabb,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -1665,7 +1692,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "diff-added-16".
   static const IconData diffAdded16 = IconData(
-    0xeab9,
+    0xeabc,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -1674,7 +1701,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "diff-added-24".
   static const IconData diffAdded24 = IconData(
-    0xeaba,
+    0xeabd,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -1683,7 +1710,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "diff-ignored-16".
   static const IconData diffIgnored16 = IconData(
-    0xeabb,
+    0xeabe,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -1692,7 +1719,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "diff-ignored-24".
   static const IconData diffIgnored24 = IconData(
-    0xeabc,
+    0xeabf,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -1701,7 +1728,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "diff-modified-16".
   static const IconData diffModified16 = IconData(
-    0xeabd,
+    0xeac0,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -1710,7 +1737,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "diff-modified-24".
   static const IconData diffModified24 = IconData(
-    0xeabe,
+    0xeac1,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -1719,7 +1746,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "diff-removed-16".
   static const IconData diffRemoved16 = IconData(
-    0xeabf,
+    0xeac2,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -1728,7 +1755,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "diff-removed-24".
   static const IconData diffRemoved24 = IconData(
-    0xeac0,
+    0xeac3,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -1737,7 +1764,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "diff-renamed-16".
   static const IconData diffRenamed16 = IconData(
-    0xeac1,
+    0xeac4,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -1746,7 +1773,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "diff-renamed-24".
   static const IconData diffRenamed24 = IconData(
-    0xeac2,
+    0xeac5,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -1755,7 +1782,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "discussion-closed-16".
   static const IconData discussionClosed16 = IconData(
-    0xeac3,
+    0xeac6,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -1764,7 +1791,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "discussion-closed-24".
   static const IconData discussionClosed24 = IconData(
-    0xeac4,
+    0xeac7,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -1773,7 +1800,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "discussion-duplicate-16".
   static const IconData discussionDuplicate16 = IconData(
-    0xeac5,
+    0xeac8,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -1782,7 +1809,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "discussion-duplicate-24".
   static const IconData discussionDuplicate24 = IconData(
-    0xeac6,
+    0xeac9,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -1791,7 +1818,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "discussion-outdated-16".
   static const IconData discussionOutdated16 = IconData(
-    0xeac7,
+    0xeaca,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -1800,7 +1827,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "discussion-outdated-24".
   static const IconData discussionOutdated24 = IconData(
-    0xeac8,
+    0xeacb,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -1809,7 +1836,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "dot-16".
   static const IconData dot16 = IconData(
-    0xeac9,
+    0xeacc,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -1818,7 +1845,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "dot-24".
   static const IconData dot24 = IconData(
-    0xeaca,
+    0xeacd,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -1827,7 +1854,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "dot-fill-16".
   static const IconData dotFill16 = IconData(
-    0xeacb,
+    0xeace,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -1836,7 +1863,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "dot-fill-24".
   static const IconData dotFill24 = IconData(
-    0xeacc,
+    0xeacf,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -1845,7 +1872,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "download-16".
   static const IconData download16 = IconData(
-    0xeacd,
+    0xead0,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -1854,7 +1881,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "download-24".
   static const IconData download24 = IconData(
-    0xeace,
+    0xead1,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -1863,7 +1890,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "duplicate-16".
   static const IconData duplicate16 = IconData(
-    0xeacf,
+    0xead2,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -1872,7 +1899,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "duplicate-24".
   static const IconData duplicate24 = IconData(
-    0xead0,
+    0xead3,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -1881,7 +1908,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "ellipsis-16".
   static const IconData ellipsis16 = IconData(
-    0xead1,
+    0xead4,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -1890,7 +1917,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "ellipsis-24".
   static const IconData ellipsis24 = IconData(
-    0xead2,
+    0xead5,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -1899,7 +1926,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "exclamation-16".
   static const IconData exclamation16 = IconData(
-    0xead3,
+    0xead6,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -1908,7 +1935,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "exclamation-24".
   static const IconData exclamation24 = IconData(
-    0xead4,
+    0xead7,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -1917,7 +1944,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "eye-16".
   static const IconData eye16 = IconData(
-    0xead5,
+    0xead8,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -1926,7 +1953,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "eye-24".
   static const IconData eye24 = IconData(
-    0xead6,
+    0xead9,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -1935,7 +1962,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "eye-closed-16".
   static const IconData eyeClosed16 = IconData(
-    0xead7,
+    0xeada,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -1944,7 +1971,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "eye-closed-24".
   static const IconData eyeClosed24 = IconData(
-    0xead8,
+    0xeadb,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -1953,7 +1980,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "feed-discussion-16".
   static const IconData feedDiscussion16 = IconData(
-    0xead9,
+    0xeadc,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -1962,7 +1989,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "feed-forked-16".
   static const IconData feedForked16 = IconData(
-    0xeada,
+    0xeadd,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -1971,7 +1998,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "feed-heart-16".
   static const IconData feedHeart16 = IconData(
-    0xeadb,
+    0xeade,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -1980,7 +2007,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "feed-issue-closed-16".
   static const IconData feedIssueClosed16 = IconData(
-    0xeadc,
+    0xeadf,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -1989,7 +2016,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "feed-issue-draft-16".
   static const IconData feedIssueDraft16 = IconData(
-    0xeadd,
+    0xeae0,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -1998,7 +2025,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "feed-issue-open-16".
   static const IconData feedIssueOpen16 = IconData(
-    0xeade,
+    0xeae1,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -2007,7 +2034,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "feed-issue-reopen-16".
   static const IconData feedIssueReopen16 = IconData(
-    0xeadf,
+    0xeae2,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -2016,7 +2043,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "feed-merged-16".
   static const IconData feedMerged16 = IconData(
-    0xeae0,
+    0xeae3,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -2025,7 +2052,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "feed-person-16".
   static const IconData feedPerson16 = IconData(
-    0xeae1,
+    0xeae4,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -2034,7 +2061,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "feed-plus-16".
   static const IconData feedPlus16 = IconData(
-    0xeae2,
+    0xeae5,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -2043,7 +2070,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "feed-public-16".
   static const IconData feedPublic16 = IconData(
-    0xeae3,
+    0xeae6,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -2052,7 +2079,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "feed-pull-request-closed-16".
   static const IconData feedPullRequestClosed16 = IconData(
-    0xeae4,
+    0xeae7,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -2061,7 +2088,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "feed-pull-request-draft-16".
   static const IconData feedPullRequestDraft16 = IconData(
-    0xeae5,
+    0xeae8,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -2070,7 +2097,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "feed-pull-request-open-16".
   static const IconData feedPullRequestOpen16 = IconData(
-    0xeae6,
+    0xeae9,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -2079,7 +2106,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "feed-repo-16".
   static const IconData feedRepo16 = IconData(
-    0xeae7,
+    0xeaea,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -2088,7 +2115,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "feed-rocket-16".
   static const IconData feedRocket16 = IconData(
-    0xeae8,
+    0xeaeb,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -2097,7 +2124,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "feed-star-16".
   static const IconData feedStar16 = IconData(
-    0xeae9,
+    0xeaec,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -2106,7 +2133,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "feed-tag-16".
   static const IconData feedTag16 = IconData(
-    0xeaea,
+    0xeaed,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -2115,7 +2142,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "feed-trophy-16".
   static const IconData feedTrophy16 = IconData(
-    0xeaeb,
+    0xeaee,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -2124,7 +2151,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "file-16".
   static const IconData file16 = IconData(
-    0xeaec,
+    0xeaef,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -2133,7 +2160,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "file-24".
   static const IconData file24 = IconData(
-    0xeaed,
+    0xeaf0,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -2142,7 +2169,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "file-added-16".
   static const IconData fileAdded16 = IconData(
-    0xeaee,
+    0xeaf1,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -2151,7 +2178,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "file-added-24".
   static const IconData fileAdded24 = IconData(
-    0xeaef,
+    0xeaf2,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -2160,7 +2187,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "file-badge-16".
   static const IconData fileBadge16 = IconData(
-    0xeaf0,
+    0xeaf3,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -2169,7 +2196,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "file-badge-24".
   static const IconData fileBadge24 = IconData(
-    0xeaf1,
+    0xeaf4,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -2178,7 +2205,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "file-binary-16".
   static const IconData fileBinary16 = IconData(
-    0xeaf2,
+    0xeaf5,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -2187,7 +2214,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "file-binary-24".
   static const IconData fileBinary24 = IconData(
-    0xeaf3,
+    0xeaf6,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -2196,7 +2223,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "file-check-16".
   static const IconData fileCheck16 = IconData(
-    0xeaf4,
+    0xeaf7,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -2205,7 +2232,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "file-check-24".
   static const IconData fileCheck24 = IconData(
-    0xeaf5,
+    0xeaf8,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -2214,7 +2241,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "file-code-16".
   static const IconData fileCode16 = IconData(
-    0xeaf6,
+    0xeaf9,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -2223,7 +2250,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "file-code-24".
   static const IconData fileCode24 = IconData(
-    0xeaf7,
+    0xeafa,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -2232,7 +2259,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "file-diff-16".
   static const IconData fileDiff16 = IconData(
-    0xeaf8,
+    0xeafb,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -2241,7 +2268,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "file-diff-24".
   static const IconData fileDiff24 = IconData(
-    0xeaf9,
+    0xeafc,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -2250,7 +2277,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "file-directory-16".
   static const IconData fileDirectory16 = IconData(
-    0xeafa,
+    0xeafd,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -2259,7 +2286,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "file-directory-24".
   static const IconData fileDirectory24 = IconData(
-    0xeafb,
+    0xeafe,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -2268,7 +2295,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "file-directory-fill-16".
   static const IconData fileDirectoryFill16 = IconData(
-    0xeafc,
+    0xeaff,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -2277,7 +2304,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "file-directory-fill-24".
   static const IconData fileDirectoryFill24 = IconData(
-    0xeafd,
+    0xeb00,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -2286,7 +2313,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "file-directory-open-fill-16".
   static const IconData fileDirectoryOpenFill16 = IconData(
-    0xeafe,
+    0xeb01,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -2295,7 +2322,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "file-directory-open-fill-24".
   static const IconData fileDirectoryOpenFill24 = IconData(
-    0xeaff,
+    0xeb02,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -2304,7 +2331,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "file-directory-symlink-16".
   static const IconData fileDirectorySymlink16 = IconData(
-    0xeb00,
+    0xeb03,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -2313,7 +2340,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "file-directory-symlink-24".
   static const IconData fileDirectorySymlink24 = IconData(
-    0xeb01,
+    0xeb04,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -2322,7 +2349,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "file-media-16".
   static const IconData fileMedia16 = IconData(
-    0xeb5d,
+    0xeb60,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -2331,7 +2358,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "file-media-24".
   static const IconData fileMedia24 = IconData(
-    0xeb03,
+    0xeb06,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -2340,7 +2367,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "file-moved-16".
   static const IconData fileMoved16 = IconData(
-    0xeb04,
+    0xeb07,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -2349,7 +2376,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "file-moved-24".
   static const IconData fileMoved24 = IconData(
-    0xeb05,
+    0xeb08,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -2358,7 +2385,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "file-removed-16".
   static const IconData fileRemoved16 = IconData(
-    0xeb06,
+    0xeb09,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -2367,7 +2394,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "file-removed-24".
   static const IconData fileRemoved24 = IconData(
-    0xeb07,
+    0xeb0a,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -2376,7 +2403,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "file-submodule-16".
   static const IconData fileSubmodule16 = IconData(
-    0xeb08,
+    0xeb0b,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -2385,7 +2412,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "file-submodule-24".
   static const IconData fileSubmodule24 = IconData(
-    0xeb09,
+    0xeb0c,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -2394,7 +2421,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "file-symlink-file-16".
   static const IconData fileSymlinkFile16 = IconData(
-    0xeb0a,
+    0xeb0d,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -2403,7 +2430,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "file-symlink-file-24".
   static const IconData fileSymlinkFile24 = IconData(
-    0xeb0b,
+    0xeb0e,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -2412,7 +2439,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "file-zip-16".
   static const IconData fileZip16 = IconData(
-    0xeb0c,
+    0xeb0f,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -2421,7 +2448,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "file-zip-24".
   static const IconData fileZip24 = IconData(
-    0xeb0d,
+    0xeb10,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -2430,7 +2457,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "filter-16".
   static const IconData filter16 = IconData(
-    0xeb0e,
+    0xeb11,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -2439,7 +2466,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "filter-24".
   static const IconData filter24 = IconData(
-    0xeb0f,
+    0xeb12,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -2448,7 +2475,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "filter-remove-16".
   static const IconData filterRemove16 = IconData(
-    0xeb10,
+    0xeb13,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -2457,7 +2484,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "filter-remove-24".
   static const IconData filterRemove24 = IconData(
-    0xeb11,
+    0xeb14,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -2466,7 +2493,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "fiscal-host-16".
   static const IconData fiscalHost16 = IconData(
-    0xeb12,
+    0xeb15,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -2475,7 +2502,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "fiscal-host-24".
   static const IconData fiscalHost24 = IconData(
-    0xeb13,
+    0xeb16,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -2484,7 +2511,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "flag-16".
   static const IconData flag16 = IconData(
-    0xeb14,
+    0xeb17,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -2493,7 +2520,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "flag-24".
   static const IconData flag24 = IconData(
-    0xeb15,
+    0xeb18,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -2502,7 +2529,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "flame-16".
   static const IconData flame16 = IconData(
-    0xeb16,
+    0xeb19,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -2511,7 +2538,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "flame-24".
   static const IconData flame24 = IconData(
-    0xeb17,
+    0xeb1a,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -2520,7 +2547,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "flowchart-16".
   static const IconData flowchart16 = IconData(
-    0xeb18,
+    0xeb1b,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -2529,7 +2556,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "flowchart-24".
   static const IconData flowchart24 = IconData(
-    0xeb19,
+    0xeb1c,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -2538,7 +2565,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "focus-center-16".
   static const IconData focusCenter16 = IconData(
-    0xeb1a,
+    0xeb1d,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -2547,7 +2574,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "focus-center-24".
   static const IconData focusCenter24 = IconData(
-    0xeb1b,
+    0xeb1e,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -2556,7 +2583,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "fold-16".
   static const IconData fold16 = IconData(
-    0xeb1c,
+    0xeb1f,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -2565,7 +2592,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "fold-24".
   static const IconData fold24 = IconData(
-    0xeb1d,
+    0xeb20,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -2574,7 +2601,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "fold-down-16".
   static const IconData foldDown16 = IconData(
-    0xeb1e,
+    0xeb21,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -2583,7 +2610,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "fold-down-24".
   static const IconData foldDown24 = IconData(
-    0xeb1f,
+    0xeb22,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -2592,7 +2619,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "fold-up-16".
   static const IconData foldUp16 = IconData(
-    0xeb20,
+    0xeb23,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -2601,7 +2628,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "fold-up-24".
   static const IconData foldUp24 = IconData(
-    0xeb21,
+    0xeb24,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -2610,7 +2637,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "gear-16".
   static const IconData gear16 = IconData(
-    0xeb22,
+    0xeb25,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -2619,7 +2646,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "gear-24".
   static const IconData gear24 = IconData(
-    0xeb23,
+    0xeb26,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -2628,7 +2655,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "gift-16".
   static const IconData gift16 = IconData(
-    0xeb24,
+    0xeb27,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -2637,7 +2664,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "gift-24".
   static const IconData gift24 = IconData(
-    0xeb25,
+    0xeb28,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -2646,7 +2673,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "git-branch-16".
   static const IconData gitBranch16 = IconData(
-    0xeb26,
+    0xeb29,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -2655,7 +2682,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "git-branch-24".
   static const IconData gitBranch24 = IconData(
-    0xeb27,
+    0xeb2a,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -2664,7 +2691,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "git-branch-check-16".
   static const IconData gitBranchCheck16 = IconData(
-    0xeb28,
+    0xeb2b,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -2673,7 +2700,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "git-branch-check-24".
   static const IconData gitBranchCheck24 = IconData(
-    0xeb29,
+    0xeb2c,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -2682,7 +2709,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "git-commit-16".
   static const IconData gitCommit16 = IconData(
-    0xeb2a,
+    0xeb2d,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -2691,7 +2718,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "git-commit-24".
   static const IconData gitCommit24 = IconData(
-    0xeb2b,
+    0xeb2e,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -2700,7 +2727,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "git-compare-16".
   static const IconData gitCompare16 = IconData(
-    0xeb2c,
+    0xeb2f,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -2709,7 +2736,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "git-compare-24".
   static const IconData gitCompare24 = IconData(
-    0xeb2d,
+    0xeb30,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -2718,7 +2745,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "git-merge-16".
   static const IconData gitMerge16 = IconData(
-    0xeb2e,
+    0xeb31,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -2727,7 +2754,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "git-merge-24".
   static const IconData gitMerge24 = IconData(
-    0xeb2f,
+    0xeb32,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -2736,7 +2763,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "git-merge-queue-16".
   static const IconData gitMergeQueue16 = IconData(
-    0xeb30,
+    0xeb33,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -2745,7 +2772,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "git-merge-queue-24".
   static const IconData gitMergeQueue24 = IconData(
-    0xeb31,
+    0xeb34,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -2754,7 +2781,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "git-pull-request-16".
   static const IconData gitPullRequest16 = IconData(
-    0xeb32,
+    0xeb35,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -2763,7 +2790,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "git-pull-request-24".
   static const IconData gitPullRequest24 = IconData(
-    0xeb33,
+    0xeb36,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -2772,7 +2799,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "git-pull-request-closed-16".
   static const IconData gitPullRequestClosed16 = IconData(
-    0xeb34,
+    0xeb37,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -2781,7 +2808,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "git-pull-request-closed-24".
   static const IconData gitPullRequestClosed24 = IconData(
-    0xeb35,
+    0xeb38,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -2790,7 +2817,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "git-pull-request-draft-16".
   static const IconData gitPullRequestDraft16 = IconData(
-    0xeb36,
+    0xeb39,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -2799,7 +2826,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "git-pull-request-draft-24".
   static const IconData gitPullRequestDraft24 = IconData(
-    0xeb37,
+    0xeb3a,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -2808,7 +2835,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "git-pull-request-locked-16".
   static const IconData gitPullRequestLocked16 = IconData(
-    0xeb38,
+    0xeb3b,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -2817,7 +2844,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "globe-16".
   static const IconData globe16 = IconData(
-    0xeb39,
+    0xeb3c,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -2826,7 +2853,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "globe-24".
   static const IconData globe24 = IconData(
-    0xeb3a,
+    0xeb3d,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -2835,7 +2862,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "goal-16".
   static const IconData goal16 = IconData(
-    0xeb3b,
+    0xeb3e,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -2844,7 +2871,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "goal-24".
   static const IconData goal24 = IconData(
-    0xeb3c,
+    0xeb3f,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -2853,7 +2880,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "grabber-16".
   static const IconData grabber16 = IconData(
-    0xeb3d,
+    0xeb40,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -2862,7 +2889,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "grabber-24".
   static const IconData grabber24 = IconData(
-    0xeb3e,
+    0xeb41,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -2871,7 +2898,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "graph-16".
   static const IconData graph16 = IconData(
-    0xeb3f,
+    0xeb42,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -2880,7 +2907,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "graph-24".
   static const IconData graph24 = IconData(
-    0xeb40,
+    0xeb43,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -2889,7 +2916,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "graph-bar-horizontal-16".
   static const IconData graphBarHorizontal16 = IconData(
-    0xeb41,
+    0xeb44,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -2898,7 +2925,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "graph-bar-horizontal-24".
   static const IconData graphBarHorizontal24 = IconData(
-    0xeb42,
+    0xeb45,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -2907,7 +2934,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "graph-bar-vertical-16".
   static const IconData graphBarVertical16 = IconData(
-    0xeb43,
+    0xeb46,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -2916,7 +2943,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "graph-bar-vertical-24".
   static const IconData graphBarVertical24 = IconData(
-    0xeb44,
+    0xeb47,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -2925,7 +2952,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "graph-stacked-area-16".
   static const IconData graphStackedArea16 = IconData(
-    0xeb45,
+    0xeb48,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -2934,7 +2961,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "graph-stacked-area-24".
   static const IconData graphStackedArea24 = IconData(
-    0xeb46,
+    0xeb49,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -2943,7 +2970,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "hash-16".
   static const IconData hash16 = IconData(
-    0xeb47,
+    0xeb4a,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -2952,7 +2979,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "hash-24".
   static const IconData hash24 = IconData(
-    0xeb48,
+    0xeb4b,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -2961,7 +2988,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "heading-16".
   static const IconData heading16 = IconData(
-    0xeb49,
+    0xeb4c,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -2970,7 +2997,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "heading-24".
   static const IconData heading24 = IconData(
-    0xeb4a,
+    0xeb4d,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -2979,7 +3006,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "heart-16".
   static const IconData heart16 = IconData(
-    0xeb4b,
+    0xeb4e,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -2988,7 +3015,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "heart-24".
   static const IconData heart24 = IconData(
-    0xeb4c,
+    0xeb4f,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -2997,7 +3024,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "heart-fill-16".
   static const IconData heartFill16 = IconData(
-    0xeb4d,
+    0xeb50,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -3006,7 +3033,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "heart-fill-24".
   static const IconData heartFill24 = IconData(
-    0xeb4e,
+    0xeb51,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -3015,7 +3042,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "history-16".
   static const IconData history16 = IconData(
-    0xeb4f,
+    0xeb52,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -3024,7 +3051,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "history-24".
   static const IconData history24 = IconData(
-    0xeb50,
+    0xeb53,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -3033,7 +3060,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "home-16".
   static const IconData home16 = IconData(
-    0xeb51,
+    0xeb54,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -3042,7 +3069,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "home-24".
   static const IconData home24 = IconData(
-    0xeb52,
+    0xeb55,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -3051,7 +3078,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "home-fill-16".
   static const IconData homeFill16 = IconData(
-    0xeb53,
+    0xeb56,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -3060,7 +3087,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "home-fill-24".
   static const IconData homeFill24 = IconData(
-    0xeb54,
+    0xeb57,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -3069,7 +3096,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "horizontal-rule-16".
   static const IconData horizontalRule16 = IconData(
-    0xeb55,
+    0xeb58,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -3078,7 +3105,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "horizontal-rule-24".
   static const IconData horizontalRule24 = IconData(
-    0xeb56,
+    0xeb59,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -3087,7 +3114,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "hourglass-16".
   static const IconData hourglass16 = IconData(
-    0xeb57,
+    0xeb5a,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -3096,7 +3123,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "hourglass-24".
   static const IconData hourglass24 = IconData(
-    0xeb58,
+    0xeb5b,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -3105,7 +3132,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "hubot-16".
   static const IconData hubot16 = IconData(
-    0xeb59,
+    0xeb5c,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -3114,7 +3141,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "hubot-24".
   static const IconData hubot24 = IconData(
-    0xeb5a,
+    0xeb5d,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -3123,7 +3150,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "id-badge-16".
   static const IconData idBadge16 = IconData(
-    0xeb5b,
+    0xeb5e,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -3132,7 +3159,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "id-badge-24".
   static const IconData idBadge24 = IconData(
-    0xeb5c,
+    0xeb5f,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -3141,7 +3168,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "image-24".
   static const IconData image24 = IconData(
-    0xeb5e,
+    0xeb61,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -3150,7 +3177,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "inbox-16".
   static const IconData inbox16 = IconData(
-    0xeb5f,
+    0xeb62,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -3159,7 +3186,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "inbox-24".
   static const IconData inbox24 = IconData(
-    0xeb60,
+    0xeb63,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -3168,7 +3195,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "inbox-fill-16".
   static const IconData inboxFill16 = IconData(
-    0xeb61,
+    0xeb64,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -3177,7 +3204,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "inbox-fill-24".
   static const IconData inboxFill24 = IconData(
-    0xeb62,
+    0xeb65,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -3186,7 +3213,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "infinity-16".
   static const IconData infinity16 = IconData(
-    0xeb63,
+    0xeb66,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -3195,7 +3222,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "infinity-24".
   static const IconData infinity24 = IconData(
-    0xeb64,
+    0xeb67,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -3204,7 +3231,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "info-16".
   static const IconData info16 = IconData(
-    0xeb65,
+    0xeb68,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -3213,7 +3240,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "info-24".
   static const IconData info24 = IconData(
-    0xeb66,
+    0xeb69,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -3222,7 +3249,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "issue-closed-16".
   static const IconData issueClosed16 = IconData(
-    0xeb67,
+    0xeb6a,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -3231,7 +3258,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "issue-draft-16".
   static const IconData issueDraft16 = IconData(
-    0xeb69,
+    0xeb6c,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -3240,7 +3267,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "issue-draft-24".
   static const IconData issueDraft24 = IconData(
-    0xeb6a,
+    0xeb6d,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -3249,7 +3276,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "issue-locked-16".
   static const IconData issueLocked16 = IconData(
-    0xeb6b,
+    0xeb6e,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -3258,7 +3285,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "issue-opened-16".
   static const IconData issueOpened16 = IconData(
-    0xeb6c,
+    0xeb6f,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -3267,7 +3294,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "issue-opened-24".
   static const IconData issueOpened24 = IconData(
-    0xeb6d,
+    0xeb70,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -3276,7 +3303,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "issue-relates-to-16".
   static const IconData issueRelatesTo16 = IconData(
-    0xeb6e,
+    0xeb71,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -3285,7 +3312,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "issue-relates-to-24".
   static const IconData issueRelatesTo24 = IconData(
-    0xeb6f,
+    0xeb72,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -3294,7 +3321,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "issue-reopened-16".
   static const IconData issueReopened16 = IconData(
-    0xeb70,
+    0xeb73,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -3303,7 +3330,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "issue-reopened-24".
   static const IconData issueReopened24 = IconData(
-    0xeb71,
+    0xeb74,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -3312,7 +3339,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "issue-tracked-by-16".
   static const IconData issueTrackedBy16 = IconData(
-    0xeb72,
+    0xeb75,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -3321,7 +3348,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "issue-tracked-by-24".
   static const IconData issueTrackedBy24 = IconData(
-    0xeb73,
+    0xeb76,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -3330,7 +3357,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "issue-tracks-16".
   static const IconData issueTracks16 = IconData(
-    0xeb74,
+    0xeb77,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -3339,7 +3366,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "issue-tracks-24".
   static const IconData issueTracks24 = IconData(
-    0xeb75,
+    0xeb78,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -3348,7 +3375,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "italic-16".
   static const IconData italic16 = IconData(
-    0xeb76,
+    0xeb79,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -3357,7 +3384,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "italic-24".
   static const IconData italic24 = IconData(
-    0xeb77,
+    0xeb7a,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -3366,7 +3393,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "iterations-16".
   static const IconData iterations16 = IconData(
-    0xeb78,
+    0xeb7b,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -3375,7 +3402,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "iterations-24".
   static const IconData iterations24 = IconData(
-    0xeb79,
+    0xeb7c,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -3384,7 +3411,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "kebab-horizontal-16".
   static const IconData kebabHorizontal16 = IconData(
-    0xeb7a,
+    0xeb7d,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -3393,7 +3420,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "kebab-horizontal-24".
   static const IconData kebabHorizontal24 = IconData(
-    0xeb7b,
+    0xeb7e,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -3402,7 +3429,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "key-16".
   static const IconData key16 = IconData(
-    0xeb7c,
+    0xeb7f,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -3411,7 +3438,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "key-24".
   static const IconData key24 = IconData(
-    0xeb7d,
+    0xeb80,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -3420,7 +3447,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "key-asterisk-16".
   static const IconData keyAsterisk16 = IconData(
-    0xeb7e,
+    0xeb81,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -3429,7 +3456,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "key-asterisk-24".
   static const IconData keyAsterisk24 = IconData(
-    0xeb7f,
+    0xeb82,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -3438,7 +3465,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "law-16".
   static const IconData law16 = IconData(
-    0xeb80,
+    0xeb83,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -3447,7 +3474,25 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "law-24".
   static const IconData law24 = IconData(
-    0xeb81,
+    0xeb84,
+    fontFamily: 'OctIcons',
+    fontPackage: 'primer_icons',
+  );
+
+  /// ![Icon](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDE2IDE2IiBmaWxsPSJncmF5Ij48cGF0aCBkPSJNLjQ5IDE1LjIwMVYuOGMwLS40NDIuMzUzLS44Ljc5Mi0uOC40MzggMCAuNzkzLjM1OC43OTMuNzk5VjE1LjJhLjc5Ni43OTYgMCAwIDEtLjc5My43OTkuNzk2Ljc5NiAwIDAgMS0uNzk0LS43OTltMy40NiAwVjUuMDA1YzAtLjQ0LjM1Ni0uNzk4Ljc5NC0uNzk4cy43OTMuMzU3Ljc5My43OTh2MTAuMTk2YS43OTYuNzk2IDAgMCAxLS43OTMuNzk5Ljc5Ni43OTYgMCAwIDEtLjc5NC0uNzk5bTMuNDM0IDBWMi41NWMwLS40NDEuMzU2LS43OTkuNzk0LS43OTlzLjc5My4zNTguNzkzLjc5OVYxNS4yYS43OTYuNzk2IDAgMCAxLS43OTMuNzk5Ljc5Ni43OTYgMCAwIDEtLjc5NC0uNzk5bTQuMDIyLTEyLjQzNmEuNzkzLjc5MyAwIDAgMSAuOTcyLjU2NGwzLjEwNiAxMS42NjVhLjc5My43OTMgMCAxIDEtMS41MzMuNDEzTDEwLjg0NCAzLjc0NGEuOC44IDAgMCAxIC41NjEtLjk3OCIvPjwvc3ZnPg==)
+  ///
+  /// Primer icon named "library-16".
+  static const IconData library16 = IconData(
+    0xeb85,
+    fontFamily: 'OctIcons',
+    fontPackage: 'primer_icons',
+  );
+
+  /// ![Icon](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJncmF5Ij48cGF0aCBkPSJNLjY4MyAyMy4xNzRWLjgyNmEuODI2LjgyNiAwIDAgMSAxLjY1MyAwdjIyLjM0OGEuODI2LjgyNiAwIDAgMS0xLjY1MyAwbTUuNDA2IDBWNy4zNTRhLjgyNi44MjYgMCAwIDEgMS42NTIgMHYxNS44MmEuODI3LjgyNyAwIDAgMS0xLjY1MiAwbTUuMzYzIDBWMy41NDJhLjgyNi44MjYgMCAwIDEgMS42NTIgMHYxOS42MzJhLjgyNy44MjcgMCAwIDEtMS42NTIgMG01Ljk3NS0xOC44OTlhLjgyNy44MjcgMCAwIDEgMS4wMTIuNTg1bDQuODUgMTguMWEuODI2LjgyNiAwIDAgMS0xLjU5Ny40MjhsLTQuODUtMTguMWEuODI3LjgyNyAwIDAgMSAuNTg1LTEuMDEzIi8+PC9zdmc+)
+  ///
+  /// Primer icon named "library-24".
+  static const IconData library24 = IconData(
+    0xeb86,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -3456,7 +3501,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "light-bulb-16".
   static const IconData lightBulb16 = IconData(
-    0xeb82,
+    0xeb87,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -3465,7 +3510,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "light-bulb-24".
   static const IconData lightBulb24 = IconData(
-    0xeb83,
+    0xeb88,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -3474,7 +3519,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "link-16".
   static const IconData link16 = IconData(
-    0xeb84,
+    0xeb89,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -3483,7 +3528,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "link-24".
   static const IconData link24 = IconData(
-    0xeb85,
+    0xeb8a,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -3492,7 +3537,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "link-external-16".
   static const IconData linkExternal16 = IconData(
-    0xeb86,
+    0xeb8b,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -3501,7 +3546,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "link-external-24".
   static const IconData linkExternal24 = IconData(
-    0xeb87,
+    0xeb8c,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -3510,7 +3555,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "list-ordered-16".
   static const IconData listOrdered16 = IconData(
-    0xeb88,
+    0xeb8d,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -3519,7 +3564,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "list-ordered-24".
   static const IconData listOrdered24 = IconData(
-    0xeb89,
+    0xeb8e,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -3528,7 +3573,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "list-unordered-16".
   static const IconData listUnordered16 = IconData(
-    0xeb8a,
+    0xeb8f,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -3537,7 +3582,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "list-unordered-24".
   static const IconData listUnordered24 = IconData(
-    0xeb8b,
+    0xeb90,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -3546,7 +3591,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "location-16".
   static const IconData location16 = IconData(
-    0xeb8c,
+    0xeb91,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -3555,7 +3600,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "location-24".
   static const IconData location24 = IconData(
-    0xeb8d,
+    0xeb92,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -3564,7 +3609,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "lock-16".
   static const IconData lock16 = IconData(
-    0xeb8e,
+    0xeb93,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -3573,7 +3618,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "lock-24".
   static const IconData lock24 = IconData(
-    0xeb8f,
+    0xeb94,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -3582,7 +3627,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "lockup-github-16".
   static const IconData lockupGithub16 = IconData(
-    0xeb90,
+    0xeb95,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -3591,7 +3636,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "lockup-github-24".
   static const IconData lockupGithub24 = IconData(
-    0xeb91,
+    0xeb96,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -3600,7 +3645,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "log-16".
   static const IconData log16 = IconData(
-    0xeb92,
+    0xeb97,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -3609,7 +3654,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "log-24".
   static const IconData log24 = IconData(
-    0xeb93,
+    0xeb98,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -3618,7 +3663,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "logo-gist-16".
   static const IconData logoGist16 = IconData(
-    0xeb94,
+    0xeb99,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -3627,7 +3672,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "logo-gist-24".
   static const IconData logoGist24 = IconData(
-    0xeb95,
+    0xeb9a,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -3636,7 +3681,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "logo-github-16".
   static const IconData logoGithub16 = IconData(
-    0xeb96,
+    0xeb9b,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -3645,7 +3690,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "logo-github-24".
   static const IconData logoGithub24 = IconData(
-    0xeb97,
+    0xeb9c,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -3654,7 +3699,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "loop-16".
   static const IconData loop16 = IconData(
-    0xeb98,
+    0xeb9d,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -3663,7 +3708,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "loop-24".
   static const IconData loop24 = IconData(
-    0xeb99,
+    0xeb9e,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -3672,7 +3717,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "mail-16".
   static const IconData mail16 = IconData(
-    0xeb9a,
+    0xeb9f,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -3681,7 +3726,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "mail-24".
   static const IconData mail24 = IconData(
-    0xeb9b,
+    0xeba0,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -3690,7 +3735,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "mark-github-16".
   static const IconData markGithub16 = IconData(
-    0xeb9c,
+    0xeba1,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -3699,7 +3744,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "mark-github-24".
   static const IconData markGithub24 = IconData(
-    0xeb9d,
+    0xeba2,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -3708,7 +3753,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "markdown-16".
   static const IconData markdown16 = IconData(
-    0xeb9e,
+    0xeba3,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -3717,7 +3762,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "markdown-24".
   static const IconData markdown24 = IconData(
-    0xeb9f,
+    0xeba4,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -3726,7 +3771,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "maximize-16".
   static const IconData maximize16 = IconData(
-    0xeba0,
+    0xeba5,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -3735,7 +3780,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "maximize-24".
   static const IconData maximize24 = IconData(
-    0xeba1,
+    0xeba6,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -3744,7 +3789,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "mcp-16".
   static const IconData mcp16 = IconData(
-    0xeba2,
+    0xeba7,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -3753,7 +3798,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "mcp-24".
   static const IconData mcp24 = IconData(
-    0xeba3,
+    0xeba8,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -3762,7 +3807,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "megaphone-16".
   static const IconData megaphone16 = IconData(
-    0xeba4,
+    0xeba9,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -3771,7 +3816,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "megaphone-24".
   static const IconData megaphone24 = IconData(
-    0xeba5,
+    0xebaa,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -3780,7 +3825,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "mention-16".
   static const IconData mention16 = IconData(
-    0xeba6,
+    0xebab,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -3789,7 +3834,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "mention-24".
   static const IconData mention24 = IconData(
-    0xeba7,
+    0xebac,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -3798,7 +3843,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "meter-16".
   static const IconData meter16 = IconData(
-    0xeba8,
+    0xebad,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -3807,7 +3852,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "meter-24".
   static const IconData meter24 = IconData(
-    0xeba9,
+    0xebae,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -3816,7 +3861,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "milestone-16".
   static const IconData milestone16 = IconData(
-    0xebaa,
+    0xebaf,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -3825,7 +3870,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "milestone-24".
   static const IconData milestone24 = IconData(
-    0xebab,
+    0xebb0,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -3834,7 +3879,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "minimize-16".
   static const IconData minimize16 = IconData(
-    0xebac,
+    0xebb1,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -3843,7 +3888,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "minimize-24".
   static const IconData minimize24 = IconData(
-    0xebad,
+    0xebb2,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -3852,7 +3897,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "mirror-16".
   static const IconData mirror16 = IconData(
-    0xebae,
+    0xebb3,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -3861,7 +3906,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "mirror-24".
   static const IconData mirror24 = IconData(
-    0xebaf,
+    0xebb4,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -3870,7 +3915,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "moon-16".
   static const IconData moon16 = IconData(
-    0xebb0,
+    0xebb5,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -3879,7 +3924,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "moon-24".
   static const IconData moon24 = IconData(
-    0xebb1,
+    0xebb6,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -3888,7 +3933,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "mortar-board-16".
   static const IconData mortarBoard16 = IconData(
-    0xebb2,
+    0xebb7,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -3897,7 +3942,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "mortar-board-24".
   static const IconData mortarBoard24 = IconData(
-    0xebb3,
+    0xebb8,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -3906,7 +3951,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "move-to-bottom-16".
   static const IconData moveToBottom16 = IconData(
-    0xebb4,
+    0xebb9,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -3915,7 +3960,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "move-to-bottom-24".
   static const IconData moveToBottom24 = IconData(
-    0xebb5,
+    0xebba,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -3924,7 +3969,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "move-to-end-16".
   static const IconData moveToEnd16 = IconData(
-    0xec91,
+    0xec96,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -3933,7 +3978,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "move-to-end-24".
   static const IconData moveToEnd24 = IconData(
-    0xebb7,
+    0xebbc,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -3942,7 +3987,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "move-to-start-16".
   static const IconData moveToStart16 = IconData(
-    0xebb8,
+    0xebbd,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -3951,7 +3996,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "move-to-start-24".
   static const IconData moveToStart24 = IconData(
-    0xebb9,
+    0xebbe,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -3960,7 +4005,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "move-to-top-16".
   static const IconData moveToTop16 = IconData(
-    0xebba,
+    0xebbf,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -3969,7 +4014,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "move-to-top-24".
   static const IconData moveToTop24 = IconData(
-    0xebbb,
+    0xebc0,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -3978,7 +4023,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "multi-select-16".
   static const IconData multiSelect16 = IconData(
-    0xebbc,
+    0xebc1,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -3987,7 +4032,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "multi-select-24".
   static const IconData multiSelect24 = IconData(
-    0xebbd,
+    0xebc2,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -3996,7 +4041,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "mute-16".
   static const IconData mute16 = IconData(
-    0xebbe,
+    0xebc3,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -4005,7 +4050,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "mute-24".
   static const IconData mute24 = IconData(
-    0xebbf,
+    0xebc4,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -4014,7 +4059,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "no-entry-16".
   static const IconData noEntry16 = IconData(
-    0xebc0,
+    0xebc5,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -4023,7 +4068,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "no-entry-24".
   static const IconData noEntry24 = IconData(
-    0xebc1,
+    0xebc6,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -4032,7 +4077,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "no-entry-fill-12".
   static const IconData noEntryFill12 = IconData(
-    0xebc2,
+    0xebc7,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -4041,7 +4086,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "node-16".
   static const IconData node16 = IconData(
-    0xebc3,
+    0xebc8,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -4050,7 +4095,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "node-24".
   static const IconData node24 = IconData(
-    0xebc4,
+    0xebc9,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -4059,7 +4104,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "north-star-16".
   static const IconData northStar16 = IconData(
-    0xebc5,
+    0xebca,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -4068,7 +4113,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "north-star-24".
   static const IconData northStar24 = IconData(
-    0xebc6,
+    0xebcb,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -4077,7 +4122,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "note-16".
   static const IconData note16 = IconData(
-    0xebc7,
+    0xebcc,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -4086,7 +4131,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "note-24".
   static const IconData note24 = IconData(
-    0xebc8,
+    0xebcd,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -4095,7 +4140,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "number-16".
   static const IconData number16 = IconData(
-    0xebc9,
+    0xebce,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -4104,7 +4149,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "number-24".
   static const IconData number24 = IconData(
-    0xebca,
+    0xebcf,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -4113,7 +4158,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "organization-16".
   static const IconData organization16 = IconData(
-    0xebcb,
+    0xebd0,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -4122,7 +4167,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "organization-24".
   static const IconData organization24 = IconData(
-    0xebcc,
+    0xebd1,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -4131,7 +4176,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "package-16".
   static const IconData package16 = IconData(
-    0xebcd,
+    0xebd2,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -4140,7 +4185,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "package-24".
   static const IconData package24 = IconData(
-    0xebce,
+    0xebd3,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -4149,7 +4194,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "package-dependencies-16".
   static const IconData packageDependencies16 = IconData(
-    0xebcf,
+    0xebd4,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -4158,7 +4203,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "package-dependencies-24".
   static const IconData packageDependencies24 = IconData(
-    0xebd0,
+    0xebd5,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -4167,7 +4212,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "package-dependents-16".
   static const IconData packageDependents16 = IconData(
-    0xebd1,
+    0xebd6,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -4176,7 +4221,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "package-dependents-24".
   static const IconData packageDependents24 = IconData(
-    0xebd2,
+    0xebd7,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -4185,7 +4230,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "paintbrush-16".
   static const IconData paintbrush16 = IconData(
-    0xebd3,
+    0xebd8,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -4194,7 +4239,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "paintbrush-24".
   static const IconData paintbrush24 = IconData(
-    0xebd4,
+    0xebd9,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -4203,7 +4248,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "paper-airplane-16".
   static const IconData paperAirplane16 = IconData(
-    0xebd5,
+    0xebda,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -4212,7 +4257,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "paper-airplane-24".
   static const IconData paperAirplane24 = IconData(
-    0xebd6,
+    0xebdb,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -4221,7 +4266,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "paperclip-16".
   static const IconData paperclip16 = IconData(
-    0xebd7,
+    0xebdc,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -4230,7 +4275,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "paperclip-24".
   static const IconData paperclip24 = IconData(
-    0xebd8,
+    0xebdd,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -4239,7 +4284,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "passkey-fill-16".
   static const IconData passkeyFill16 = IconData(
-    0xebd9,
+    0xebde,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -4248,7 +4293,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "passkey-fill-24".
   static const IconData passkeyFill24 = IconData(
-    0xebda,
+    0xebdf,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -4257,7 +4302,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "paste-16".
   static const IconData paste16 = IconData(
-    0xebdb,
+    0xebe0,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -4266,7 +4311,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "paste-24".
   static const IconData paste24 = IconData(
-    0xebdc,
+    0xebe1,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -4275,7 +4320,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "pause-16".
   static const IconData pause16 = IconData(
-    0xebdd,
+    0xebe2,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -4284,7 +4329,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "pause-24".
   static const IconData pause24 = IconData(
-    0xebde,
+    0xebe3,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -4293,7 +4338,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "pencil-16".
   static const IconData pencil16 = IconData(
-    0xebdf,
+    0xebe4,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -4302,7 +4347,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "pencil-24".
   static const IconData pencil24 = IconData(
-    0xebe0,
+    0xebe5,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -4311,7 +4356,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "pencil-ai-16".
   static const IconData pencilAi16 = IconData(
-    0xebe1,
+    0xebe6,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -4320,7 +4365,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "pencil-ai-24".
   static const IconData pencilAi24 = IconData(
-    0xebe2,
+    0xebe7,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -4329,7 +4374,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "people-16".
   static const IconData people16 = IconData(
-    0xebe3,
+    0xebe8,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -4338,7 +4383,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "people-24".
   static const IconData people24 = IconData(
-    0xebe4,
+    0xebe9,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -4347,7 +4392,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "person-16".
   static const IconData person16 = IconData(
-    0xebe5,
+    0xebea,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -4356,7 +4401,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "person-24".
   static const IconData person24 = IconData(
-    0xebe6,
+    0xebeb,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -4365,7 +4410,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "person-add-16".
   static const IconData personAdd16 = IconData(
-    0xebe7,
+    0xebec,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -4374,7 +4419,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "person-add-24".
   static const IconData personAdd24 = IconData(
-    0xebe8,
+    0xebed,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -4383,7 +4428,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "person-fill-16".
   static const IconData personFill16 = IconData(
-    0xebe9,
+    0xebee,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -4392,7 +4437,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "person-fill-24".
   static const IconData personFill24 = IconData(
-    0xebea,
+    0xebef,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -4401,7 +4446,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "pin-16".
   static const IconData pin16 = IconData(
-    0xebeb,
+    0xebf0,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -4410,7 +4455,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "pin-24".
   static const IconData pin24 = IconData(
-    0xebec,
+    0xebf1,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -4419,7 +4464,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "pin-slash-16".
   static const IconData pinSlash16 = IconData(
-    0xebed,
+    0xebf2,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -4428,7 +4473,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "pin-slash-24".
   static const IconData pinSlash24 = IconData(
-    0xebee,
+    0xebf3,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -4437,7 +4482,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "pivot-column-16".
   static const IconData pivotColumn16 = IconData(
-    0xebef,
+    0xebf4,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -4446,7 +4491,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "pivot-column-24".
   static const IconData pivotColumn24 = IconData(
-    0xebf0,
+    0xebf5,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -4455,7 +4500,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "play-16".
   static const IconData play16 = IconData(
-    0xebf1,
+    0xebf6,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -4464,7 +4509,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "play-24".
   static const IconData play24 = IconData(
-    0xebf2,
+    0xebf7,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -4473,7 +4518,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "plug-16".
   static const IconData plug16 = IconData(
-    0xebf3,
+    0xebf8,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -4482,7 +4527,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "plug-24".
   static const IconData plug24 = IconData(
-    0xebf4,
+    0xebf9,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -4491,7 +4536,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "plus-16".
   static const IconData plus16 = IconData(
-    0xebf5,
+    0xebfa,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -4500,7 +4545,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "plus-24".
   static const IconData plus24 = IconData(
-    0xebf6,
+    0xebfb,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -4509,7 +4554,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "plus-circle-16".
   static const IconData plusCircle16 = IconData(
-    0xebf7,
+    0xebfc,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -4518,7 +4563,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "plus-circle-24".
   static const IconData plusCircle24 = IconData(
-    0xebf8,
+    0xebfd,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -4527,7 +4572,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "project-16".
   static const IconData project16 = IconData(
-    0xebf9,
+    0xebfe,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -4536,7 +4581,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "project-24".
   static const IconData project24 = IconData(
-    0xebfa,
+    0xebff,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -4545,7 +4590,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "project-check-16".
   static const IconData projectCheck16 = IconData(
-    0xebfb,
+    0xec00,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -4554,7 +4599,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "project-check-24".
   static const IconData projectCheck24 = IconData(
-    0xebfc,
+    0xec01,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -4563,7 +4608,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "project-roadmap-16".
   static const IconData projectRoadmap16 = IconData(
-    0xebfd,
+    0xec02,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -4572,7 +4617,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "project-roadmap-24".
   static const IconData projectRoadmap24 = IconData(
-    0xebfe,
+    0xec03,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -4581,7 +4626,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "project-symlink-16".
   static const IconData projectSymlink16 = IconData(
-    0xebff,
+    0xec04,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -4590,7 +4635,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "project-symlink-24".
   static const IconData projectSymlink24 = IconData(
-    0xec00,
+    0xec05,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -4599,7 +4644,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "project-template-16".
   static const IconData projectTemplate16 = IconData(
-    0xec01,
+    0xec06,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -4608,7 +4653,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "project-template-24".
   static const IconData projectTemplate24 = IconData(
-    0xec02,
+    0xec07,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -4617,7 +4662,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "pulse-16".
   static const IconData pulse16 = IconData(
-    0xec03,
+    0xec08,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -4626,7 +4671,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "pulse-24".
   static const IconData pulse24 = IconData(
-    0xec04,
+    0xec09,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -4635,7 +4680,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "question-16".
   static const IconData question16 = IconData(
-    0xec05,
+    0xec0a,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -4644,25 +4689,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "question-24".
   static const IconData question24 = IconData(
-    0xec06,
-    fontFamily: 'OctIcons',
-    fontPackage: 'primer_icons',
-  );
-
-  /// ![Icon](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDE2IDE2IiBmaWxsPSJncmF5Ij48cGF0aCBkPSJtMS41OTQgMTAuODIyLS43OTUgMy40ODFhLjc1Ljc1IDAgMCAwIC44OTguODk4bDMuNDgxLS43OTVhNyA3IDAgMSAwLTMuNTg0LTMuNTg0bTEuNTIuMDg1YS43NS43NSAwIDAgMC0uMDU0LS40ODhsLS4wNTgtLjEyNGE1LjUgNS41IDAgMSAxIDIuNzAzIDIuNzAzbC0uMTI0LS4wNThhLjc1Ljc1IDAgMCAwLS40ODgtLjA1NGwtMi41NjYuNTg3Wk02LjkyIDYuMDg1aC4wMDFhLjc0OS43NDkgMCAxIDEtMS4zNDItLjY3Yy4xNjktLjMzOS40MzYtLjcwMS44NDktLjk3N0M2Ljg0NSA0LjE2IDcuMzY5IDQgOCA0YTIuNzYgMi43NiAwIDAgMSAxLjYzNy41MjVjLjUwMy4zNzcuODYzLjk2NS44NjMgMS43MjUgMCAuNDQ4LS4xMTUuODMtLjMyOSAxLjE1LS4yMDUuMzA3LS40Ny41MTMtLjY5Mi42NjItLjEwOS4wNzItLjIyLjEzOC0uMzEzLjE5NWwtLjAwNi4wMDRhNiA2IDAgMCAwLS4yNi4xNiAxIDEgMCAwIDAtLjI3Ni4yNDUuNzUuNzUgMCAwIDEtMS4yNDgtLjgzMmMuMTg0LS4yNjQuNDItLjQ4OS42OTItLjY2MXEuMTU0LS4xLjMxMy0uMTk1bC4wMDctLjAwNGMuMS0uMDYxLjE4Mi0uMTEuMjU4LS4xNjFhMSAxIDAgMCAwIC4yNzctLjI0NUM4Ljk2IDYuNTE0IDkgNi40MjcgOSA2LjI1YS42MS42MSAwIDAgMC0uMjYyLS41MjVBMS4yNyAxLjI3IDAgMCAwIDggNS41Yy0uMzY5IDAtLjU5NS4wOS0uNzQuMTg3YTEgMSAwIDAgMC0uMzQuMzk4TTkgMTFhMSAxIDAgMSAxLTIgMCAxIDEgMCAwIDEgMiAwIi8+PC9zdmc+)
-  ///
-  /// Primer icon named "question-bubble-16".
-  static const IconData questionBubble16 = IconData(
-    0xec07,
-    fontFamily: 'OctIcons',
-    fontPackage: 'primer_icons',
-  );
-
-  /// ![Icon](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJncmF5Ij48cGF0aCBkPSJNMi4wMDIgMTYuNTg2Ljc5NiAyMi4zMTVhLjc1Ljc1IDAgMCAwIC44ODkuODg5bDUuNzI5LTEuMjA2YTExIDExIDAgMSAwLTUuNDEyLTUuNDEybTEuNTE5LjA2MmEuNzUuNzUgMCAwIDAtLjA1Ni0uNDc2bC0uMDk5LS4yMDlhOS41IDkuNSAwIDEgMSA0LjY3MSA0LjY3MWwtLjIwOS0uMDk5YS43NS43NSAwIDAgMC0uNDc2LS4wNTZsLTQuODUxIDEuMDJabTcuNDQ5LTguMzgzYTEuNDUgMS40NSAwIDAgMC0uNDg3LjU3Ljc1Ljc1IDAgMCAxLTEuMzQxLS42N2MuMi0uNDAyLjUxMy0uODI2Ljk5Ny0xLjE0OEMxMC42MjcgNi42OSAxMS4yNDQgNi41IDEyIDYuNWMuNjU4IDAgMS4zNjkuMTk1IDEuOTM0LjYxOWEyLjQ1IDIuNDUgMCAwIDEgMS4wMDQgMi4wMDZjMCAxLjAzMy0uNTEzIDEuNzItMS4wMjcgMi4yMTUtLjE5LjE4My0uMzk5LjM1OC0uNTc5LjUwOGwtLjE0Ny4xMjNhNCA0IDAgMCAwLS40MzUuNDA5djEuMzdhLjc1Ljc1IDAgMSAxLTEuNSAwdi0xLjQ3M2MwLS4yMzcuMDY3LS41MDQuMjQ3LS43MzYuMjItLjI4LjQ4Ni0uNTE3LjcxOC0uNzE0bC4xODMtLjE1My4wMDEtLjAwMWMuMTcyLS4xNDMuMzI0LS4yNy40Ny0uNDEyLjM2OC0uMzU1LjU2OS0uNjc2LjU2OS0xLjEzNmEuOTUuOTUgMCAwIDAtLjQwNC0uODA2QzEyLjc2NiA4LjExOCAxMi4zODQgOCAxMiA4Yy0uNDk0IDAtLjgxNC4xMjEtMS4wMy4yNjVNMTMgMTdhMSAxIDAgMSAxLTIgMCAxIDEgMCAwIDEgMiAwIi8+PC9zdmc+)
-  ///
-  /// Primer icon named "question-bubble-24".
-  static const IconData questionBubble24 = IconData(
-    0xec08,
+    0xec0b,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -4671,7 +4698,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "quote-16".
   static const IconData quote16 = IconData(
-    0xec09,
+    0xec0e,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -4680,7 +4707,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "quote-24".
   static const IconData quote24 = IconData(
-    0xec0a,
+    0xec0f,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -4689,7 +4716,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "read-16".
   static const IconData read16 = IconData(
-    0xec0b,
+    0xec10,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -4698,7 +4725,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "read-24".
   static const IconData read24 = IconData(
-    0xec0c,
+    0xec11,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -4707,7 +4734,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "redo-16".
   static const IconData redo16 = IconData(
-    0xec0d,
+    0xec12,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -4716,7 +4743,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "redo-24".
   static const IconData redo24 = IconData(
-    0xec0e,
+    0xec13,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -4725,7 +4752,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "rel-file-path-16".
   static const IconData relFilePath16 = IconData(
-    0xec0f,
+    0xec14,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -4734,7 +4761,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "rel-file-path-24".
   static const IconData relFilePath24 = IconData(
-    0xec10,
+    0xec15,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -4743,7 +4770,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "reply-16".
   static const IconData reply16 = IconData(
-    0xec11,
+    0xec16,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -4752,7 +4779,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "reply-24".
   static const IconData reply24 = IconData(
-    0xec12,
+    0xec17,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -4761,7 +4788,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "repo-16".
   static const IconData repo16 = IconData(
-    0xec13,
+    0xec18,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -4770,7 +4797,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "repo-24".
   static const IconData repo24 = IconData(
-    0xec14,
+    0xec19,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -4779,7 +4806,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "repo-clone-16".
   static const IconData repoClone16 = IconData(
-    0xec15,
+    0xec1a,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -4788,7 +4815,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "repo-clone-24".
   static const IconData repoClone24 = IconData(
-    0xec16,
+    0xec1b,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -4797,7 +4824,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "repo-delete-24".
   static const IconData repoDelete24 = IconData(
-    0xec17,
+    0xec1c,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -4806,7 +4833,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "repo-deleted-16".
   static const IconData repoDeleted16 = IconData(
-    0xec18,
+    0xec1d,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -4815,7 +4842,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "repo-forked-16".
   static const IconData repoForked16 = IconData(
-    0xec19,
+    0xec1e,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -4824,7 +4851,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "repo-forked-24".
   static const IconData repoForked24 = IconData(
-    0xec1a,
+    0xec1f,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -4833,7 +4860,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "repo-forked-locked-16".
   static const IconData repoForkedLocked16 = IconData(
-    0xec1b,
+    0xec20,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -4842,7 +4869,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "repo-forked-locked-24".
   static const IconData repoForkedLocked24 = IconData(
-    0xec1c,
+    0xec21,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -4851,7 +4878,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "repo-locked-16".
   static const IconData repoLocked16 = IconData(
-    0xec1d,
+    0xec22,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -4860,7 +4887,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "repo-locked-24".
   static const IconData repoLocked24 = IconData(
-    0xec1e,
+    0xec23,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -4869,7 +4896,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "repo-pull-16".
   static const IconData repoPull16 = IconData(
-    0xec1f,
+    0xec24,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -4878,7 +4905,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "repo-pull-24".
   static const IconData repoPull24 = IconData(
-    0xec20,
+    0xec25,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -4887,7 +4914,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "repo-push-16".
   static const IconData repoPush16 = IconData(
-    0xec21,
+    0xec26,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -4896,7 +4923,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "repo-push-24".
   static const IconData repoPush24 = IconData(
-    0xec22,
+    0xec27,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -4905,7 +4932,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "repo-template-16".
   static const IconData repoTemplate16 = IconData(
-    0xec23,
+    0xec28,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -4914,7 +4941,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "repo-template-24".
   static const IconData repoTemplate24 = IconData(
-    0xec24,
+    0xec29,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -4923,7 +4950,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "report-16".
   static const IconData report16 = IconData(
-    0xec25,
+    0xec2a,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -4932,7 +4959,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "report-24".
   static const IconData report24 = IconData(
-    0xec26,
+    0xec2b,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -4941,7 +4968,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "rocket-16".
   static const IconData rocket16 = IconData(
-    0xec27,
+    0xec2c,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -4950,7 +4977,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "rocket-24".
   static const IconData rocket24 = IconData(
-    0xec28,
+    0xec2d,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -4959,7 +4986,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "rows-16".
   static const IconData rows16 = IconData(
-    0xec29,
+    0xec2e,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -4968,7 +4995,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "rows-24".
   static const IconData rows24 = IconData(
-    0xec2a,
+    0xec2f,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -4977,7 +5004,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "rss-16".
   static const IconData rss16 = IconData(
-    0xec2b,
+    0xec30,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -4986,7 +5013,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "rss-24".
   static const IconData rss24 = IconData(
-    0xec2c,
+    0xec31,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -4995,7 +5022,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "ruby-16".
   static const IconData ruby16 = IconData(
-    0xec2d,
+    0xec32,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -5004,7 +5031,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "ruby-24".
   static const IconData ruby24 = IconData(
-    0xec2e,
+    0xec33,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -5013,7 +5040,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "sandbox-16".
   static const IconData sandbox16 = IconData(
-    0xec2f,
+    0xec34,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -5022,7 +5049,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "screen-full-16".
   static const IconData screenFull16 = IconData(
-    0xec30,
+    0xec35,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -5031,7 +5058,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "screen-full-24".
   static const IconData screenFull24 = IconData(
-    0xec31,
+    0xec36,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -5040,7 +5067,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "screen-normal-16".
   static const IconData screenNormal16 = IconData(
-    0xec32,
+    0xec37,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -5049,7 +5076,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "screen-normal-24".
   static const IconData screenNormal24 = IconData(
-    0xec33,
+    0xec38,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -5058,7 +5085,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "search-16".
   static const IconData search16 = IconData(
-    0xec34,
+    0xec39,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -5067,7 +5094,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "search-24".
   static const IconData search24 = IconData(
-    0xec35,
+    0xec3a,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -5076,7 +5103,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "server-16".
   static const IconData server16 = IconData(
-    0xec36,
+    0xec3b,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -5085,7 +5112,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "server-24".
   static const IconData server24 = IconData(
-    0xec37,
+    0xec3c,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -5094,7 +5121,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "share-16".
   static const IconData share16 = IconData(
-    0xec38,
+    0xec3d,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -5103,7 +5130,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "share-24".
   static const IconData share24 = IconData(
-    0xec39,
+    0xec3e,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -5112,7 +5139,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "share-android-16".
   static const IconData shareAndroid16 = IconData(
-    0xec3a,
+    0xec3f,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -5121,7 +5148,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "share-android-24".
   static const IconData shareAndroid24 = IconData(
-    0xec3b,
+    0xec40,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -5130,7 +5157,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "shield-16".
   static const IconData shield16 = IconData(
-    0xec3c,
+    0xec41,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -5139,7 +5166,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "shield-24".
   static const IconData shield24 = IconData(
-    0xec3d,
+    0xec42,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -5148,7 +5175,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "shield-check-16".
   static const IconData shieldCheck16 = IconData(
-    0xec3e,
+    0xec43,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -5157,7 +5184,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "shield-check-24".
   static const IconData shieldCheck24 = IconData(
-    0xec3f,
+    0xec44,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -5166,7 +5193,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "shield-lock-16".
   static const IconData shieldLock16 = IconData(
-    0xec40,
+    0xec45,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -5175,7 +5202,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "shield-lock-24".
   static const IconData shieldLock24 = IconData(
-    0xec41,
+    0xec46,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -5184,7 +5211,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "shield-slash-16".
   static const IconData shieldSlash16 = IconData(
-    0xec42,
+    0xec47,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -5193,7 +5220,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "shield-slash-24".
   static const IconData shieldSlash24 = IconData(
-    0xec43,
+    0xec48,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -5202,7 +5229,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "shield-x-16".
   static const IconData shieldX16 = IconData(
-    0xec44,
+    0xec49,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -5211,7 +5238,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "shield-x-24".
   static const IconData shieldX24 = IconData(
-    0xec45,
+    0xec4a,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -5220,7 +5247,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "sidebar-collapse-16".
   static const IconData sidebarCollapse16 = IconData(
-    0xec46,
+    0xec4b,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -5229,7 +5256,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "sidebar-collapse-24".
   static const IconData sidebarCollapse24 = IconData(
-    0xec47,
+    0xec4c,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -5238,7 +5265,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "sidebar-expand-16".
   static const IconData sidebarExpand16 = IconData(
-    0xec48,
+    0xec4d,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -5247,7 +5274,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "sidebar-expand-24".
   static const IconData sidebarExpand24 = IconData(
-    0xec49,
+    0xec4e,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -5256,7 +5283,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "sign-in-16".
   static const IconData signIn16 = IconData(
-    0xec4a,
+    0xec4f,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -5265,7 +5292,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "sign-in-24".
   static const IconData signIn24 = IconData(
-    0xec4b,
+    0xec50,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -5274,7 +5301,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "sign-out-16".
   static const IconData signOut16 = IconData(
-    0xec4c,
+    0xec51,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -5283,7 +5310,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "sign-out-24".
   static const IconData signOut24 = IconData(
-    0xec4d,
+    0xec52,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -5292,7 +5319,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "single-select-16".
   static const IconData singleSelect16 = IconData(
-    0xec4e,
+    0xec53,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -5301,7 +5328,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "single-select-24".
   static const IconData singleSelect24 = IconData(
-    0xec4f,
+    0xec54,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -5310,7 +5337,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "skip-16".
   static const IconData skip16 = IconData(
-    0xec50,
+    0xec55,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -5319,7 +5346,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "skip-24".
   static const IconData skip24 = IconData(
-    0xec51,
+    0xec56,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -5328,7 +5355,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "skip-fill-16".
   static const IconData skipFill16 = IconData(
-    0xec52,
+    0xec57,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -5337,7 +5364,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "skip-fill-24".
   static const IconData skipFill24 = IconData(
-    0xec53,
+    0xec58,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -5346,7 +5373,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "sliders-16".
   static const IconData sliders16 = IconData(
-    0xec54,
+    0xec59,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -5355,7 +5382,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "sliders-24".
   static const IconData sliders24 = IconData(
-    0xec55,
+    0xec5a,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -5364,7 +5391,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "smiley-16".
   static const IconData smiley16 = IconData(
-    0xec56,
+    0xec5b,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -5373,7 +5400,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "smiley-24".
   static const IconData smiley24 = IconData(
-    0xec57,
+    0xec5c,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -5382,7 +5409,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "smiley-frown-16".
   static const IconData smileyFrown16 = IconData(
-    0xec58,
+    0xec5d,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -5391,7 +5418,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "smiley-frown-24".
   static const IconData smileyFrown24 = IconData(
-    0xec59,
+    0xec5e,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -5400,7 +5427,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "smiley-frustrated-16".
   static const IconData smileyFrustrated16 = IconData(
-    0xec5a,
+    0xec5f,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -5409,7 +5436,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "smiley-frustrated-24".
   static const IconData smileyFrustrated24 = IconData(
-    0xec5b,
+    0xec60,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -5418,7 +5445,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "smiley-grin-16".
   static const IconData smileyGrin16 = IconData(
-    0xec5c,
+    0xec61,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -5427,7 +5454,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "smiley-grin-24".
   static const IconData smileyGrin24 = IconData(
-    0xec5d,
+    0xec62,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -5436,7 +5463,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "smiley-neutral-16".
   static const IconData smileyNeutral16 = IconData(
-    0xec5e,
+    0xec63,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -5445,7 +5472,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "smiley-neutral-24".
   static const IconData smileyNeutral24 = IconData(
-    0xec5f,
+    0xec64,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -5454,7 +5481,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "sort-asc-16".
   static const IconData sortAsc16 = IconData(
-    0xec60,
+    0xec65,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -5463,7 +5490,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "sort-asc-24".
   static const IconData sortAsc24 = IconData(
-    0xec61,
+    0xec66,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -5472,7 +5499,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "sort-desc-16".
   static const IconData sortDesc16 = IconData(
-    0xec62,
+    0xec67,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -5481,7 +5508,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "sort-desc-24".
   static const IconData sortDesc24 = IconData(
-    0xec63,
+    0xec68,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -5490,7 +5517,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "space-16".
   static const IconData space16 = IconData(
-    0xec64,
+    0xec69,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -5499,7 +5526,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "space-24".
   static const IconData space24 = IconData(
-    0xec65,
+    0xec6a,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -5508,7 +5535,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "spacing-large-16".
   static const IconData spacingLarge16 = IconData(
-    0xec66,
+    0xec6b,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -5517,7 +5544,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "spacing-large-24".
   static const IconData spacingLarge24 = IconData(
-    0xec67,
+    0xec6c,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -5526,7 +5553,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "spacing-medium-16".
   static const IconData spacingMedium16 = IconData(
-    0xec68,
+    0xec6d,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -5535,7 +5562,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "spacing-medium-24".
   static const IconData spacingMedium24 = IconData(
-    0xec69,
+    0xec6e,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -5544,7 +5571,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "spacing-small-16".
   static const IconData spacingSmall16 = IconData(
-    0xec6a,
+    0xec6f,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -5553,7 +5580,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "spacing-small-24".
   static const IconData spacingSmall24 = IconData(
-    0xec6b,
+    0xec70,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -5562,7 +5589,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "sparkle-16".
   static const IconData sparkle16 = IconData(
-    0xec6c,
+    0xec71,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -5571,7 +5598,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "sparkle-24".
   static const IconData sparkle24 = IconData(
-    0xec6d,
+    0xec72,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -5580,7 +5607,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "sparkle-fill-16".
   static const IconData sparkleFill16 = IconData(
-    0xec6e,
+    0xec73,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -5589,7 +5616,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "sparkle-fill-24".
   static const IconData sparkleFill24 = IconData(
-    0xec6f,
+    0xec74,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -5598,7 +5625,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "sparkles-fill-16".
   static const IconData sparklesFill16 = IconData(
-    0xec70,
+    0xec75,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -5607,7 +5634,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "sparkles-fill-24".
   static const IconData sparklesFill24 = IconData(
-    0xec71,
+    0xec76,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -5616,7 +5643,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "split-view-16".
   static const IconData splitView16 = IconData(
-    0xec72,
+    0xec77,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -5625,7 +5652,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "split-view-24".
   static const IconData splitView24 = IconData(
-    0xec73,
+    0xec78,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -5634,7 +5661,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "sponsor-tiers-16".
   static const IconData sponsorTiers16 = IconData(
-    0xec74,
+    0xec79,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -5643,7 +5670,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "sponsor-tiers-24".
   static const IconData sponsorTiers24 = IconData(
-    0xec75,
+    0xec7a,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -5652,7 +5679,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "square-16".
   static const IconData square16 = IconData(
-    0xec76,
+    0xec7b,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -5661,7 +5688,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "square-24".
   static const IconData square24 = IconData(
-    0xec77,
+    0xec7c,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -5670,7 +5697,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "square-circle-16".
   static const IconData squareCircle16 = IconData(
-    0xec78,
+    0xec7d,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -5679,7 +5706,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "square-circle-24".
   static const IconData squareCircle24 = IconData(
-    0xec79,
+    0xec7e,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -5688,7 +5715,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "square-fill-16".
   static const IconData squareFill16 = IconData(
-    0xec7a,
+    0xec7f,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -5697,7 +5724,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "square-fill-24".
   static const IconData squareFill24 = IconData(
-    0xec7b,
+    0xec80,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -5706,7 +5733,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "squirrel-16".
   static const IconData squirrel16 = IconData(
-    0xec7c,
+    0xec81,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -5715,7 +5742,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "squirrel-24".
   static const IconData squirrel24 = IconData(
-    0xec7d,
+    0xec82,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -5724,7 +5751,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "stack-16".
   static const IconData stack16 = IconData(
-    0xec7e,
+    0xec83,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -5733,7 +5760,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "stack-24".
   static const IconData stack24 = IconData(
-    0xec7f,
+    0xec84,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -5742,7 +5769,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "stack-add-16".
   static const IconData stackAdd16 = IconData(
-    0xec80,
+    0xec85,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -5751,7 +5778,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "stack-check-16".
   static const IconData stackCheck16 = IconData(
-    0xec81,
+    0xec86,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -5760,7 +5787,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "stack-remove-16".
   static const IconData stackRemove16 = IconData(
-    0xec82,
+    0xec87,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -5769,7 +5796,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "star-16".
   static const IconData star16 = IconData(
-    0xec83,
+    0xec88,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -5778,7 +5805,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "star-24".
   static const IconData star24 = IconData(
-    0xec84,
+    0xec89,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -5787,7 +5814,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "star-fill-16".
   static const IconData starFill16 = IconData(
-    0xec85,
+    0xec8a,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -5796,7 +5823,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "star-fill-24".
   static const IconData starFill24 = IconData(
-    0xec86,
+    0xec8b,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -5805,7 +5832,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "stop-16".
   static const IconData stop16 = IconData(
-    0xec87,
+    0xec8c,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -5814,7 +5841,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "stop-24".
   static const IconData stop24 = IconData(
-    0xec88,
+    0xec8d,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -5823,7 +5850,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "stopwatch-16".
   static const IconData stopwatch16 = IconData(
-    0xec89,
+    0xec8e,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -5832,7 +5859,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "stopwatch-24".
   static const IconData stopwatch24 = IconData(
-    0xec8a,
+    0xec8f,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -5841,7 +5868,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "strikethrough-16".
   static const IconData strikethrough16 = IconData(
-    0xec8b,
+    0xec90,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -5850,7 +5877,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "strikethrough-24".
   static const IconData strikethrough24 = IconData(
-    0xec8c,
+    0xec91,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -5859,7 +5886,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "sun-16".
   static const IconData sun16 = IconData(
-    0xec8d,
+    0xec92,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -5868,7 +5895,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "sun-24".
   static const IconData sun24 = IconData(
-    0xec8e,
+    0xec93,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -5877,7 +5904,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "sync-16".
   static const IconData sync16 = IconData(
-    0xec8f,
+    0xec94,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -5886,7 +5913,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "sync-24".
   static const IconData sync24 = IconData(
-    0xec90,
+    0xec95,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -5895,7 +5922,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "tab-24".
   static const IconData tab24 = IconData(
-    0xec92,
+    0xec97,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -5904,7 +5931,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "tab-external-16".
   static const IconData tabExternal16 = IconData(
-    0xec93,
+    0xec98,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -5913,7 +5940,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "tab-external-24".
   static const IconData tabExternal24 = IconData(
-    0xec94,
+    0xec99,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -5922,7 +5949,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "table-16".
   static const IconData table16 = IconData(
-    0xec95,
+    0xec9a,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -5931,7 +5958,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "table-24".
   static const IconData table24 = IconData(
-    0xec96,
+    0xec9b,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -5940,7 +5967,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "tag-16".
   static const IconData tag16 = IconData(
-    0xec97,
+    0xec9c,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -5949,7 +5976,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "tag-24".
   static const IconData tag24 = IconData(
-    0xec98,
+    0xec9d,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -5958,7 +5985,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "tasklist-16".
   static const IconData tasklist16 = IconData(
-    0xec99,
+    0xec9e,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -5967,7 +5994,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "tasklist-24".
   static const IconData tasklist24 = IconData(
-    0xec9a,
+    0xec9f,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -5976,7 +6003,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "telescope-16".
   static const IconData telescope16 = IconData(
-    0xec9b,
+    0xeca0,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -5985,7 +6012,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "telescope-24".
   static const IconData telescope24 = IconData(
-    0xec9c,
+    0xeca1,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -5994,7 +6021,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "telescope-fill-16".
   static const IconData telescopeFill16 = IconData(
-    0xec9d,
+    0xeca2,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -6003,7 +6030,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "telescope-fill-24".
   static const IconData telescopeFill24 = IconData(
-    0xec9e,
+    0xeca3,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -6012,7 +6039,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "terminal-16".
   static const IconData terminal16 = IconData(
-    0xec9f,
+    0xeca4,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -6021,7 +6048,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "terminal-24".
   static const IconData terminal24 = IconData(
-    0xeca0,
+    0xeca5,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -6030,7 +6057,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "three-bars-16".
   static const IconData threeBars16 = IconData(
-    0xeca1,
+    0xeca6,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -6039,7 +6066,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "three-bars-24".
   static const IconData threeBars24 = IconData(
-    0xeca2,
+    0xeca7,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -6048,7 +6075,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "thumbsdown-16".
   static const IconData thumbsdown16 = IconData(
-    0xeca3,
+    0xeca8,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -6057,7 +6084,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "thumbsdown-24".
   static const IconData thumbsdown24 = IconData(
-    0xeca4,
+    0xeca9,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -6066,7 +6093,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "thumbsup-16".
   static const IconData thumbsup16 = IconData(
-    0xeca5,
+    0xecaa,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -6075,7 +6102,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "thumbsup-24".
   static const IconData thumbsup24 = IconData(
-    0xeca6,
+    0xecab,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -6084,7 +6111,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "tools-16".
   static const IconData tools16 = IconData(
-    0xeca7,
+    0xecac,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -6093,7 +6120,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "tools-24".
   static const IconData tools24 = IconData(
-    0xeca8,
+    0xecad,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -6102,7 +6129,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "tracked-by-closed-completed-16".
   static const IconData trackedByClosedCompleted16 = IconData(
-    0xeca9,
+    0xecae,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -6111,7 +6138,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "tracked-by-closed-completed-24".
   static const IconData trackedByClosedCompleted24 = IconData(
-    0xecaa,
+    0xecaf,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -6120,7 +6147,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "tracked-by-closed-not-planned-16".
   static const IconData trackedByClosedNotPlanned16 = IconData(
-    0xecab,
+    0xecb0,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -6129,7 +6156,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "tracked-by-closed-not-planned-24".
   static const IconData trackedByClosedNotPlanned24 = IconData(
-    0xecac,
+    0xecb1,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -6138,7 +6165,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "trash-16".
   static const IconData trash16 = IconData(
-    0xecad,
+    0xecb2,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -6147,7 +6174,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "trash-24".
   static const IconData trash24 = IconData(
-    0xecae,
+    0xecb3,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -6156,7 +6183,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "triangle-down-16".
   static const IconData triangleDown16 = IconData(
-    0xecaf,
+    0xecb4,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -6165,7 +6192,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "triangle-down-24".
   static const IconData triangleDown24 = IconData(
-    0xecb0,
+    0xecb5,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -6174,7 +6201,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "triangle-left-16".
   static const IconData triangleLeft16 = IconData(
-    0xecb1,
+    0xecb6,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -6183,7 +6210,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "triangle-left-24".
   static const IconData triangleLeft24 = IconData(
-    0xecb2,
+    0xecb7,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -6192,7 +6219,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "triangle-right-16".
   static const IconData triangleRight16 = IconData(
-    0xecb3,
+    0xecb8,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -6201,7 +6228,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "triangle-right-24".
   static const IconData triangleRight24 = IconData(
-    0xecb4,
+    0xecb9,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -6210,7 +6237,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "triangle-up-16".
   static const IconData triangleUp16 = IconData(
-    0xecb5,
+    0xecba,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -6219,7 +6246,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "triangle-up-24".
   static const IconData triangleUp24 = IconData(
-    0xecb6,
+    0xecbb,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -6228,7 +6255,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "trophy-16".
   static const IconData trophy16 = IconData(
-    0xecb7,
+    0xecbc,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -6237,7 +6264,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "trophy-24".
   static const IconData trophy24 = IconData(
-    0xecb8,
+    0xecbd,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -6246,7 +6273,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "typography-16".
   static const IconData typography16 = IconData(
-    0xecb9,
+    0xecbe,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -6255,7 +6282,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "typography-24".
   static const IconData typography24 = IconData(
-    0xecba,
+    0xecbf,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -6264,7 +6291,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "undo-16".
   static const IconData undo16 = IconData(
-    0xecbb,
+    0xecc0,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -6273,7 +6300,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "undo-24".
   static const IconData undo24 = IconData(
-    0xecbc,
+    0xecc1,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -6282,7 +6309,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "unfold-16".
   static const IconData unfold16 = IconData(
-    0xecbd,
+    0xecc2,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -6291,7 +6318,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "unfold-24".
   static const IconData unfold24 = IconData(
-    0xecbe,
+    0xecc3,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -6300,7 +6327,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "unlink-16".
   static const IconData unlink16 = IconData(
-    0xecbf,
+    0xecc4,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -6309,7 +6336,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "unlink-24".
   static const IconData unlink24 = IconData(
-    0xecc0,
+    0xecc5,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -6318,7 +6345,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "unlock-16".
   static const IconData unlock16 = IconData(
-    0xecc1,
+    0xecc6,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -6327,7 +6354,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "unlock-24".
   static const IconData unlock24 = IconData(
-    0xecc2,
+    0xecc7,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -6336,7 +6363,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "unmute-16".
   static const IconData unmute16 = IconData(
-    0xecc3,
+    0xecc8,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -6345,7 +6372,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "unmute-24".
   static const IconData unmute24 = IconData(
-    0xecc4,
+    0xecc9,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -6354,7 +6381,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "unread-16".
   static const IconData unread16 = IconData(
-    0xecc5,
+    0xecca,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -6363,7 +6390,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "unread-24".
   static const IconData unread24 = IconData(
-    0xecc6,
+    0xeccb,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -6372,7 +6399,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "unverified-16".
   static const IconData unverified16 = IconData(
-    0xecc7,
+    0xeccc,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -6381,7 +6408,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "unverified-24".
   static const IconData unverified24 = IconData(
-    0xecc8,
+    0xeccd,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -6390,7 +6417,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "unwrap-16".
   static const IconData unwrap16 = IconData(
-    0xecc9,
+    0xecce,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -6399,7 +6426,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "unwrap-24".
   static const IconData unwrap24 = IconData(
-    0xecca,
+    0xeccf,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -6408,7 +6435,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "upload-16".
   static const IconData upload16 = IconData(
-    0xeccb,
+    0xecd0,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -6417,7 +6444,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "upload-24".
   static const IconData upload24 = IconData(
-    0xeccc,
+    0xecd1,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -6426,7 +6453,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "verified-16".
   static const IconData verified16 = IconData(
-    0xeccd,
+    0xecd2,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -6435,7 +6462,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "verified-24".
   static const IconData verified24 = IconData(
-    0xecce,
+    0xecd3,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -6444,7 +6471,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "versions-16".
   static const IconData versions16 = IconData(
-    0xeccf,
+    0xecd4,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -6453,7 +6480,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "versions-24".
   static const IconData versions24 = IconData(
-    0xecd0,
+    0xecd5,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -6462,7 +6489,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "video-16".
   static const IconData video16 = IconData(
-    0xecd1,
+    0xecd6,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -6471,7 +6498,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "video-24".
   static const IconData video24 = IconData(
-    0xecd2,
+    0xecd7,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -6480,7 +6507,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "view-files-16".
   static const IconData viewFiles16 = IconData(
-    0xecd3,
+    0xecd8,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -6489,7 +6516,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "view-files-24".
   static const IconData viewFiles24 = IconData(
-    0xecd4,
+    0xecd9,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -6498,7 +6525,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "vscode-16".
   static const IconData vscode16 = IconData(
-    0xecd5,
+    0xecda,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -6507,7 +6534,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "vscode-24".
   static const IconData vscode24 = IconData(
-    0xecd6,
+    0xecdb,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -6516,7 +6543,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "webhook-16".
   static const IconData webhook16 = IconData(
-    0xecd7,
+    0xecdc,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -6525,7 +6552,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "workflow-16".
   static const IconData workflow16 = IconData(
-    0xecd8,
+    0xecdd,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -6534,7 +6561,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "workflow-24".
   static const IconData workflow24 = IconData(
-    0xecd9,
+    0xecde,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -6543,7 +6570,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "wrap-16".
   static const IconData wrap16 = IconData(
-    0xecda,
+    0xecdf,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -6552,7 +6579,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "wrap-24".
   static const IconData wrap24 = IconData(
-    0xecdb,
+    0xece0,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -6561,7 +6588,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "x-12".
   static const IconData x12 = IconData(
-    0xecdc,
+    0xece1,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -6570,7 +6597,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "x-16".
   static const IconData x16 = IconData(
-    0xecdd,
+    0xece2,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -6579,7 +6606,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "x-24".
   static const IconData x24 = IconData(
-    0xecde,
+    0xece3,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -6588,7 +6615,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "x-circle-16".
   static const IconData xCircle16 = IconData(
-    0xecdf,
+    0xece4,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -6597,7 +6624,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "x-circle-24".
   static const IconData xCircle24 = IconData(
-    0xece0,
+    0xece5,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -6606,7 +6633,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "x-circle-fill-12".
   static const IconData xCircleFill12 = IconData(
-    0xece1,
+    0xece6,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -6615,7 +6642,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "x-circle-fill-16".
   static const IconData xCircleFill16 = IconData(
-    0xece2,
+    0xece7,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -6624,7 +6651,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "x-circle-fill-24".
   static const IconData xCircleFill24 = IconData(
-    0xece3,
+    0xece8,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -6633,7 +6660,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "zap-16".
   static const IconData zap16 = IconData(
-    0xece4,
+    0xece9,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -6642,7 +6669,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "zap-24".
   static const IconData zap24 = IconData(
-    0xece5,
+    0xecea,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -6651,7 +6678,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "zoom-in-16".
   static const IconData zoomIn16 = IconData(
-    0xece6,
+    0xeceb,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -6660,7 +6687,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "zoom-in-24".
   static const IconData zoomIn24 = IconData(
-    0xece7,
+    0xecec,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -6669,7 +6696,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "zoom-out-16".
   static const IconData zoomOut16 = IconData(
-    0xece8,
+    0xeced,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -6678,7 +6705,7 @@ abstract final class OctIcons {
   ///
   /// Primer icon named "zoom-out-24".
   static const IconData zoomOut24 = IconData(
-    0xece9,
+    0xecee,
     fontFamily: 'OctIcons',
     fontPackage: 'primer_icons',
   );
@@ -6767,6 +6794,9 @@ abstract final class OctIcons {
     calendar24,
     chat16,
     chat24,
+    chatLocked16,
+    chatQuestion16,
+    chatQuestion24,
     check16,
     check24,
     checkCircle16,
@@ -7072,6 +7102,8 @@ abstract final class OctIcons {
     keyAsterisk24,
     law16,
     law24,
+    library16,
+    library24,
     lightBulb16,
     lightBulb24,
     link16,
@@ -7205,8 +7237,6 @@ abstract final class OctIcons {
     pulse24,
     question16,
     question24,
-    questionBubble16,
-    questionBubble24,
     quote16,
     quote24,
     read16,
