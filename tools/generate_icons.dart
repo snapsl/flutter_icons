@@ -8,11 +8,7 @@ import 'src/icon_set.dart';
 
 void main(List<String> arguments) {
   final parser = ArgParser()
-    ..addOption(
-      'iconset',
-      help: 'The icon set ID to generate',
-      mandatory: true,
-    )
+    ..addOption('iconset', help: 'The icon set ID to generate', mandatory: true)
     ..addOption(
       'matrix',
       help: 'Path to the icon set matrix JSON file',

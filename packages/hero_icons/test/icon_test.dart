@@ -14,10 +14,7 @@ void main() async {
   TestWidgetsFlutterBinding.ensureInitialized();
 
   setUpAll(() async {
-    await loadFonts(
-      iconMap: iconMap,
-      packageName: 'hero_icons',
-    );
+    await loadFonts(iconMap: iconMap, packageName: 'hero_icons');
 
     goldenFileComparator = TolerantGoldenFileComparator(
       precisionTolerance: 0.01,
