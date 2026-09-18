@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.4.0](https://github.com/snapsl/flutter_icons/compare/primer_icons-v0.3.0...primer_icons-v0.4.0) (2026-09-18)
+
+
+### Features
+
+* **primer_icons:** bump version to 19.37.0 ([#446](https://github.com/snapsl/flutter_icons/issues/446)) ([3e25f64](https://github.com/snapsl/flutter_icons/commit/3e25f649ad3802fee07db4cc43d15c170ba37415))
+
 ## [0.3.0](https://github.com/snapsl/flutter_icons/compare/primer_icons-v0.2.0...primer_icons-v0.3.0) (2026-09-10)
 
 
