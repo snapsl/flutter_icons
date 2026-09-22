@@ -5850,7 +5850,7 @@ abstract final class TablerIcons {
   ///
   /// Tabler icon named "select".
   static const IconData select = IconData(
-    0xec9e,
+    0xf627,
     fontFamily: 'TablerIcons',
     fontPackage: 'tabler_icons',
   );
@@ -8496,7 +8496,7 @@ abstract final class TablerIcons {
   ///
   /// Tabler icon named "brand-producthunt".
   static const IconData brandProducthunt = IconData(
-    0xedd3,
+    0xf302,
     fontFamily: 'TablerIcons',
     fontPackage: 'tabler_icons',
   );
@@ -15557,10 +15557,10 @@ abstract final class TablerIcons {
     fontPackage: 'tabler_icons',
   );
 
-  /// ![Icon](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9ImdyYXkiIHN0cm9rZS13aWR0aD0iMiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIiBjbGFzcz0iaWNvbiBpY29uLXRhYmxlciBpY29ucy10YWJsZXItb3V0bGluZSBpY29uLXRhYmxlci1tYXRoLWF2ZyI+CiAgPHBhdGggc3Ryb2tlPSJub25lIiBkPSJNMCAwaDI0djI0SDB6IiBmaWxsPSJub25lIi8+CiAgPHBhdGggZD0iTTMgMjFsMTggLTE4Ii8+CiAgPHBhdGggZD0iTTQgMTJhOCA4IDAgMSAwIDE2IDBhOCA4IDAgMSAwIC0xNiAwIi8+Cjwvc3ZnPg==)
+  /// ![Icon](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9ImdyYXkiIHN0cm9rZS13aWR0aD0iMiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIiBjbGFzcz0iaWNvbiBpY29uLXRhYmxlciBpY29ucy10YWJsZXItb3V0bGluZSBpY29uLXRhYmxlci16ZXJvLWNvbmZpZyI+CiAgPHBhdGggc3Ryb2tlPSJub25lIiBkPSJNMCAwaDI0djI0SDB6IiBmaWxsPSJub25lIi8+CiAgPHBhdGggZD0iTTQgMTJhOCA4IDAgMSAwIDE2IDBhOCA4IDAgMSAwIC0xNiAwIi8+CiAgPHBhdGggZD0iTTMgMjFsMTggLTE4Ii8+Cjwvc3ZnPg==)
   ///
-  /// Tabler icon named "math-avg".
-  static const IconData mathAvg = IconData(
+  /// Tabler icon named "zero-config".
+  static const IconData zeroConfig = IconData(
     0xf0f4,
     fontFamily: 'TablerIcons',
     fontPackage: 'tabler_icons',
@@ -20205,7 +20205,7 @@ abstract final class TablerIcons {
   ///
   /// Tabler icon named "wash-dry-f".
   static const IconData washDryF = IconData(
-    0xf2ff,
+    0xf446,
     fontFamily: 'TablerIcons',
     fontPackage: 'tabler_icons',
   );
@@ -20224,15 +20224,6 @@ abstract final class TablerIcons {
   /// Tabler icon named "wash-dry-off".
   static const IconData washDryOff = IconData(
     0xf301,
-    fontFamily: 'TablerIcons',
-    fontPackage: 'tabler_icons',
-  );
-
-  /// ![Icon](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9ImdyYXkiIHN0cm9rZS13aWR0aD0iMiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIiBjbGFzcz0iaWNvbiBpY29uLXRhYmxlciBpY29ucy10YWJsZXItb3V0bGluZSBpY29uLXRhYmxlci13YXNoLWRyeS1wIj4KICA8cGF0aCBzdHJva2U9Im5vbmUiIGQ9Ik0wIDBoMjR2MjRIMHoiIGZpbGw9Im5vbmUiLz4KICA8cGF0aCBkPSJNMyAxMmE5IDkgMCAxIDAgMTggMGE5IDkgMCAxIDAgLTE4IDAiLz4KICA8cGF0aCBkPSJNMTAgMTZ2LThoMi41YTIuNSAyLjUgMCAxIDEgMCA1aC0yLjUiLz4KPC9zdmc+)
-  ///
-  /// Tabler icon named "wash-dry-p".
-  static const IconData washDryP = IconData(
-    0xf302,
     fontFamily: 'TablerIcons',
     fontPackage: 'tabler_icons',
   );
@@ -23117,15 +23108,6 @@ abstract final class TablerIcons {
     fontPackage: 'tabler_icons',
   );
 
-  /// ![Icon](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9ImdyYXkiIHN0cm9rZS13aWR0aD0iMiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIiBjbGFzcz0iaWNvbiBpY29uLXRhYmxlciBpY29ucy10YWJsZXItb3V0bGluZSBpY29uLXRhYmxlci1jaXJjbGUtbGV0dGVyLWYiPgogIDxwYXRoIHN0cm9rZT0ibm9uZSIgZD0iTTAgMGgyNHYyNEgweiIgZmlsbD0ibm9uZSIvPgogIDxwYXRoIGQ9Ik0zIDEyYTkgOSAwIDEgMCAxOCAwYTkgOSAwIDEgMCAtMTggMCIvPgogIDxwYXRoIGQ9Ik0xMCAxMmgzIi8+CiAgPHBhdGggZD0iTTE0IDhoLTR2OCIvPgo8L3N2Zz4=)
-  ///
-  /// Tabler icon named "circle-letter-f".
-  static const IconData circleLetterF = IconData(
-    0xf446,
-    fontFamily: 'TablerIcons',
-    fontPackage: 'tabler_icons',
-  );
-
   /// ![Icon](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9ImdyYXkiIHN0cm9rZS13aWR0aD0iMiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIiBjbGFzcz0iaWNvbiBpY29uLXRhYmxlciBpY29ucy10YWJsZXItb3V0bGluZSBpY29uLXRhYmxlci1jaXJjbGUtbGV0dGVyLWciPgogIDxwYXRoIHN0cm9rZT0ibm9uZSIgZD0iTTAgMGgyNHYyNEgweiIgZmlsbD0ibm9uZSIvPgogIDxwYXRoIGQ9Ik0zIDEyYTkgOSAwIDEgMCAxOCAwYTkgOSAwIDEgMCAtMTggMCIvPgogIDxwYXRoIGQ9Ik0xNCA4aC0yYTIgMiAwIDAgMCAtMiAydjRhMiAyIDAgMCAwIDIgMmgydi00aC0xIi8+Cjwvc3ZnPg==)
   ///
   /// Tabler icon named "circle-letter-g".
@@ -23139,7 +23121,7 @@ abstract final class TablerIcons {
   ///
   /// Tabler icon named "circle-letter-h".
   static const IconData circleLetterH = IconData(
-    0xf448,
+    0xfd58,
     fontFamily: 'TablerIcons',
     fontPackage: 'tabler_icons',
   );
@@ -23670,7 +23652,7 @@ abstract final class TablerIcons {
   ///
   /// Tabler icon named "square-letter-h".
   static const IconData squareLetterH = IconData(
-    0xf483,
+    0xfd59,
     fontFamily: 'TablerIcons',
     fontPackage: 'tabler_icons',
   );
@@ -26811,7 +26793,7 @@ abstract final class TablerIcons {
   ///
   /// Tabler icon named "topology-star-ring-2".
   static const IconData topologyStarRing2 = IconData(
-    0xf5e2,
+    0xf5e4,
     fontFamily: 'TablerIcons',
     fontPackage: 'tabler_icons',
   );
@@ -26821,15 +26803,6 @@ abstract final class TablerIcons {
   /// Tabler icon named "topology-star-ring-3".
   static const IconData topologyStarRing3 = IconData(
     0xf5e3,
-    fontFamily: 'TablerIcons',
-    fontPackage: 'tabler_icons',
-  );
-
-  /// ![Icon](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9ImdyYXkiIHN0cm9rZS13aWR0aD0iMiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIiBjbGFzcz0iaWNvbiBpY29uLXRhYmxlciBpY29ucy10YWJsZXItb3V0bGluZSBpY29uLXRhYmxlci10b3BvbG9neS1zdGFyLXJpbmciPgogIDxwYXRoIHN0cm9rZT0ibm9uZSIgZD0iTTAgMGgyNHYyNEgweiIgZmlsbD0ibm9uZSIvPgogIDxwYXRoIGQ9Ik0xNCAyMGEyIDIgMCAxIDAgLTQgMGEyIDIgMCAwIDAgNCAwIi8+CiAgPHBhdGggZD0iTTE0IDRhMiAyIDAgMSAwIC00IDBhMiAyIDAgMCAwIDQgMCIvPgogIDxwYXRoIGQ9Ik02IDEyYTIgMiAwIDEgMCAtNCAwYTIgMiAwIDAgMCA0IDAiLz4KICA8cGF0aCBkPSJNMjIgMTJhMiAyIDAgMSAwIC00IDBhMiAyIDAgMCAwIDQgMCIvPgogIDxwYXRoIGQ9Ik0xNCAxMmEyIDIgMCAxIDAgLTQgMGEyIDIgMCAwIDAgNCAwIi8+CiAgPHBhdGggZD0iTTYgMTJoNCIvPgogIDxwYXRoIGQ9Ik0xNCAxMmg0Ii8+CiAgPHBhdGggZD0iTTEzLjUgNS41bDUgNSIvPgogIDxwYXRoIGQ9Ik01LjUgMTMuNWw1IDUiLz4KICA8cGF0aCBkPSJNMTMuNSAxOC41bDUgLTUiLz4KICA8cGF0aCBkPSJNMTAuNSA1LjVsLTUgNSIvPgogIDxwYXRoIGQ9Ik0xMiA2djQiLz4KICA8cGF0aCBkPSJNMTIgMTR2NCIvPgo8L3N2Zz4=)
-  ///
-  /// Tabler icon named "topology-star-ring".
-  static const IconData topologyStarRing = IconData(
-    0xf5e4,
     fontFamily: 'TablerIcons',
     fontPackage: 'tabler_icons',
   );
@@ -27424,15 +27397,6 @@ abstract final class TablerIcons {
   /// Tabler icon named "placeholder".
   static const IconData placeholder = IconData(
     0xf626,
-    fontFamily: 'TablerIcons',
-    fontPackage: 'tabler_icons',
-  );
-
-  /// ![Icon](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9ImdyYXkiIHN0cm9rZS13aWR0aD0iMiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIiBjbGFzcz0iaWNvbiBpY29uLXRhYmxlciBpY29ucy10YWJsZXItb3V0bGluZSBpY29uLXRhYmxlci1zcXVhcmUtY2hldnJvbi1kb3duIj4KICA8cGF0aCBzdHJva2U9Im5vbmUiIGQ9Ik0wIDBoMjR2MjRIMHoiIGZpbGw9Im5vbmUiLz4KICA8cGF0aCBkPSJNMTUgMTFsLTMgM2wtMyAtMyIvPgogIDxwYXRoIGQ9Ik0zIDVhMiAyIDAgMCAxIDIgLTJoMTRhMiAyIDAgMCAxIDIgMnYxNGEyIDIgMCAwIDEgLTIgMmgtMTRhMiAyIDAgMCAxIC0yIC0ydi0xNCIvPgo8L3N2Zz4=)
-  ///
-  /// Tabler icon named "square-chevron-down".
-  static const IconData squareChevronDown = IconData(
-    0xf627,
     fontFamily: 'TablerIcons',
     fontPackage: 'tabler_icons',
   );
@@ -39893,24 +39857,6 @@ abstract final class TablerIcons {
     fontPackage: 'tabler_icons',
   );
 
-  /// ![Icon](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9ImdyYXkiIHN0cm9rZS13aWR0aD0iMiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIiBjbGFzcz0iaWNvbiBpY29uLXRhYmxlciBpY29ucy10YWJsZXItb3V0bGluZSBpY29uLXRhYmxlci1ob3NwaXRhbC1jaXJjbGUiPgogIDxwYXRoIHN0cm9rZT0ibm9uZSIgZD0iTTAgMGgyNHYyNEgweiIgZmlsbD0ibm9uZSIvPgogIDxwYXRoIGQ9Ik0xMCAxNnYtOCIvPgogIDxwYXRoIGQ9Ik0zIDEyYTkgOSAwIDEgMCAxOCAwYTkgOSAwIDAgMCAtMTggMCIvPgogIDxwYXRoIGQ9Ik0xNCAxNnYtOCIvPgogIDxwYXRoIGQ9Ik0xMCAxMmg0Ii8+Cjwvc3ZnPg==)
-  ///
-  /// Tabler icon named "hospital-circle".
-  static const IconData hospitalCircle = IconData(
-    0xfd58,
-    fontFamily: 'TablerIcons',
-    fontPackage: 'tabler_icons',
-  );
-
-  /// ![Icon](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9ImdyYXkiIHN0cm9rZS13aWR0aD0iMiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIiBjbGFzcz0iaWNvbiBpY29uLXRhYmxlciBpY29ucy10YWJsZXItb3V0bGluZSBpY29uLXRhYmxlci1ob3NwaXRhbCI+CiAgPHBhdGggc3Ryb2tlPSJub25lIiBkPSJNMCAwaDI0djI0SDB6IiBmaWxsPSJub25lIi8+CiAgPHBhdGggZD0iTTMgNWEyIDIgMCAwIDEgMiAtMmgxNGEyIDIgMCAwIDEgMiAydjE0YTIgMiAwIDAgMSAtMiAyaC0xNGEyIDIgMCAwIDEgLTIgLTJ2LTE0Ii8+CiAgPHBhdGggZD0iTTEwIDE2di04Ii8+CiAgPHBhdGggZD0iTTE0IDE2di04Ii8+CiAgPHBhdGggZD0iTTEwIDEyaDQiLz4KPC9zdmc+)
-  ///
-  /// Tabler icon named "hospital".
-  static const IconData hospital = IconData(
-    0xfd59,
-    fontFamily: 'TablerIcons',
-    fontPackage: 'tabler_icons',
-  );
-
   /// ![Icon](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9ImdyYXkiIHN0cm9rZS13aWR0aD0iMiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIiBjbGFzcz0iaWNvbiBpY29uLXRhYmxlciBpY29ucy10YWJsZXItb3V0bGluZSBpY29uLXRhYmxlci1wYXJraW5nLWNpcmNsZSI+CiAgPHBhdGggc3Ryb2tlPSJub25lIiBkPSJNMCAwaDI0djI0SDB6IiBmaWxsPSJub25lIi8+CiAgPHBhdGggZD0iTTEwIDE2di04aDMuMzM0Yy45MiAwIDEuNjY2IC44OTUgMS42NjYgMnMtLjc0NiAyIC0xLjY2NiAyaC0zLjMzNCIvPgogIDxwYXRoIGQ9Ik0zIDEyYTkgOSAwIDEgMCAxOCAwYTkgOSAwIDAgMCAtMTggMCIvPgo8L3N2Zz4=)
   ///
   /// Tabler icon named "parking-circle".
@@ -40572,6 +40518,42 @@ abstract final class TablerIcons {
   ///
   /// Tabler icon named "transform-point-bottom-left".
   static const IconData transformPointBottomLeft = IconData(
+    0xfda5,
+    fontFamily: 'TablerIcons',
+    fontPackage: 'tabler_icons',
+  );
+
+  /// ![Icon](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9ImdyYXkiIHN0cm9rZS13aWR0aD0iMiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIiBjbGFzcz0iaWNvbiBpY29uLXRhYmxlciBpY29ucy10YWJsZXItb3V0bGluZSBpY29uLXRhYmxlci10cmFuc2Zvcm0tcG9pbnQtYm90dG9tLXJpZ2h0Ij4KICA8cGF0aCBzdHJva2U9Im5vbmUiIGQ9Ik0wIDBoMjR2MjRIMHoiIGZpbGw9Im5vbmUiLz4KICA8cGF0aCBkPSJNMyA0YTEgMSAwIDAgMSAxIC0xaDJhMSAxIDAgMCAxIDEgMXYyYTEgMSAwIDAgMSAtMSAxaC0yYTEgMSAwIDAgMSAtMSAtMWwwIC0yIi8+CiAgPHBhdGggZD0iTTMgMThhMSAxIDAgMCAxIDEgLTFoMmExIDEgMCAwIDEgMSAxdjJhMSAxIDAgMCAxIC0xIDFoLTJhMSAxIDAgMCAxIC0xIC0xbDAgLTIiLz4KICA8cGF0aCBkPSJNMTcgNGExIDEgMCAwIDEgMSAtMWgyYTEgMSAwIDAgMSAxIDF2MmExIDEgMCAwIDEgLTEgMWgtMmExIDEgMCAwIDEgLTEgLTFsMCAtMiIvPgogIDxwYXRoIGQ9Ik0xNyAxOGExIDEgMCAwIDEgMSAtMWgyYTEgMSAwIDAgMSAxIDF2MmExIDEgMCAwIDEgLTEgMWgtMmExIDEgMCAwIDEgLTEgLTFsMCAtMiIgZmlsbD0iZ3JheSIvPgogIDxwYXRoIGQ9Ik0xMSA1aDIiLz4KICA8cGF0aCBkPSJNNSAxMXYyIi8+CiAgPHBhdGggZD0iTTE5IDExdjIiLz4KICA8cGF0aCBkPSJNMTEgMTloMiIvPgo8L3N2Zz4=)
+  ///
+  /// Tabler icon named "transform-point-bottom-right".
+  static const IconData transformPointBottomRight = IconData(
+    0xfda6,
+    fontFamily: 'TablerIcons',
+    fontPackage: 'tabler_icons',
+  );
+
+  /// ![Icon](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9ImdyYXkiIHN0cm9rZS13aWR0aD0iMiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIiBjbGFzcz0iaWNvbiBpY29uLXRhYmxlciBpY29ucy10YWJsZXItb3V0bGluZSBpY29uLXRhYmxlci10cmFuc2Zvcm0tcG9pbnQtdG9wLWxlZnQiPgogIDxwYXRoIHN0cm9rZT0ibm9uZSIgZD0iTTAgMGgyNHYyNEgweiIgZmlsbD0ibm9uZSIvPgogIDxwYXRoIGQ9Ik0zIDRhMSAxIDAgMCAxIDEgLTFoMmExIDEgMCAwIDEgMSAxdjJhMSAxIDAgMCAxIC0xIDFoLTJhMSAxIDAgMCAxIC0xIC0xbDAgLTIiIGZpbGw9ImdyYXkiLz4KICA8cGF0aCBkPSJNMyAxOGExIDEgMCAwIDEgMSAtMWgyYTEgMSAwIDAgMSAxIDF2MmExIDEgMCAwIDEgLTEgMWgtMmExIDEgMCAwIDEgLTEgLTFsMCAtMiIvPgogIDxwYXRoIGQ9Ik0xNyA0YTEgMSAwIDAgMSAxIC0xaDJhMSAxIDAgMCAxIDEgMXYyYTEgMSAwIDAgMSAtMSAxaC0yYTEgMSAwIDAgMSAtMSAtMWwwIC0yIi8+CiAgPHBhdGggZD0iTTE3IDE4YTEgMSAwIDAgMSAxIC0xaDJhMSAxIDAgMCAxIDEgMXYyYTEgMSAwIDAgMSAtMSAxaC0yYTEgMSAwIDAgMSAtMSAtMWwwIC0yIi8+CiAgPHBhdGggZD0iTTExIDVoMiIvPgogIDxwYXRoIGQ9Ik01IDExdjIiLz4KICA8cGF0aCBkPSJNMTkgMTF2MiIvPgogIDxwYXRoIGQ9Ik0xMSAxOWgyIi8+Cjwvc3ZnPg==)
+  ///
+  /// Tabler icon named "transform-point-top-left".
+  static const IconData transformPointTopLeft = IconData(
+    0xfda7,
+    fontFamily: 'TablerIcons',
+    fontPackage: 'tabler_icons',
+  );
+
+  /// ![Icon](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9ImdyYXkiIHN0cm9rZS13aWR0aD0iMiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIiBjbGFzcz0iaWNvbiBpY29uLXRhYmxlciBpY29ucy10YWJsZXItb3V0bGluZSBpY29uLXRhYmxlci10cmFuc2Zvcm0tcG9pbnQtdG9wLXJpZ2h0Ij4KICA8cGF0aCBzdHJva2U9Im5vbmUiIGQ9Ik0wIDBoMjR2MjRIMHoiIGZpbGw9Im5vbmUiLz4KICA8cGF0aCBkPSJNMyA0YTEgMSAwIDAgMSAxIC0xaDJhMSAxIDAgMCAxIDEgMXYyYTEgMSAwIDAgMSAtMSAxaC0yYTEgMSAwIDAgMSAtMSAtMWwwIC0yIi8+CiAgPHBhdGggZD0iTTMgMThhMSAxIDAgMCAxIDEgLTFoMmExIDEgMCAwIDEgMSAxdjJhMSAxIDAgMCAxIC0xIDFoLTJhMSAxIDAgMCAxIC0xIC0xbDAgLTIiLz4KICA8cGF0aCBkPSJNMTcgNGExIDEgMCAwIDEgMSAtMWgyYTEgMSAwIDAgMSAxIDF2MmExIDEgMCAwIDEgLTEgMWgtMmExIDEgMCAwIDEgLTEgLTFsMCAtMiIgZmlsbD0iZ3JheSIvPgogIDxwYXRoIGQ9Ik0xNyAxOGExIDEgMCAwIDEgMSAtMWgyYTEgMSAwIDAgMSAxIDF2MmExIDEgMCAwIDEgLTEgMWgtMmExIDEgMCAwIDEgLTEgLTFsMCAtMiIvPgogIDxwYXRoIGQ9Ik0xMSA1aDIiLz4KICA8cGF0aCBkPSJNNSAxMXYyIi8+CiAgPHBhdGggZD0iTTE5IDExdjIiLz4KICA8cGF0aCBkPSJNMTEgMTloMiIvPgo8L3N2Zz4=)
+  ///
+  /// Tabler icon named "transform-point-top-right".
+  static const IconData transformPointTopRight = IconData(
+    0xfda8,
+    fontFamily: 'TablerIcons',
+    fontPackage: 'tabler_icons',
+  );
+
+  /// ![Icon](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9ImdyYXkiIHN0cm9rZS13aWR0aD0iMiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIiBjbGFzcz0iaWNvbiBpY29uLXRhYmxlciBpY29ucy10YWJsZXItb3V0bGluZSBpY29uLXRhYmxlci10cmFuc2Zvcm0tcG9pbnQiPgogIDxwYXRoIHN0cm9rZT0ibm9uZSIgZD0iTTAgMGgyNHYyNEgweiIgZmlsbD0ibm9uZSIvPgogIDxwYXRoIGQ9Ik0zIDRhMSAxIDAgMCAxIDEgLTFoMmExIDEgMCAwIDEgMSAxdjJhMSAxIDAgMCAxIC0xIDFoLTJhMSAxIDAgMCAxIC0xIC0xbDAgLTIiLz4KICA8cGF0aCBkPSJNMyAxOGExIDEgMCAwIDEgMSAtMWgyYTEgMSAwIDAgMSAxIDF2MmExIDEgMCAwIDEgLTEgMWgtMmExIDEgMCAwIDEgLTEgLTFsMCAtMiIvPgogIDxwYXRoIGQ9Ik0xNyA0YTEgMSAwIDAgMSAxIC0xaDJhMSAxIDAgMCAxIDEgMXYyYTEgMSAwIDAgMSAtMSAxaC0yYTEgMSAwIDAgMSAtMSAtMWwwIC0yIi8+CiAgPHBhdGggZD0iTTE3IDE4YTEgMSAwIDAgMSAxIC0xaDJhMSAxIDAgMCAxIDEgMXYyYTEgMSAwIDAgMSAtMSAxaC0yYTEgMSAwIDAgMSAtMSAtMWwwIC0yIi8+CiAgPHBhdGggZD0iTTExIDVoMiIvPgogIDxwYXRoIGQ9Ik01IDExdjIiLz4KICA8cGF0aCBkPSJNMTkgMTF2MiIvPgogIDxwYXRoIGQ9Ik0xMSAxOWgyIi8+Cjwvc3ZnPg==)
+  ///
+  /// Tabler icon named "transform-point".
+  static const IconData transformPoint = IconData(
     0xfda9,
     fontFamily: 'TablerIcons',
     fontPackage: 'tabler_icons',
@@ -41171,6 +41153,15 @@ abstract final class TablerIcons {
     fontPackage: 'tabler_icons',
   );
 
+  /// ![Icon](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9ImdyYXkiIHN0cm9rZS13aWR0aD0iMiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIiBjbGFzcz0iaWNvbiBpY29uLXRhYmxlciBpY29ucy10YWJsZXItb3V0bGluZSBpY29uLXRhYmxlci1wZXJjZW50YWdlLTEwMCI+CiAgPHBhdGggc3Ryb2tlPSJub25lIiBkPSJNMCAwaDI0djI0SDB6IiBmaWxsPSJub25lIi8+CiAgPHBhdGggZD0iTTMgMTJhOSA5IDAgMSAwIDE4IDBhOSA5IDAgMCAwIC0xOCAwIiBmaWxsPSJncmF5Ii8+Cjwvc3ZnPg==)
+  ///
+  /// Tabler icon named "percentage-100".
+  static const IconData percentage100 = IconData(
+    0xfee3,
+    fontFamily: 'TablerIcons',
+    fontPackage: 'tabler_icons',
+  );
+
   /// ![Icon](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9ImdyYXkiIHN0cm9rZS13aWR0aD0iMiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIiBjbGFzcz0iaWNvbiBpY29uLXRhYmxlciBpY29ucy10YWJsZXItb3V0bGluZSBpY29uLXRhYmxlci1wZXJjZW50YWdlLTEwIj4KICA8cGF0aCBzdHJva2U9Im5vbmUiIGQ9Ik0wIDBoMjR2MjRIMHoiIGZpbGw9Im5vbmUiLz4KICA8cGF0aCBkPSJNMTIgM2MxLjkyIDAgMy43IC42MDEgNS4xNiAxLjYyNmwtNS4xNiA3LjM3NHYtOSIgZmlsbD0iZ3JheSIgc3Ryb2tlPSJub25lIi8+CiAgPHBhdGggZD0iTTMgMTJhOSA5IDAgMSAwIDE4IDBhOSA5IDAgMCAwIC0xOCAwIi8+Cjwvc3ZnPg==)
   ///
   /// Tabler icon named "percentage-10".
@@ -41392,15 +41383,6 @@ abstract final class TablerIcons {
   /// Tabler icon named "binoculars".
   static const IconData binoculars = IconData(
     0xfefe,
-    fontFamily: 'TablerIcons',
-    fontPackage: 'tabler_icons',
-  );
-
-  /// ![Icon](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9ImdyYXkiIHN0cm9rZS13aWR0aD0iMiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIiBjbGFzcz0iaWNvbiBpY29uLXRhYmxlciBpY29ucy10YWJsZXItb3V0bGluZSBpY29uLXRhYmxlci1hbGlnbi1yaWdodC0yIj4KICA8cGF0aCBzdHJva2U9Im5vbmUiIGQ9Ik0wIDBoMjR2MjRIMHoiIGZpbGw9Im5vbmUiLz4KICA8cGF0aCBkPSJNMjAgNHYxNiIvPgogIDxwYXRoIGQ9Ik00IDZoMTIiLz4KICA8cGF0aCBkPSJNMTAgMTJoNiIvPgogIDxwYXRoIGQ9Ik02IDE4aDEwIi8+Cjwvc3ZnPg==)
-  ///
-  /// Tabler icon named "align-right-2".
-  static const IconData alignRight2 = IconData(
-    0xfeff,
     fontFamily: 'TablerIcons',
     fontPackage: 'tabler_icons',
   );
@@ -44519,15 +44501,6 @@ abstract final class TablerIcons {
     fontPackage: 'tabler_icons',
   );
 
-  /// ![Icon](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9ImdyYXkiIHN0cm9rZS13aWR0aD0iMiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIiBjbGFzcz0iaWNvbiBpY29uLXRhYmxlciBpY29ucy10YWJsZXItb3V0bGluZSBpY29uLXRhYmxlci16ZXJvLWNvbmZpZyI+CiAgPHBhdGggc3Ryb2tlPSJub25lIiBkPSJNMCAwaDI0djI0SDB6IiBmaWxsPSJub25lIi8+CiAgPHBhdGggZD0iTTQgMTJhOCA4IDAgMSAwIDE2IDBhOCA4IDAgMSAwIC0xNiAwIi8+CiAgPHBhdGggZD0iTTMgMjFsMTggLTE4Ii8+Cjwvc3ZnPg==)
-  ///
-  /// Tabler icon named "zero-config".
-  static const IconData zeroConfig = IconData(
-    0x101e8,
-    fontFamily: 'TablerIcons',
-    fontPackage: 'tabler_icons',
-  );
-
   /// ![Icon](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9ImdyYXkiIHN0cm9rZS13aWR0aD0iMiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIiBjbGFzcz0iaWNvbiBpY29uLXRhYmxlciBpY29ucy10YWJsZXItb3V0bGluZSBpY29uLXRhYmxlci13b3JsZC1tYXAiPgogIDxwYXRoIHN0cm9rZT0ibm9uZSIgZD0iTTAgMGgyNHYyNEgweiIgZmlsbD0ibm9uZSIvPgogIDxwYXRoIGQ9Ik0yMCA4aC0yYTIgMiAwIDAgMCAtMiAyYTIgMiAwIDEgMSAtNCAwdi0xYTIgMiAwIDAgMCAtMiAtMmgtMWEyIDIgMCAwIDEgLTIgLTJ2LS41Ii8+CiAgPHBhdGggZD0iTTMgMTJoM2EyIDIgMCAwIDEgMiAydi41YTEuNSAxLjUgMCAwIDAgMS41IDEuNWExLjUgMS41IDAgMCAxIDEuNSAxLjV2My4yNSIvPgogIDxwYXRoIGQ9Ik0xNSAyMC41di0zLjVhMiAyIDAgMCAxIDIgLTJoMy41Ii8+CiAgPHBhdGggZD0iTTMgMTJhOSA5IDAgMSAwIDE4IDBhOSA5IDAgMSAwIC0xOCAwIi8+Cjwvc3ZnPg==)
   ///
   /// Tabler icon named "world-map".
@@ -45964,6 +45937,177 @@ abstract final class TablerIcons {
   /// Tabler icon named "play-bug".
   static const IconData playBug = IconData(
     0x1028d,
+    fontFamily: 'TablerIcons',
+    fontPackage: 'tabler_icons',
+  );
+
+  /// ![Icon](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9ImdyYXkiIHN0cm9rZS13aWR0aD0iMiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIiBjbGFzcz0iaWNvbiBpY29uLXRhYmxlciBpY29ucy10YWJsZXItb3V0bGluZSBpY29uLXRhYmxlci1hbGlnbi1yaWdodC0yIj4KICA8cGF0aCBzdHJva2U9Im5vbmUiIGQ9Ik0wIDBoMjR2MjRIMHoiIGZpbGw9Im5vbmUiLz4KICA8cGF0aCBkPSJNMjAgNHYxNiIvPgogIDxwYXRoIGQ9Ik00IDZoMTIiLz4KICA8cGF0aCBkPSJNMTAgMTJoNiIvPgogIDxwYXRoIGQ9Ik02IDE4aDEwIi8+Cjwvc3ZnPg==)
+  ///
+  /// Tabler icon named "align-right-2".
+  static const IconData alignRight2 = IconData(
+    0x1028e,
+    fontFamily: 'TablerIcons',
+    fontPackage: 'tabler_icons',
+  );
+
+  /// ![Icon](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9ImdyYXkiIHN0cm9rZS13aWR0aD0iMiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIiBjbGFzcz0iaWNvbiBpY29uLXRhYmxlciBpY29ucy10YWJsZXItb3V0bGluZSBpY29uLXRhYmxlci12b2ljZSI+CiAgPHBhdGggc3Ryb2tlPSJub25lIiBkPSJNMCAwaDI0djI0SDB6IiBmaWxsPSJub25lIi8+CiAgPHBhdGggZD0iTTMgMTJhOSA5IDAgMSAwIDE4IDBhOSA5IDAgMSAwIC0xOCAwIi8+CiAgPHBhdGggZD0iTTMgMTJjNCAwIDkuNjQ3IDguMjMgMTQuNCA3LjA5MiIvPgogIDxwYXRoIGQ9Ik00LjggMTcuNGM1Ljg1IDAgOS42MTcgLTcuMiAxNS4zIC03LjIiLz4KPC9zdmc+)
+  ///
+  /// Tabler icon named "voice".
+  static const IconData voice = IconData(
+    0x1028f,
+    fontFamily: 'TablerIcons',
+    fontPackage: 'tabler_icons',
+  );
+
+  /// ![Icon](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9ImdyYXkiIHN0cm9rZS13aWR0aD0iMiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIiBjbGFzcz0iaWNvbiBpY29uLXRhYmxlciBpY29ucy10YWJsZXItb3V0bGluZSBpY29uLXRhYmxlci12b2ljZS0yIj4KICA8cGF0aCBzdHJva2U9Im5vbmUiIGQ9Ik0wIDBoMjR2MjRIMHoiIGZpbGw9Im5vbmUiLz4KICA8cGF0aCBkPSJNMyAxMmE5IDkgMCAxIDAgMTggMGE5IDkgMCAxIDAgLTE4IDAiLz4KICA8cGF0aCBkPSJNMy40MjkgMTQuNTcxYzkgLTE1Ljg1NyAxMC4xMzQgOC45MDggMTcuMTQzIDAiLz4KICA8cGF0aCBkPSJNNC4wMyAxNi4yODZjNS40NjkgLTMuOTM5IDguNjggMy42MzUgMTMuNTQxIDIuNzkiLz4KPC9zdmc+)
+  ///
+  /// Tabler icon named "voice-2".
+  static const IconData voice2 = IconData(
+    0x10290,
+    fontFamily: 'TablerIcons',
+    fontPackage: 'tabler_icons',
+  );
+
+  /// ![Icon](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9ImdyYXkiIHN0cm9rZS13aWR0aD0iMiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIiBjbGFzcz0iaWNvbiBpY29uLXRhYmxlciBpY29ucy10YWJsZXItb3V0bGluZSBpY29uLXRhYmxlci1zdGlja2VyLXNtaWxlIj4KICA8cGF0aCBzdHJva2U9Im5vbmUiIGQ9Ik0wIDBoMjR2MjRIMHoiIGZpbGw9Im5vbmUiLz4KICA8cGF0aCBkPSJNMjEgMTJjLS44MTkgLS4zODggLTIuMjIzIC0uNSAtMy4xOSAtLjVhNi4zMSA2LjMxIDAgMCAwIC02LjMxIDYuMzFjMCAuOTY2IC4xMTMgMi4zNzEgLjUgMy4xOSIvPgogIDxwYXRoIGQ9Ik0xMiAyMWM0IDAgOSAtNSA5IC05YTkgOSAwIDEgMCAtOSA5Ii8+CiAgPHBhdGggZD0iTTkgMTBoLjAxIi8+CiAgPHBhdGggZD0iTTE1IDEwaC4wMSIvPgogIDxwYXRoIGQ9Ik04Ljc1IDE1Yy44NzggLjY3MiAxLjc0NiAxIDMgMSIvPgo8L3N2Zz4=)
+  ///
+  /// Tabler icon named "sticker-smile".
+  static const IconData stickerSmile = IconData(
+    0x10291,
+    fontFamily: 'TablerIcons',
+    fontPackage: 'tabler_icons',
+  );
+
+  /// ![Icon](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9ImdyYXkiIHN0cm9rZS13aWR0aD0iMiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIiBjbGFzcz0iaWNvbiBpY29uLXRhYmxlciBpY29ucy10YWJsZXItb3V0bGluZSBpY29uLXRhYmxlci1zZWNyZXQtcGhyYXNlcyI+CiAgPHBhdGggc3Ryb2tlPSJub25lIiBkPSJNMCAwaDI0djI0SDB6IiBmaWxsPSJub25lIi8+CiAgPHBhdGggZD0iTTE5IDVoLTE0YTIgMiAwIDAgMCAtMiAydjEwYTIgMiAwIDAgMCAyIDJoMTRhMiAyIDAgMCAwIDIgLTJ2LTEwYTIgMiAwIDAgMCAtMiAtMiIvPgogIDxwYXRoIGQ9Ik03IDloMyIvPgogIDxwYXRoIGQ9Ik0xNCA5aDMiLz4KICA8cGF0aCBkPSJNNyAxMmgzIi8+CiAgPHBhdGggZD0iTTE0IDEyaDMiLz4KICA8cGF0aCBkPSJNNyAxNWgzIi8+CiAgPHBhdGggZD0iTTE0IDE1aDMiLz4KPC9zdmc+)
+  ///
+  /// Tabler icon named "secret-phrases".
+  static const IconData secretPhrases = IconData(
+    0x10292,
+    fontFamily: 'TablerIcons',
+    fontPackage: 'tabler_icons',
+  );
+
+  /// ![Icon](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9ImdyYXkiIHN0cm9rZS13aWR0aD0iMiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIiBjbGFzcz0iaWNvbiBpY29uLXRhYmxlciBpY29ucy10YWJsZXItb3V0bGluZSBpY29uLXRhYmxlci1yZWZlcmVuY2UtaW1hZ2UiPgogIDxwYXRoIHN0cm9rZT0ibm9uZSIgZD0iTTAgMGgyNHYyNEgweiIgZmlsbD0ibm9uZSIvPgogIDxwYXRoIGQ9Ik0xNC4xMjEgOS44NzlsNC45NSA0Ljk1Ii8+CiAgPHBhdGggZD0iTTUgNy4yYTIuMiAyLjIgMCAwIDEgMi4yIC0yLjJoMWEyLjIgMi4yIDAgMCAwIDEuNTUgLS42NGwuNyAtLjdhMi4yIDIuMiAwIDAgMSAzLjEyIDBsLjcgLjdjLjQxMiAuNDEgLjk3IC42NCAxLjU1IC42NGgxYTIuMiAyLjIgMCAwIDEgMi4yIDIuMnYxYzAgLjU4IC4yMyAxLjEzOCAuNjQgMS41NWwuNyAuN2EyLjIgMi4yIDAgMCAxIDAgMy4xMmwtLjcgLjdhMi4yIDIuMiAwIDAgMCAtLjY0IDEuNTV2MWEyLjIgMi4yIDAgMCAxIC0yLjIgMi4yaC0xYTIuMiAyLjIgMCAwIDAgLTEuNTUgLjY0bC0uNyAuN2EyLjIgMi4yIDAgMCAxIC0zLjEyIDBsLS43IC0uN2EyLjIgMi4yIDAgMCAwIC0xLjU1IC0uNjRoLTFhMi4yIDIuMiAwIDAgMSAtMi4yIC0yLjJ2LTFhMi4yIDIuMiAwIDAgMCAtLjY0IC0xLjU1bC0uNyAtLjdhMi4yIDIuMiAwIDAgMSAwIC0zLjEybC43IC0uN2EyLjIgMi4yIDAgMCAwIC42NCAtMS41NXYtMSIvPgogIDxwYXRoIGQ9Ik01IDE1aDciLz4KICA8cGF0aCBkPSJNMTIgOWg3Ii8+CiAgPHBhdGggZD0iTTkuMTcyIDE5LjA3MWw0Ljk1IC00Ljk0OSIvPgogIDxwYXRoIGQ9Ik05Ljg3OSA5Ljg3OWw0Ljk1IC00Ljk1Ii8+CiAgPHBhdGggZD0iTTkgNXY3Ii8+CiAgPHBhdGggZD0iTTE1IDEydjciLz4KICA8cGF0aCBkPSJNNC45MyA5LjE3Mmw0Ljk0OSA0Ljk1Ii8+CiAgPHBhdGggZD0iTTE1IDEyYTMgMyAwIDEgMSAtNiAwYTMgMyAwIDAgMSA2IDAiLz4KPC9zdmc+)
+  ///
+  /// Tabler icon named "reference-image".
+  static const IconData referenceImage = IconData(
+    0x10293,
+    fontFamily: 'TablerIcons',
+    fontPackage: 'tabler_icons',
+  );
+
+  /// ![Icon](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9ImdyYXkiIHN0cm9rZS13aWR0aD0iMiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIiBjbGFzcz0iaWNvbiBpY29uLXRhYmxlciBpY29ucy10YWJsZXItb3V0bGluZSBpY29uLXRhYmxlci1yZWR1Y2UtbW90aW9uIj4KICA8cGF0aCBzdHJva2U9Im5vbmUiIGQ9Ik0wIDBoMjR2MjRIMHoiIGZpbGw9Im5vbmUiLz4KICA8cGF0aCBkPSJNOCAxMmE3IDcgMCAxIDAgMTQgMGE3IDcgMCAxIDAgLTE0IDAiLz4KICA8cGF0aCBkPSJNNS41IDUuOTQxdi4wMDciLz4KICA8cGF0aCBkPSJNMi45NDEgOC40OTh2LjAwOCIvPgogIDxwYXRoIGQ9Ik0yIDExLjk5NnYuMDA4Ii8+CiAgPHBhdGggZD0iTTIuOTQxIDE1LjQ5NHYuMDA4Ii8+CiAgPHBhdGggZD0iTTUuNSAxOC4wNTJ2LjAwNyIvPgogIDxwYXRoIGQ9Ik05IDE4Ljk5MnYuMDA4Ii8+CiAgPHBhdGggZD0iTTEyLjUgMTguMDUydi4wMDciLz4KICA8cGF0aCBkPSJNMTUuMDU5IDE1LjQ5NHYuMDA4Ii8+CiAgPHBhdGggZD0iTTE2IDExLjk5NnYuMDA4Ii8+CiAgPHBhdGggZD0iTTE1LjA1OSA4LjQ5OHYuMDA4Ii8+CiAgPHBhdGggZD0iTTEyLjUgNS45NDF2LjAwNyIvPgogIDxwYXRoIGQ9Ik05IDV2LjAwOCIvPgo8L3N2Zz4=)
+  ///
+  /// Tabler icon named "reduce-motion".
+  static const IconData reduceMotion = IconData(
+    0x10294,
+    fontFamily: 'TablerIcons',
+    fontPackage: 'tabler_icons',
+  );
+
+  /// ![Icon](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9ImdyYXkiIHN0cm9rZS13aWR0aD0iMiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIiBjbGFzcz0iaWNvbiBpY29uLXRhYmxlciBpY29ucy10YWJsZXItb3V0bGluZSBpY29uLXRhYmxlci1vcmJpdHMiPgogIDxwYXRoIHN0cm9rZT0ibm9uZSIgZD0iTTAgMGgyNHYyNEgweiIgZmlsbD0ibm9uZSIvPgogIDxwYXRoIGQ9Ik0xMCAxMmEyIDIgMCAxIDAgNCAwYTIgMiAwIDEgMCAtNCAwIi8+CiAgPHBhdGggZD0iTTcuNjI4IDcuNjI5Yy0yLjc2IC44NTQgLTQuNjI4IDIuNDkxIC00LjYyOCA0LjM3MWMwIDIuNzYxIDQuMDMgNSA5IDVzOSAtMi4yMzkgOSAtNXMtNC4wMyAtNSAtOSAtNSIvPgogIDxwYXRoIGQ9Ik0xNi4zNzIgMTYuMzcyYy40IC0xLjI5NSAuNjI4IC0yLjc4NSAuNjI4IC00LjM3MmMwIC00Ljk3IC0yLjIzOSAtOSAtNSAtOXMtNSA0LjAzIC01IDlzMi4yMzkgOSA1IDljLjU5NiAwIDEuMTY4IC0uMTg4IDEuNjk4IC0uNTMzIi8+Cjwvc3ZnPg==)
+  ///
+  /// Tabler icon named "orbits".
+  static const IconData orbits = IconData(
+    0x10295,
+    fontFamily: 'TablerIcons',
+    fontPackage: 'tabler_icons',
+  );
+
+  /// ![Icon](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9ImdyYXkiIHN0cm9rZS13aWR0aD0iMiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIiBjbGFzcz0iaWNvbiBpY29uLXRhYmxlciBpY29ucy10YWJsZXItb3V0bGluZSBpY29uLXRhYmxlci1vcmJpdCI+CiAgPHBhdGggc3Ryb2tlPSJub25lIiBkPSJNMCAwaDI0djI0SDB6IiBmaWxsPSJub25lIi8+CiAgPHBhdGggZD0iTTcuNjI4IDcuNjI5Yy0yLjc2IC44NTQgLTQuNjI4IDIuNDkxIC00LjYyOCA0LjM3MWMwIDIuNzYxIDQuMDMgNSA5IDVzOSAtMi4yMzkgOSAtNXMtNC4wMyAtNSAtOSAtNSIvPgogIDxwYXRoIGQ9Ik0xMCAxMmEyIDIgMCAxIDAgNCAwYTIgMiAwIDEgMCAtNCAwIi8+Cjwvc3ZnPg==)
+  ///
+  /// Tabler icon named "orbit".
+  static const IconData orbit = IconData(
+    0x10296,
+    fontFamily: 'TablerIcons',
+    fontPackage: 'tabler_icons',
+  );
+
+  /// ![Icon](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9ImdyYXkiIHN0cm9rZS13aWR0aD0iMiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIiBjbGFzcz0iaWNvbiBpY29uLXRhYmxlciBpY29ucy10YWJsZXItb3V0bGluZSBpY29uLXRhYmxlci1vcmJpdC12ZXJ0aWNhbCI+CiAgPHBhdGggc3Ryb2tlPSJub25lIiBkPSJNMCAwaDI0djI0SDB6IiBmaWxsPSJub25lIi8+CiAgPHBhdGggZD0iTTE2LjM3MiAxNi4zNzJjLjQgLTEuMjk1IC42MjggLTIuNzg1IC42MjggLTQuMzcyYzAgLTQuOTcgLTIuMjM5IC05IC01IC05cy01IDQuMDMgLTUgOXMyLjIzOSA5IDUgOWMuNTk2IDAgMS4xNjggLS4xODggMS42OTggLS41MzMiLz4KICA8cGF0aCBkPSJNMTAgMTJhMiAyIDAgMSAwIDQgMGEyIDIgMCAxIDAgLTQgMCIvPgo8L3N2Zz4=)
+  ///
+  /// Tabler icon named "orbit-vertical".
+  static const IconData orbitVertical = IconData(
+    0x10297,
+    fontFamily: 'TablerIcons',
+    fontPackage: 'tabler_icons',
+  );
+
+  /// ![Icon](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9ImdyYXkiIHN0cm9rZS13aWR0aD0iMiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIiBjbGFzcz0iaWNvbiBpY29uLXRhYmxlciBpY29ucy10YWJsZXItb3V0bGluZSBpY29uLXRhYmxlci1tYXAtcGlubmVkIj4KICA8cGF0aCBzdHJva2U9Im5vbmUiIGQ9Ik0wIDBoMjR2MjRIMHoiIGZpbGw9Im5vbmUiLz4KICA8cGF0aCBkPSJNMTQuODI4IDEwLjgyOGE0IDQgMCAxIDAgLTUuNjU2IDBsMi44MjggMi44MjlsMi44MjggLTIuODI5Ii8+CiAgPHBhdGggZD0iTTEyIDh2LjAxIi8+CiAgPHBhdGggZD0iTTYgMTJoLS4xNDJhMiAyIDAgMCAwIC0xLjkyMyAxLjQ1bC0uODU4IDNhMiAyIDAgMCAwIDEuOTI0IDIuNTVoMTMuOTk5YTIgMiAwIDAgMCAxLjkyMyAtMi41NWwtLjg1NyAtM2EyIDIgMCAwIDAgLTEuOTIzIC0xLjQ1aC0uMTQzIi8+Cjwvc3ZnPg==)
+  ///
+  /// Tabler icon named "map-pinned".
+  static const IconData mapPinned = IconData(
+    0x10298,
+    fontFamily: 'TablerIcons',
+    fontPackage: 'tabler_icons',
+  );
+
+  /// ![Icon](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9ImdyYXkiIHN0cm9rZS13aWR0aD0iMiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIiBjbGFzcz0iaWNvbiBpY29uLXRhYmxlciBpY29ucy10YWJsZXItb3V0bGluZSBpY29uLXRhYmxlci1ncHUiPgogIDxwYXRoIHN0cm9rZT0ibm9uZSIgZD0iTTAgMGgyNHYyNEgweiIgZmlsbD0ibm9uZSIvPgogIDxwYXRoIGQ9Ik0zIDR2MTQiLz4KICA8cGF0aCBkPSJNMyA2aDE3YTEgMSAwIDAgMSAxIDF2OGExIDEgMCAwIDEgLTEgMWgtMTciLz4KICA8cGF0aCBkPSJNOSAxM2EyIDIgMCAxIDAgMCAtNGEyIDIgMCAwIDAgMCA0Ii8+CiAgPHBhdGggZD0iTTE1IDl2NCIvPgogIDxwYXRoIGQ9Ik0xOCA5djQiLz4KICA8cGF0aCBkPSJNNyAxNnYzaDh2LTMiLz4KPC9zdmc+)
+  ///
+  /// Tabler icon named "gpu".
+  static const IconData gpu = IconData(
+    0x10299,
+    fontFamily: 'TablerIcons',
+    fontPackage: 'tabler_icons',
+  );
+
+  /// ![Icon](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9ImdyYXkiIHN0cm9rZS13aWR0aD0iMiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIiBjbGFzcz0iaWNvbiBpY29uLXRhYmxlciBpY29ucy10YWJsZXItb3V0bGluZSBpY29uLXRhYmxlci1ncHUtMiI+CiAgPHBhdGggc3Ryb2tlPSJub25lIiBkPSJNMCAwaDI0djI0SDB6IiBmaWxsPSJub25lIi8+CiAgPHBhdGggZD0iTTUgNmExIDEgMCAwIDEgMSAtMWgxMmExIDEgMCAwIDEgMSAxdjEyYTEgMSAwIDAgMSAtMSAxaC0xMmExIDEgMCAwIDEgLTEgLTFsMCAtMTIiLz4KICA8cGF0aCBkPSJNMTQgOWgtMmEyIDIgMCAwIDAgLTIgMnYyYTIgMiAwIDAgMCAyIDJoMnYtM2gtMSIvPgogIDxwYXRoIGQ9Ik0zIDEwaDIiLz4KICA8cGF0aCBkPSJNMyAxNGgyIi8+CiAgPHBhdGggZD0iTTEwIDN2MiIvPgogIDxwYXRoIGQ9Ik0xNCAzdjIiLz4KICA8cGF0aCBkPSJNMjEgMTBoLTIiLz4KICA8cGF0aCBkPSJNMjEgMTRoLTIiLz4KICA8cGF0aCBkPSJNMTQgMjF2LTIiLz4KICA8cGF0aCBkPSJNMTAgMjF2LTIiLz4KPC9zdmc+)
+  ///
+  /// Tabler icon named "gpu-2".
+  static const IconData gpu2 = IconData(
+    0x1029a,
+    fontFamily: 'TablerIcons',
+    fontPackage: 'tabler_icons',
+  );
+
+  /// ![Icon](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9ImdyYXkiIHN0cm9rZS13aWR0aD0iMiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIiBjbGFzcz0iaWNvbiBpY29uLXRhYmxlciBpY29ucy10YWJsZXItb3V0bGluZSBpY29uLXRhYmxlci1mb2xkZXItdXNlciI+CiAgPHBhdGggc3Ryb2tlPSJub25lIiBkPSJNMCAwaDI0djI0SDB6IiBmaWxsPSJub25lIi8+CiAgPHBhdGggZD0iTTEyLjc1IDE5aC03Ljc1YTIgMiAwIDAgMSAtMiAtMnYtMTFhMiAyIDAgMCAxIDIgLTJoNGwzIDNoN2EyIDIgMCAwIDEgMiAydjIuNSIvPgogIDxwYXRoIGQ9Ik0xNyAxN2EyIDIgMCAxIDAgNCAwYTIgMiAwIDEgMCAtNCAwIi8+CiAgPHBhdGggZD0iTTIyIDIyYTIgMiAwIDAgMCAtMiAtMmgtMmEyIDIgMCAwIDAgLTIgMiIvPgo8L3N2Zz4=)
+  ///
+  /// Tabler icon named "folder-user".
+  static const IconData folderUser = IconData(
+    0x1029b,
+    fontFamily: 'TablerIcons',
+    fontPackage: 'tabler_icons',
+  );
+
+  /// ![Icon](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9ImdyYXkiIHN0cm9rZS13aWR0aD0iMiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIiBjbGFzcz0iaWNvbiBpY29uLXRhYmxlciBpY29ucy10YWJsZXItb3V0bGluZSBpY29uLXRhYmxlci1mb2xkZXItc3RhdHMiPgogIDxwYXRoIHN0cm9rZT0ibm9uZSIgZD0iTTAgMGgyNHYyNEgweiIgZmlsbD0ibm9uZSIvPgogIDxwYXRoIGQ9Ik0xMC4yNSAxOWgtNS4yNWEyIDIgMCAwIDEgLTIgLTJ2LTExYTIgMiAwIDAgMSAyIC0yaDRsMyAzaDdhMiAyIDAgMCAxIDIgMnYzIi8+CiAgPHBhdGggZD0iTTEzIDIybDMgLTNsMiAybDQgLTQiLz4KICA8cGF0aCBkPSJNMTkgMTdoM3YzIi8+Cjwvc3ZnPg==)
+  ///
+  /// Tabler icon named "folder-stats".
+  static const IconData folderStats = IconData(
+    0x1029c,
+    fontFamily: 'TablerIcons',
+    fontPackage: 'tabler_icons',
+  );
+
+  /// ![Icon](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9ImdyYXkiIHN0cm9rZS13aWR0aD0iMiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIiBjbGFzcz0iaWNvbiBpY29uLXRhYmxlciBpY29ucy10YWJsZXItb3V0bGluZSBpY29uLXRhYmxlci1lZGl0LWJ1bGsiPgogIDxwYXRoIHN0cm9rZT0ibm9uZSIgZD0iTTAgMGgyNHYyNEgweiIgZmlsbD0ibm9uZSIvPgogIDxwYXRoIGQ9Ik0zIDRhMSAxIDAgMCAxIDEgLTFoMmExIDEgMCAwIDEgMSAxdjJhMSAxIDAgMCAxIC0xIDFoLTJhMSAxIDAgMCAxIC0xIC0xdi0yIi8+CiAgPHBhdGggZD0iTTMgMTFhMSAxIDAgMCAxIDEgLTFoMmExIDEgMCAwIDEgMSAxdjJhMSAxIDAgMCAxIC0xIDFoLTJhMSAxIDAgMCAxIC0xIC0xdi0yIi8+CiAgPHBhdGggZD0iTTIwLjM4NSA5LjU4NWEyLjEgMi4xIDAgMCAwIC0yLjk3IC0yLjk3bC02LjQxNSA2LjM4NXYzaDNsNi4zODUgLTYuNDE1Ii8+CiAgPHBhdGggZD0iTTE2IDhsMyAzIi8+CiAgPHBhdGggZD0iTTMgMThhMSAxIDAgMCAxIDEgLTFoMmExIDEgMCAwIDEgMSAxdjJhMSAxIDAgMCAxIC0xIDFoLTJhMSAxIDAgMCAxIC0xIC0xdi0yIi8+Cjwvc3ZnPg==)
+  ///
+  /// Tabler icon named "edit-bulk".
+  static const IconData editBulk = IconData(
+    0x1029d,
+    fontFamily: 'TablerIcons',
+    fontPackage: 'tabler_icons',
+  );
+
+  /// ![Icon](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9ImdyYXkiIHN0cm9rZS13aWR0aD0iMiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIiBjbGFzcz0iaWNvbiBpY29uLXRhYmxlciBpY29ucy10YWJsZXItb3V0bGluZSBpY29uLXRhYmxlci1jYXNoLWNvaW4iPgogIDxwYXRoIHN0cm9rZT0ibm9uZSIgZD0iTTAgMGgyNHYyNEgweiIgZmlsbD0ibm9uZSIvPgogIDxwYXRoIGQ9Ik0xNC4yNzMgMTAuMDQyYTMgMyAwIDEgMCAtMy4yODIgNC43ODQiLz4KICA8cGF0aCBkPSJNMTEgMThoLTZhMiAyIDAgMCAxIC0yIC0ydi04YTIgMiAwIDAgMSAyIC0yaDE0YTIgMiAwIDAgMSAyIDJ2Mi41Ii8+CiAgPHBhdGggZD0iTTYgMTJoLjAxIi8+CiAgPHBhdGggZD0iTTE0IDE1YzAgMS4xMDUgMS43OSAyIDQgMnM0IC0uODk1IDQgLTJzLTEuNzkgLTIgLTQgLTJzLTQgLjg5NSAtNCAyIi8+CiAgPHBhdGggZD0iTTE0IDE1djNjMCAxLjEwNSAxLjc5IDIgNCAyczQgLS44OTUgNCAtMnYtMyIvPgo8L3N2Zz4=)
+  ///
+  /// Tabler icon named "cash-coin".
+  static const IconData cashCoin = IconData(
+    0x1029e,
+    fontFamily: 'TablerIcons',
+    fontPackage: 'tabler_icons',
+  );
+
+  /// ![Icon](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9ImdyYXkiIHN0cm9rZS13aWR0aD0iMiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIiBjbGFzcz0iaWNvbiBpY29uLXRhYmxlciBpY29ucy10YWJsZXItb3V0bGluZSBpY29uLXRhYmxlci1haXJwb2RzLXIiPgogIDxwYXRoIHN0cm9rZT0ibm9uZSIgZD0iTTAgMGgyNHYyNEgweiIgZmlsbD0ibm9uZSIvPgogIDxwYXRoIGQ9Ik0xOCA0YTQgNCAwIDAgMCAtNCAzLjh2MTAuN2ExLjUgMS41IDAgMSAwIDMgMHYtNi41aDFhNCA0IDAgMCAwIDQgLTMuOHYtLjJhNCA0IDAgMCAwIC00IC00Ii8+CiAgPHBhdGggZD0iTTUgMTJoMmEyIDIgMCAxIDAgMCAtNGgtMnY4bTQgMGwtMyAtNCIvPgo8L3N2Zz4=)
+  ///
+  /// Tabler icon named "airpods-r".
+  static const IconData airpodsR = IconData(
+    0x1029f,
+    fontFamily: 'TablerIcons',
+    fontPackage: 'tabler_icons',
+  );
+
+  /// ![Icon](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9ImdyYXkiIHN0cm9rZS13aWR0aD0iMiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIiBjbGFzcz0iaWNvbiBpY29uLXRhYmxlciBpY29ucy10YWJsZXItb3V0bGluZSBpY29uLXRhYmxlci1haXJwb2RzLWwiPgogIDxwYXRoIHN0cm9rZT0ibm9uZSIgZD0iTTAgMGgyNHYyNEgweiIgZmlsbD0ibm9uZSIvPgogIDxwYXRoIGQ9Ik02IDRhNCA0IDAgMCAxIDQgMy44djEwLjdhMS41IDEuNSAwIDEgMSAtMyAwdi02LjVoLTFhNCA0IDAgMCAxIC00IC0zLjh2LS4yYTQgNCAwIDAgMSA0IC00Ii8+CiAgPHBhdGggZD0iTTE1IDh2OGg0Ii8+Cjwvc3ZnPg==)
+  ///
+  /// Tabler icon named "airpods-l".
+  static const IconData airpodsL = IconData(
+    0x102a0,
     fontFamily: 'TablerIcons',
     fontPackage: 'tabler_icons',
   );
@@ -57161,7 +57305,7 @@ abstract final class TablerIcons {
     genderTransgender,
     genderTravesti,
     heartHandshake,
-    mathAvg,
+    zeroConfig,
     mathMax,
     mathMin,
     anchorOff,
@@ -57680,7 +57824,6 @@ abstract final class TablerIcons {
     washDryF,
     washDryHang,
     washDryOff,
-    washDryP,
     washDryShade,
     washDry,
     washGentle,
@@ -58001,7 +58144,6 @@ abstract final class TablerIcons {
     circleLetterC,
     circleLetterD,
     circleLetterE,
-    circleLetterF,
     circleLetterG,
     circleLetterH,
     circleLetterI,
@@ -58413,7 +58555,6 @@ abstract final class TablerIcons {
     topologyStar3,
     topologyStarRing2,
     topologyStarRing3,
-    topologyStarRing,
     topologyStar,
     vacuumCleaner,
     hours24,
@@ -58480,7 +58621,6 @@ abstract final class TablerIcons {
     circleChevronRight,
     circleChevronUp,
     placeholder,
-    squareChevronDown,
     squareChevronLeft,
     squareChevronRight,
     squareChevronUp,
@@ -59865,8 +60005,6 @@ abstract final class TablerIcons {
     crop75,
     cropPortrait,
     earScan,
-    hospitalCircle,
-    hospital,
     parkingCircle,
     pinEnd,
     pinInvoke,
@@ -59941,6 +60079,10 @@ abstract final class TablerIcons {
     temperatureSnow,
     temperatureSun,
     transformPointBottomLeft,
+    transformPointBottomRight,
+    transformPointTopLeft,
+    transformPointTopRight,
+    transformPoint,
     typeface,
     scanPosition,
     copyX,
@@ -60007,6 +60149,7 @@ abstract final class TablerIcons {
     percentage30,
     percentage25,
     percentage20,
+    percentage100,
     percentage10,
     cashRegister,
     ai,
@@ -60032,7 +60175,6 @@ abstract final class TablerIcons {
     cliffJumping,
     buildingOff,
     binoculars,
-    alignRight2,
     alignLeft2,
     umbrellaClosed,
     umbrellaClosed2,
@@ -60379,7 +60521,6 @@ abstract final class TablerIcons {
     blind,
     alphabetRunes,
     alphabetPolish,
-    zeroConfig,
     worldMap,
     userKey,
     serverless,
@@ -60540,6 +60681,25 @@ abstract final class TablerIcons {
     remoteControl,
     playBugs,
     playBug,
+    alignRight2,
+    voice,
+    voice2,
+    stickerSmile,
+    secretPhrases,
+    referenceImage,
+    reduceMotion,
+    orbits,
+    orbit,
+    orbitVertical,
+    mapPinned,
+    gpu,
+    gpu2,
+    folderUser,
+    folderStats,
+    editBulk,
+    cashCoin,
+    airpodsR,
+    airpodsL,
     droplet_filled,
     shieldHalf_filled,
     badge_filled,
