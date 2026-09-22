@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.15.0](https://github.com/snapsl/flutter_icons/compare/tabler_icons-v0.14.0...tabler_icons-v0.15.0) (2026-09-22)
+
+
+### Features
+
+* **tabler_icons:** bump version to 3.47.0 ([#453](https://github.com/snapsl/flutter_icons/issues/453)) ([3d6a680](https://github.com/snapsl/flutter_icons/commit/3d6a68026a52fbb1b327425212e4b70820fee7c5))
+
 ## [0.14.0](https://github.com/snapsl/flutter_icons/compare/tabler_icons-v0.13.0...tabler_icons-v0.14.0) (2026-08-03)
 
 
