@@ -40586,10 +40586,10 @@ abstract final class TablerIcons {
     fontPackage: 'tabler_icons',
   );
 
-  /// ![Icon](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9ImdyYXkiIHN0cm9rZS13aWR0aD0iMiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIiBjbGFzcz0iaWNvbiBpY29uLXRhYmxlciBpY29ucy10YWJsZXItb3V0bGluZSBpY29uLXRhYmxlci1jb3B5LXBsdXMiPgogIDxwYXRoIHN0cm9rZT0ibm9uZSIgZD0iTTAgMGgyNHYyNEgweiIgZmlsbD0ibm9uZSIvPgogIDxwYXRoIGQ9Ik03IDkuNjY3YTIuNjY3IDIuNjY3IDAgMCAxIDIuNjY3IC0yLjY2N2g4LjY2NmEyLjY2NyAyLjY2NyAwIDAgMSAyLjY2NyAyLjY2N3Y4LjY2NmEyLjY2NyAyLjY2NyAwIDAgMSAtMi42NjcgMi42NjdoLTguNjY2YTIuNjY3IDIuNjY3IDAgMCAxIC0yLjY2NyAtMi42NjdsMCAtOC42NjYiLz4KICA8cGF0aCBkPSJNNC4wMTIgMTYuNzM3YTIgMiAwIDAgMSAtMS4wMTIgLTEuNzM3di0xMGMwIC0xLjEgLjkgLTIgMiAtMmgxMGMuNzUgMCAxLjE1OCAuMzg1IDEuNSAxIi8+CiAgPHBhdGggZD0iTTExIDE0aDYiLz4KICA8cGF0aCBkPSJNMTQgMTF2NiIvPgo8L3N2Zz4=)
+  /// ![Icon](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9ImdyYXkiIHN0cm9rZS13aWR0aD0iMiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIiBjbGFzcz0iaWNvbiBpY29uLXRhYmxlciBpY29ucy10YWJsZXItb3V0bGluZSBpY29uLXRhYmxlci1kdXBsaWNhdGUiPgogIDxwYXRoIHN0cm9rZT0ibm9uZSIgZD0iTTAgMGgyNHYyNEgweiIgZmlsbD0ibm9uZSIvPgogIDxwYXRoIGQ9Ik03IDkuNjY3YTIuNjY3IDIuNjY3IDAgMCAxIDIuNjY3IC0yLjY2N2g4LjY2NmEyLjY2NyAyLjY2NyAwIDAgMSAyLjY2NyAyLjY2N3Y4LjY2NmEyLjY2NyAyLjY2NyAwIDAgMSAtMi42NjcgMi42NjdoLTguNjY2YTIuNjY3IDIuNjY3IDAgMCAxIC0yLjY2NyAtMi42Njd2LTguNjY2Ii8+CiAgPHBhdGggZD0iTTExIDE0aDYiLz4KICA8cGF0aCBkPSJNMTQgMTF2NiIvPgogIDxwYXRoIGQ9Ik00LjAxMiAxNi43MzdhMiAyIDAgMCAxIC0xLjAxMiAtMS43Mzd2LTEwYzAgLTEuMSAuOSAtMiAyIC0yaDEwYy43NSAwIDEuMTU4IC4zODUgMS41IDEiLz4KPC9zdmc+)
   ///
-  /// Tabler icon named "copy-plus".
-  static const IconData copyPlus = IconData(
+  /// Tabler icon named "duplicate".
+  static const IconData duplicate = IconData(
     0xfdae,
     fontFamily: 'TablerIcons',
     fontPackage: 'tabler_icons',
@@ -46108,6 +46108,159 @@ abstract final class TablerIcons {
   /// Tabler icon named "airpods-l".
   static const IconData airpodsL = IconData(
     0x102a0,
+    fontFamily: 'TablerIcons',
+    fontPackage: 'tabler_icons',
+  );
+
+  /// ![Icon](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9ImdyYXkiIHN0cm9rZS13aWR0aD0iMiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIiBjbGFzcz0iaWNvbiBpY29uLXRhYmxlciBpY29ucy10YWJsZXItb3V0bGluZSBpY29uLXRhYmxlci1zdGFjay14Ij4KICA8cGF0aCBzdHJva2U9Im5vbmUiIGQ9Ik0wIDBoMjR2MjRIMHoiIGZpbGw9Im5vbmUiLz4KICA8cGF0aCBkPSJNMTIgNGwtOCA0bDggNGw4IC00bC04IC00Ii8+CiAgPHBhdGggZD0iTTQgMTJsOCA0Ii8+CiAgPHBhdGggZD0iTTQgMTZsOCA0Ii8+CiAgPHBhdGggZD0iTTIyIDIybC01IC01Ii8+CiAgPHBhdGggZD0iTTE3IDIybDUgLTUiLz4KPC9zdmc+)
+  ///
+  /// Tabler icon named "stack-x".
+  static const IconData stackX = IconData(
+    0x102a1,
+    fontFamily: 'TablerIcons',
+    fontPackage: 'tabler_icons',
+  );
+
+  /// ![Icon](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9ImdyYXkiIHN0cm9rZS13aWR0aD0iMiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIiBjbGFzcz0iaWNvbiBpY29uLXRhYmxlciBpY29ucy10YWJsZXItb3V0bGluZSBpY29uLXRhYmxlci1zdGFjay1wbHVzIj4KICA8cGF0aCBzdHJva2U9Im5vbmUiIGQ9Ik0wIDBoMjR2MjRIMHoiIGZpbGw9Im5vbmUiLz4KICA8cGF0aCBkPSJNMTIgNGwtOCA0bDggNGw4IC00bC04IC00Ii8+CiAgPHBhdGggZD0iTTQgMTJsOCA0Ii8+CiAgPHBhdGggZD0iTTQgMTZsOCA0Ii8+CiAgPHBhdGggZD0iTTE2IDE5aDYiLz4KICA8cGF0aCBkPSJNMTkgMTZ2NiIvPgo8L3N2Zz4=)
+  ///
+  /// Tabler icon named "stack-plus".
+  static const IconData stackPlus = IconData(
+    0x102a2,
+    fontFamily: 'TablerIcons',
+    fontPackage: 'tabler_icons',
+  );
+
+  /// ![Icon](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9ImdyYXkiIHN0cm9rZS13aWR0aD0iMiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIiBjbGFzcz0iaWNvbiBpY29uLXRhYmxlciBpY29ucy10YWJsZXItb3V0bGluZSBpY29uLXRhYmxlci1zdGFjay1taW51cyI+CiAgPHBhdGggc3Ryb2tlPSJub25lIiBkPSJNMCAwaDI0djI0SDB6IiBmaWxsPSJub25lIi8+CiAgPHBhdGggZD0iTTEyIDRsLTggNGw4IDRsOCAtNGwtOCAtNCIvPgogIDxwYXRoIGQ9Ik00IDEybDggNCIvPgogIDxwYXRoIGQ9Ik00IDE2bDggNCIvPgogIDxwYXRoIGQ9Ik0xNiAxOWg2Ii8+Cjwvc3ZnPg==)
+  ///
+  /// Tabler icon named "stack-minus".
+  static const IconData stackMinus = IconData(
+    0x102a3,
+    fontFamily: 'TablerIcons',
+    fontPackage: 'tabler_icons',
+  );
+
+  /// ![Icon](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9ImdyYXkiIHN0cm9rZS13aWR0aD0iMiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIiBjbGFzcz0iaWNvbiBpY29uLXRhYmxlciBpY29ucy10YWJsZXItb3V0bGluZSBpY29uLXRhYmxlci1zdGFjay1jaGVjayI+CiAgPHBhdGggc3Ryb2tlPSJub25lIiBkPSJNMCAwaDI0djI0SDB6IiBmaWxsPSJub25lIi8+CiAgPHBhdGggZD0iTTEyIDRsLTggNGw4IDRsOCAtNGwtOCAtNCIvPgogIDxwYXRoIGQ9Ik00IDEybDggNCIvPgogIDxwYXRoIGQ9Ik00IDE2bDcuMDA0IDMuNTAyIi8+CiAgPHBhdGggZD0iTTE1IDE5bDIgMmw0IC00Ii8+Cjwvc3ZnPg==)
+  ///
+  /// Tabler icon named "stack-check".
+  static const IconData stackCheck = IconData(
+    0x102a4,
+    fontFamily: 'TablerIcons',
+    fontPackage: 'tabler_icons',
+  );
+
+  /// ![Icon](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9ImdyYXkiIHN0cm9rZS13aWR0aD0iMiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIiBjbGFzcz0iaWNvbiBpY29uLXRhYmxlciBpY29ucy10YWJsZXItb3V0bGluZSBpY29uLXRhYmxlci1wZW5jaWwtYWkiPgogIDxwYXRoIHN0cm9rZT0ibm9uZSIgZD0iTTAgMGgyNHYyNEgweiIgZmlsbD0ibm9uZSIvPgogIDxwYXRoIGQ9Ik0xNy4wMTMgMTAuOTg3bDEuNDg3IC0xLjQ4N2EyLjgyOCAyLjgyOCAwIDEgMCAtNCAtNGwtMTAuNSAxMC41djRoNGwyIC0yIi8+CiAgPHBhdGggZD0iTTEzLjUgNi41bDQgNCIvPgogIDxwYXRoIGQ9Ik0xNCAyMXYtNGEyIDIgMCAxIDEgNCAwdjQiLz4KICA8cGF0aCBkPSJNMTQgMTloNCIvPgogIDxwYXRoIGQ9Ik0yMSAxNXY2Ii8+Cjwvc3ZnPg==)
+  ///
+  /// Tabler icon named "pencil-ai".
+  static const IconData pencilAi = IconData(
+    0x102a5,
+    fontFamily: 'TablerIcons',
+    fontPackage: 'tabler_icons',
+  );
+
+  /// ![Icon](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9ImdyYXkiIHN0cm9rZS13aWR0aD0iMiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIiBjbGFzcz0iaWNvbiBpY29uLXRhYmxlciBpY29ucy10YWJsZXItb3V0bGluZSBpY29uLXRhYmxlci1tb2RlbC1haSI+CiAgPHBhdGggc3Ryb2tlPSJub25lIiBkPSJNMCAwaDI0djI0SDB6IiBmaWxsPSJub25lIi8+CiAgPHBhdGggZD0iTTQgMTlhMiAyIDAgMSAwIDQgMGEyIDIgMCAwIDAgLTQgMCIvPgogIDxwYXRoIGQ9Ik00IDVhMiAyIDAgMSAwIDQgMGEyIDIgMCAwIDAgLTQgMCIvPgogIDxwYXRoIGQ9Ik05IDEyYTIgMiAwIDEgMCA0IDBhMiAyIDAgMCAwIC00IDAiLz4KICA8cGF0aCBkPSJNMTcgMTJhMiAyIDAgMSAwIDQgMGEyIDIgMCAwIDAgLTQgMCIvPgogIDxwYXRoIGQ9Ik0xMyAxMmg0Ii8+CiAgPHBhdGggZD0iTTkuNzUgMTAuMjVsLTIuNSAtMy41Ii8+CiAgPHBhdGggZD0iTTkuNzUgMTMuNzVsLTIuNSAzLjUiLz4KPC9zdmc+)
+  ///
+  /// Tabler icon named "model-ai".
+  static const IconData modelAi = IconData(
+    0x102a6,
+    fontFamily: 'TablerIcons',
+    fontPackage: 'tabler_icons',
+  );
+
+  /// ![Icon](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9ImdyYXkiIHN0cm9rZS13aWR0aD0iMiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIiBjbGFzcz0iaWNvbiBpY29uLXRhYmxlciBpY29ucy10YWJsZXItb3V0bGluZSBpY29uLXRhYmxlci1tZXNzYWdlLXNwYXJrbGUiPgogIDxwYXRoIHN0cm9rZT0ibm9uZSIgZD0iTTAgMGgyNHYyNEgweiIgZmlsbD0ibm9uZSIvPgogIDxwYXRoIGQ9Ik04IDloOCIvPgogIDxwYXRoIGQ9Ik04IDEzaDYiLz4KICA8cGF0aCBkPSJNMTEuNTcxIDE4Ljg1N2wtMy41NzEgMi4xNDN2LTNoLTJhMyAzIDAgMCAxIC0zIC0zdi04YTMgMyAwIDAgMSAzIC0zaDEyYTMgMyAwIDAgMSAzIDN2NSIvPgogIDxwYXRoIGQ9Ik0xOSAyMi41YTQuNzUgNC43NSAwIDAgMSAzLjUgLTMuNWE0Ljc1IDQuNzUgMCAwIDEgLTMuNSAtMy41YTQuNzUgNC43NSAwIDAgMSAtMy41IDMuNWE0Ljc1IDQuNzUgMCAwIDEgMy41IDMuNSIvPgo8L3N2Zz4=)
+  ///
+  /// Tabler icon named "message-sparkle".
+  static const IconData messageSparkle = IconData(
+    0x102a7,
+    fontFamily: 'TablerIcons',
+    fontPackage: 'tabler_icons',
+  );
+
+  /// ![Icon](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9ImdyYXkiIHN0cm9rZS13aWR0aD0iMiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIiBjbGFzcz0iaWNvbiBpY29uLXRhYmxlciBpY29ucy10YWJsZXItb3V0bGluZSBpY29uLXRhYmxlci1tZXNzYWdlLWFpIj4KICA8cGF0aCBzdHJva2U9Im5vbmUiIGQ9Ik0wIDBoMjR2MjRIMHoiIGZpbGw9Im5vbmUiLz4KICA8cGF0aCBkPSJNOCA5aDgiLz4KICA8cGF0aCBkPSJNOCAxM2gzLjUiLz4KICA8cGF0aCBkPSJNOS45OTQgMTkuODA0bC0xLjk5NCAxLjE5NnYtM2gtMmEzIDMgMCAwIDEgLTMgLTN2LThhMyAzIDAgMCAxIDMgLTNoMTJhMyAzIDAgMCAxIDMgM3Y0Ii8+CiAgPHBhdGggZD0iTTE0IDIxdi00YTIgMiAwIDEgMSA0IDB2NCIvPgogIDxwYXRoIGQ9Ik0xNCAxOWg0Ii8+CiAgPHBhdGggZD0iTTIxIDE1djYiLz4KPC9zdmc+)
+  ///
+  /// Tabler icon named "message-ai".
+  static const IconData messageAi = IconData(
+    0x102a8,
+    fontFamily: 'TablerIcons',
+    fontPackage: 'tabler_icons',
+  );
+
+  /// ![Icon](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9ImdyYXkiIHN0cm9rZS13aWR0aD0iMiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIiBjbGFzcz0iaWNvbiBpY29uLXRhYmxlciBpY29ucy10YWJsZXItb3V0bGluZSBpY29uLXRhYmxlci1tZXNzYWdlLTItc3BhcmtsZSI+CiAgPHBhdGggc3Ryb2tlPSJub25lIiBkPSJNMCAwaDI0djI0SDB6IiBmaWxsPSJub25lIi8+CiAgPHBhdGggZD0iTTggOWg4Ii8+CiAgPHBhdGggZD0iTTggMTNoNiIvPgogIDxwYXRoIGQ9Ik0xMiAyMWwtMyAtM2gtM2EzIDMgMCAwIDEgLTMgLTN2LThhMyAzIDAgMCAxIDMgLTNoMTJhMyAzIDAgMCAxIDMgM3Y1Ii8+CiAgPHBhdGggZD0iTTE5IDIyLjVhNC43NSA0Ljc1IDAgMCAxIDMuNSAtMy41YTQuNzUgNC43NSAwIDAgMSAtMy41IC0zLjVhNC43NSA0Ljc1IDAgMCAxIC0zLjUgMy41YTQuNzUgNC43NSAwIDAgMSAzLjUgMy41Ii8+Cjwvc3ZnPg==)
+  ///
+  /// Tabler icon named "message-2-sparkle".
+  static const IconData message2Sparkle = IconData(
+    0x102a9,
+    fontFamily: 'TablerIcons',
+    fontPackage: 'tabler_icons',
+  );
+
+  /// ![Icon](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9ImdyYXkiIHN0cm9rZS13aWR0aD0iMiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIiBjbGFzcz0iaWNvbiBpY29uLXRhYmxlciBpY29ucy10YWJsZXItb3V0bGluZSBpY29uLXRhYmxlci1tZXNzYWdlLTItYWkiPgogIDxwYXRoIHN0cm9rZT0ibm9uZSIgZD0iTTAgMGgyNHYyNEgweiIgZmlsbD0ibm9uZSIvPgogIDxwYXRoIGQ9Ik0xNCAyMXYtNGEyIDIgMCAxIDEgNCAwdjQiLz4KICA8cGF0aCBkPSJNMTQgMTloNCIvPgogIDxwYXRoIGQ9Ik0yMSAxNXY2Ii8+CiAgPHBhdGggZD0iTTggOWg4Ii8+CiAgPHBhdGggZD0iTTggMTNoMy41Ii8+CiAgPHBhdGggZD0iTTEwIDE5bC0xIC0xaC0zYTMgMyAwIDAgMSAtMyAtM3YtOGEzIDMgMCAwIDEgMyAtM2gxMmEzIDMgMCAwIDEgMyAzdjQiLz4KPC9zdmc+)
+  ///
+  /// Tabler icon named "message-2-ai".
+  static const IconData message2Ai = IconData(
+    0x102aa,
+    fontFamily: 'TablerIcons',
+    fontPackage: 'tabler_icons',
+  );
+
+  /// ![Icon](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9ImdyYXkiIHN0cm9rZS13aWR0aD0iMiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIiBjbGFzcz0iaWNvbiBpY29uLXRhYmxlciBpY29ucy10YWJsZXItb3V0bGluZSBpY29uLXRhYmxlci1naXQtcHVsbC1yZXF1ZXN0LXVubGlzdGVkIj4KICA8cGF0aCBzdHJva2U9Im5vbmUiIGQ9Ik0wIDBoMjR2MjRIMHoiIGZpbGw9Im5vbmUiLz4KICA8cGF0aCBkPSJNMTYuNSA1LjVhMSAxIDAgMSAwIDIgMGExIDEgMCAxIDAgLTIgMCIvPgogIDxwYXRoIGQ9Ik0xNi41IDExLjVhMSAxIDAgMSAwIDIgMGExIDEgMCAxIDAgLTIgMCIvPgogIDxwYXRoIGQ9Ik00IDE4YTIgMiAwIDEgMCA0IDBhMiAyIDAgMCAwIC00IDAiLz4KICA8cGF0aCBkPSJNNCA2YTIgMiAwIDEgMCA0IDBhMiAyIDAgMCAwIC00IDAiLz4KICA8cGF0aCBkPSJNNiA4djgiLz4KICA8cGF0aCBkPSJNMTYgMTdsMyAzIi8+Cjwvc3ZnPg==)
+  ///
+  /// Tabler icon named "git-pull-request-unlisted".
+  static const IconData gitPullRequestUnlisted = IconData(
+    0x102ab,
+    fontFamily: 'TablerIcons',
+    fontPackage: 'tabler_icons',
+  );
+
+  /// ![Icon](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9ImdyYXkiIHN0cm9rZS13aWR0aD0iMiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIiBjbGFzcz0iaWNvbiBpY29uLXRhYmxlciBpY29ucy10YWJsZXItb3V0bGluZSBpY29uLXRhYmxlci1naXQtcHVsbC1yZXF1ZXN0LWxvY2tlZCI+CiAgPHBhdGggc3Ryb2tlPSJub25lIiBkPSJNMCAwaDI0djI0SDB6IiBmaWxsPSJub25lIi8+CiAgPHBhdGggZD0iTTQgMThhMiAyIDAgMSAwIDQgMGEyIDIgMCAwIDAgLTQgMCIvPgogIDxwYXRoIGQ9Ik00IDZhMiAyIDAgMSAwIDQgMGEyIDIgMCAwIDAgLTQgMCIvPgogIDxwYXRoIGQ9Ik02IDh2OCIvPgogIDxwYXRoIGQ9Ik0xMSA2aDVhMiAyIDAgMCAxIDIgMnYxIi8+CiAgPHBhdGggZD0iTTE0IDlsLTMgLTNsMyAtMyIvPgogIDxwYXRoIGQ9Ik0xNCAxN2ExIDEgMCAwIDEgMSAtMWg1YTEgMSAwIDAgMSAxIDF2M2ExIDEgMCAwIDEgLTEgMWgtNWExIDEgMCAwIDEgLTEgLTF2LTMiLz4KICA8cGF0aCBkPSJNMTYgMTZ2LTEuNWExLjUgMS41IDAgMSAxIDMgMHYxLjUiLz4KPC9zdmc+)
+  ///
+  /// Tabler icon named "git-pull-request-locked".
+  static const IconData gitPullRequestLocked = IconData(
+    0x102ac,
+    fontFamily: 'TablerIcons',
+    fontPackage: 'tabler_icons',
+  );
+
+  /// ![Icon](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9ImdyYXkiIHN0cm9rZS13aWR0aD0iMiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIiBjbGFzcz0iaWNvbiBpY29uLXRhYmxlciBpY29ucy10YWJsZXItb3V0bGluZSBpY29uLXRhYmxlci1naXQtbWVyZ2UtcXVldWUiPgogIDxwYXRoIHN0cm9rZT0ibm9uZSIgZD0iTTAgMGgyNHYyNEgweiIgZmlsbD0ibm9uZSIvPgogIDxwYXRoIGQ9Ik00IDE4YTIgMiAwIDEgMCA0IDBhMiAyIDAgMCAwIC00IDAiLz4KICA8cGF0aCBkPSJNMTYgMTJhMiAyIDAgMSAwIDQgMGEyIDIgMCAwIDAgLTQgMCIvPgogIDxwYXRoIGQ9Ik02IDExdjUiLz4KICA8cGF0aCBkPSJNNC41IDQuNWExIDEgMCAxIDAgMiAwYTEgMSAwIDEgMCAtMiAwIi8+CiAgPHBhdGggZD0iTTkuNSA5LjVhMSAxIDAgMSAwIDIgMGExIDEgMCAxIDAgLTIgMCIvPgo8L3N2Zz4=)
+  ///
+  /// Tabler icon named "git-merge-queue".
+  static const IconData gitMergeQueue = IconData(
+    0x102ad,
+    fontFamily: 'TablerIcons',
+    fontPackage: 'tabler_icons',
+  );
+
+  /// ![Icon](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9ImdyYXkiIHN0cm9rZS13aWR0aD0iMiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIiBjbGFzcz0iaWNvbiBpY29uLXRhYmxlciBpY29ucy10YWJsZXItb3V0bGluZSBpY29uLXRhYmxlci1naXQtYnJhbmNoLXgiPgogIDxwYXRoIHN0cm9rZT0ibm9uZSIgZD0iTTAgMGgyNHYyNEgweiIgZmlsbD0ibm9uZSIvPgogIDxwYXRoIGQ9Ik01IDE4YTIgMiAwIDEgMCA0IDBhMiAyIDAgMCAwIC00IDAiLz4KICA8cGF0aCBkPSJNNSA2YTIgMiAwIDEgMCA0IDBhMiAyIDAgMCAwIC00IDAiLz4KICA8cGF0aCBkPSJNMTUgNmEyIDIgMCAxIDAgNCAwYTIgMiAwIDAgMCAtNCAwIi8+CiAgPHBhdGggZD0iTTcgOHY4Ii8+CiAgPHBhdGggZD0iTTcgMTJoOGEyIDIgMCAwIDAgMiAtMnYtMiIvPgogIDxwYXRoIGQ9Ik0yMiAyMmwtNSAtNSIvPgogIDxwYXRoIGQ9Ik0xNyAyMmw1IC01Ii8+Cjwvc3ZnPg==)
+  ///
+  /// Tabler icon named "git-branch-x".
+  static const IconData gitBranchX = IconData(
+    0x102ae,
+    fontFamily: 'TablerIcons',
+    fontPackage: 'tabler_icons',
+  );
+
+  /// ![Icon](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9ImdyYXkiIHN0cm9rZS13aWR0aD0iMiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIiBjbGFzcz0iaWNvbiBpY29uLXRhYmxlciBpY29ucy10YWJsZXItb3V0bGluZSBpY29uLXRhYmxlci1naXQtYnJhbmNoLWNoZWNrIj4KICA8cGF0aCBzdHJva2U9Im5vbmUiIGQ9Ik0wIDBoMjR2MjRIMHoiIGZpbGw9Im5vbmUiLz4KICA8cGF0aCBkPSJNNSAxOGEyIDIgMCAxIDAgNCAwYTIgMiAwIDAgMCAtNCAwIi8+CiAgPHBhdGggZD0iTTUgNmEyIDIgMCAxIDAgNCAwYTIgMiAwIDAgMCAtNCAwIi8+CiAgPHBhdGggZD0iTTE1IDZhMiAyIDAgMSAwIDQgMGEyIDIgMCAwIDAgLTQgMCIvPgogIDxwYXRoIGQ9Ik03IDh2OCIvPgogIDxwYXRoIGQ9Ik03IDEyaDhhMiAyIDAgMCAwIDIgLTJ2LTIiLz4KICA8cGF0aCBkPSJNMTUgMTlsMiAybDQgLTQiLz4KPC9zdmc+)
+  ///
+  /// Tabler icon named "git-branch-check".
+  static const IconData gitBranchCheck = IconData(
+    0x102af,
+    fontFamily: 'TablerIcons',
+    fontPackage: 'tabler_icons',
+  );
+
+  /// ![Icon](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9ImdyYXkiIHN0cm9rZS13aWR0aD0iMiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIiBjbGFzcz0iaWNvbiBpY29uLXRhYmxlciBpY29ucy10YWJsZXItb3V0bGluZSBpY29uLXRhYmxlci1mb2xkZXItc3BhcmtsZSI+CiAgPHBhdGggc3Ryb2tlPSJub25lIiBkPSJNMCAwaDI0djI0SDB6IiBmaWxsPSJub25lIi8+CiAgPHBhdGggZD0iTTExLjUgMTloLTYuNWEyIDIgMCAwIDEgLTIgLTJ2LTExYTIgMiAwIDAgMSAyIC0yaDRsMyAzaDdhMiAyIDAgMCAxIDIgMnYzIi8+CiAgPHBhdGggZD0iTTE5IDIyLjVhNC43NSA0Ljc1IDAgMCAxIDMuNSAtMy41YTQuNzUgNC43NSAwIDAgMSAtMy41IC0zLjVhNC43NSA0Ljc1IDAgMCAxIC0zLjUgMy41YTQuNzUgNC43NSAwIDAgMSAzLjUgMy41Ii8+Cjwvc3ZnPg==)
+  ///
+  /// Tabler icon named "folder-sparkle".
+  static const IconData folderSparkle = IconData(
+    0x102b0,
+    fontFamily: 'TablerIcons',
+    fontPackage: 'tabler_icons',
+  );
+
+  /// ![Icon](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9ImdyYXkiIHN0cm9rZS13aWR0aD0iMiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIiBjbGFzcz0iaWNvbiBpY29uLXRhYmxlciBpY29ucy10YWJsZXItb3V0bGluZSBpY29uLXRhYmxlci1mb2xkZXItYWkiPgogIDxwYXRoIHN0cm9rZT0ibm9uZSIgZD0iTTAgMGgyNHYyNEgweiIgZmlsbD0ibm9uZSIvPgogIDxwYXRoIGQ9Ik0xMCAxOWgtNWEyIDIgMCAwIDEgLTIgLTJ2LTExYTIgMiAwIDAgMSAyIC0yaDRsMyAzaDdhMiAyIDAgMCAxIDIgMnYyIi8+CiAgPHBhdGggZD0iTTE0IDIxdi00YTIgMiAwIDEgMSA0IDB2NCIvPgogIDxwYXRoIGQ9Ik0xNCAxOWg0Ii8+CiAgPHBhdGggZD0iTTIxIDE1djYiLz4KPC9zdmc+)
+  ///
+  /// Tabler icon named "folder-ai".
+  static const IconData folderAi = IconData(
+    0x102b1,
     fontFamily: 'TablerIcons',
     fontPackage: 'tabler_icons',
   );
@@ -60086,7 +60239,7 @@ abstract final class TablerIcons {
     typeface,
     scanPosition,
     copyX,
-    copyPlus,
+    duplicate,
     copyMinus,
     copyCheck,
     cookie,
@@ -60700,6 +60853,23 @@ abstract final class TablerIcons {
     cashCoin,
     airpodsR,
     airpodsL,
+    stackX,
+    stackPlus,
+    stackMinus,
+    stackCheck,
+    pencilAi,
+    modelAi,
+    messageSparkle,
+    messageAi,
+    message2Sparkle,
+    message2Ai,
+    gitPullRequestUnlisted,
+    gitPullRequestLocked,
+    gitMergeQueue,
+    gitBranchX,
+    gitBranchCheck,
+    folderSparkle,
+    folderAi,
     droplet_filled,
     shieldHalf_filled,
     badge_filled,
