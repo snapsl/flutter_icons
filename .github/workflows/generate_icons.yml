@@ -217,5 +217,8 @@ jobs:
         env:
           GH_TOKEN: ${{ steps.generate-token.outputs.token }}
         run: |
-          gh extension install github/gh-stack                                                                                                                          
-          gh stack link "${{ github.event.pull_request.number }}" "${{ steps.cpr.outputs.pull-request-number }}"
+          gh extension install github/gh-stack
+          gh stack link \
+            --base "${{ github.event.repository.default_branch || 'main' }}" \
+            "${{ github.event.pull_request.number }}" \
+            "${{ steps.cpr.outputs.pull-request-number }}"
