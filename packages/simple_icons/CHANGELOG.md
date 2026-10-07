@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.32.0](https://github.com/snapsl/flutter_icons/compare/simple_icons-v0.31.0...simple_icons-v0.32.0) (2026-10-07)
+
+
+### Features
+
+* **simple_icons:** update icons and font assets to v16.34.0 ([#487](https://github.com/snapsl/flutter_icons/issues/487)) ([5ce09ad](https://github.com/snapsl/flutter_icons/commit/5ce09adc3f3a773dbb9f8605e09faa30cfffb988))
+
 ## [0.31.0](https://github.com/snapsl/flutter_icons/compare/simple_icons-v0.30.0...simple_icons-v0.31.0) (2026-10-01)
 
 
