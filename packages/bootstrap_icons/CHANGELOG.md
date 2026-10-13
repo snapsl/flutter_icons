@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.4.0](https://github.com/snapsl/flutter_icons/compare/bootstrap_icons-v0.3.0...bootstrap_icons-v0.4.0) (2026-10-13)
+
+
+### Features
+
+* **bootstrap_icons:** update icons and font assets to v1.13.2 ([#502](https://github.com/snapsl/flutter_icons/issues/502)) ([0675c0c](https://github.com/snapsl/flutter_icons/commit/0675c0c1de391ea536de488de473b14832832ec2))
+
 ## [0.3.0](https://github.com/snapsl/flutter_icons/compare/bootstrap_icons-v0.2.1...bootstrap_icons-v0.3.0) (2026-07-13)
 
 
