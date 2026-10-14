@@ -3,10 +3,10 @@
   "packages/bootstrap_icons": "0.4.0",
   "packages/hero_icons": "0.4.0",
   "packages/ionic_icons": "0.4.0",
-  "packages/lucide_icons": "0.46.0",
+  "packages/lucide_icons": "0.47.0",
   "packages/primer_icons": "0.6.0",
   "packages/radix_icons": "0.2.1",
   "packages/remix_icons": "0.5.0",
-  "packages/simple_icons": "0.32.0",
+  "packages/simple_icons": "0.33.0",
   "packages/tabler_icons": "0.17.0"
 }
