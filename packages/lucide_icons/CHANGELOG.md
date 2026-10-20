@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.48.0](https://github.com/snapsl/flutter_icons/compare/lucide_icons-v0.47.0...lucide_icons-v0.48.0) (2026-10-20)
+
+
+### Features
+
+* **lucide_icons:** update icons and font assets to v1.59.0 ([#519](https://github.com/snapsl/flutter_icons/issues/519)) ([473a1be](https://github.com/snapsl/flutter_icons/commit/473a1be976817f350b5dbcf456919daca54de603))
+
 ## [0.47.0](https://github.com/snapsl/flutter_icons/compare/lucide_icons-v0.46.0...lucide_icons-v0.47.0) (2026-10-14)
 
 
