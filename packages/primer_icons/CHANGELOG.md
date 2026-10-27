@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.7.0](https://github.com/snapsl/flutter_icons/compare/primer_icons-v0.6.0...primer_icons-v0.7.0) (2026-10-27)
+
+
+### Features
+
+* **primer_icons:** update icons and font assets to v19.42.0 ([#528](https://github.com/snapsl/flutter_icons/issues/528)) ([90ea5d9](https://github.com/snapsl/flutter_icons/commit/90ea5d955f08819925fa6c79204bad93ff5533b5))
+
 ## [0.6.0](https://github.com/snapsl/flutter_icons/compare/primer_icons-v0.5.0...primer_icons-v0.6.0) (2026-10-08)
 
 
