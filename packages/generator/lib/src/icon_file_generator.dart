@@ -7,7 +7,7 @@ import 'package:recase/recase.dart';
 import 'package:xml/xml.dart';
 
 /// Generator for icon files
-class IconFileGenerator {
+final class IconFileGenerator {
   final _buffer = StringBuffer();
 
   final List<String> _iconNames = [];

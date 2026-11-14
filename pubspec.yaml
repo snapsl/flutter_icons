@@ -2,7 +2,7 @@ name: workspace
 publish_to: none
 
 environment:
-  sdk: ^3.10.4
+  sdk: ^3.13.0
 
 workspace:
   - example
