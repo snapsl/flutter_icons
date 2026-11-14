@@ -3,7 +3,7 @@ description: "A new Flutter project."
 publish_to: none
 
 environment:
-  sdk: ^3.10.4
+  sdk: ^3.13.0
 
 resolution: workspace
 
@@ -16,12 +16,13 @@ dependencies:
   hero_icons:
   ionic_icons:
   lucide_icons:
+  material_ui: ^1.0.0
   primer_icons:
   radix_icons:
   remix_icons:
   simple_icons:
   tabler_icons:
-  url_launcher: ^6.3.2
+  url_launcher: ^6.0.0
 
 dev_dependencies:
   flutter_lints: ^6.0.0

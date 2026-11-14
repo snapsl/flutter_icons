@@ -1,10 +1,10 @@
 import 'dart:typed_data';
 
-import 'package:flutter/material.dart';
+import 'package:flutter/widgets.dart';
 import 'package:flutter_test/flutter_test.dart';
 
 /// Golden file comparator with tolerance for minor differences.
-class TolerantGoldenFileComparator extends LocalFileComparator {
+final class TolerantGoldenFileComparator extends LocalFileComparator {
   /// Creates a [TolerantGoldenFileComparator].
   factory TolerantGoldenFileComparator({
     required double precisionTolerance,
