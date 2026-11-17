@@ -6,18 +6,7 @@ environment:
 
 workspace:
   - example
-  - packages/ant_design_icons
-  - packages/bootstrap_icons
-  - packages/generator
-  - packages/hero_icons
-  - packages/ionic_icons
-  - packages/lucide_icons
-  - packages/primer_icons
-  - packages/radix_icons
-  - packages/remix_icons
-  - packages/simple_icons
-  - packages/tabler_icons
-  - packages/test_utils
+  - packages/*
   - tools
 
 dev_dependencies:
