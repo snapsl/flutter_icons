@@ -1,20 +1,18 @@
 import 'font_config.dart';
 
-class IconSet {
-  IconSet({
-    required this.id,
-    required this.packagePath,
-    required this.vendorPath,
-    required this.packageName,
-    required this.className,
-    required this.url,
-    required this.brand,
-    required this.fonts,
-    required this.outputPath,
-  });
-
-  factory IconSet.fromJson(Map<String, dynamic> json) {
-    return IconSet(
+class const IconSet({
+  required final String id,
+  required final String packagePath,
+  required final String vendorPath,
+  required final String packageName,
+  required final String className,
+  required final String url,
+  required final String brand,
+  required final List<FontConfig> fonts,
+  required final String outputPath,
+}) {
+  factory fromJson(Map<String, dynamic> json) {
+    return .new(
       id: json['id'] as String,
       packagePath: json['package_path'] as String,
       vendorPath: json['vendor_path'] as String,
@@ -28,14 +26,4 @@ class IconSet {
           .toList(),
     );
   }
-
-  final String id;
-  final String packagePath;
-  final String vendorPath;
-  final String packageName;
-  final String className;
-  final String url;
-  final String brand;
-  final List<FontConfig> fonts;
-  final String outputPath;
 }

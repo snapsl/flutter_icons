@@ -1,6 +1,6 @@
 // ignore_for_file: non_const_argument_for_const_parameter
 
-import 'package:flutter/cupertino.dart';
+import 'package:flutter/widgets.dart';
 
 /// A [StatelessWidget] that wraps an [Icon] widget for testing purposes.
 class TestIcon extends StatelessWidget {
