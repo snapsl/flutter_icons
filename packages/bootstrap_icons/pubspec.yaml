@@ -9,8 +9,8 @@ topics:
   - icons
 
 environment:
-  sdk: ^3.10.4
-  flutter: ">=1.17.0"
+  sdk: ^3.11.0
+  flutter: ">=3.0.0"
 
 resolution: workspace
 
@@ -21,6 +21,7 @@ dependencies:
 dev_dependencies:
   flutter_test:
     sdk: flutter
+  material_ui: ^1.0.0
   test_utils:
 
 flutter:

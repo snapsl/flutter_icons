@@ -2,7 +2,7 @@ import 'dart:math' as math;
 
 import 'package:ant_design_icons/ant_design_icons.dart';
 import 'package:bootstrap_icons/bootstrap_icons.dart';
-import 'package:flutter/material.dart';
+import 'package:material_ui/material_ui.dart';
 import 'package:hero_icons/hero_icons.dart';
 import 'package:ionic_icons/ionic_icons.dart';
 import 'package:lucide_icons/lucide_icons.dart';
@@ -61,9 +61,8 @@ class ExamplePage extends StatelessWidget {
             child: Card.outlined(
               clipBehavior: .hardEdge,
               child: ScrollConfiguration(
-                behavior: ScrollConfiguration.of(
-                  context,
-                ).copyWith(scrollbars: false),
+                behavior: ScrollConfiguration.of(context)
+                    .copyWith(scrollbars: false),
                 child: CustomScrollView(
                   slivers: [
                     SliverAppBar.large(
@@ -100,7 +99,12 @@ class ExamplePage extends StatelessWidget {
   }
 }
 
-enum IconSet {
+enum const IconSet({
+  required final String title,
+  required final String uri,
+  required final IconData icon,
+  required final List<IconData> items,
+}) {
   antDesign(
     title: 'Ant Design Icons',
     uri: 'https://ant.design/components/icon',
@@ -160,22 +164,7 @@ enum IconSet {
     uri: 'https://tabler.io/icons',
     icon: TablerIcons.brandTabler,
     items: TablerIcons.values,
-  );
-
-  final String title;
-
-  final String uri;
-
-  final IconData icon;
-
-  final List<IconData> items;
-
-  const IconSet({
-    required this.title,
-    required this.uri,
-    required this.icon,
-    required this.items,
-  });
+  ),
 }
 
 class SliverIconSet extends StatelessWidget {

@@ -1,9 +1,8 @@
 // ignore_for_file: non_const_argument_for_const_parameter
 
-import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
+import 'package:material_ui/material_ui.dart';
 import 'package:radix_icons/radix_icons.dart';
-
 import 'package:test_utils/test_utils.dart';
 
 void main() {

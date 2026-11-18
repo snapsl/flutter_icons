@@ -1,5 +1,5 @@
-import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
+import 'package:material_ui/material_ui.dart';
 import 'package:simple_icons/simple_icons.dart';
 import 'package:test_utils/test_utils.dart';
 
