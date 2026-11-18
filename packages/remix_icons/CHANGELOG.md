@@ -1,5 +1,16 @@
 # Changelog
 
+## [1.0.0](https://github.com/snapsl/flutter_icons/compare/remix_icons-v0.5.0...remix_icons-v1.0.0) (2026-11-18)
+
+
+### ⚠ BREAKING CHANGES
+
+* **deps:** bump minimum Dart SDK version to 3.11.0 ([#547](https://github.com/snapsl/flutter_icons/issues/547))
+
+### Miscellaneous Chores
+
+* **deps:** bump minimum Dart SDK version to 3.11.0 ([#547](https://github.com/snapsl/flutter_icons/issues/547)) ([5e53d08](https://github.com/snapsl/flutter_icons/commit/5e53d08bc6e6bf58a7d8cd39fc1b9044d51d72f9))
+
 ## [0.5.0](https://github.com/snapsl/flutter_icons/compare/remix_icons-v0.4.1...remix_icons-v0.5.0) (2026-07-13)
 
 
