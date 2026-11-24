@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.5.0](https://github.com/snapsl/flutter_icons/compare/ionic_icons-v0.4.0...ionic_icons-v0.5.0) (2026-11-24)
+
+
+### Features
+
+* **ionic_icons:** update icons and font assets to v8.1.1 ([#570](https://github.com/snapsl/flutter_icons/issues/570)) ([91b18cf](https://github.com/snapsl/flutter_icons/commit/91b18cf7a25cd0b950c7da4748c1f19e50ca8348))
+
 ## [0.4.0](https://github.com/snapsl/flutter_icons/compare/ionic_icons-v0.3.0...ionic_icons-v0.4.0) (2026-08-03)
 
 
